@@ -1,0 +1,106 @@
+{
+  "version": 3,
+  "savedAt": "2026-04-03T04:47:57.175Z",
+  "students": [
+    "최들림"
+  ],
+  "questionCounts": {
+    "translate": 2,
+    "grammar": 2,
+    "vocab": 2
+  },
+  "passages": [
+    {
+      "title": "능률(오) 1과 - 본문 1",
+      "text": "Choosing a career is one of the biggest life decisions young people face. \nMapping out the right career path can be demanding. \nWhile some teenagers have a clear vision of their career goals, others struggle to define them. \nThis is where role models can be useful. \nThey help young people start to plan their careers by providing them with guidance and the sense of purpose they need to succeed. \nWe asked our teenage readers about their role models and the qualities they admire most in them. \nAfter you read each student’s story, you will get a better idea of the profound impact role models can have when it comes to shaping career goals.",
+      "translationText": "직업을 선택하는 것은 젊은 사람들이 직면하는 인생의 가장 큰 결정 중 하나이다. \n올바른 진로를 계획하는 것은 어려울 수 있다.\n어떤 10대들은 직업 목표에 대해 뚜렷한 비전이 있는 반면, 다른 청소년들은 직업 목표를 정하는 것을 어려워한다. \n이럴 때 롤모델이 도움이 될 수 있다. \n그들은 청소년들에게 지도와 성공하는 데 필요한 목적의식을 제공함으로써 그들이 진로 계획을 시작하도록 도와준다. \n우리는 10대 독자들에게 그들의 롤모델과 롤모델에게서 가장 존경하는 자질에 대해 물어보았다. \n각 학생의 이야기를 읽고 나면, 직업 목표를 세우는 데 있어서 롤모델이 미칠 수 있는 엄청난 영향에 대해 더 잘 이해하게 될 것이다.",
+      "selectedLines": [
+        0,
+        4,
+        6
+      ],
+      "grammarSelections": [
+        {
+          "text": "Choosing",
+          "answer": "동명사 주어",
+          "lineIndex": 0,
+          "context": "Choosing a career is one of the biggest life decisions young people face."
+        },
+        {
+          "text": "decisions",
+          "answer": "one of the 최상급 복수명사",
+          "lineIndex": 0,
+          "context": "Choosing a career is one of the biggest life decisions young people face."
+        }
+      ],
+      "vocabRows": [
+        {
+          "word": "demanding",
+          "meaning": "많은 노력과 고민을 요구하는",
+          "syn": "challenging, difficult",
+          "ant": "easy, effortless",
+          "antMeaning": ""
+        },
+        {
+          "word": "struggle",
+          "meaning": "분명히 정하지 못해 애를 먹다",
+          "syn": "have trouble, wrestle",
+          "ant": "manage, define easily",
+          "antMeaning": ""
+        },
+        {
+          "word": "guidance",
+          "meaning": "방향 제시와 조언",
+          "syn": "direction, advice",
+          "ant": "confusion, misdirection",
+          "antMeaning": ""
+        },
+        {
+          "word": "purpose",
+          "meaning": "목적의식",
+          "syn": "aim, sense of direction",
+          "ant": "aimlessness, uncertainty",
+          "antMeaning": ""
+        },
+        {
+          "word": "profound",
+          "meaning": "매우 큰, 깊은",
+          "syn": "great, significant",
+          "ant": "slight, minor",
+          "antMeaning": ""
+        }
+      ],
+      "questionAnswers": {
+        "topic": "롤모델은 청소년의 초기 진로 탐색과 목표 형성에 중요한 도움을 준다.",
+        "gist": "진로 목표를 분명히 정하지 못한 청소년에게 롤모델은 안내와 목적 의식을 제공하여 진로 계획의 출발점을 마련해 줄 수 있다.",
+        "title": "진로 계획의 출발점이 되는 롤모델",
+        "summary": "진로 목표가 불분명한 청소년일수록 롤모델이 주는 안내와 목적 의식을 통해 진로 계획을 시작할 수 있다.",
+        "overall": "1. 청소년에게 진로 선택은 매우 중요한 결정이다.\n2. 롤모델은 진로 설정의 방향을 제시해 준다.\n3. 롤모델은 실제로 진로 목표 형성에 큰 영향을 준다."
+      },
+      "selectedSents": [
+        "Choosing a career is one of the biggest life decisions young people face.",
+        "They help young people start to plan their careers by providing them with guidance and the sense of purpose they need to succeed.",
+        "After you read each student’s story, you will get a better idea of the profound impact role models can have when it comes to shaping career goals."
+      ],
+      "translationAnswers": {
+        "Choosing a career is one of the biggest life decisions young people face.": "직업을 선택하는 것은 젊은 사람들이 직면하는 인생의 가장 큰 결정 중 하나이다.",
+        "They help young people start to plan their careers by providing them with guidance and the sense of purpose they need to succeed.": "그들은 청소년들에게 지도와 성공하는 데 필요한 목적의식을 제공함으로써 그들이 진로 계획을 시작하도록 도와준다.",
+        "After you read each student’s story, you will get a better idea of the profound impact role models can have when it comes to shaping career goals.": "각 학생의 이야기를 읽고 나면, 직업 목표를 세우는 데 있어서 롤모델이 미칠 수 있는 엄청난 영향에 대해 더 잘 이해하게 될 것이다."
+      },
+      "grammarRows": [
+        {
+          "point": "Choosing",
+          "answer": "동명사 주어",
+          "lineIndex": 0,
+          "context": "Choosing a career is one of the biggest life decisions young people face."
+        },
+        {
+          "point": "decisions",
+          "answer": "one of the 최상급 복수명사",
+          "lineIndex": 0,
+          "context": "Choosing a career is one of the biggest life decisions young people face."
+        }
+      ]
+    }
+  ]
+}
