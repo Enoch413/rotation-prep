@@ -1,7 +1,7 @@
 {
   "name": "ROTATION PREP",
   "short_name": "PREP",
-  "start_url": "./ROTATION_PREP_MOBILE.html",
+  "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "background_color": "#f5f2eb",
