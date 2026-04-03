@@ -53,8 +53,6 @@ function bindEvents(){
   document.getElementById('stage-btn-study').addEventListener('click', function(){ switchStage('study') })
   document.getElementById('stage-btn-practice').addEventListener('click', function(){ switchStage('practice') })
   document.getElementById('reset-progress-btn').addEventListener('click', resetProgress)
-  document.getElementById('refresh-json-btn').addEventListener('click', function(){ loadRemoteSession({ silentToast: false }) })
-  document.getElementById('load-file-btn').addEventListener('click', openFilePicker)
   document.getElementById('file-input').addEventListener('change', loadFile)
   document.getElementById('clear-set-btn').addEventListener('click', function(){
     currentSetIndex = -1
@@ -79,6 +77,16 @@ function bindEvents(){
   document.getElementById('class-pw-input').addEventListener('keydown', function(event){
     if(event.key === 'Enter') confirmClassPassword()
   })
+
+  const refreshButton = document.getElementById('refresh-json-btn')
+  if(refreshButton){
+    refreshButton.addEventListener('click', function(){ loadRemoteSession({ silentToast: false }) })
+  }
+
+  const loadFileButton = document.getElementById('load-file-btn')
+  if(loadFileButton){
+    loadFileButton.addEventListener('click', openFilePicker)
+  }
 }
 
 function canFetchRemote(){
@@ -145,7 +153,8 @@ function loadData(data, options){
   baseProgressKey = 'rotation_prep_progress_v7_' + simpleHash(JSON.stringify({ classes: prepClasses, sets: studySets.map(function(set){ return { id: set.id, title: set.title, startDate: set.startDate, endDate: set.endDate, assignments: set.classAssignments, passages: set.passages.map(function(p){ return { title: p.title, items: p.items.length } }) } }) }))
   document.getElementById('dash').style.display = 'block'
   document.getElementById('load-box').classList.add('hidden')
-  document.getElementById('refresh-json-btn').style.display = canFetchRemote() ? 'inline-flex' : 'none'
+  const refreshButton = document.getElementById('refresh-json-btn')
+  if(refreshButton) refreshButton.style.display = canFetchRemote() ? 'inline-flex' : 'none'
   setSessionStatus(
     settings.source === 'remote' ? 'ok' : 'info',
     settings.source === 'remote' ? '웹 연결' : '수동 테스트',
@@ -172,7 +181,8 @@ function showNoSessionState(){
   applyPageTitle(APP_CONFIG.defaultTitle)
   document.getElementById('dash').style.display = 'none'
   document.getElementById('load-box').classList.remove('hidden')
-  document.getElementById('refresh-json-btn').style.display = canFetchRemote() ? 'inline-flex' : 'none'
+  const refreshButton = document.getElementById('refresh-json-btn')
+  if(refreshButton) refreshButton.style.display = canFetchRemote() ? 'inline-flex' : 'none'
   setSessionStatus(
     canFetchRemote() ? 'warn' : 'info',
     canFetchRemote() ? 'JSON 없음' : '로컬 모드',
