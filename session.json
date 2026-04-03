@@ -1,17 +1,32 @@
 {
   "version": 2,
   "bundleVersion": 2,
-  "savedAt": "2026-04-03T11:37:28.030Z",
+  "savedAt": "2026-04-03T14:39:56.976Z",
   "prepConfig": {
-    "pageTitle": "최들림 PREP",
+    "pageTitle": "입시코드 ROTATION",
     "globalPassword": "",
-    "generatedAt": "2026-04-03T11:37:28.030Z"
+    "generatedAt": "2026-04-03T14:39:56.976Z"
   },
   "classes": [
     {
       "id": "class-1",
       "name": "2강서A",
       "password": "4730"
+    },
+    {
+      "id": "class-2",
+      "name": "1강서B",
+      "password": "5567"
+    },
+    {
+      "id": "class-3",
+      "name": "1선부",
+      "password": "0413"
+    },
+    {
+      "id": "class-4",
+      "name": "3선부",
+      "password": "2300"
     }
   ],
   "studySets": [
