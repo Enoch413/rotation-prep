@@ -32,10 +32,12 @@ let isUnlocked = true
 document.addEventListener('DOMContentLoaded', initApp)
 
 async function initApp(){
+  if('scrollRestoration' in history) history.scrollRestoration = 'manual'
   bindEvents()
   applyPageTitle(APP_CONFIG.defaultTitle)
   setBootState('PREP 자료를 불러오는 중입니다.', '웹에서는 같은 폴더의 <b>session.json</b>을 자동으로 확인합니다.')
   setSessionStatus('info', '대기 중', 'session.json을 확인하는 중입니다.', '')
+  resetViewportPosition()
   const loaded = await loadRemoteSession({ silent: true, silentToast: true })
   if(!loaded) showNoSessionState()
 }
@@ -217,7 +219,8 @@ function routeAfterLoad(){
   if(!bundleData) return showNoSessionState()
   if(!isUnlocked){
     activateScreen('pw-screen')
-    return setTimeout(function(){ document.getElementById('pw-input').focus() }, 0)
+    focusField('pw-input')
+    return
   }
   routeAfterUnlock()
 }
@@ -231,7 +234,7 @@ function checkPw(){
   }
   document.getElementById('pw-err').textContent = '비밀번호가 올바르지 않습니다.'
   document.getElementById('pw-input').value = ''
-  document.getElementById('pw-input').focus()
+  focusField('pw-input')
 }
 
 function routeAfterUnlock(){
@@ -248,6 +251,32 @@ function routeAfterUnlock(){
 function activateScreen(targetId){
   SCREEN_IDS.forEach(function(id){ document.getElementById(id).classList.remove('active') })
   document.getElementById(targetId).classList.add('active')
+  resetViewportPosition()
+}
+
+function resetViewportPosition(){
+  const scrollTop = function(){
+    window.scrollTo(0, 0)
+    document.documentElement.scrollTop = 0
+    document.body.scrollTop = 0
+  }
+  scrollTop()
+  requestAnimationFrame(scrollTop)
+  setTimeout(scrollTop, 60)
+}
+
+function shouldAutoFocus(){
+  const isStandalone = (window.matchMedia && window.matchMedia('(display-mode: standalone)').matches) || window.navigator.standalone === true
+  const hasFinePointer = window.matchMedia && window.matchMedia('(hover: hover) and (pointer: fine)').matches
+  return !!hasFinePointer && !isStandalone
+}
+
+function focusField(id){
+  if(!shouldAutoFocus()) return
+  setTimeout(function(){
+    const field = document.getElementById(id)
+    if(field) field.focus()
+  }, 0)
 }
 
 function showClassScreen(){
@@ -268,7 +297,8 @@ function requestClassAccess(index, options){
     document.getElementById('class-pw-err').textContent = ''
     document.getElementById('class-auth-back-btn').style.display = prepClasses.length > 1 ? 'inline-flex' : 'none'
     activateScreen('class-auth-screen')
-    return setTimeout(function(){ document.getElementById('class-pw-input').focus() }, 0)
+    focusField('class-pw-input')
+    return
   }
   selectClass(index, options)
 }
@@ -286,7 +316,7 @@ function confirmClassPassword(){
   }
   document.getElementById('class-pw-err').textContent = '반 비밀번호가 올바르지 않습니다.'
   document.getElementById('class-pw-input').value = ''
-  document.getElementById('class-pw-input').focus()
+  focusField('class-pw-input')
 }
 
 function selectClass(index, options){
