@@ -1,104 +1,1413 @@
 {
-  "version": 3,
-  "savedAt": "2026-04-03T04:47:57.175Z",
-  "students": [
-    "최들림"
-  ],
-  "questionCounts": {
-    "translate": 2,
-    "grammar": 2,
-    "vocab": 2
+  "version": 2,
+  "bundleVersion": 2,
+  "savedAt": "2026-04-03T11:37:28.030Z",
+  "prepConfig": {
+    "pageTitle": "최들림 PREP",
+    "globalPassword": "",
+    "generatedAt": "2026-04-03T11:37:28.030Z"
   },
-  "passages": [
+  "classes": [
     {
-      "title": "능률(오) 1과 - 본문 1",
-      "text": "Choosing a career is one of the biggest life decisions young people face. \nMapping out the right career path can be demanding. \nWhile some teenagers have a clear vision of their career goals, others struggle to define them. \nThis is where role models can be useful. \nThey help young people start to plan their careers by providing them with guidance and the sense of purpose they need to succeed. \nWe asked our teenage readers about their role models and the qualities they admire most in them. \nAfter you read each student’s story, you will get a better idea of the profound impact role models can have when it comes to shaping career goals.",
-      "translationText": "직업을 선택하는 것은 젊은 사람들이 직면하는 인생의 가장 큰 결정 중 하나이다. \n올바른 진로를 계획하는 것은 어려울 수 있다.\n어떤 10대들은 직업 목표에 대해 뚜렷한 비전이 있는 반면, 다른 청소년들은 직업 목표를 정하는 것을 어려워한다. \n이럴 때 롤모델이 도움이 될 수 있다. \n그들은 청소년들에게 지도와 성공하는 데 필요한 목적의식을 제공함으로써 그들이 진로 계획을 시작하도록 도와준다. \n우리는 10대 독자들에게 그들의 롤모델과 롤모델에게서 가장 존경하는 자질에 대해 물어보았다. \n각 학생의 이야기를 읽고 나면, 직업 목표를 세우는 데 있어서 롤모델이 미칠 수 있는 엄청난 영향에 대해 더 잘 이해하게 될 것이다.",
-      "selectedLines": [
-        0,
-        4,
-        6
-      ],
-      "grammarSelections": [
+      "id": "class-1",
+      "name": "2강서A",
+      "password": "4730"
+    }
+  ],
+  "studySets": [
+    {
+      "id": "set-1775216167136-679",
+      "title": "260404 1차 로테이션",
+      "sourceName": "2강서A 260404 로테이션 1차.json",
+      "startDate": "2026-04-03",
+      "endDate": "2026-04-04",
+      "savedAt": "2026-04-03T10:20:59.383Z",
+      "questionCounts": {
+        "translate": 1,
+        "grammar": 2,
+        "vocab": 3
+      },
+      "passages": [
         {
-          "text": "Choosing",
-          "answer": "동명사 주어",
-          "lineIndex": 0,
-          "context": "Choosing a career is one of the biggest life decisions young people face."
+          "title": "능률(오) 1과 - 본문 1",
+          "text": "Choosing a career is one of the biggest life decisions young people face. \nMapping out the right career path can be demanding. \nWhile some teenagers have a clear vision of their career goals, others struggle to define them. \nThis is where role models can be useful. \nThey help young people start to plan their careers by providing them with guidance and the sense of purpose they need to succeed. \nWe asked our teenage readers about their role models and the qualities they admire most in them. \nAfter you read each student’s story, you will get a better idea of the profound impact role models can have when it comes to shaping career goals.",
+          "translationText": "직업을 선택하는 것은 젊은 사람들이 직면하는 인생의 가장 큰 결정 중 하나이다. \n올바른 진로를 계획하는 것은 어려울 수 있다.\n어떤 10대들은 직업 목표에 대해 뚜렷한 비전이 있는 반면, 다른 청소년들은 직업 목표를 정하는 것을 어려워한다. \n이럴 때 롤모델이 도움이 될 수 있다. \n그들은 청소년들에게 지도와 성공하는 데 필요한 목적의식을 제공함으로써 그들이 진로 계획을 시작하도록 도와준다. \n우리는 10대 독자들에게 그들의 롤모델과 롤모델에게서 가장 존경하는 자질에 대해 물어보았다. \n각 학생의 이야기를 읽고 나면, 직업 목표를 세우는 데 있어서 롤모델이 미칠 수 있는 엄청난 영향에 대해 더 잘 이해하게 될 것이다.",
+          "selectedLines": [
+            4
+          ],
+          "grammarSelections": [
+            {
+              "text": "decisions",
+              "answer": "‘one of the+최상급+복수명사(구)’는 ‘가장 ~한 …들 중의 하나’라는 뜻으로, one of 뒤에 정관사 the에 이어 최상급의 형용사가 온 후 복수의 명사(구)가 온다. 본문에서는 one of 뒤에 ‘the+최상급’이 앞에 포함된 복수명사구 the biggest life decisions(인생의 가장 큰 결정들)가 쓰였다.",
+              "lineIndex": 0,
+              "context": "Choosing a career is one of the biggest life decisions young people face."
+            },
+            {
+              "text": "where",
+              "answer": "‘이것이 ~한 곳이다’의 뜻으로, be동사 is의 보어 역할을 하는 명사절을 선행사를 포함한 관계부사 where가 이끌며, 뒤에 완전한 절이 이어졌다. 생략된 선행사인 the place가 쓰일 경우 관계부사 where, 관계부사 대용의 that, 선행사에 어울리는 전치사가 쓰인 in which로 완전한 절을 연결하거나 생략할 수 있다.",
+              "lineIndex": 3,
+              "context": "This is where role models can be useful."
+            },
+            {
+              "text": "shaping",
+              "answer": "‘~에 관해서라면, ~에 있어서’라는 뜻의 관용 표현으로, 전치사 to 뒤에 동명사 shaping이 이끄는 동명사구가 목적어로 쓰였다.",
+              "lineIndex": 6,
+              "context": "After you read each student’s story, you will get a better idea of the profound impact role models can have when it comes to shaping career goals."
+            }
+          ],
+          "vocabRows": [
+            {
+              "word": "demanding",
+              "meaning": "많은 노력과 고민을 요구하는",
+              "syn": "challenging, difficult",
+              "ant": "easy, effortless",
+              "antMeaning": "쉬운, 수월한"
+            },
+            {
+              "word": "struggle",
+              "meaning": "분명히 정하지 못해 애를 먹다",
+              "syn": "have trouble, wrestle",
+              "ant": "manage, define easily",
+              "antMeaning": "해내다, 쉽게 규정하다"
+            },
+            {
+              "word": "guidance",
+              "meaning": "방향 제시와 조언",
+              "syn": "direction, advice",
+              "ant": "confusion, misdirection",
+              "antMeaning": "혼란, 잘못된 방향 제시"
+            },
+            {
+              "word": "purpose",
+              "meaning": "목적의식",
+              "syn": "aim, sense of direction",
+              "ant": "aimlessness, uncertainty",
+              "antMeaning": "목적 없음, 불확실함"
+            },
+            {
+              "word": "profound",
+              "meaning": "매우 큰, 깊은",
+              "syn": "great, significant",
+              "ant": "slight, minor",
+              "antMeaning": "미미한, 사소한"
+            }
+          ],
+          "questionAnswers": {
+            "topic": "롤모델은 청소년의 초기 진로 탐색과 목표 형성에 중요한 도움을 준다.",
+            "gist": "진로 목표를 분명히 정하지 못한 청소년에게 롤모델은 안내와 목적 의식을 제공하여 진로 계획의 출발점을 마련해 줄 수 있다.",
+            "title": "진로 계획의 출발점이 되는 롤모델",
+            "summary": "진로 목표가 불분명한 청소년일수록 롤모델이 주는 안내와 목적 의식을 통해 진로 계획을 시작할 수 있다.",
+            "overall": "1. 청소년에게 진로 선택은 매우 중요한 결정이다.\n2. 롤모델은 진로 설정의 방향을 제시해 준다.\n3. 롤모델은 실제로 진로 목표 형성에 큰 영향을 준다."
+          },
+          "selectedSents": [
+            "They help young people start to plan their careers by providing them with guidance and the sense of purpose they need to succeed."
+          ],
+          "translationAnswers": {
+            "They help young people start to plan their careers by providing them with guidance and the sense of purpose they need to succeed.": "그들은 청소년들에게 지도와 성공하는 데 필요한 목적의식을 제공함으로써 그들이 진로 계획을 시작하도록 도와준다."
+          },
+          "grammarRows": [
+            {
+              "point": "decisions",
+              "answer": "‘one of the+최상급+복수명사(구)’는 ‘가장 ~한 …들 중의 하나’라는 뜻으로, one of 뒤에 정관사 the에 이어 최상급의 형용사가 온 후 복수의 명사(구)가 온다. 본문에서는 one of 뒤에 ‘the+최상급’이 앞에 포함된 복수명사구 the biggest life decisions(인생의 가장 큰 결정들)가 쓰였다.",
+              "lineIndex": 0,
+              "context": "Choosing a career is one of the biggest life decisions young people face."
+            },
+            {
+              "point": "where",
+              "answer": "‘이것이 ~한 곳이다’의 뜻으로, be동사 is의 보어 역할을 하는 명사절을 선행사를 포함한 관계부사 where가 이끌며, 뒤에 완전한 절이 이어졌다. 생략된 선행사인 the place가 쓰일 경우 관계부사 where, 관계부사 대용의 that, 선행사에 어울리는 전치사가 쓰인 in which로 완전한 절을 연결하거나 생략할 수 있다.",
+              "lineIndex": 3,
+              "context": "This is where role models can be useful."
+            },
+            {
+              "point": "shaping",
+              "answer": "‘~에 관해서라면, ~에 있어서’라는 뜻의 관용 표현으로, 전치사 to 뒤에 동명사 shaping이 이끄는 동명사구가 목적어로 쓰였다.",
+              "lineIndex": 6,
+              "context": "After you read each student’s story, you will get a better idea of the profound impact role models can have when it comes to shaping career goals."
+            }
+          ]
         },
         {
-          "text": "decisions",
-          "answer": "one of the 최상급 복수명사",
-          "lineIndex": 0,
-          "context": "Choosing a career is one of the biggest life decisions young people face."
+          "title": "능률(오) 1과 - 본문 2",
+          "text": "My role model is Jacques Cousteau, a French ocean explorer, inventor, and filmmaker. \nHe dedicated his life to exploring and documenting the wonders of the underwater world. \nAs a young man, he dreamed of becoming a pilot, but then he broke both of his arms in a terrible car accident. \nAs part of his physical therapy, Cousteau began swimming. \nHe became intrigued by the mysteries of the ocean, and he wanted to explore further. \nHowever, the diving equipment available at that time was insufficient. \nInstead of giving up, Cousteau decided to create his own equipment.\nAfter a long series of failed attempts, he finally succeeded in developing a portable breathing device, which he called the “Aqua-Lung.”\nCousteau shared his underwater experiences with the world in a compelling documentary film released in 1956. \nIt transformed people’s perceptions of the ocean and promoted the need for marine conservation. \nCousteau’s curiosity drove him to constantly challenge himself in new areas, and his passion enabled him to make the impossible a reality. \nCousteau’s life story inspired me to push the boundaries of what I can do. \nBecause of him, I am not afraid to try different things in life. \nI will keep exploring until I find what suits me best.",
+          "translationText": "내 롤모델은 프랑스 해양 탐험가, 발명가, 영화 제작자인 Jacques Cousteau다. \n그는 수중 세계의 경이로움을 탐험하고 기록하는 데 그의 삶을 바쳤다. \n젊었을 때 그는 조종사가 되기를 꿈꿨지만, 끔찍한 교통사고로 두 팔이 모두 부러졌다. \nCousteau는 물리 치료의 일환으로 수영을 시작했다. \n그는 해양의 신비로움에 호기심을 가지게 되었고, 더 깊이 탐험하고 싶어 했다. \n하지만 그 당시에 사용할 수 있었던 잠수 장비는 부적합했다. \nCousteau는 포기하는 대신 자신만의 장비를 만들기로 결심했다. \n오랜 실패 끝에 그는 마침내 휴대용 호흡 기계를 개발하는 데 성공했고, 이 장비를 ‘Aqua-Lung‘이라고 불렀다. \nCousteau는 1956년 개봉한 흥미로운 다큐멘터리 영화로 그의 수중 세계 경험을 세상과 공유했다. \n이 영화는 바다에 대한 사람들의 인식을 바꾸었고, 해양 보존에 대한 필요성을 널리 알렸다.\nCousteau의 호기심은 그를 새로운 분야에 끊임없이 도전하게 했고, 그의 열정은 불가능한 것을 현실로 만들게 했다. \nCousteau의 인생 이야기는 내가 할 수 있는 것의 한계를 뛰어넘도록 격려했다. \nCousteau 덕분에 나는 인생에서 다양한 것들에 도전하는 것이 두렵지 않다. \n나에게 가장 잘 맞는 것을 찾을 때까지 나는 계속 탐구할 것이다.",
+          "selectedLines": [
+            10
+          ],
+          "grammarSelections": [
+            {
+              "text": "exploring and documenting",
+              "answer": "’…의 일생을 ~에 헌신하다‘라는 뜻으로, 본문에서는 dedicated와 his life 다음에 전치사 to와 목적어인 동명사구(exploring ~ world)가 쓰였다.",
+              "lineIndex": 1,
+              "context": "He dedicated his life to exploring and documenting the wonders of the underwater world."
+            },
+            {
+              "text": "intrigued",
+              "answer": "become이 ’~하게 되다’라는 뜻의 2형식 동사로 쓰여 became 뒤에 과거분사형 형용사 intrigued가 주격보어로 쓰였다. Cousteau를 가리키는 주어 He가 ‘호기심을 갖게 된’ 대상이므로, 수동의 의미를 지닌 과거분사형 형용사 intrigued가 쓰였다.",
+              "lineIndex": 4,
+              "context": "He became intrigued by the mysteries of the ocean, and he wanted to explore further."
+            },
+            {
+              "text": "which",
+              "answer": "쉼표 뒤에서 선행사 a portable breathing device를 부연 설명해 주는 계속적 용법의 목적격 관계대명사 which가 ‘call+목적어+목적격보어(이름)’(~을 …라고 부르다)로 쓰인 called의 목적어가 없는 불완전한 절을 이끌고 있으며, called 뒤에 명칭에 해당하는 명사구 the “Aqua-Lung”이 이어졌다. ‘접속사+대명사’의 형태로 바꿀 수 있고, 관계대명사 that은 계속적 용법으로 쓸 수 없다.",
+              "lineIndex": 7,
+              "context": "After a long series of failed attempts, he finally succeeded in developing a portable breathing device, which he called the “Aqua-Lung.”"
+            },
+            {
+              "text": "to constantly challenge",
+              "answer": "drove가 OT동사라서 목적격보어 자리에 to-v가 쓰였다.",
+              "lineIndex": 10,
+              "context": "Cousteau’s curiosity drove him to constantly challenge himself in new areas, and his passion enabled him to make the impossible a reality."
+            },
+            {
+              "text": "to make",
+              "answer": "enabled가 OT동사라서 목적격보어 자리에 to-v가 쓰였다.",
+              "lineIndex": 10,
+              "context": "Cousteau’s curiosity drove him to constantly challenge himself in new areas, and his passion enabled him to make the impossible a reality."
+            },
+            {
+              "text": "to push",
+              "answer": "inspired가 OT동사라서 목적격보어 자리에 to-v가 쓰였다.",
+              "lineIndex": 11,
+              "context": "Cousteau’s life story inspired me to push the boundaries of what I can do."
+            },
+            {
+              "text": "what",
+              "answer": "‘~하는 것(들)’을 뜻하는 선행사를 포함하는 관계대명사 what이 전치사 of의 목적어 역할을 하는 명사절인 관계사절을 이끌어, 동사 do의 목적어가 없는 불완전한 절(I can do)이 이어졌다. what은 the thing(s) (that/which)로 바꿀 수 있다.",
+              "lineIndex": 11,
+              "context": "Cousteau’s life story inspired me to push the boundaries of what I can do."
+            },
+            {
+              "text": "what",
+              "answer": "‘~하는 것’을 뜻하는 선행사를 포함하는 관계대명사 what이 타동사 find의 목적어 역할을 하는 명사절인 관계사절을 이끌어, 주어가 없는 불완전한 절(suits me best)이 이어졌다. what은 the thing that/which로 바꿀 수 있다.",
+              "lineIndex": 13,
+              "context": "I will keep exploring until I find what suits me best."
+            }
+          ],
+          "vocabRows": [
+            {
+              "word": "dedicate",
+              "meaning": "삶을 바치다",
+              "syn": "devote, commit",
+              "ant": "neglect, abandon",
+              "antMeaning": "소홀히 하다, 버리다"
+            },
+            {
+              "word": "intrigued",
+              "meaning": "강한 흥미를 느끼는",
+              "syn": "fascinated, interested",
+              "ant": "bored, uninterested",
+              "antMeaning": "지루해하는, 흥미 없는"
+            },
+            {
+              "word": "insufficient",
+              "meaning": "충분하지 않은",
+              "syn": "inadequate, lacking",
+              "ant": "sufficient, adequate",
+              "antMeaning": "충분한, 적절한"
+            },
+            {
+              "word": "succeed",
+              "meaning": "시도 끝에 성공하다",
+              "syn": "accomplish, achieve",
+              "ant": "fail, fall short",
+              "antMeaning": "실패하다, 미치지 못하다"
+            },
+            {
+              "word": "transform",
+              "meaning": "크게 바꾸다",
+              "syn": "change, reshape",
+              "ant": "preserve, maintain",
+              "antMeaning": "그대로 두다, 유지하다"
+            },
+            {
+              "word": "inspire",
+              "meaning": "용기와 동기를 주다",
+              "syn": "motivate, encourage",
+              "ant": "discourage, deter",
+              "antMeaning": "낙담시키다, 단념시키다"
+            }
+          ],
+          "questionAnswers": {
+            "topic": "호기심과 열정으로 한계를 넘어서는 삶의 태도는 다른 사람의 자기 탐색에도 강한 동기를 준다.",
+            "gist": "쿠스토는 호기심과 열정으로 한계를 극복하고 새로운 것을 이루어 냈으며, 이러한 삶의 태도는 글쓴이에게도 자신에게 맞는 길을 계속 탐색할 용기를 주었다.",
+            "title": "쿠스토가 보여 준 탐험과 도전의 힘",
+            "summary": "쿠스토의 호기심과 열정은 한계를 돌파해 새로운 현실을 만들었고, 그 과정은 글쓴이에게도 자신의 가능성을 계속 탐색하게 했다.",
+            "overall": "1. 좌절이 새로운 진로의 출발점이 될 수 있음\n2. 한계를 극복하려는 도전 정신이 중요함\n3. 자신에게 맞는 길을 찾을 때까지 계속 탐색해야 함"
+          },
+          "selectedSents": [
+            "Cousteau’s curiosity drove him to constantly challenge himself in new areas, and his passion enabled him to make the impossible a reality."
+          ],
+          "translationAnswers": {
+            "Cousteau’s curiosity drove him to constantly challenge himself in new areas, and his passion enabled him to make the impossible a reality.": "Cousteau의 호기심은 그를 새로운 분야에 끊임없이 도전하게 했고, 그의 열정은 불가능한 것을 현실로 만들게 했다."
+          },
+          "grammarRows": [
+            {
+              "point": "exploring and documenting",
+              "answer": "’…의 일생을 ~에 헌신하다‘라는 뜻으로, 본문에서는 dedicated와 his life 다음에 전치사 to와 목적어인 동명사구(exploring ~ world)가 쓰였다.",
+              "lineIndex": 1,
+              "context": "He dedicated his life to exploring and documenting the wonders of the underwater world."
+            },
+            {
+              "point": "intrigued",
+              "answer": "become이 ’~하게 되다’라는 뜻의 2형식 동사로 쓰여 became 뒤에 과거분사형 형용사 intrigued가 주격보어로 쓰였다. Cousteau를 가리키는 주어 He가 ‘호기심을 갖게 된’ 대상이므로, 수동의 의미를 지닌 과거분사형 형용사 intrigued가 쓰였다.",
+              "lineIndex": 4,
+              "context": "He became intrigued by the mysteries of the ocean, and he wanted to explore further."
+            },
+            {
+              "point": "which",
+              "answer": "쉼표 뒤에서 선행사 a portable breathing device를 부연 설명해 주는 계속적 용법의 목적격 관계대명사 which가 ‘call+목적어+목적격보어(이름)’(~을 …라고 부르다)로 쓰인 called의 목적어가 없는 불완전한 절을 이끌고 있으며, called 뒤에 명칭에 해당하는 명사구 the “Aqua-Lung”이 이어졌다. ‘접속사+대명사’의 형태로 바꿀 수 있고, 관계대명사 that은 계속적 용법으로 쓸 수 없다.",
+              "lineIndex": 7,
+              "context": "After a long series of failed attempts, he finally succeeded in developing a portable breathing device, which he called the “Aqua-Lung.”"
+            },
+            {
+              "point": "to constantly challenge",
+              "answer": "drove가 OT동사라서 목적격보어 자리에 to-v가 쓰였다.",
+              "lineIndex": 10,
+              "context": "Cousteau’s curiosity drove him to constantly challenge himself in new areas, and his passion enabled him to make the impossible a reality."
+            },
+            {
+              "point": "to make",
+              "answer": "enabled가 OT동사라서 목적격보어 자리에 to-v가 쓰였다.",
+              "lineIndex": 10,
+              "context": "Cousteau’s curiosity drove him to constantly challenge himself in new areas, and his passion enabled him to make the impossible a reality."
+            },
+            {
+              "point": "to push",
+              "answer": "inspired가 OT동사라서 목적격보어 자리에 to-v가 쓰였다.",
+              "lineIndex": 11,
+              "context": "Cousteau’s life story inspired me to push the boundaries of what I can do."
+            },
+            {
+              "point": "what",
+              "answer": "‘~하는 것(들)’을 뜻하는 선행사를 포함하는 관계대명사 what이 전치사 of의 목적어 역할을 하는 명사절인 관계사절을 이끌어, 동사 do의 목적어가 없는 불완전한 절(I can do)이 이어졌다. what은 the thing(s) (that/which)로 바꿀 수 있다.",
+              "lineIndex": 11,
+              "context": "Cousteau’s life story inspired me to push the boundaries of what I can do."
+            },
+            {
+              "point": "what",
+              "answer": "‘~하는 것’을 뜻하는 선행사를 포함하는 관계대명사 what이 타동사 find의 목적어 역할을 하는 명사절인 관계사절을 이끌어, 주어가 없는 불완전한 절(suits me best)이 이어졌다. what은 the thing that/which로 바꿀 수 있다.",
+              "lineIndex": 13,
+              "context": "I will keep exploring until I find what suits me best."
+            }
+          ]
+        },
+        {
+          "title": "능률(오) 1과 - 본문 3",
+          "text": "When people ask me about my role model, I always say that it is Joan Procter. \nYou may not have heard of her, but she was a notable zoologist who specialized in reptiles in the early 20th century. \nShe taught me that devotion to a particular field is important for shaping one’s career. \nDuring her childhood, Procter immersed herself in the exploration of nature and animals. \nAlthough her father hated reptiles, she kept lizards, snakes, and even a baby crocodile as pets. \nThey were special companions that she loved and took care of. \nShe was a brilliant student, but health problems prevented her from attending university. \nHowever, her passion for zoology was so strong that it kept her moving forward, and she continued her studies on her own.\nProcter accumulated extensive knowledge of zoology. \nShe began exchanging letters with George Boulenger, a prominent expert on reptiles, in order to share ideas. \nHe was so impressed that he hired her as his assistant at the British Museum. \nA few years later, she became the first female curator of reptiles at the London Zoo. \nThere, she actively contributed to the design of the Reptile House by incorporating new technology that allowed for better care and breeding of wild animals. \nLike her, I want to dedicate myself to a field that I have a passion for. \nFor this reason, I will take my time to think deeply about where my true interests lie. \nIf I am fortunate, one of my passions might someday lead to a rewarding career.",
+          "translationText": "사람들이 내 롤모델에 대해 물어보면 나는 항상 Joan Procter라고 말한다. \n그녀에 대해 들어보지 못했을지도 모르지만, 그녀는 20세기 초반에 파충류를 전문으로 다룬 저명한 동물학자였다. \n그녀는 내게 특정 분야에 전념하는 것은 한 사람의 경력을 형성하는 데 중요하다는 것을 가르쳐 주었다. \nProcter는 어린 시절에 자연과 동물을 탐험하는 것에 몰두했다. \n비록 그녀의 아버지가 파충류를 싫어했지만, 그녀는 도마뱀, 뱀, 심지어 새끼 악어도 반려동물로 키웠다. \n그들은 그녀가 사랑하고 돌봐주었던 특별한 친구들이었다. \n그녀는 뛰어난 학생이었지만, 건강 문제로 대학에 진학하지 못했다. \n하지만, 동물학에 대한 그녀의 열정은 아주 강해서 그녀를 계속 앞으로 나아가게 했고, 그녀는 혼자 힘으로 공부를 계속했다. \nProcter는 동물학에 대한 광범위한 지식을 쌓았다.\n그녀는 유명한 파충류 전문가였던 George Boulenger와 의견을 나누기 위해 편지를 주고받기 시작했다. \n그는 그녀에게 아주 깊은 인상을 받아서 그녀를 British Museum에서 자신의 조수로 채용했다.\n몇 년 후, 그녀는 London Zoo의 첫 번째 여성 파충류 큐레이터가 되었다. \n그곳에서 그녀는 야생 동물을 더 잘 돌보고 번식시킬 수 있게 하는 새로운 기술을 포함시킴으로써 Reptile House의 설계에 적극적으로 기여했다. \n나도 그녀처럼 내가 열정을 가지고 있는 분야에 전념하고 싶다. \n이러한 이유로, 나는 내 진정한 관심이 어디에 있는지 깊이 생각해 보기 위해 시간을 가질 것이다. \n운이 좋다면 언젠가 내 열정 중 하나가 보람 있는 직업으로 이어질 것이다.",
+          "selectedLines": [
+            7,
+            10
+          ],
+          "grammarSelections": [
+            {
+              "text": "may not have heard",
+              "answer": "‘~했을지도 모른다’라는 뜻의 과거에 대한 약한 추측을 나타내며, 본문에서는 조동사 may와 부정어 not 다음에 have와 과거분사 heard가 차례로 쓰였다.",
+              "lineIndex": 1,
+              "context": "You may not have heard of her, but she was a notable zoologist who specialized in reptiles in the early 20th century."
+            },
+            {
+              "text": "attending",
+              "answer": "‘A가 ~하지 못하게 막다’라는 뜻으로, 본문에서는 prevented와 목적어인 대명사 her 다음에 전치사 from과 동명사 attending이 쓰였다.",
+              "lineIndex": 6,
+              "context": "She was a brilliant student, but health problems prevented her from attending university."
+            },
+            {
+              "text": "so strong that",
+              "answer": "‘매우 ~해서 …하다‘라는 뜻으로, 형용사 strong을 부사 so가 수식하고, that 이하의 내용이 결과를 나타내며, 이때 that은 생략이 가능하다. ’(-가) …할 만큼 충분히 ~한‘이라는 뜻의 ’형용사/부사+enough(+for+목적격)+to부정사‘ 구문을 이용하여 바꿀 수 있다.",
+              "lineIndex": 7,
+              "context": "However, her passion for zoology was so strong that it kept her moving forward, and she continued her studies on her own."
+            },
+            {
+              "text": "moving",
+              "answer": "‘keep+목적어+목적격보어’ 형태의 5형식 구문에서 목적격보어 자리에 준동사가 올 경우, 목적어와 목적격보어의 관계가 능동이면 목적격보어로 현재분사를, 수동이면 목적격보어로 과거분사를 쓴다.",
+              "lineIndex": 7,
+              "context": "However, her passion for zoology was so strong that it kept her moving forward, and she continued her studies on her own."
+            },
+            {
+              "text": "so impressed that",
+              "answer": "‘매우 ~해서 …하다‘라는 뜻으로, 형용사 impressed를 부사 so가 수식하고, that 이하의 내용이 결과를 나타내며, 이때 that은 생략이 가능하고, ’(-가) …할 만큼 충분히 ~한‘이라는 뜻의 ’형용사/부사+enough(+for+목적격)+to부정사‘ 구문을 이용하여 바꿀 수 있다. 또한, George Boulenger를 가리키는 주어 He가 ’감명받은‘ 대상이므로, 수동의 의미를 지닌 과거분사형 형용사 impressed가 주격보어로 쓰였다.",
+              "lineIndex": 10,
+              "context": "He was so impressed that he hired her as his assistant at the British Museum."
+            },
+            {
+              "text": "where",
+              "answer": "전치사 about의 목적어인 명사절로 ‘의문사(구)+평서문’ 어순의 간접의문문이 쓰여, 의문부사 where(어디에) 뒤에 평서문 어순으로 주어 my true interests와 동사 lie가 이어졌다. (×)where do my true interests lie",
+              "lineIndex": 14,
+              "context": "For this reason, I will take my time to think deeply about where my true interests lie."
+            }
+          ],
+          "vocabRows": [
+            {
+              "word": "dedicate",
+              "meaning": "삶을 바치다",
+              "syn": "devote, commit",
+              "ant": "neglect, abandon",
+              "antMeaning": "소홀히 하다, 버리다"
+            },
+            {
+              "word": "intrigued",
+              "meaning": "강한 흥미를 느끼는",
+              "syn": "fascinated, interested",
+              "ant": "bored, uninterested",
+              "antMeaning": "지루해하는, 흥미 없는"
+            },
+            {
+              "word": "insufficient",
+              "meaning": "충분하지 않은",
+              "syn": "inadequate, lacking",
+              "ant": "sufficient, adequate",
+              "antMeaning": "충분한, 적절한"
+            },
+            {
+              "word": "succeed",
+              "meaning": "시도 끝에 성공하다",
+              "syn": "accomplish, achieve",
+              "ant": "fail, fall short",
+              "antMeaning": "실패하다, 미치지 못하다"
+            },
+            {
+              "word": "transform",
+              "meaning": "크게 바꾸다",
+              "syn": "change, reshape",
+              "ant": "preserve, maintain",
+              "antMeaning": "그대로 두다, 유지하다"
+            },
+            {
+              "word": "inspire",
+              "meaning": "용기와 동기를 주다",
+              "syn": "motivate, encourage",
+              "ant": "discourage, deter",
+              "antMeaning": "낙담시키다, 단념시키다"
+            }
+          ],
+          "questionAnswers": {
+            "topic": "호기심과 열정으로 한계를 넘어서는 삶의 태도는 다른 사람의 자기 탐색에도 강한 동기를 준다.",
+            "gist": "쿠스토는 호기심과 열정으로 한계를 극복하고 새로운 것을 이루어 냈으며, 이러한 삶의 태도는 글쓴이에게도 자신에게 맞는 길을 계속 탐색할 용기를 주었다.",
+            "title": "쿠스토가 보여 준 탐험과 도전의 힘",
+            "summary": "쿠스토의 호기심과 열정은 한계를 돌파해 새로운 현실을 만들었고, 그 과정은 글쓴이에게도 자신의 가능성을 계속 탐색하게 했다.",
+            "overall": "1. 실패가 새로운 진로의 계기가 될 수 있다.\n2. 한계를 극복하는 도전과 창의성이 중요하다.\n3. 자신에게 맞는 길을 끝까지 탐색해야 한다."
+          },
+          "selectedSents": [
+            "However, her passion for zoology was so strong that it kept her moving forward, and she continued her studies on her own.",
+            "He was so impressed that he hired her as his assistant at the British Museum."
+          ],
+          "translationAnswers": {
+            "However, her passion for zoology was so strong that it kept her moving forward, and she continued her studies on her own.": "하지만, 동물학에 대한 그녀의 열정은 아주 강해서 그녀를 계속 앞으로 나아가게 했고, 그녀는 혼자 힘으로 공부를 계속했다.",
+            "He was so impressed that he hired her as his assistant at the British Museum.": "그는 그녀에게 아주 깊은 인상을 받아서 그녀를 British Museum에서 자신의 조수로 채용했다."
+          },
+          "grammarRows": [
+            {
+              "point": "may not have heard",
+              "answer": "‘~했을지도 모른다’라는 뜻의 과거에 대한 약한 추측을 나타내며, 본문에서는 조동사 may와 부정어 not 다음에 have와 과거분사 heard가 차례로 쓰였다.",
+              "lineIndex": 1,
+              "context": "You may not have heard of her, but she was a notable zoologist who specialized in reptiles in the early 20th century."
+            },
+            {
+              "point": "attending",
+              "answer": "‘A가 ~하지 못하게 막다’라는 뜻으로, 본문에서는 prevented와 목적어인 대명사 her 다음에 전치사 from과 동명사 attending이 쓰였다.",
+              "lineIndex": 6,
+              "context": "She was a brilliant student, but health problems prevented her from attending university."
+            },
+            {
+              "point": "so strong that",
+              "answer": "‘매우 ~해서 …하다‘라는 뜻으로, 형용사 strong을 부사 so가 수식하고, that 이하의 내용이 결과를 나타내며, 이때 that은 생략이 가능하다. ’(-가) …할 만큼 충분히 ~한‘이라는 뜻의 ’형용사/부사+enough(+for+목적격)+to부정사‘ 구문을 이용하여 바꿀 수 있다.",
+              "lineIndex": 7,
+              "context": "However, her passion for zoology was so strong that it kept her moving forward, and she continued her studies on her own."
+            },
+            {
+              "point": "moving",
+              "answer": "‘keep+목적어+목적격보어’ 형태의 5형식 구문에서 목적격보어 자리에 준동사가 올 경우, 목적어와 목적격보어의 관계가 능동이면 목적격보어로 현재분사를, 수동이면 목적격보어로 과거분사를 쓴다.",
+              "lineIndex": 7,
+              "context": "However, her passion for zoology was so strong that it kept her moving forward, and she continued her studies on her own."
+            },
+            {
+              "point": "so impressed that",
+              "answer": "‘매우 ~해서 …하다‘라는 뜻으로, 형용사 impressed를 부사 so가 수식하고, that 이하의 내용이 결과를 나타내며, 이때 that은 생략이 가능하고, ’(-가) …할 만큼 충분히 ~한‘이라는 뜻의 ’형용사/부사+enough(+for+목적격)+to부정사‘ 구문을 이용하여 바꿀 수 있다. 또한, George Boulenger를 가리키는 주어 He가 ’감명받은‘ 대상이므로, 수동의 의미를 지닌 과거분사형 형용사 impressed가 주격보어로 쓰였다.",
+              "lineIndex": 10,
+              "context": "He was so impressed that he hired her as his assistant at the British Museum."
+            },
+            {
+              "point": "where",
+              "answer": "전치사 about의 목적어인 명사절로 ‘의문사(구)+평서문’ 어순의 간접의문문이 쓰여, 의문부사 where(어디에) 뒤에 평서문 어순으로 주어 my true interests와 동사 lie가 이어졌다. (×)where do my true interests lie",
+              "lineIndex": 14,
+              "context": "For this reason, I will take my time to think deeply about where my true interests lie."
+            }
+          ]
+        },
+        {
+          "title": "능률(오) 1과 - 본문 4",
+          "text": "As someone who loves animation, my role model has always been Kim Sang-jin. \nHe was the first Korean animator to work for Walt Disney Animation Studios. \nBeyond the fact that he worked for a world-famous company, I admire him for pursuing his dream despite the difficulties he faced. \nFrom a young age, Kim was enthusiastic about drawing. \nHowever, his dream of studying art in college was disrupted when he was diagnosed with color vision deficiency during high school. \nSurprisingly, he didn’t allow this misfortune to discourage him. \nInstead, he simply viewed his condition as a minor issue that could happen to anyone.\nAlthough he graduated with a degree in economics, he searched for a job related to art that wouldn’t involve working with colors. \nHe found out that some animators work only in pencil, so he sent his portfolio to all the animation studios in Korea. \nOne of them gave him an opportunity, and he was finally able to start his career. \nIt was his hard work and talent that eventually led him to a position at Disney at the age of 37. \nI give him a lot of credit for his persistence and his attitude toward the challenges in his life. \nI’ll never give up on my dreams. \nIf I encounter difficulties, I will simply find another way to pursue them, just as he did.",
+          "translationText": "애니메이션을 좋아하는 사람으로서, 내 롤모델은 항상 김상진이었다. \n그는 Walt Disney 애니메이션 스튜디오에서 일한 최초의 한국인 애니메이터였다. \n나는 그가 세계적으로 유명한 회사에서 일했다는 사실을 넘어, 그가 마주했던 어려움에도 불구하고 자신의 꿈을 추구했다는 점에서 그를 존경한다. \n그는 어렸을 때부터 그림 그리는 것에 열정적이었다. \n하지만 고등학교 때 색약 진단을 받으면서 대학에서 미술을 공부하고자 했던 그의 꿈에 지장이 갔다. \n놀랍게도 그는 이 불행으로 좌절하지 않았다. \n대신에, 그는 자신의 상태를 단지 누구에게나 일어날 수 있는 사소한 문제로 여겼다. \n그는 경제학 학위를 받고 졸업했지만, 색을 다루지 않으면서 미술과 관련된 직업을 찾았다. \n그는 몇몇 애니메이터들이 오직 연필만으로 작업한다는 것을 알아냈고, 한국에 있는 모든 애니메이션 스튜디오에 자신의 포트폴리오를 보냈다.\n그중 한 곳에서 그에게 기회를 주었고, 그는 마침내 그의 커리어를 시작할 수 있었다. \n그가 37세에 결국 Disney에서 일할 수 있게 했던 것은 그의 노력과 재능이었다. \n나는 그의 끈기와 인생에서의 어려움을 대하는 태도를 높이 평가한다. \n나도 절대 내 꿈을 포기하지 않을 것이다. \n만약 어려움을 맞닥뜨리게 된다면, 그가 그랬던 것처럼 그저 꿈을 추구하는 다른 방법을 찾을 것이다.",
+          "selectedLines": [
+            10
+          ],
+          "grammarSelections": [
+            {
+              "text": "that",
+              "answer": "접속사 that이 앞의 추상 명사구 the fact를 부연 설명하는 완전한 절을 이끌어 ‘~한다는 사실’이라는 뜻을 나타내고 있다.",
+              "lineIndex": 2,
+              "context": "Beyond the fact that he worked for a world-famous company, I admire him for pursuing his dream despite the difficulties he faced."
+            },
+            {
+              "text": "to discourage",
+              "answer": "allw가 OT동사라서 목적격보어 자리에 to-v가 왔다.",
+              "lineIndex": 5,
+              "context": "Surprisingly, he didn’t allow this misfortune to discourage him."
+            },
+            {
+              "text": "It was his hard work and talent that",
+              "answer": "‘…은 바로 ~이다’라는 뜻의 강조구문으로, 형식주어 it과 be동사 was에 이어, 강조하고자 하는 부분인 명사구 his hard work and talent와 that이 이끄는 주어가 없는 불완전한 절이 쓰였다.",
+              "lineIndex": 10,
+              "context": "It was his hard work and talent that eventually led him to a position at Disney at the age of 37."
+            },
+            {
+              "text": "did",
+              "answer": "did가 found another way to pursue his dreams를 대신하는 대동사로 쓰였다.",
+              "lineIndex": 13,
+              "context": "If I encounter difficulties, I will simply find another way to pursue them, just as he did."
+            }
+          ],
+          "vocabRows": [
+            {
+              "word": "devotion",
+              "meaning": "한 분야에 대한 깊은 헌신",
+              "syn": "dedication, commitment",
+              "ant": "indifference, neglect",
+              "antMeaning": "무관심, 소홀"
+            },
+            {
+              "word": "immerse",
+              "meaning": "깊이 몰두하다",
+              "syn": "absorb, involve",
+              "ant": "distance, detach",
+              "antMeaning": "거리를 두다, 떼어 놓다"
+            },
+            {
+              "word": "prevent",
+              "meaning": "못 하게 막다",
+              "syn": "stop, hinder",
+              "ant": "allow, enable",
+              "antMeaning": "허용하다, 가능하게 하다"
+            },
+            {
+              "word": "accumulate",
+              "meaning": "차곡차곡 쌓다",
+              "syn": "gather, build up",
+              "ant": "lose, diminish",
+              "antMeaning": "잃다, 줄어들다"
+            },
+            {
+              "word": "contribute",
+              "meaning": "기여하다",
+              "syn": "help, add to",
+              "ant": "hinder, obstruct",
+              "antMeaning": "방해하다, 막다"
+            },
+            {
+              "word": "rewarding",
+              "meaning": "보람 있는",
+              "syn": "fulfilling, worthwhile",
+              "ant": "pointless, unrewarding",
+              "antMeaning": "무의미한, 보람 없는"
+            }
+          ],
+          "questionAnswers": {
+            "topic": "한 분야에 대한 꾸준한 열정과 헌신은 진로 형성과 성취의 중요한 바탕이 된다.",
+            "gist": "프록터는 어려움 속에서도 자신이 사랑하는 분야에 대한 헌신을 잃지 않았고, 그 태도는 글쓴이에게도 자신의 진정한 관심 분야를 신중하게 찾아가야 한다는 생각을 심어 주었다.",
+            "title": "열정이 진로가 되는 과정",
+            "summary": "프록터의 깊은 헌신은 장애를 넘어 전문성으로 이어졌고, 그 삶은 글쓴이에게도 자신의 진정한 관심을 진로로 연결할 가능성을 생각하게 했다.",
+            "overall": "1. 진정한 열정이 진로를 이끈다.\n2. 환경의 제약이 있어도 배움을 멈추지 않아야 한다.\n3. 한 분야에 대한 꾸준한 헌신이 성과를 만든다."
+          },
+          "selectedSents": [
+            "It was his hard work and talent that eventually led him to a position at Disney at the age of 37."
+          ],
+          "translationAnswers": {
+            "It was his hard work and talent that eventually led him to a position at Disney at the age of 37.": "그가 37세에 결국 Disney에서 일할 수 있게 했던 것은 그의 노력과 재능이었다."
+          },
+          "grammarRows": [
+            {
+              "point": "that",
+              "answer": "접속사 that이 앞의 추상 명사구 the fact를 부연 설명하는 완전한 절을 이끌어 ‘~한다는 사실’이라는 뜻을 나타내고 있다.",
+              "lineIndex": 2,
+              "context": "Beyond the fact that he worked for a world-famous company, I admire him for pursuing his dream despite the difficulties he faced."
+            },
+            {
+              "point": "to discourage",
+              "answer": "allw가 OT동사라서 목적격보어 자리에 to-v가 왔다.",
+              "lineIndex": 5,
+              "context": "Surprisingly, he didn’t allow this misfortune to discourage him."
+            },
+            {
+              "point": "It was his hard work and talent that",
+              "answer": "‘…은 바로 ~이다’라는 뜻의 강조구문으로, 형식주어 it과 be동사 was에 이어, 강조하고자 하는 부분인 명사구 his hard work and talent와 that이 이끄는 주어가 없는 불완전한 절이 쓰였다.",
+              "lineIndex": 10,
+              "context": "It was his hard work and talent that eventually led him to a position at Disney at the age of 37."
+            },
+            {
+              "point": "did",
+              "answer": "did가 found another way to pursue his dreams를 대신하는 대동사로 쓰였다.",
+              "lineIndex": 13,
+              "context": "If I encounter difficulties, I will simply find another way to pursue them, just as he did."
+            }
+          ]
+        },
+        {
+          "title": "능률(오) 1과 - 본문 4",
+          "text": "These stories shared by our readers emphasize the importance of role models in guiding teenagers toward their career goals. \nRole models, regardless of their field, inspire us because they possess qualities like persistence, commitment, and optimism. \nIf you haven’t found a role model yet, perhaps it’s time to start searching for one. \nTry to find someone who can encourage you to take the first step in your career exploration.",
+          "translationText": "독자들이 공유한 이야기들은 청소년들을 직업 목표로 인도하는 데 있어서 롤모델의 중요성을 강조한다. \n분야에 상관없이 롤모델은 끈기, 헌신, 낙관주의와 같은 자질을 가지고 있어서 우리에게 영감을 준다. \n아직 롤모델을 찾지 못했다면 어쩌면 이제 롤모델을 찾기 시작할 때일지도 모른다. \n진로 탐색에서의 첫걸음을 내딛도록 당신을 격려할 수 있는 누군가를 찾아보아라.",
+          "selectedLines": [
+            0
+          ],
+          "grammarSelections": [
+            {
+              "text": "it’s time to start",
+              "answer": "‘~할 시간이다’의 뜻으로 본문에서는 it’s time에 to부정사 to start가 이끄는 to부정사구가 쓰여 ‘시작할 때이다’를 뜻한다. ‘[가정법 과거] it is time (that)+주어+과거동사[미국영어 were 가능]’나 ‘[미국영어] it is time (that)+주어+(should+)동사원형’을 이용하여 바꿔 설명할 수 있다.",
+              "lineIndex": 2,
+              "context": "If you haven’t found a role model yet, perhaps it’s time to start searching for one."
+            },
+            {
+              "text": "to take",
+              "answer": "encourage가 OT동사라서 목적격보어 자리에 to-v가 쓰였다.",
+              "lineIndex": 3,
+              "context": "Try to find someone who can encourage you to take the first step in your career exploration."
+            }
+          ],
+          "vocabRows": [
+            {
+              "word": "disrupt",
+              "meaning": "방해하다, 중단시키다",
+              "syn": "interrupt, derail",
+              "ant": "support, sustain",
+              "antMeaning": "돕다, 지속시키다"
+            },
+            {
+              "word": "discourage",
+              "meaning": "의욕을 꺾다",
+              "syn": "dishearten, deter",
+              "ant": "encourage, motivate",
+              "antMeaning": "격려하다, 동기를 주다"
+            },
+            {
+              "word": "minor",
+              "meaning": "대수롭지 않은",
+              "syn": "small, slight",
+              "ant": "serious, major",
+              "antMeaning": "심각한, 중대한"
+            },
+            {
+              "word": "persistence",
+              "meaning": "끈기",
+              "syn": "perseverance, determination",
+              "ant": "quitting, inconsistency",
+              "antMeaning": "포기, 꾸준하지 않음"
+            },
+            {
+              "word": "pursue",
+              "meaning": "추구하다",
+              "syn": "follow, chase",
+              "ant": "abandon, give up",
+              "antMeaning": "버리다, 포기하다"
+            }
+          ],
+          "questionAnswers": {
+            "topic": "어려움이 있어도 포기하지 않고 대안을 찾아 나아가는 태도는 꿈을 이루는 데 중요하다.",
+            "gist": "김상진은 꿈을 가로막는 어려움 앞에서도 포기하지 않고 다른 방법을 찾아 결국 목표를 이루었으며, 이러한 태도는 글쓴이에게도 난관 속에서 새로운 길을 모색하며 꿈을 추구해야 한다는 교훈을 준다.",
+            "title": "포기 대신 다른 길을 찾는 끈기",
+            "summary": "김상진은 제약을 끝으로 받아들이지 않고 다른 경로로 꿈을 이어 갔고, 그 과정은 글쓴이에게도 어려움 속 대안 탐색의 태도를 심어 주었다.",
+            "overall": "1. 장애나 어려움이 꿈의 끝을 의미하지는 않는다.\n2. 상황에 맞게 길을 바꾸는 유연성이 중요하다.\n3. 끈기 있게 다른 방법을 찾으며 꿈을 추구해야 한다."
+          },
+          "selectedSents": [
+            "These stories shared by our readers emphasize the importance of role models in guiding teenagers toward their career goals."
+          ],
+          "translationAnswers": {
+            "These stories shared by our readers emphasize the importance of role models in guiding teenagers toward their career goals.": "독자들이 공유한 이야기들은 청소년들을 직업 목표로 인도하는 데 있어서 롤모델의 중요성을 강조한다."
+          },
+          "grammarRows": [
+            {
+              "point": "it’s time to start",
+              "answer": "‘~할 시간이다’의 뜻으로 본문에서는 it’s time에 to부정사 to start가 이끄는 to부정사구가 쓰여 ‘시작할 때이다’를 뜻한다. ‘[가정법 과거] it is time (that)+주어+과거동사[미국영어 were 가능]’나 ‘[미국영어] it is time (that)+주어+(should+)동사원형’을 이용하여 바꿔 설명할 수 있다.",
+              "lineIndex": 2,
+              "context": "If you haven’t found a role model yet, perhaps it’s time to start searching for one."
+            },
+            {
+              "point": "to take",
+              "answer": "encourage가 OT동사라서 목적격보어 자리에 to-v가 쓰였다.",
+              "lineIndex": 3,
+              "context": "Try to find someone who can encourage you to take the first step in your career exploration."
+            }
+          ]
+        },
+        {
+          "title": "Q미니 1강 - 2번",
+          "text": "Whenever I am introduced to a work of art, whether through an image, or in person, I immediately begin to make judgments and assumptions about what I am seeing.\nI ask myself questions about the work and its creator.\nWhat is it about?\nWhat was the artist's intention?\nHow was it made?\nHow does it relate to other artists' work?\nI look around to see if I can find some information to begin answering my questions.\nThis is why your work samples and artist statements are so important.\nTogether, they form a more complete record that documents your past and present achievements.\nThey are the two most essential tools you will use to promote your work throughout your career.\nThey are the tools that art professionals will use to understand and support your work.",
+          "translationText": "이미지를 통해서든 아니면 직접 보든, 미술 작품을 처음 접할 때마다, 나는 즉시 내가 보고 있는 것에 관해 판단과 추정을 하기 시작한다.\n나는 그 작품과 그것의 창작자에 관해 스스로에게 질문한다.\n그것은 무엇에 관한 것인가?\n미술가의 의도는 무엇이었나?\n그것은 어떻게 만들어졌나?\n그것은 다른 미술가의 작품과 어떻게 연관되어 있나?\n나는 내 질문에 답하기 시작하려고 정보를 좀 찾을 수 있는지 보려 주위를 둘러본다.\n바로 이런 이유로 여러분의 작품 견본과 미술가의 설명이 그토록 중요한 것이다.\n함께, 그것들은 여러분의 과거와 현재의 성취를 기록하는 더욱 완전한 기록을 구성한다.\n그것들은 여러분이 경력 전체에 걸쳐 작품을 홍보하기 위해 사용하는 가장 핵심적인 두 가지 도구이다.\n그것들은 미술 전문가들이 여러분의 작품을 이해하고 지지하기 위해 사용하는 도구들이다.",
+          "selectedLines": [
+            0,
+            9
+          ],
+          "grammarSelections": [
+            {
+              "text": "whether",
+              "answer": "부사절 접속사 whether - ~이든 아니든",
+              "lineIndex": 0,
+              "context": "Whenever I am introduced to a work of art, whether through an image, or in person, I immediately begin to make judgments and assumptions about what I am seeing."
+            },
+            {
+              "text": "what",
+              "answer": "관계대명사 what + 불완전한 절 : ~하는 것",
+              "lineIndex": 0,
+              "context": "Whenever I am introduced to a work of art, whether through an image, or in person, I immediately begin to make judgments and assumptions about what I am seeing."
+            },
+            {
+              "text": "if",
+              "answer": "명사절 접속사 if - ~인지 아닌지",
+              "lineIndex": 6,
+              "context": "I look around to see if I can find some information to begin answering my questions."
+            },
+            {
+              "text": "This is why",
+              "answer": "결과 + This is why + 원인\n원인 + This is because + 결과 - 헷갈리지 않게 주의",
+              "lineIndex": 7,
+              "context": "This is why your work samples and artist statements are so important."
+            }
+          ],
+          "vocabRows": [
+            {
+              "word": "",
+              "meaning": "",
+              "syn": "",
+              "ant": "",
+              "antMeaning": ""
+            },
+            {
+              "word": "",
+              "meaning": "",
+              "syn": "",
+              "ant": "",
+              "antMeaning": ""
+            },
+            {
+              "word": "",
+              "meaning": "",
+              "syn": "",
+              "ant": "",
+              "antMeaning": ""
+            },
+            {
+              "word": "",
+              "meaning": "",
+              "syn": "",
+              "ant": "",
+              "antMeaning": ""
+            },
+            {
+              "word": "",
+              "meaning": "",
+              "syn": "",
+              "ant": "",
+              "antMeaning": ""
+            },
+            {
+              "word": "judgment",
+              "meaning": "판단",
+              "syn": "evaluation, assessment",
+              "ant": "misreading, confusion",
+              "antMeaning": "오해, 혼란"
+            },
+            {
+              "word": "intention",
+              "meaning": "의도",
+              "syn": "purpose, aim",
+              "ant": "accident, randomness",
+              "antMeaning": "우연, 임의성"
+            },
+            {
+              "word": "document",
+              "meaning": "기록하다",
+              "syn": "record, register",
+              "ant": "erase, omit",
+              "antMeaning": "지우다, 누락하다"
+            },
+            {
+              "word": "essential",
+              "meaning": "필수적인",
+              "syn": "crucial, indispensable",
+              "ant": "optional, incidental",
+              "antMeaning": "선택적인, 부수적인"
+            },
+            {
+              "word": "promote",
+              "meaning": "홍보하다",
+              "syn": "publicize, advance",
+              "ant": "suppress, conceal",
+              "antMeaning": "억누르다, 숨기다"
+            }
+          ],
+          "questionAnswers": {
+            "topic": "작업 샘플과 작가 진술서는 예술 작품의 이해와 지원을 이끄는 핵심 매개이다.",
+            "gist": "사람들이 예술 작품을 접하면 작품과 작가에 대해 여러 질문을 하게 되므로, 작업 샘플과 작가 진술서는 작품의 성취를 기록하고 경력 전반에서 작품을 알리는 핵심 도구가 된다.",
+            "title": "예술가를 설명하는 두 핵심 도구",
+            "summary": "예술 작품에 대한 질문이 많을수록 작업 샘플과 작가 진술서는 성취 기록과 작품 홍보를 통해 전문가의 이해와 지원을 가능하게 한다.",
+            "overall": "1. 예술 작품은 감상자에게 여러 해석과 질문을 불러일으킨다.\n2. 작업 샘플과 작가 진술서는 작품 이해를 돕는 핵심 자료이다.\n3. 이 자료들은 작품 홍보와 경력 관리에 필수적이다."
+          },
+          "selectedSents": [
+            "Whenever I am introduced to a work of art, whether through an image, or in person, I immediately begin to make judgments and assumptions about what I am seeing.",
+            "They are the two most essential tools you will use to promote your work throughout your career."
+          ],
+          "translationAnswers": {
+            "Whenever I am introduced to a work of art, whether through an image, or in person, I immediately begin to make judgments and assumptions about what I am seeing.": "이미지를 통해서든 아니면 직접 보든, 미술 작품을 처음 접할 때마다, 나는 즉시 내가 보고 있는 것에 관해 판단과 추정을 하기 시작한다.",
+            "They are the two most essential tools you will use to promote your work throughout your career.": "그것들은 여러분이 경력 전체에 걸쳐 작품을 홍보하기 위해 사용하는 가장 핵심적인 두 가지 도구이다."
+          },
+          "grammarRows": [
+            {
+              "point": "whether",
+              "answer": "부사절 접속사 whether - ~이든 아니든",
+              "lineIndex": 0,
+              "context": "Whenever I am introduced to a work of art, whether through an image, or in person, I immediately begin to make judgments and assumptions about what I am seeing."
+            },
+            {
+              "point": "what",
+              "answer": "관계대명사 what + 불완전한 절 : ~하는 것",
+              "lineIndex": 0,
+              "context": "Whenever I am introduced to a work of art, whether through an image, or in person, I immediately begin to make judgments and assumptions about what I am seeing."
+            },
+            {
+              "point": "if",
+              "answer": "명사절 접속사 if - ~인지 아닌지",
+              "lineIndex": 6,
+              "context": "I look around to see if I can find some information to begin answering my questions."
+            },
+            {
+              "point": "This is why",
+              "answer": "결과 + This is why + 원인\n원인 + This is because + 결과 - 헷갈리지 않게 주의",
+              "lineIndex": 7,
+              "context": "This is why your work samples and artist statements are so important."
+            }
+          ]
+        },
+        {
+          "title": "Q미니 1강 - 4번",
+          "text": "Unlike primary prevention, which aims to prevent diseases from occurring, secondary prevention emphasizes identifying diseases at their earliest stage and treating the conditions early.\nResearch suggests that when disease is detected early, there is a far greater chance of treatment with a successful outcome.\nThe health care system is sometimes called the \"curative\" system due to its focus on detecting and treating disease.\nExamples of secondary prevention are plentiful in the United States because of the number of people with chronic conditions, including high blood pressure or high blood cholesterol.\nA person with either high blood pressure or blood cholesterol would be prescribed a drug that would help lower either his or her blood pressure or blood cholesterol.\nManaging chronic conditions by using prescription drugs is a feature of the health care system, which has made significant advances in treating chronic conditions.",
+          "translationText": "질병 발생 방지를 목표로 하는 1차 예방과 달리, 2차 예방은 질병을 가장 이른 단계에서 발견하여 그 질환을 조기에 치료하는 것을 강조한다.\n연구는 질병이 조기에 발견되면 성공적인 결과를 얻을 수 있는 치료 가능성이 훨씬 더 커진다는 것을 보여 준다.\n보건 의료 체계는 질병을 찾아내고 치료하는 것에 초점을 맞추기 때문에 때때로 ‘치료’ 체계라고 불린다.\n미국에서는 고혈압이나 고 혈중 콜레스테롤을 포함한 만성 질환자의 수로 인해 2차 예방 사례가 많다.\n고혈압이나 높은 혈중 콜레스테롤 수치가 있는 사람은 혈압이나 혈중 콜레스테롤을 낮추는 데 도움이 될 약을 처방받을 것이다.\n처방 약을 이용해 만성 질환을 관리하는 것이 보건 의료 체계의 특징인데, 그것은 만성 질환 치료에 상당한 진전을 이루었다.",
+          "selectedLines": [
+            0,
+            4
+          ],
+          "grammarSelections": [
+            {
+              "text": "which",
+              "answer": "관계사의 계속적 용법 - 그리고 그것은 이라고 해석한다.",
+              "lineIndex": 0,
+              "context": "Unlike primary prevention, which aims to prevent diseases from occurring, secondary prevention emphasizes identifying diseases at their earliest stage and treating the conditions early."
+            },
+            {
+              "text": "occurring",
+              "answer": "prevent A from ~ing - A가 ~하는 것을 막다",
+              "lineIndex": 0,
+              "context": "Unlike primary prevention, which aims to prevent diseases from occurring, secondary prevention emphasizes identifying diseases at their earliest stage and treating the conditions early."
+            }
+          ],
+          "vocabRows": [
+            {
+              "word": "detect",
+              "meaning": "발견하다",
+              "syn": "identify, discover",
+              "ant": "miss, overlook",
+              "antMeaning": "놓치다, 간과하다"
+            },
+            {
+              "word": "curative",
+              "meaning": "치료 중심의",
+              "syn": "therapeutic, healing",
+              "ant": "preventive, protective",
+              "antMeaning": "예방적인, 보호적인"
+            },
+            {
+              "word": "chronic",
+              "meaning": "만성의",
+              "syn": "long-term, persistent",
+              "ant": "acute, temporary",
+              "antMeaning": "급성의, 일시적인"
+            },
+            {
+              "word": "prescribe",
+              "meaning": "처방하다",
+              "syn": "order, recommend",
+              "ant": "withhold, ban",
+              "antMeaning": "주지 않다, 금지하다"
+            }
+          ],
+          "questionAnswers": {
+            "topic": "이차 예방은 조기 발견과 조기 치료를 통해 치료 성공 가능성을 높이는 보건의료 체계의 핵심 방식이다.",
+            "gist": "이차 예방은 질병 발생을 막는 일차 예방과 달리 질병을 조기에 발견하고 초기에 치료하는 데 초점을 두며, 만성 질환의 약물 관리가 그 대표적 사례가 된다.",
+            "title": "이차 예방의 핵심: 조기 발견과 치료",
+            "summary": "질병 발생 자체를 막는 일차 예방과 달리 이차 예방은 조기 발견과 조기 치료에 초점을 두며, 만성 질환의 약물 관리가 그 전형적 형태가 된다.",
+            "overall": "1. 2차 예방은 질병의 조기 발견과 조기 치료에 초점을 둔다.\n2. 조기 발견은 치료 성공 가능성을 높인다.\n3. 만성질환 관리에서 2차 예방은 중요한 역할을 한다."
+          },
+          "selectedSents": [
+            "Unlike primary prevention, which aims to prevent diseases from occurring, secondary prevention emphasizes identifying diseases at their earliest stage and treating the conditions early.",
+            "A person with either high blood pressure or blood cholesterol would be prescribed a drug that would help lower either his or her blood pressure or blood cholesterol."
+          ],
+          "translationAnswers": {
+            "Unlike primary prevention, which aims to prevent diseases from occurring, secondary prevention emphasizes identifying diseases at their earliest stage and treating the conditions early.": "질병 발생 방지를 목표로 하는 1차 예방과 달리, 2차 예방은 질병을 가장 이른 단계에서 발견하여 그 질환을 조기에 치료하는 것을 강조한다.",
+            "A person with either high blood pressure or blood cholesterol would be prescribed a drug that would help lower either his or her blood pressure or blood cholesterol.": "고혈압이나 높은 혈중 콜레스테롤 수치가 있는 사람은 혈압이나 혈중 콜레스테롤을 낮추는 데 도움이 될 약을 처방받을 것이다."
+          },
+          "grammarRows": [
+            {
+              "point": "which",
+              "answer": "관계사의 계속적 용법 - 그리고 그것은 이라고 해석한다.",
+              "lineIndex": 0,
+              "context": "Unlike primary prevention, which aims to prevent diseases from occurring, secondary prevention emphasizes identifying diseases at their earliest stage and treating the conditions early."
+            },
+            {
+              "point": "occurring",
+              "answer": "prevent A from ~ing - A가 ~하는 것을 막다",
+              "lineIndex": 0,
+              "context": "Unlike primary prevention, which aims to prevent diseases from occurring, secondary prevention emphasizes identifying diseases at their earliest stage and treating the conditions early."
+            }
+          ]
+        },
+        {
+          "title": "Q미니 1강 - 5번",
+          "text": "When we bemoan the lack of originality in the world, we blame it on the absence of creativity.\nIf only people could generate more novel ideas, we'd all be better off.\nBut in reality, the biggest barrier to originality is not idea generation ― it's idea selection.\nIn one analysis, when over two hundred people dreamed up more than a thousand ideas for new ventures and products, 87 percent were completely unique.\nOur companies, communities, and countries don't necessarily suffer from a shortage of novel ideas.\nThey're constrained by a shortage of people who excel at choosing the right novel ideas.\nThe Segway, a two-wheeled, self-balancing personal transporter, was a false positive: it was forecast as a hit but turned out to be a miss.\nSeinfeld, an American sitcom television series, was a false negative: it was expected to fail but ultimately flourished.",
+          "translationText": "세상에 독창성이 부족하다고 한탄할 때 우리는 그것을 창의성의 부재 탓으로 돌립니다.\n사람들이 더 많은 참신한 아이디어를 낼 수만 있다면 우리 모두는 더 나아질 것입니다.\n그러나 실제로 독창성에 대한 가장 큰 장벽은 아이디어 생성이 아니라 아이디어 선택입니다.\n한 분석에 따르면 200명 이상의 사람들이 새로운 벤처 및 제품에 대한 천 가지 이상의 아이디어를 생각해냈을 때 87%가 완전히 독특했습니다.\n우리 회사, 커뮤니티 및 국가가 반드시 참신한 아이디어의 부족으로 고통받는 것은 아닙니다.\n그들은 올바른 참신한 아이디어를 선택하는 데 뛰어난 사람들이 부족하다는 제약을 받고 있습니다.\n이륜 자동 균형 개인 운송 수단인 세그웨이(Segway)는 긍정 오류이었습니다. 히트작으로 예측되었지만 실패로 판명되었습니다.\n미국 시트콤 텔레비전 시리즈인 Seinfeld는 부정 오류이었습니다. 실패할 것으로 예상되었지만 결국 번성했습니다.",
+          "selectedLines": [
+            6,
+            7
+          ],
+          "grammarSelections": [
+            {
+              "text": "were",
+              "answer": "부분 of 전체가 주어면 전체에 수일치를 맞춘다. 87 percent of the ideas가 주어이다. (of the ideas 생략)",
+              "lineIndex": 3,
+              "context": "In one analysis, when over two hundred people dreamed up more than a thousand ideas for new ventures and products, 87 percent were completely unique."
+            },
+            {
+              "text": "to fail",
+              "answer": "expect가 OT동사여서 목적격보어 자리에 to-v가 쓰인다. 여기서는 expect가 수동태이기 때문에 원래 바로 뒤에 와야하는 목적어가 주어자리로 가서 없다.",
+              "lineIndex": 7,
+              "context": "Seinfeld, an American sitcom television series, was a false negative: it was expected to fail but ultimately flourished."
+            },
+            {
+              "text": "flourished",
+              "answer": "it was expected 에서 was와 flourished가 병렬이다.",
+              "lineIndex": 7,
+              "context": "Seinfeld, an American sitcom television series, was a false negative: it was expected to fail but ultimately flourished."
+            }
+          ],
+          "vocabRows": [
+            {
+              "word": "originality",
+              "meaning": "독창성",
+              "syn": "novelty, uniqueness",
+              "ant": "sameness, imitation",
+              "antMeaning": "동일성, 모방"
+            },
+            {
+              "word": "generate",
+              "meaning": "만들어 내다",
+              "syn": "produce, create",
+              "ant": "discard, reject",
+              "antMeaning": "버리다, 거부하다"
+            },
+            {
+              "word": "selection",
+              "meaning": "선별",
+              "syn": "choice, screening",
+              "ant": "randomness, indiscrimination",
+              "antMeaning": "무작위성, 무차별"
+            },
+            {
+              "word": "constrain",
+              "meaning": "제약하다",
+              "syn": "limit, restrict",
+              "ant": "free, enable",
+              "antMeaning": "자유롭게 하다, 가능하게 하다"
+            },
+            {
+              "word": "flourish",
+              "meaning": "번성하다",
+              "syn": "thrive, prosper",
+              "ant": "fail, collapse",
+              "antMeaning": "실패하다, 무너지다"
+            }
+          ],
+          "questionAnswers": {
+            "topic": "독창성의 성패는 아이디어 생산보다 아이디어 선별에 더 크게 좌우된다.",
+            "gist": "독창성의 부족은 새로운 아이디어가 적어서가 아니라 수많은 참신한 아이디어 가운데 옳은 것을 골라 내는 능력이 부족해서 생긴다.",
+            "title": "독창성의 진짜 장벽: 아이디어 생성이 아닌 선별",
+            "summary": "참신한 아이디어 자체는 이미 충분하지만 어떤 아이디어가 성공할지를 가려 내지 못할 때 독창성의 성과는 무너진다.",
+            "overall": "1. 독창성의 핵심 문제는 아이디어 부족이 아니라 선별의 어려움이다.\n2. 새로운 아이디어 자체는 생각보다 많이 만들어진다.\n3. 어떤 아이디어가 성공할지 예측하는 일은 매우 어렵다."
+          },
+          "selectedSents": [
+            "The Segway, a two-wheeled, self-balancing personal transporter, was a false positive: it was forecast as a hit but turned out to be a miss.",
+            "Seinfeld, an American sitcom television series, was a false negative: it was expected to fail but ultimately flourished."
+          ],
+          "translationAnswers": {
+            "The Segway, a two-wheeled, self-balancing personal transporter, was a false positive: it was forecast as a hit but turned out to be a miss.": "이륜 자동 균형 개인 운송 수단인 세그웨이(Segway)는 긍정 오류이었습니다. 히트작으로 예측되었지만 실패로 판명되었습니다.",
+            "Seinfeld, an American sitcom television series, was a false negative: it was expected to fail but ultimately flourished.": "미국 시트콤 텔레비전 시리즈인 Seinfeld는 부정 오류이었습니다. 실패할 것으로 예상되었지만 결국 번성했습니다."
+          },
+          "grammarRows": [
+            {
+              "point": "were",
+              "answer": "부분 of 전체가 주어면 전체에 수일치를 맞춘다. 87 percent of the ideas가 주어이다. (of the ideas 생략)",
+              "lineIndex": 3,
+              "context": "In one analysis, when over two hundred people dreamed up more than a thousand ideas for new ventures and products, 87 percent were completely unique."
+            },
+            {
+              "point": "to fail",
+              "answer": "expect가 OT동사여서 목적격보어 자리에 to-v가 쓰인다. 여기서는 expect가 수동태이기 때문에 원래 바로 뒤에 와야하는 목적어가 주어자리로 가서 없다.",
+              "lineIndex": 7,
+              "context": "Seinfeld, an American sitcom television series, was a false negative: it was expected to fail but ultimately flourished."
+            },
+            {
+              "point": "flourished",
+              "answer": "it was expected 에서 was와 flourished가 병렬이다.",
+              "lineIndex": 7,
+              "context": "Seinfeld, an American sitcom television series, was a false negative: it was expected to fail but ultimately flourished."
+            }
+          ]
+        },
+        {
+          "title": "Q미니 1강 - 6번",
+          "text": "The advantages of specialized roles were recognized long before Henry Ford invented the assembly line.\nIn medieval farming villages, for example, it was probably good to have a blacksmith.\nBut if everyone tried to be a blacksmith, the village would starve.\nThe same goes for musicians, artists, and priests.\nWhen human groups advanced to the point that they did not need every person to be producing as much food as possible all the time, they became able to support musicians, artists, and priests.\nBut if everyone in a tribe or village wanted to be a musician, the group would be unable to survive.\nToday, the same goes for teachers, police officers, physicians, plumbers, fortune-tellers, computer repair technicians, comedians, airline flight attendants, and barbers.\nHuman roles only work in the context of a large system when most other people do something else.",
+          "translationText": "전문화된 역할의 이점은 Henry Ford가 조립 라인을 발명하기 훨씬 이전에 인식되었다.\n예를 들면, 중세의 농촌 마을에 대장장이가 있는 것은 아마 유용했을 것이다.\n하지만 모든 사람이 대장장이가 되고자 한다면, 마을 사람들은 굶어 죽을 것이다.\n음악가, 예술가, 성직자도 마찬가지이다.\n모든 사람이 항상 가능한 한 많은 식량을 생산하고 있는 것이 필요 없을 정도로 인간 집단이 진보했을 때, 인간은 음악가, 예술가, 성직자를 먹여 살릴 수 있게 되었다.\n그러나 만약 부족이나 마을에 있는 모든 사람이 음악가가 되기를 원한다면, 그 집단은 살아남지 못할 것이다.\n오늘날, 교사, 경찰관, 의사, 배관공, 점술가, 컴퓨터 수리 기술자, 코미디언, 항공 승무원, 이발사도 마찬가지이다.\n인간의 역할은 대다수의 다른 사람들이 다른 일을 할 때만 거대한 시스템 상황에서 유효하게 작용한다.",
+          "selectedLines": [
+            4
+          ],
+          "grammarSelections": [
+            {
+              "text": "to have",
+              "answer": "가주어-진주어에서 진주어이다.",
+              "lineIndex": 1,
+              "context": "In medieval farming villages, for example, it was probably good to have a blacksmith."
+            },
+            {
+              "text": "But if everyone tried to be a blacksmith, the village would starve.",
+              "answer": "가정법 과거 : If 주어 과거동사, 주어 [would/could/might] 동사원형",
+              "lineIndex": 2,
+              "context": "But if everyone tried to be a blacksmith, the village would starve."
+            },
+            {
+              "text": "that",
+              "answer": "동격 that + 완전한 절",
+              "lineIndex": 4,
+              "context": "When human groups advanced to the point that they did not need every person to be producing as much food as possible all the time, they became able to support musicians, artists, and priests."
+            },
+            {
+              "text": "as much food as possible",
+              "answer": "가능한 한 ~하게 : much는 부사가 쓰였으며 앞에 producing이라는 동사를 꾸며준다.",
+              "lineIndex": 4,
+              "context": "When human groups advanced to the point that they did not need every person to be producing as much food as possible all the time, they became able to support musicians, artists, and priests."
+            },
+            {
+              "text": "But if everyone in a tribe or village wanted to be a musician, the group would be unable to survive.",
+              "answer": "가정법 과거 : If 주어 과거동사, 주어 [would/could/might] 동사원형",
+              "lineIndex": 5,
+              "context": "But if everyone in a tribe or village wanted to be a musician, the group would be unable to survive."
+            }
+          ],
+          "vocabRows": [
+            {
+              "word": "originality",
+              "meaning": "독창성",
+              "syn": "novelty, uniqueness",
+              "ant": "sameness, imitation",
+              "antMeaning": "동일성, 모방"
+            },
+            {
+              "word": "generate",
+              "meaning": "만들어 내다",
+              "syn": "produce, create",
+              "ant": "discard, reject",
+              "antMeaning": "버리다, 거부하다"
+            },
+            {
+              "word": "selection",
+              "meaning": "선별",
+              "syn": "choice, screening",
+              "ant": "randomness, indiscrimination",
+              "antMeaning": "무작위성, 무차별"
+            },
+            {
+              "word": "constrain",
+              "meaning": "제약하다",
+              "syn": "limit, restrict",
+              "ant": "free, enable",
+              "antMeaning": "자유롭게 하다, 가능하게 하다"
+            },
+            {
+              "word": "flourish",
+              "meaning": "번성하다",
+              "syn": "thrive, prosper",
+              "ant": "fail, collapse",
+              "antMeaning": "실패하다, 무너지다"
+            }
+          ],
+          "questionAnswers": {
+            "topic": "독창성의 성패는 아이디어 생산보다 아이디어 선별에 더 크게 좌우된다.",
+            "gist": "독창성의 부족은 새로운 아이디어가 적어서가 아니라 수많은 참신한 아이디어 가운데 옳은 것을 골라 내는 능력이 부족해서 생긴다.",
+            "title": "독창성의 진짜 장벽: 아이디어 생성이 아닌 선별",
+            "summary": "참신한 아이디어 자체는 이미 충분하지만 어떤 아이디어가 성공할지를 가려 내지 못할 때 독창성의 성과는 무너진다.",
+            "overall": "1. 독창성의 가장 큰 장벽은 아이디어 생성보다 선별에 있다.\n2. 독특한 아이디어는 생각보다 많이 만들어진다.\n3. 성공할 아이디어를 미리 판단하는 것은 매우 어렵다."
+          },
+          "selectedSents": [
+            "When human groups advanced to the point that they did not need every person to be producing as much food as possible all the time, they became able to support musicians, artists, and priests."
+          ],
+          "translationAnswers": {
+            "When human groups advanced to the point that they did not need every person to be producing as much food as possible all the time, they became able to support musicians, artists, and priests.": "모든 사람이 항상 가능한 한 많은 식량을 생산하고 있는 것이 필요 없을 정도로 인간 집단이 진보했을 때, 인간은 음악가, 예술가, 성직자를 먹여 살릴 수 있게 되었다."
+          },
+          "grammarRows": [
+            {
+              "point": "to have",
+              "answer": "가주어-진주어에서 진주어이다.",
+              "lineIndex": 1,
+              "context": "In medieval farming villages, for example, it was probably good to have a blacksmith."
+            },
+            {
+              "point": "But if everyone tried to be a blacksmith, the village would starve.",
+              "answer": "가정법 과거 : If 주어 과거동사, 주어 [would/could/might] 동사원형",
+              "lineIndex": 2,
+              "context": "But if everyone tried to be a blacksmith, the village would starve."
+            },
+            {
+              "point": "that",
+              "answer": "동격 that + 완전한 절",
+              "lineIndex": 4,
+              "context": "When human groups advanced to the point that they did not need every person to be producing as much food as possible all the time, they became able to support musicians, artists, and priests."
+            },
+            {
+              "point": "as much food as possible",
+              "answer": "가능한 한 ~하게 : much는 부사가 쓰였으며 앞에 producing이라는 동사를 꾸며준다.",
+              "lineIndex": 4,
+              "context": "When human groups advanced to the point that they did not need every person to be producing as much food as possible all the time, they became able to support musicians, artists, and priests."
+            },
+            {
+              "point": "But if everyone in a tribe or village wanted to be a musician, the group would be unable to survive.",
+              "answer": "가정법 과거 : If 주어 과거동사, 주어 [would/could/might] 동사원형",
+              "lineIndex": 5,
+              "context": "But if everyone in a tribe or village wanted to be a musician, the group would be unable to survive."
+            }
+          ]
+        },
+        {
+          "title": "Q미니 1강 - 7번",
+          "text": "Imagine that we see someone we trust or like, they are eating at a restaurant and so we decide to eat there too.\nThis is a social influence on individual behaviour.\nIt could have arisen in two distinct ways.\nWe could have been looking for somewhere to eat and taken the person's presence in the restaurant as a reliable indication that this was a good place to eat.\nAlternatively, we could have had no prior intention of eating at a restaurant, but we identify with this person and the group that he or she belongs to; they are part of our set and so we decide to eat at this restaurant too, as this is what our group does.\nIn the one case, the behaviour of others transmits useful information about how best to satisfy our desires and we act on this information.\nIn the other, our desires or preferences are influenced by those we associate with, and that is why we follow what they do.",
+          "translationText": "우리가 신뢰하거나 좋아하는 어떤 사람이 보이는데, 그 사람이 어떤 식당에서 식사하고 있어서 우리도 그 식당에서 식사하기로 결정한다고 생각해 보자.\n이것은 개인의 행동에 대한 사회적 영향이다.\n그것은 별개의 두 방식으로 발생했을 수도 있다.\n우리는 식사할 장소를 찾고 있었는데 그 사람이 그 식당에 있다는 것을 이 식당이 식사하기에 좋은 장소임을 나타내는 믿을 만한 표시라고 여겼을 수도 있다.\n또는, 우리가 사전에 식당에서 식사할 의도가 없었을 수도 있지만, 이 사람과 이 사람이 속한 무리와 동질감을 가진다. 그들이 우리 집단의 일부이며, 그래서 우리도 이 식당에서 식사하기로 결정하는데, 왜냐하면 이것이 바로 우리 집단이 하는 일이기 때문이다.\n전자의 경우에는, 다른 사람들의 행동이 우리의 욕구를 가장 잘 충족시킬 수 있는 방법에 대한 유용한 정보를 전달하고 우리는 이 정보에 따라 행동한다.\n후자의 경우에는, 우리의 욕구나 선호가 우리가 어울리는 사람들에 의해 영향을 받으며, 그래서 우리는 그들이 하는 일을 따라 한다.",
+          "selectedLines": [
+            3,
+            6
+          ],
+          "grammarSelections": [
+            {
+              "text": "could have arisen",
+              "answer": "could have p.p. : 과거에 대한 추측 (~이었을 수도 있다)",
+              "lineIndex": 2,
+              "context": "It could have arisen in two distinct ways."
+            },
+            {
+              "text": "could have been looking",
+              "answer": "could have been ~ing : 현재완료진행시제 + 과거에 대한 추측",
+              "lineIndex": 3,
+              "context": "We could have been looking for somewhere to eat and taken the person's presence in the restaurant as a reliable indication that this was a good place to eat."
+            },
+            {
+              "text": "that",
+              "answer": "동격 that + 완전한 절",
+              "lineIndex": 3,
+              "context": "We could have been looking for somewhere to eat and taken the person's presence in the restaurant as a reliable indication that this was a good place to eat."
+            },
+            {
+              "text": "could have had",
+              "answer": "could have p.p. : 과거에 대한 추측 (~이었을 수도 있다)",
+              "lineIndex": 4,
+              "context": "Alternatively, we could have had no prior intention of eating at a restaurant, but we identify with this person and the group that he or she belongs to; they are part of our set and so we decide to eat at this restaurant too, as this is what our group does."
+            },
+            {
+              "text": "what",
+              "answer": "관계대명사 what + 불완전한 절 : ~하는 것",
+              "lineIndex": 4,
+              "context": "Alternatively, we could have had no prior intention of eating at a restaurant, but we identify with this person and the group that he or she belongs to; they are part of our set and so we decide to eat at this restaurant too, as this is what our group does."
+            },
+            {
+              "text": "that is why",
+              "answer": "이유 + that is why + 결과 - 그래서\n결과 + that is becasue + 이유 - ~이기 때문이다",
+              "lineIndex": 6,
+              "context": "In the other, our desires or preferences are influenced by those we associate with, and that is why we follow what they do."
+            },
+            {
+              "text": "what",
+              "answer": "관계대명사 what + 불완전한 절 : ~하는 것",
+              "lineIndex": 6,
+              "context": "In the other, our desires or preferences are influenced by those we associate with, and that is why we follow what they do."
+            }
+          ],
+          "vocabRows": [
+            {
+              "word": "influence",
+              "meaning": "영향",
+              "syn": "effect, impact",
+              "ant": "independence, autonomy",
+              "antMeaning": "독립, 자율성"
+            },
+            {
+              "word": "reliable",
+              "meaning": "신뢰할 만한",
+              "syn": "dependable, trustworthy",
+              "ant": "unreliable, doubtful",
+              "antMeaning": "믿기 어려운, 의심스러운"
+            },
+            {
+              "word": "identify",
+              "meaning": "동일시하다",
+              "syn": "associate, align",
+              "ant": "distance, detach",
+              "antMeaning": "거리를 두다, 분리하다"
+            },
+            {
+              "word": "preference",
+              "meaning": "선호",
+              "syn": "liking, inclination",
+              "ant": "aversion, dislike",
+              "antMeaning": "혐오, 싫어함"
+            },
+            {
+              "word": "transmit",
+              "meaning": "전달하다",
+              "syn": "convey, communicate",
+              "ant": "withhold, block",
+              "antMeaning": "막다, 차단하다"
+            }
+          ],
+          "questionAnswers": {
+            "topic": "사회적 영향이 개인의 행동에 작용하는 두 가지 서로 다른 메커니즘",
+            "gist": "타인의 행동이 개인에게 미치는 사회적 영향은 유용한 정보를 전달하는 방식과 소속 집단에 대한 동일시를 통해 선호 자체를 바꾸는 방식, 두 가지로 구분된다.",
+            "title": "사회적 영향의 두 경로: 정보 전달과 집단 동일시",
+            "summary": "사회적 영향은 타인의 행동을 유용한 정보로 받아들여 행동하는 것과, 소속 집단과의 동일시에 의해 선호 자체가 바뀌는 것이라는 두 가지 서로 다른 메커니즘으로 작동한다.",
+            "overall": "1. 사회적 영향에는 두 가지 서로 다른 방식이 있다.\n2. 정보 기반 영향은 타인의 행동을 유용한 정보로 받아들이는 것이다.\n3. 소속 기반 영향은 집단 정체성이 우리의 선호를 바꾸는 것이다."
+          },
+          "selectedSents": [
+            "We could have been looking for somewhere to eat and taken the person's presence in the restaurant as a reliable indication that this was a good place to eat.",
+            "In the other, our desires or preferences are influenced by those we associate with, and that is why we follow what they do."
+          ],
+          "translationAnswers": {
+            "We could have been looking for somewhere to eat and taken the person's presence in the restaurant as a reliable indication that this was a good place to eat.": "우리는 식사할 장소를 찾고 있었는데 그 사람이 그 식당에 있다는 것을 이 식당이 식사하기에 좋은 장소임을 나타내는 믿을 만한 표시라고 여겼을 수도 있다.",
+            "In the other, our desires or preferences are influenced by those we associate with, and that is why we follow what they do.": "후자의 경우에는, 우리의 욕구나 선호가 우리가 어울리는 사람들에 의해 영향을 받으며, 그래서 우리는 그들이 하는 일을 따라 한다."
+          },
+          "grammarRows": [
+            {
+              "point": "could have arisen",
+              "answer": "could have p.p. : 과거에 대한 추측 (~이었을 수도 있다)",
+              "lineIndex": 2,
+              "context": "It could have arisen in two distinct ways."
+            },
+            {
+              "point": "could have been looking",
+              "answer": "could have been ~ing : 현재완료진행시제 + 과거에 대한 추측",
+              "lineIndex": 3,
+              "context": "We could have been looking for somewhere to eat and taken the person's presence in the restaurant as a reliable indication that this was a good place to eat."
+            },
+            {
+              "point": "that",
+              "answer": "동격 that + 완전한 절",
+              "lineIndex": 3,
+              "context": "We could have been looking for somewhere to eat and taken the person's presence in the restaurant as a reliable indication that this was a good place to eat."
+            },
+            {
+              "point": "could have had",
+              "answer": "could have p.p. : 과거에 대한 추측 (~이었을 수도 있다)",
+              "lineIndex": 4,
+              "context": "Alternatively, we could have had no prior intention of eating at a restaurant, but we identify with this person and the group that he or she belongs to; they are part of our set and so we decide to eat at this restaurant too, as this is what our group does."
+            },
+            {
+              "point": "what",
+              "answer": "관계대명사 what + 불완전한 절 : ~하는 것",
+              "lineIndex": 4,
+              "context": "Alternatively, we could have had no prior intention of eating at a restaurant, but we identify with this person and the group that he or she belongs to; they are part of our set and so we decide to eat at this restaurant too, as this is what our group does."
+            },
+            {
+              "point": "that is why",
+              "answer": "이유 + that is why + 결과 - 그래서\n결과 + that is becasue + 이유 - ~이기 때문이다",
+              "lineIndex": 6,
+              "context": "In the other, our desires or preferences are influenced by those we associate with, and that is why we follow what they do."
+            },
+            {
+              "point": "what",
+              "answer": "관계대명사 what + 불완전한 절 : ~하는 것",
+              "lineIndex": 6,
+              "context": "In the other, our desires or preferences are influenced by those we associate with, and that is why we follow what they do."
+            }
+          ]
+        },
+        {
+          "title": "Q미니 1강 - 8번",
+          "text": "The impact of climate change on animals and plants interacts with habitat loss and fragmentation.\nThis is because the main effect of climate change is to shift the area of where any one species can live successfully.\nIn a warming world, this habitable space moves either polewards across the landscape, to the North or South, or up in elevation, with species living higher up mountains than ever before.\nThis happens because the area where the mean temperature is 15°C, for example, shifts in these directions under global warming.\nSurvival then depends on whether a particular species can move, and if so, whether there is a suitable pathway for the movements to happen.\nNeither of these things can be assumed, and where habitats become too fragmented, a suitable pathway for organisms to move to other areas becomes less of a realistic possibility.",
+          "translationText": "기후 변화가 동식물에 미치는 영향은 서식지 상실 및 단편화와 상호 작용을 한다.\n이는 기후 변화의 주된 영향이 어느 한 종이 성공적으로 살 수 있는 지역을 바꾸는 것이기 때문이다.\n온난화되고 있는 세상에서, 이러한 서식 가능한 공간이 전 지역에서 북극이나 남극의 극지로, 또는 높은 고도로 이동되면서, 종들은 과거 그 어느 때보다도 더 높은 산에 산다.\n예를 들어, 평균 기온이 15°C인 지역이 지구 온난화하에서 이 방향으로 이동하기 때문에 이러한 현상이 발생한다.\n그러면 생존은 특정한 종이 이동할 수 있는지, 그리고 만약 그럴 수 있다면 그 이동이 일어나는 적합한 통로가 있는지에 달려 있다.\n이 두 가지 중 어느 것도 당연시될 수 없는데, 서식지가 너무 단편화되는 곳에서는 유기체가 다른 지역으로 이동하기에 적합한 통로는 현실적인 가능성이 낮아진다.",
+          "selectedLines": [
+            5
+          ],
+          "grammarSelections": [
+            {
+              "text": "This is because",
+              "answer": "결과 + This is because + 이유 : ~이기 때문이다\n이유 + This is why + 결과 : 그래서",
+              "lineIndex": 1,
+              "context": "This is because the main effect of climate change is to shift the area of where any one species can live successfully."
+            },
+            {
+              "text": "where",
+              "answer": "관계부사 where + 완전한 절 - 선행사가 the area",
+              "lineIndex": 1,
+              "context": "This is because the main effect of climate change is to shift the area of where any one species can live successfully."
+            },
+            {
+              "text": "living",
+              "answer": "with 분사구문\nwith N [~ing/p.p] - N가 ~하면서/되면서(~한채로/~된채로)",
+              "lineIndex": 2,
+              "context": "In a warming world, this habitable space moves either polewards across the landscape, to the North or South, or up in elevation, with species living higher up mountains than ever before."
+            },
+            {
+              "text": "where",
+              "answer": "관계부사 where + 완전한 절 - 선행사가 the area",
+              "lineIndex": 3,
+              "context": "This happens because the area where the mean temperature is 15°C, for example, shifts in these directions under global warming."
+            },
+            {
+              "text": "whether",
+              "answer": "명사절 접속사 whether - ~인지 아닌지",
+              "lineIndex": 4,
+              "context": "Survival then depends on whether a particular species can move, and if so, whether there is a suitable pathway for the movements to happen."
+            },
+            {
+              "text": "for the movements to happen",
+              "answer": "의미상주어 + to-v",
+              "lineIndex": 4,
+              "context": "Survival then depends on whether a particular species can move, and if so, whether there is a suitable pathway for the movements to happen."
+            },
+            {
+              "text": "where",
+              "answer": "관계부사 where + 완전한 절 - 선행사가 생략되어있다. (at the place)",
+              "lineIndex": 5,
+              "context": "Neither of these things can be assumed, and where habitats become too fragmented, a suitable pathway for organisms to move to other areas becomes less of a realistic possibility."
+            },
+            {
+              "text": "for organisms to move",
+              "answer": "의미상주어 + to-v",
+              "lineIndex": 5,
+              "context": "Neither of these things can be assumed, and where habitats become too fragmented, a suitable pathway for organisms to move to other areas becomes less of a realistic possibility."
+            }
+          ],
+          "vocabRows": [
+            {
+              "word": "fragmentation",
+              "meaning": "파편화, 조각화",
+              "syn": "breaking up, splitting",
+              "ant": "connectivity, continuity",
+              "antMeaning": "연결성, 연속성"
+            },
+            {
+              "word": "shift",
+              "meaning": "이동시키다, 옮기다",
+              "syn": "move, relocate",
+              "ant": "remain, stay",
+              "antMeaning": "유지되다, 머물다"
+            },
+            {
+              "word": "survival",
+              "meaning": "생존",
+              "syn": "persistence, continued existence",
+              "ant": "extinction, death",
+              "antMeaning": "멸종, 소멸"
+            },
+            {
+              "word": "suitable",
+              "meaning": "적절한, 적합한",
+              "syn": "appropriate, adequate",
+              "ant": "unsuitable, inadequate",
+              "antMeaning": "부적절한, 부적합한"
+            }
+          ],
+          "questionAnswers": {
+            "topic": "기후변화에 의한 서식지 이동과 서식지 파편화의 상호작용이 종의 생존에 미치는 영향",
+            "gist": "기후변화는 종의 서식 가능 지역을 이동시키는데, 서식지가 파편화되면 종이 이동할 수 있는 적절한 경로가 사라져 생존이 위협받는다.",
+            "title": "기후 변화와 서식지 단절의 이중 압박",
+            "summary": "온난화로 서식 가능 범위가 극지나 고지대로 이동할수록 종의 생존은 이동 능력과 이동 통로의 존재에 달리며, 서식지 단절은 그 가능성을 약화시킨다.",
+            "overall": "1. 기후변화는 종이 살아갈 수 있는 서식 가능 지역을 이동시킨다.\n2. 종의 생존은 실제로 이동할 수 있는지에 달려 있다.\n3. 서식지 파편화는 기후변화 적응을 더 어렵게 만든다."
+          },
+          "selectedSents": [
+            "Neither of these things can be assumed, and where habitats become too fragmented, a suitable pathway for organisms to move to other areas becomes less of a realistic possibility."
+          ],
+          "translationAnswers": {
+            "Neither of these things can be assumed, and where habitats become too fragmented, a suitable pathway for organisms to move to other areas becomes less of a realistic possibility.": "이 두 가지 중 어느 것도 당연시될 수 없는데, 서식지가 너무 단편화되는 곳에서는 유기체가 다른 지역으로 이동하기에 적합한 통로는 현실적인 가능성이 낮아진다."
+          },
+          "grammarRows": [
+            {
+              "point": "This is because",
+              "answer": "결과 + This is because + 이유 : ~이기 때문이다\n이유 + This is why + 결과 : 그래서",
+              "lineIndex": 1,
+              "context": "This is because the main effect of climate change is to shift the area of where any one species can live successfully."
+            },
+            {
+              "point": "where",
+              "answer": "관계부사 where + 완전한 절 - 선행사가 the area",
+              "lineIndex": 1,
+              "context": "This is because the main effect of climate change is to shift the area of where any one species can live successfully."
+            },
+            {
+              "point": "living",
+              "answer": "with 분사구문\nwith N [~ing/p.p] - N가 ~하면서/되면서(~한채로/~된채로)",
+              "lineIndex": 2,
+              "context": "In a warming world, this habitable space moves either polewards across the landscape, to the North or South, or up in elevation, with species living higher up mountains than ever before."
+            },
+            {
+              "point": "where",
+              "answer": "관계부사 where + 완전한 절 - 선행사가 the area",
+              "lineIndex": 3,
+              "context": "This happens because the area where the mean temperature is 15°C, for example, shifts in these directions under global warming."
+            },
+            {
+              "point": "whether",
+              "answer": "명사절 접속사 whether - ~인지 아닌지",
+              "lineIndex": 4,
+              "context": "Survival then depends on whether a particular species can move, and if so, whether there is a suitable pathway for the movements to happen."
+            },
+            {
+              "point": "for the movements to happen",
+              "answer": "의미상주어 + to-v",
+              "lineIndex": 4,
+              "context": "Survival then depends on whether a particular species can move, and if so, whether there is a suitable pathway for the movements to happen."
+            },
+            {
+              "point": "where",
+              "answer": "관계부사 where + 완전한 절 - 선행사가 생략되어있다. (at the place)",
+              "lineIndex": 5,
+              "context": "Neither of these things can be assumed, and where habitats become too fragmented, a suitable pathway for organisms to move to other areas becomes less of a realistic possibility."
+            },
+            {
+              "point": "for organisms to move",
+              "answer": "의미상주어 + to-v",
+              "lineIndex": 5,
+              "context": "Neither of these things can be assumed, and where habitats become too fragmented, a suitable pathway for organisms to move to other areas becomes less of a realistic possibility."
+            }
+          ]
         }
       ],
-      "vocabRows": [
+      "classAssignments": [
         {
-          "word": "demanding",
-          "meaning": "많은 노력과 고민을 요구하는",
-          "syn": "challenging, difficult",
-          "ant": "easy, effortless",
-          "antMeaning": ""
-        },
-        {
-          "word": "struggle",
-          "meaning": "분명히 정하지 못해 애를 먹다",
-          "syn": "have trouble, wrestle",
-          "ant": "manage, define easily",
-          "antMeaning": ""
-        },
-        {
-          "word": "guidance",
-          "meaning": "방향 제시와 조언",
-          "syn": "direction, advice",
-          "ant": "confusion, misdirection",
-          "antMeaning": ""
-        },
-        {
-          "word": "purpose",
-          "meaning": "목적의식",
-          "syn": "aim, sense of direction",
-          "ant": "aimlessness, uncertainty",
-          "antMeaning": ""
-        },
-        {
-          "word": "profound",
-          "meaning": "매우 큰, 깊은",
-          "syn": "great, significant",
-          "ant": "slight, minor",
-          "antMeaning": ""
-        }
-      ],
-      "questionAnswers": {
-        "topic": "롤모델은 청소년의 초기 진로 탐색과 목표 형성에 중요한 도움을 준다.",
-        "gist": "진로 목표를 분명히 정하지 못한 청소년에게 롤모델은 안내와 목적 의식을 제공하여 진로 계획의 출발점을 마련해 줄 수 있다.",
-        "title": "진로 계획의 출발점이 되는 롤모델",
-        "summary": "진로 목표가 불분명한 청소년일수록 롤모델이 주는 안내와 목적 의식을 통해 진로 계획을 시작할 수 있다.",
-        "overall": "1. 청소년에게 진로 선택은 매우 중요한 결정이다.\n2. 롤모델은 진로 설정의 방향을 제시해 준다.\n3. 롤모델은 실제로 진로 목표 형성에 큰 영향을 준다."
-      },
-      "selectedSents": [
-        "Choosing a career is one of the biggest life decisions young people face.",
-        "They help young people start to plan their careers by providing them with guidance and the sense of purpose they need to succeed.",
-        "After you read each student’s story, you will get a better idea of the profound impact role models can have when it comes to shaping career goals."
-      ],
-      "translationAnswers": {
-        "Choosing a career is one of the biggest life decisions young people face.": "직업을 선택하는 것은 젊은 사람들이 직면하는 인생의 가장 큰 결정 중 하나이다.",
-        "They help young people start to plan their careers by providing them with guidance and the sense of purpose they need to succeed.": "그들은 청소년들에게 지도와 성공하는 데 필요한 목적의식을 제공함으로써 그들이 진로 계획을 시작하도록 도와준다.",
-        "After you read each student’s story, you will get a better idea of the profound impact role models can have when it comes to shaping career goals.": "각 학생의 이야기를 읽고 나면, 직업 목표를 세우는 데 있어서 롤모델이 미칠 수 있는 엄청난 영향에 대해 더 잘 이해하게 될 것이다."
-      },
-      "grammarRows": [
-        {
-          "point": "Choosing",
-          "answer": "동명사 주어",
-          "lineIndex": 0,
-          "context": "Choosing a career is one of the biggest life decisions young people face."
-        },
-        {
-          "point": "decisions",
-          "answer": "one of the 최상급 복수명사",
-          "lineIndex": 0,
-          "context": "Choosing a career is one of the biggest life decisions young people face."
+          "classId": "class-1",
+          "passageIndexes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
         }
       ]
     }
