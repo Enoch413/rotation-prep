@@ -38,6 +38,50 @@ function splitLines(text){
     .filter(Boolean)
 }
 
+function escapeHtml(text){
+  return String(text || '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+}
+
+function escapeRegExp(text){
+  return String(text || '').replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+}
+
+function highlightTextHtml(text, needle){
+  const source = String(text || '')
+  const target = String(needle || '').trim()
+  if(!source) return ''
+  if(!target) return escapeHtml(source)
+
+  const pattern = new RegExp(escapeRegExp(target), 'g')
+  let lastIndex = 0
+  let matched = false
+  let output = ''
+
+  source.replace(pattern, function(match, offset){
+    matched = true
+    output += escapeHtml(source.slice(lastIndex, offset))
+    output += '<span class="grammar-highlight">' + escapeHtml(match) + '</span>'
+    lastIndex = offset + match.length
+    return match
+  })
+
+  output += escapeHtml(source.slice(lastIndex))
+  return matched ? output : escapeHtml(source)
+}
+
+function getGrammarSentence(passage, row){
+  const lineIndex = Number(row && row.lineIndex)
+  if(Number.isInteger(lineIndex) && lineIndex >= 0 && lineIndex < (passage.textLines || []).length){
+    const line = passage.textLines[lineIndex] || ''
+    if(line) return line
+  }
+  return String(row && row.context || '').trim() || String(row && row.text || '').trim()
+}
+
 function normalizeNumberList(list, max){
   const result = []
   const seen = new Set()
@@ -132,11 +176,7 @@ function normalizeVocabRows(passage){
 
 function normalizeQuestionAnswers(source){
   return {
-    topic: String(source && source.topic || '').trim(),
-    gist: String(source && source.gist || '').trim(),
-    title: String(source && source.title || '').trim(),
-    summary: String(source && source.summary || '').trim(),
-    overall: String(source && source.overall || '').trim()
+    topic: String(source && source.topic || '').trim()
   }
 }
 
@@ -157,14 +197,16 @@ function buildStudyItems(passage){
   })
 
   ;(passage.grammarSelections || []).forEach(function(row, idx){
+    const sentence = getGrammarSentence(passage, row)
     items.push({
       key: 'grammar-' + idx,
       section: '어법',
       type: 'grammar',
       label: '어법 포인트 ' + (idx + 1),
-      prompt: row.text,
+      prompt: '',
+      promptHtml: highlightTextHtml(sentence, row.text),
       answer: row.answer,
-      context: row.context || (row.lineIndex >= 0 ? (passage.textLines[row.lineIndex] || '') : '')
+      context: ''
     })
   })
 
@@ -182,10 +224,6 @@ function buildStudyItems(passage){
   })
 
   appendQaItem(items, 'topic', passage.questionAnswers)
-  appendQaItem(items, 'gist', passage.questionAnswers)
-  appendQaItem(items, 'title', passage.questionAnswers)
-  appendQaItem(items, 'summary', passage.questionAnswers)
-  appendQaItem(items, 'overall', passage.questionAnswers)
 
   return items
 }
@@ -198,27 +236,7 @@ function appendQaItem(items, field, questionAnswers){
     topic: {
       section: '대의 파악',
       label: '주제',
-      prompt: '이 글의 주제를 말해 보세요.'
-    },
-    gist: {
-      section: '대의 파악',
-      label: '요지',
-      prompt: '이 글의 요지를 말해 보세요.'
-    },
-    title: {
-      section: '대의 파악',
-      label: '제목',
-      prompt: '이 글의 제목으로 가장 알맞은 것을 말해 보세요.'
-    },
-    summary: {
-      section: '한 문장 요약',
-      label: '한 문장 요약',
-      prompt: '이 글을 한 문장으로 요약해 보세요.'
-    },
-    overall: {
-      section: '전체 내용 파악',
-      label: '전체 내용 파악',
-      prompt: '이 글의 전체 내용을 간단히 설명해 보세요.'
+      prompt: ''
     }
   }
 

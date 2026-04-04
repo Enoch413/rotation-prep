@@ -454,6 +454,14 @@ body::before{
   flex-wrap:wrap;
   margin-bottom:14px;
 }
+.screen-nav-bottom{
+  margin-top:18px;
+  margin-bottom:0;
+}
+.screen-nav-bottom .btn{
+  flex:1;
+  min-width:0;
+}
 .screen-nav .btn[disabled]{
   opacity:.55;
   cursor:default;
@@ -573,6 +581,9 @@ body::before{
 .stage-panel{
   margin-bottom:16px;
 }
+.stage-panel:empty{
+  display:none;
+}
 .stage-card{
   background:rgba(26,95,200,.05);
 }
@@ -607,6 +618,15 @@ body::before{
   line-height:1.8;
   color:var(--ink);
   white-space:pre-wrap;
+}
+.item-prompt .grammar-highlight,
+.item-context .grammar-highlight{
+  display:inline;
+  padding:0 .2em;
+  border-radius:6px;
+  background:rgba(200,55,26,.12);
+  color:var(--red);
+  box-shadow:0 0 0 1px rgba(200,55,26,.15) inset;
 }
 .item-context{
   margin-top:10px;

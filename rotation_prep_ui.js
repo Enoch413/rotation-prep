@@ -246,20 +246,7 @@ function renderStudy(){
 }
 
 function renderStagePanel(){
-  const state = getPassageProgress(currentPassage)
-  return '' +
-    '<div class="group-title">' +
-      '<h3>단계 설정</h3>' +
-      '<span class="group-count">1단계</span>' +
-    '</div>' +
-    '<div class="item-card stage-card">' +
-      '<div class="item-label">학습 방식</div>' +
-      '<div class="item-prompt">이 화면에서는 정답과 함께 모든 질문을 미리 공부합니다.</div>' +
-      '<div class="item-context">순서는 대의 파악 → 해석 → 동의어/반의어 → 어법입니다.</div>' +
-      '<div class="stage-status-row">' +
-        renderStatusBadge(state.done) +
-      '</div>' +
-    '</div>'
+  return ''
 }
 
 function groupItems(items){
@@ -307,10 +294,6 @@ function getStudyItemGroupId(item){
 function getStudyItemSortOrder(item){
   const key = String(item && item.key || '')
   if(key.indexOf('qa-topic') === 0) return 1
-  if(key.indexOf('qa-gist') === 0) return 2
-  if(key.indexOf('qa-title') === 0) return 3
-  if(key.indexOf('qa-summary') === 0) return 4
-  if(key.indexOf('qa-overall') === 0) return 5
   return 20
 }
 
@@ -330,11 +313,17 @@ function renderSection(section){
 }
 
 function renderStudyItem(item){
+  const promptHtml = item && item.promptHtml
+    ? '<div class="item-prompt">' + item.promptHtml + '</div>'
+    : (item && item.prompt ? '<div class="item-prompt">' + escapeHtml(item.prompt) + '</div>' : '')
+  const contextHtml = item && item.contextHtml
+    ? '<div class="item-context">' + item.contextHtml + '</div>'
+    : (item && item.context ? '<div class="item-context">' + escapeHtml(item.context) + '</div>' : '')
   return '' +
     '<div class="item-card">' +
       '<div class="item-label">' + escapeHtml(item.label) + '</div>' +
-      '<div class="item-prompt">' + escapeHtml(item.prompt) + '</div>' +
-      (item.context ? '<div class="item-context">' + escapeHtml(item.context) + '</div>' : '') +
+      promptHtml +
+      contextHtml +
       renderAnswerSheet(item.answer) +
     '</div>'
 }
@@ -345,7 +334,6 @@ function renderStudyVocab(item){
     '<div class="item-card">' +
       '<div class="item-label">' + escapeHtml(item.label) + '</div>' +
       '<div class="vocab-word">' + escapeHtml(vocab.word || '') + '</div>' +
-      '<div class="item-prompt">원형을 보고 뜻과 동의어, 반의어, 반의어 뜻을 함께 확인해 보세요.</div>' +
       renderAnswerSheet('', renderVocabAnswerGrid(vocab)) +
     '</div>'
 }
@@ -394,19 +382,20 @@ function getPassageProgress(passageIndex){
 function renderStageActions(){
   const state = getPassageProgress(currentPassage)
   document.getElementById('stage-actions').innerHTML =
-    '<button class="btn btn-green" type="button" onclick="markPassageDone()">' +
-      (state.done ? '학습 완료 유지' : '이 지문 학습 완료') +
+    '<button class="btn ' + (state.done ? 'btn-ghost' : 'btn-green') + '" type="button" onclick="markPassageDone()">' +
+      (state.done ? '학습 완료 취소' : '이 지문 학습 완료') +
     '</button>'
 }
 
 function markPassageDone(){
   if(currentPassage < 0) return
   if(!progress.done || typeof progress.done !== 'object') progress.done = {}
-  progress.done[currentPassage] = true
+  const nextDone = !progress.done[currentPassage]
+  progress.done[currentPassage] = nextDone
   saveProgress()
   renderStudy()
   renderPassageScreen()
-  showToast('이 지문을 학습 완료로 표시했습니다.', 'var(--green)')
+  showToast(nextDone ? '이 지문을 학습 완료로 표시했습니다.' : '이 지문의 학습 완료 표시를 취소했습니다.', 'var(--green)')
 }
 
 function renderStat(value, label){
