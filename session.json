@@ -1,11 +1,11 @@
 {
   "version": 2,
   "bundleVersion": 2,
-  "savedAt": "2026-04-03T14:39:56.976Z",
+  "savedAt": "2026-04-04T06:49:47.597Z",
   "prepConfig": {
     "pageTitle": "입시코드 ROTATION",
     "globalPassword": "",
-    "generatedAt": "2026-04-03T14:39:56.976Z"
+    "generatedAt": "2026-04-04T06:49:47.597Z"
   },
   "classes": [
     {
@@ -31,16 +31,16 @@
   ],
   "studySets": [
     {
-      "id": "set-1775216167136-679",
+      "id": "set-1775285316921-18",
       "title": "260404 1차 로테이션",
-      "sourceName": "2강서A 260404 로테이션 1차.json",
-      "startDate": "2026-04-03",
-      "endDate": "2026-04-04",
-      "savedAt": "2026-04-03T10:20:59.383Z",
+      "sourceName": "영어1 능률(오) 1과 로테이션.json",
+      "startDate": "2026-04-04",
+      "endDate": "2026-04-18",
+      "savedAt": "2026-04-04T06:42:52.162Z",
       "questionCounts": {
-        "translate": 1,
+        "translate": 3,
         "grammar": 2,
-        "vocab": 3
+        "vocab": 2
       },
       "passages": [
         {
@@ -354,54 +354,96 @@
           ],
           "vocabRows": [
             {
-              "word": "dedicate",
-              "meaning": "삶을 바치다",
-              "syn": "devote, commit",
-              "ant": "neglect, abandon",
-              "antMeaning": "소홀히 하다, 버리다"
+              "word": "",
+              "meaning": "",
+              "syn": "",
+              "ant": "",
+              "antMeaning": ""
             },
             {
-              "word": "intrigued",
-              "meaning": "강한 흥미를 느끼는",
-              "syn": "fascinated, interested",
-              "ant": "bored, uninterested",
-              "antMeaning": "지루해하는, 흥미 없는"
+              "word": "",
+              "meaning": "",
+              "syn": "",
+              "ant": "",
+              "antMeaning": ""
             },
             {
-              "word": "insufficient",
-              "meaning": "충분하지 않은",
-              "syn": "inadequate, lacking",
-              "ant": "sufficient, adequate",
-              "antMeaning": "충분한, 적절한"
+              "word": "",
+              "meaning": "",
+              "syn": "",
+              "ant": "",
+              "antMeaning": ""
             },
             {
-              "word": "succeed",
-              "meaning": "시도 끝에 성공하다",
-              "syn": "accomplish, achieve",
-              "ant": "fail, fall short",
-              "antMeaning": "실패하다, 미치지 못하다"
+              "word": "",
+              "meaning": "",
+              "syn": "",
+              "ant": "",
+              "antMeaning": ""
             },
             {
-              "word": "transform",
-              "meaning": "크게 바꾸다",
-              "syn": "change, reshape",
-              "ant": "preserve, maintain",
-              "antMeaning": "그대로 두다, 유지하다"
+              "word": "",
+              "meaning": "",
+              "syn": "",
+              "ant": "",
+              "antMeaning": ""
             },
             {
-              "word": "inspire",
-              "meaning": "용기와 동기를 주다",
-              "syn": "motivate, encourage",
-              "ant": "discourage, deter",
-              "antMeaning": "낙담시키다, 단념시키다"
+              "word": "",
+              "meaning": "",
+              "syn": "",
+              "ant": "",
+              "antMeaning": ""
+            },
+            {
+              "word": "devotion",
+              "meaning": "한 분야에 대한 깊은 헌신",
+              "syn": "dedication, commitment",
+              "ant": "indifference, neglect",
+              "antMeaning": "무관심, 소홀"
+            },
+            {
+              "word": "immerse",
+              "meaning": "깊이 몰두하다",
+              "syn": "absorb, involve",
+              "ant": "distance, detach",
+              "antMeaning": "거리를 두다, 떼어 놓다"
+            },
+            {
+              "word": "prevent",
+              "meaning": "못 하게 막다",
+              "syn": "stop, hinder",
+              "ant": "allow, enable",
+              "antMeaning": "허용하다, 가능하게 하다"
+            },
+            {
+              "word": "accumulate",
+              "meaning": "차곡차곡 쌓다",
+              "syn": "gather, build up",
+              "ant": "lose, diminish",
+              "antMeaning": "잃다, 줄어들다"
+            },
+            {
+              "word": "contribute",
+              "meaning": "기여하다",
+              "syn": "help, add to",
+              "ant": "hinder, obstruct",
+              "antMeaning": "방해하다, 막다"
+            },
+            {
+              "word": "rewarding",
+              "meaning": "보람 있는",
+              "syn": "fulfilling, worthwhile",
+              "ant": "pointless, unrewarding",
+              "antMeaning": "무의미한, 보람 없는"
             }
           ],
           "questionAnswers": {
-            "topic": "호기심과 열정으로 한계를 넘어서는 삶의 태도는 다른 사람의 자기 탐색에도 강한 동기를 준다.",
-            "gist": "쿠스토는 호기심과 열정으로 한계를 극복하고 새로운 것을 이루어 냈으며, 이러한 삶의 태도는 글쓴이에게도 자신에게 맞는 길을 계속 탐색할 용기를 주었다.",
-            "title": "쿠스토가 보여 준 탐험과 도전의 힘",
-            "summary": "쿠스토의 호기심과 열정은 한계를 돌파해 새로운 현실을 만들었고, 그 과정은 글쓴이에게도 자신의 가능성을 계속 탐색하게 했다.",
-            "overall": "1. 실패가 새로운 진로의 계기가 될 수 있다.\n2. 한계를 극복하는 도전과 창의성이 중요하다.\n3. 자신에게 맞는 길을 끝까지 탐색해야 한다."
+            "topic": "한 분야에 대한 꾸준한 열정과 헌신은 진로 형성과 성취의 중요한 바탕이 된다.",
+            "gist": "프록터는 어려움 속에서도 자신이 사랑하는 분야에 대한 헌신을 잃지 않았고, 그 태도는 글쓴이에게도 자신의 진정한 관심 분야를 신중하게 찾아가야 한다는 생각을 심어 주었다.\t",
+            "title": "열정이 진로가 되는 과정",
+            "summary": "프록터의 깊은 헌신은 장애를 넘어 전문성으로 이어졌고, 그 삶은 글쓴이에게도 자신의 진정한 관심을 진로로 연결할 가능성을 생각하게 했다.",
+            "overall": "1. 진정한 열정이 진로를 이끈다.\n2. 어려운 조건 속에서도 스스로 배움을 이어 가야 한다.\n3. 자신에게 맞는 길을 끝까지 탐색해야 한다."
           },
           "selectedSents": [
             "However, her passion for zoology was so strong that it kept her moving forward, and she continued her studies on her own.",
