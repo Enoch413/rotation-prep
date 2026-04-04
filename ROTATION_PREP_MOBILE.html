@@ -23,9 +23,10 @@
 <div class="screen active boot-screen" id="boot-screen">
   <div class="boot-card">
     <div class="logo">PREP</div>
-    <div class="boot-title" id="boot-title">자료를 불러오는 중입니다.</div>
+    <div class="boot-title" id="boot-title">PREP 자료를 불러오는 중입니다.</div>
     <div class="boot-desc" id="boot-desc">웹에서는 같은 폴더의 <b>session.json</b>을 자동으로 확인합니다.</div>
   </div>
+  <footer class="prep-footer overlay">Copyright (c) 2026, 코드 영어 연구소 All rights reserved.</footer>
 </div>
 
 <div class="screen" id="pw-screen">
@@ -34,12 +35,13 @@
   <input type="tel" id="pw-input" placeholder="공통 비밀번호" maxlength="20" inputmode="numeric" autocomplete="off">
   <div class="err" id="pw-err"></div>
   <button class="btn btn-blue" style="margin-top:16px;padding:12px 40px" type="button" id="pw-submit-btn">입장</button>
+  <footer class="prep-footer overlay">Copyright (c) 2026, 코드 영어 연구소 All rights reserved.</footer>
 </div>
 
 <div class="screen" id="class-screen">
   <div class="hd"><h1>Prep</h1><span class="sub" id="class-subtitle">ROTATION PREP</span></div>
   <div class="mini-note">
-    <b>먼저 자기 반을 선택하면 그 반에 배정된 학습 세트만 볼 수 있습니다.</b><br>
+    <b>먼저 자기 반을 선택하면 그 반에 배정된 학습 세트만 보이게 됩니다.</b><br>
     반마다 공부 기간과 지문이 다를 수 있으니 본인 반을 정확하게 선택해 주세요.
   </div>
   <div class="label">반 선택</div>
@@ -62,11 +64,25 @@
 </div>
 
 <div class="screen" id="home-screen">
+  <div class="screen-nav">
+    <button class="btn btn-ghost btn-sm" type="button" id="set-back-btn">이전 페이지</button>
+    <button class="btn btn-ghost btn-sm" type="button" id="set-home-btn" disabled>홈 화면</button>
+  </div>
+
   <div class="hd"><h1>Prep</h1><span class="sub" id="home-subtitle">ROTATION PREP</span></div>
 
+  <div class="class-bar" id="class-bar">
+    <div class="class-bar-copy">
+      <div class="class-bar-label">현재 반</div>
+      <div class="class-bar-name" id="current-class-name"></div>
+      <div class="class-bar-meta" id="current-class-meta"></div>
+    </div>
+    <button class="btn btn-ghost btn-sm" type="button" id="change-class-btn">반 변경</button>
+  </div>
+
   <div class="mini-note">
-    <b>이 PREP은 수업 시간 ROTATION에 들어가기 전에 모든 질문을 미리 공부하는 페이지입니다.</b><br>
-    1단계에서는 정답과 함께 내용을 익히고, 2단계에서는 같은 질문에 직접 답해 볼 수 있습니다.
+    <b>세 번째 화면은 학습 세트 선택 화면입니다.</b><br>
+    현재 반에서 열려 있는 세트만 보이며, 세트를 고르면 다음 화면에서 지문을 선택할 수 있습니다.
   </div>
 
   <div class="status-note" id="session-status">
@@ -84,44 +100,48 @@
   </div>
 
   <div id="dash" style="display:none;margin-top:24px">
-    <div class="class-bar" id="class-bar">
-      <div class="class-bar-copy">
-        <div class="class-bar-label">현재 반</div>
-        <div class="class-bar-name" id="current-class-name"></div>
-        <div class="class-bar-meta" id="current-class-meta"></div>
-      </div>
-      <button class="btn btn-ghost btn-sm" type="button" id="change-class-btn">반 변경</button>
-    </div>
-
-    <div class="class-bar" id="set-bar" style="display:none">
-      <div class="class-bar-copy">
-        <div class="class-bar-label">현재 학습 세트</div>
-        <div class="class-bar-name" id="current-set-name"></div>
-        <div class="class-bar-meta" id="current-set-meta"></div>
-      </div>
-      <button class="btn btn-ghost btn-sm" type="button" id="clear-set-btn">세트 목록</button>
-    </div>
-
     <div class="stats" id="stats"></div>
 
-    <div class="label">학습 세트</div>
+    <div class="label">학습 세트 선택</div>
     <div class="set-list" id="set-list"></div>
+  </div>
+</div>
 
-    <div id="passage-section">
-      <div class="label" id="passage-list-label">지문 목록</div>
-      <div class="p-list" id="p-list"></div>
-    </div>
+<div class="screen" id="passage-screen">
+  <div class="screen-nav">
+    <button class="btn btn-ghost btn-sm" type="button" id="passage-back-btn">이전 페이지</button>
+    <button class="btn btn-ghost btn-sm" type="button" id="passage-home-btn">홈 화면</button>
+  </div>
 
-    <div class="bottom-actions" style="margin-top:16px">
-      <button class="btn btn-ghost btn-sm" type="button" id="reset-progress-btn">학습 기록 초기화</button>
+  <div class="hd"><h1>Prep</h1><span class="sub" id="passage-subtitle">ROTATION PREP</span></div>
+
+  <div class="class-bar" id="passage-bar">
+    <div class="class-bar-copy">
+      <div class="class-bar-label">현재 학습 세트</div>
+      <div class="class-bar-name" id="current-set-name"></div>
+      <div class="class-bar-meta" id="current-set-meta"></div>
     </div>
+  </div>
+
+  <div class="mini-note">
+    <b>네 번째 화면은 지문 선택 화면입니다.</b><br>
+    원하는 지문을 고르면 마지막 화면에서 질문과 답을 바로 확인할 수 있습니다.
+  </div>
+
+  <div class="stats" id="passage-stats"></div>
+
+  <div class="label" id="passage-list-label">지문 선택</div>
+  <div class="p-list" id="p-list"></div>
+
+  <div class="bottom-actions" style="margin-top:16px">
+    <button class="btn btn-ghost btn-sm" type="button" id="reset-progress-btn">학습 기록 초기화</button>
   </div>
 </div>
 
 <div class="screen" id="study-screen">
-  <div class="back-btn">
-    <button class="btn btn-ghost btn-sm" type="button" id="back-home-btn">목록으로</button>
-    <button class="btn btn-ghost btn-sm" type="button" id="study-class-btn">반 변경</button>
+  <div class="screen-nav">
+    <button class="btn btn-ghost btn-sm" type="button" id="study-back-btn">이전 페이지</button>
+    <button class="btn btn-ghost btn-sm" type="button" id="study-home-btn">홈 화면</button>
   </div>
 
   <div class="s-title">
@@ -131,18 +151,14 @@
 
   <div class="study-meta" id="study-meta"></div>
 
+  <section class="group stage-panel" id="stage-panel"></section>
+
   <div class="passage-box" id="p-box">
     <div class="lbl">본문</div>
     <div class="txt" id="p-txt"></div>
     <div class="passage-toggle" id="p-toggle">더 보기</div>
   </div>
 
-  <div class="stage-switch">
-    <button class="stage-btn active" type="button" id="stage-btn-study">1단계 정답과 함께 공부</button>
-    <button class="stage-btn" type="button" id="stage-btn-practice">2단계 직접 답하기</button>
-  </div>
-
-  <div class="stage-desc" id="stage-desc"></div>
   <div id="stage-content"></div>
   <div class="bottom-actions" id="stage-actions"></div>
 </div>

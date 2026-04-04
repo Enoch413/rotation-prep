@@ -2,8 +2,26 @@ function showHome(){
   ensureCurrentSetSelection()
   updateSetProgressContext()
   renderClassSummary()
-  renderDash()
+  renderSetScreen()
   activateScreen('home-screen')
+}
+
+function goBackFromSetScreen(){
+  currentSetIndex = -1
+  currentPassage = -1
+  showClassScreen()
+}
+
+function showPassageScreen(){
+  const currentSet = getCurrentStudySet()
+  const assignment = currentSet ? getCurrentClassAssignments(currentSet) : null
+  if(!currentSet || !assignment){
+    goHome()
+    return
+  }
+  renderClassSummary()
+  renderPassageScreen()
+  activateScreen('passage-screen')
 }
 
 function renderClassList(){
@@ -43,73 +61,86 @@ function renderClassSummary(){
 
   document.getElementById('class-bar').style.display = currentClass ? 'flex' : 'none'
   document.getElementById('change-class-btn').style.display = prepClasses.length > 1 ? 'inline-flex' : 'none'
-  document.getElementById('study-class-btn').style.display = prepClasses.length > 1 ? 'inline-flex' : 'none'
+  document.getElementById('set-back-btn').style.display = 'inline-flex'
 
   if(currentClass){
     document.getElementById('current-class-name').textContent = currentClass.name
     document.getElementById('current-class-meta').textContent = visibleSets.length + '개의 학습 세트가 연결되어 있습니다.'
+  }else{
+    document.getElementById('current-class-name').textContent = ''
+    document.getElementById('current-class-meta').textContent = ''
   }
 
-  document.getElementById('set-bar').style.display = currentSet ? 'flex' : 'none'
+  document.getElementById('passage-bar').style.display = currentSet ? 'flex' : 'none'
   if(currentSet){
     document.getElementById('current-set-name').textContent = currentSet.title
     document.getElementById('current-set-meta').textContent = getStudySetDateText(currentSet)
+  }else{
+    document.getElementById('current-set-name').textContent = ''
+    document.getElementById('current-set-meta').textContent = ''
   }
 }
 
 function renderDash(){
-  const visibleSets = getStudySetsForCurrentClass()
-  const currentSet = getCurrentStudySet()
-  const currentAssignment = currentSet ? getCurrentClassAssignments(currentSet) : null
+  renderSetScreen()
+  if(getCurrentStudySet()) renderPassageScreen()
+}
 
+function renderSetScreen(){
+  const visibleSets = getStudySetsForCurrentClass()
   const activeCount = visibleSets.filter(function(entry){ return entry.status === 'active' || entry.status === 'always' }).length
   const upcomingCount = visibleSets.filter(function(entry){ return entry.status === 'upcoming' }).length
   const endedCount = visibleSets.filter(function(entry){ return entry.status === 'ended' }).length
 
-  document.getElementById('stats').innerHTML = currentSet && currentAssignment
-    ? [
-        renderStat(currentAssignment.passageIndexes.length, '지문'),
-        renderStat(currentAssignment.passageIndexes.reduce(function(sum, index){
-          return sum + (currentSet.passages[index] ? currentSet.passages[index].items.length : 0)
-        }, 0), '학습 카드'),
-        renderStat(currentAssignment.passageIndexes.filter(function(index){ return !!progress.stage1[index] }).length + '/' + currentAssignment.passageIndexes.length, '1단계'),
-        renderStat(currentAssignment.passageIndexes.filter(function(index){ return !!progress.stage2[index] }).length + '/' + currentAssignment.passageIndexes.length, '2단계')
-      ].join('')
-    : [
-        renderStat(visibleSets.length, '세트'),
-        renderStat(activeCount, '진행 중'),
-        renderStat(upcomingCount, '예정'),
-        renderStat(endedCount, '종료')
-      ].join('')
+  document.getElementById('stats').innerHTML = [
+    renderStat(visibleSets.length, '세트'),
+    renderStat(activeCount, '진행 중'),
+    renderStat(upcomingCount, '예정'),
+    renderStat(endedCount, '종료')
+  ].join('')
 
   renderSetList(visibleSets)
+}
 
-  const passageSection = document.getElementById('passage-section')
-  const resetButton = document.getElementById('reset-progress-btn')
+function renderPassageScreen(){
+  const currentSet = getCurrentStudySet()
+  const assignment = currentSet ? getCurrentClassAssignments(currentSet) : null
+  const container = document.getElementById('p-list')
 
-  if(!currentSet || !currentAssignment){
-    passageSection.style.display = 'none'
-    resetButton.disabled = true
-    document.getElementById('p-list').innerHTML = ''
+  if(!currentSet || !assignment){
+    container.innerHTML = '<div class="empty-box">먼저 학습 세트를 선택해 주세요.</div>'
+    document.getElementById('passage-stats').innerHTML = ''
     return
   }
 
-  passageSection.style.display = 'block'
-  resetButton.disabled = false
-  document.getElementById('passage-list-label').textContent = currentSet.title + ' 지문'
+  const totalQuestions = assignment.passageIndexes.reduce(function(sum, passageIndex){
+    return sum + (currentSet.passages[passageIndex] ? currentSet.passages[passageIndex].items.length : 0)
+  }, 0)
+  const doneCount = assignment.passageIndexes.filter(function(passageIndex){
+    return getPassageProgress(passageIndex).done
+  }).length
+
+  document.getElementById('passage-stats').innerHTML = [
+    renderStat(assignment.passageIndexes.length, '지문'),
+    renderStat(totalQuestions, '질문'),
+    renderStat(doneCount, '완료'),
+    renderStat(Math.max(assignment.passageIndexes.length - doneCount, 0), '남음')
+  ].join('')
+
+  document.getElementById('passage-list-label').textContent = currentSet.title + ' 지문 선택'
 
   if(!isStudySetAccessible(currentSet)){
-    document.getElementById('p-list').innerHTML = '<div class="empty-box">이 학습 세트는 아직 열리지 않았거나 기간이 종료되었습니다.</div>'
+    container.innerHTML = '<div class="empty-box">이 학습 세트는 아직 열리지 않았거나 기간이 종료되었습니다.</div>'
     return
   }
 
-  document.getElementById('p-list').innerHTML = currentAssignment.passageIndexes.map(function(passageIndex, visibleIndex){
+  container.innerHTML = assignment.passageIndexes.map(function(passageIndex, visibleIndex){
     const passage = currentSet.passages[passageIndex]
     const state = getPassageProgress(passageIndex)
     const preview = passage.textLines[0] || passage.text.slice(0, 80) || '본문 미리보기가 없습니다.'
 
     return '' +
-      '<div class="p-item ' + (state.doneCount === 2 ? 'done' : '') + '" onclick="openPassage(' + passageIndex + ')">' +
+      '<div class="p-item ' + (state.done ? 'done' : '') + '" onclick="openPassage(' + passageIndex + ')">' +
         '<div class="p-num">' + (visibleIndex + 1) + '</div>' +
         '<div class="p-body">' +
           '<div class="p-title">' + escapeHtml(passage.title) + '</div>' +
@@ -118,7 +149,7 @@ function renderDash(){
             '<span><b>' + passage.items.length + '</b>개 질문</span>' +
             '<span>' + passage.textLines.length + '줄</span>' +
           '</div>' +
-          '<div class="p-stage">' + renderStageChip('1단계', state.stage1Done) + renderStageChip('2단계', state.stage2Done) + '</div>' +
+          '<div class="p-stage">' + renderProgressChip(state.done) + '</div>' +
         '</div>' +
         '<div class="p-arrow">&rsaquo;</div>' +
       '</div>'
@@ -146,12 +177,12 @@ function renderSetList(visibleSets){
           '<div class="set-meta">' +
             '<span class="set-badge ' + entry.status + '">' + escapeHtml(getStudySetStatusLabel(entry.status)) + '</span>' +
             '<span class="set-badge">' + entry.assignment.passageIndexes.length + '개 지문</span>' +
-            '<span class="set-badge">' + entry.assignment.passageIndexes.reduce(function(sum, index){
-              return sum + (entry.studySet.passages[index] ? entry.studySet.passages[index].items.length : 0)
+            '<span class="set-badge">' + entry.assignment.passageIndexes.reduce(function(sum, passageIndex){
+              return sum + (entry.studySet.passages[passageIndex] ? entry.studySet.passages[passageIndex].items.length : 0)
             }, 0) + '개 질문</span>' +
           '</div>' +
         '</div>' +
-        '<div class="p-arrow">' + (entry.isAccessible ? '&rsaquo;' : '닫힘') + '</div>' +
+        '<div class="p-arrow">' + (entry.isAccessible ? '&rsaquo;' : '예정') + '</div>' +
       '</div>'
   }).join('')
 }
@@ -161,23 +192,25 @@ function openStudySet(index){
   if(!studySet || !isStudySetAccessible(studySet)) return
   currentSetIndex = index
   currentPassage = -1
-  currentStage = 'study'
   updateSetProgressContext()
   renderClassSummary()
-  renderDash()
+  renderPassageScreen()
+  activateScreen('passage-screen')
 }
 
 function openPassage(index){
   const studySet = getCurrentStudySet()
   if(!studySet || !studySet.passages[index]) return
   currentPassage = index
-  currentStage = 'study'
-  activateScreen('study-screen')
   renderStudy()
+  activateScreen('study-screen')
 }
 
 function goHome(){
-  showHome()
+  currentPassage = -1
+  renderClassSummary()
+  renderSetScreen()
+  activateScreen('home-screen')
 }
 
 function togglePassage(){
@@ -186,15 +219,13 @@ function togglePassage(){
   document.getElementById('p-toggle').textContent = box.classList.contains('expanded') ? '접기' : '더 보기'
 }
 
-function switchStage(stage){
-  currentStage = stage === 'practice' ? 'practice' : 'study'
-  renderStudy()
-}
-
 function renderStudy(){
   const studySet = getCurrentStudySet()
   const passage = studySet && studySet.passages[currentPassage]
-  if(!studySet || !passage) return
+  if(!studySet || !passage){
+    showPassageScreen()
+    return
+  }
 
   document.getElementById('s-title').textContent = passage.title
   document.getElementById('s-cnt').textContent = passage.items.length + '문제'
@@ -202,56 +233,103 @@ function renderStudy(){
   document.getElementById('p-txt').textContent = passage.text || '본문이 없습니다.'
   document.getElementById('p-box').classList.remove('expanded')
   document.getElementById('p-toggle').textContent = '더 보기'
-  document.getElementById('stage-btn-study').classList.toggle('active', currentStage === 'study')
-  document.getElementById('stage-btn-practice').classList.toggle('active', currentStage === 'practice')
-  document.getElementById('stage-desc').textContent = currentStage === 'study'
-    ? '1단계에서는 정답과 함께 모든 문제를 먼저 공부합니다.'
-    : '2단계에서는 스스로 답해 보고 필요할 때만 정답을 확인합니다.'
+  document.getElementById('stage-panel').innerHTML = renderStagePanel()
 
   const sections = groupItems(passage.items)
   document.getElementById('stage-content').innerHTML = sections.length
     ? sections.map(function(section){
-        return renderSection(section, currentStage)
+        return renderSection(section)
       }).join('')
-    : '<div class="empty-box">이 지문에는 학습할 문제가 없습니다.</div>'
+    : '<div class="empty-box">이 지문에는 학습할 질문이 없습니다.</div>'
 
   renderStageActions()
 }
 
-function groupItems(items){
-  const order = ['문장 해석', '어법', '동의어 / 반의어', '대의 파악', '한 문장 요약', '전체 내용 파악']
-  const groups = new Map()
+function renderStagePanel(){
+  const state = getPassageProgress(currentPassage)
+  return '' +
+    '<div class="group-title">' +
+      '<h3>단계 설정</h3>' +
+      '<span class="group-count">1단계</span>' +
+    '</div>' +
+    '<div class="item-card stage-card">' +
+      '<div class="item-label">학습 방식</div>' +
+      '<div class="item-prompt">이 화면에서는 정답과 함께 모든 질문을 미리 공부합니다.</div>' +
+      '<div class="item-context">순서는 대의 파악 → 해석 → 동의어/반의어 → 어법입니다.</div>' +
+      '<div class="stage-status-row">' +
+        renderStatusBadge(state.done) +
+      '</div>' +
+    '</div>'
+}
 
-  items.forEach(function(item){
-    if(!groups.has(item.section)) groups.set(item.section, [])
-    groups.get(item.section).push(item)
+function groupItems(items){
+  const configs = [
+    { id: 'big-picture', title: '대의 파악' },
+    { id: 'translation', title: '해석' },
+    { id: 'vocab', title: '동의어 / 반의어' },
+    { id: 'grammar', title: '어법' }
+  ]
+
+  const buckets = new Map()
+  configs.forEach(function(config){
+    buckets.set(config.id, [])
   })
 
-  return order.filter(function(section){
-    return groups.has(section)
-  }).map(function(section){
-    return { section: section, items: groups.get(section) }
+  ;(Array.isArray(items) ? items : []).forEach(function(item, index){
+    const groupId = getStudyItemGroupId(item)
+    if(!buckets.has(groupId)) return
+    buckets.get(groupId).push({ item: item, originalIndex: index })
+  })
+
+  return configs.map(function(config){
+    const wrappedItems = buckets.get(config.id) || []
+    wrappedItems.sort(function(a, b){
+      const orderDiff = getStudyItemSortOrder(a.item) - getStudyItemSortOrder(b.item)
+      return orderDiff || (a.originalIndex - b.originalIndex)
+    })
+    return {
+      title: config.title,
+      items: wrappedItems.map(function(entry){ return entry.item })
+    }
+  }).filter(function(group){
+    return group.items.length > 0
   })
 }
 
-function renderSection(section, stage){
+function getStudyItemGroupId(item){
+  if(item && item.group) return item.group
+  if(item && item.type === 'translate') return 'translation'
+  if(item && item.type === 'vocab') return 'vocab'
+  if(item && item.type === 'grammar') return 'grammar'
+  return 'big-picture'
+}
+
+function getStudyItemSortOrder(item){
+  const key = String(item && item.key || '')
+  if(key.indexOf('qa-topic') === 0) return 1
+  if(key.indexOf('qa-gist') === 0) return 2
+  if(key.indexOf('qa-title') === 0) return 3
+  if(key.indexOf('qa-summary') === 0) return 4
+  if(key.indexOf('qa-overall') === 0) return 5
+  return 20
+}
+
+function renderSection(section){
   return '' +
     '<section class="group">' +
       '<div class="group-title">' +
-        '<h3>' + escapeHtml(section.section) + '</h3>' +
+        '<h3>' + escapeHtml(section.title) + '</h3>' +
         '<span class="group-count">' + section.items.length + '</span>' +
       '</div>' +
       '<div class="item-list">' +
-        section.items.map(function(item, index){
-          return stage === 'study' ? renderStudyItem(item) : renderPracticeItem(item, index)
+        section.items.map(function(item){
+          return item.type === 'vocab' ? renderStudyVocab(item) : renderStudyItem(item)
         }).join('') +
       '</div>' +
     '</section>'
 }
 
 function renderStudyItem(item){
-  if(item.type === 'vocab') return renderStudyVocab(item)
-
   return '' +
     '<div class="item-card">' +
       '<div class="item-label">' + escapeHtml(item.label) + '</div>' +
@@ -267,47 +345,18 @@ function renderStudyVocab(item){
     '<div class="item-card">' +
       '<div class="item-label">' + escapeHtml(item.label) + '</div>' +
       '<div class="vocab-word">' + escapeHtml(vocab.word || '') + '</div>' +
-      '<div class="item-prompt">원형을 보고 뜻, 동의어, 반의어, 반의어 뜻을 함께 익혀 보세요.</div>' +
+      '<div class="item-prompt">원형을 보고 뜻과 동의어, 반의어, 반의어 뜻을 함께 확인해 보세요.</div>' +
       renderAnswerSheet('', renderVocabAnswerGrid(vocab)) +
-    '</div>'
-}
-
-function renderPracticeItem(item, index){
-  if(item.type === 'vocab') return renderPracticeVocab(item, index)
-
-  const answerId = 'answer-' + currentPassage + '-' + sanitizeId(item.key) + '-' + index
-  return '' +
-    '<div class="item-card">' +
-      '<div class="item-label">' + escapeHtml(item.label) + '</div>' +
-      '<div class="item-prompt">' + escapeHtml(item.prompt) + '</div>' +
-      (item.context ? '<div class="item-context">' + escapeHtml(item.context) + '</div>' : '') +
-      '<div class="practice-box"><textarea placeholder="직접 답을 적어 보세요."></textarea></div>' +
-      '<div class="inline-actions"><button class="btn btn-ghost btn-sm" type="button" onclick="toggleInlineAnswer(\'' + answerId + '\')">정답 보기</button></div>' +
-      '<div class="inline-answer" id="' + answerId + '">' + renderAnswerSheet(item.answer) + '</div>' +
-    '</div>'
-}
-
-function renderPracticeVocab(item, index){
-  const vocab = item.vocab || {}
-  const answerId = 'answer-' + currentPassage + '-' + sanitizeId(item.key) + '-' + index
-  return '' +
-    '<div class="item-card">' +
-      '<div class="item-label">' + escapeHtml(item.label) + '</div>' +
-      '<div class="vocab-word">' + escapeHtml(vocab.word || '') + '</div>' +
-      '<div class="item-prompt">뜻, 동의어, 반의어, 반의어 뜻을 직접 적어 보세요.</div>' +
-      '<div class="practice-box"><textarea placeholder="뜻 / 동의어 / 반의어 / 반의어 뜻"></textarea></div>' +
-      '<div class="inline-actions"><button class="btn btn-ghost btn-sm" type="button" onclick="toggleInlineAnswer(\'' + answerId + '\')">정답 보기</button></div>' +
-      '<div class="inline-answer" id="' + answerId + '">' + renderAnswerSheet('', renderVocabAnswerGrid(vocab)) + '</div>' +
     '</div>'
 }
 
 function renderAnswerSheet(answerText, customInnerHtml){
   return '' +
     '<div class="answer-sheet">' +
-      '<div class="answer-title">정답</div>' +
+      '<div class="answer-title">정답 확인</div>' +
       (typeof customInnerHtml === 'string'
         ? customInnerHtml
-        : '<div class="answer-text">' + renderAnswerText(answerText, '저장된 정답이 없습니다.') + '</div>') +
+        : '<div class="answer-text">' + renderAnswerText(answerText, '등록된 정답이 없습니다.') + '</div>') +
     '</div>'
 }
 
@@ -338,26 +387,26 @@ function renderAnswerChip(label, value, emptyMessage){
 
 function getPassageProgress(passageIndex){
   return {
-    stage1Done: !!progress.stage1[passageIndex],
-    stage2Done: !!progress.stage2[passageIndex],
-    doneCount: (progress.stage1[passageIndex] ? 1 : 0) + (progress.stage2[passageIndex] ? 1 : 0)
+    done: !!(progress.done && progress.done[passageIndex])
   }
 }
 
 function renderStageActions(){
-  const status = getPassageProgress(currentPassage)
-  document.getElementById('stage-actions').innerHTML = currentStage === 'study'
-    ? '<button class="btn btn-green" type="button" onclick="markStageDone(\'stage1\')">' + (status.stage1Done ? '1단계 완료 유지' : '1단계 완료') + '</button><button class="btn btn-ghost" type="button" onclick="switchStage(\'practice\')">2단계로 이동</button>'
-    : '<button class="btn btn-blue" type="button" onclick="markStageDone(\'stage2\')">' + (status.stage2Done ? '2단계 완료 유지' : '2단계 완료') + '</button><button class="btn btn-ghost" type="button" onclick="switchStage(\'study\')">1단계로 돌아가기</button>'
+  const state = getPassageProgress(currentPassage)
+  document.getElementById('stage-actions').innerHTML =
+    '<button class="btn btn-green" type="button" onclick="markPassageDone()">' +
+      (state.done ? '학습 완료 유지' : '이 지문 학습 완료') +
+    '</button>'
 }
 
-function markStageDone(stageKey){
+function markPassageDone(){
   if(currentPassage < 0) return
-  progress[stageKey][currentPassage] = true
+  if(!progress.done || typeof progress.done !== 'object') progress.done = {}
+  progress.done[currentPassage] = true
   saveProgress()
   renderStudy()
-  renderDash()
-  showToast((stageKey === 'stage1' ? '1단계' : '2단계') + ' 학습 기록을 저장했습니다.', 'var(--green)')
+  renderPassageScreen()
+  showToast('이 지문을 학습 완료로 표시했습니다.', 'var(--green)')
 }
 
 function renderStat(value, label){
@@ -368,13 +417,12 @@ function renderStat(value, label){
     '</div>'
 }
 
-function renderStageChip(label, done){
-  return '<span class="stage-chip ' + (done ? 'done' : '') + '">' + escapeHtml(label) + ' ' + (done ? '완료' : '대기') + '</span>'
+function renderStatusBadge(done){
+  return '<span class="stage-chip ' + (done ? 'done' : '') + '">' + (done ? '학습 완료' : '학습 중') + '</span>'
 }
 
-function toggleInlineAnswer(id){
-  const element = document.getElementById(id)
-  if(element) element.classList.toggle('show')
+function renderProgressChip(done){
+  return '<span class="stage-chip ' + (done ? 'done' : '') + '">' + (done ? '완료' : '진행 중') + '</span>'
 }
 
 function resetProgress(){
@@ -385,9 +433,9 @@ function resetProgress(){
 
   if(!window.confirm(prefix + setTitle + '의 학습 기록을 초기화할까요?')) return
 
-  progress = { stage1: {}, stage2: {} }
+  progress = { done: {} }
   saveProgress()
-  renderDash()
+  renderPassageScreen()
   if(document.getElementById('study-screen').classList.contains('active')) renderStudy()
   showToast('학습 기록을 초기화했습니다.', 'var(--green)')
 }

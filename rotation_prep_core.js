@@ -3,15 +3,7 @@ const APP_CONFIG = {
   remoteSessionUrl: 'session.json'
 }
 
-const QUESTION_META = {
-  topic: { section: 'Big Picture', label: 'Topic', prompt: 'State the topic of this passage in one sentence.' },
-  gist: { section: 'Big Picture', label: 'Gist', prompt: 'State the gist of this passage in one sentence.' },
-  title: { section: 'Big Picture', label: 'Title', prompt: 'Suggest the best title for this passage.' },
-  summary: { section: 'One-Sentence Summary', label: 'Summary', prompt: 'Summarize the whole passage in one sentence.' },
-  overall: { section: 'Overall Understanding', label: 'Overall Understanding', prompt: 'Explain the overall content briefly.' }
-}
-
-const SCREEN_IDS = ['boot-screen', 'pw-screen', 'class-screen', 'class-auth-screen', 'home-screen', 'study-screen']
+const SCREEN_IDS = ['boot-screen', 'pw-screen', 'class-screen', 'class-auth-screen', 'home-screen', 'passage-screen', 'study-screen']
 
 let bundleData = null
 let prepClasses = []
@@ -19,11 +11,10 @@ let studySets = []
 let currentClassIndex = -1
 let currentSetIndex = -1
 let currentPassage = -1
-let currentStage = 'study'
 let pendingClassIndex = -1
-let baseProgressKey = 'rotation_prep_progress_v7'
+let baseProgressKey = 'rotation_prep_progress_v8'
 let progressKey = ''
-let progress = { stage1: {}, stage2: {} }
+let progress = { done: {} }
 let unlockedClassIds = {}
 let pageTitle = APP_CONFIG.defaultTitle
 let globalPassword = ''
@@ -47,20 +38,14 @@ function bindEvents(){
   document.getElementById('class-auth-submit-btn').addEventListener('click', confirmClassPassword)
   document.getElementById('class-auth-back-btn').addEventListener('click', backToClassSelection)
   document.getElementById('change-class-btn').addEventListener('click', showClassScreen)
-  document.getElementById('study-class-btn').addEventListener('click', showClassScreen)
-  document.getElementById('back-home-btn').addEventListener('click', goHome)
+  document.getElementById('set-back-btn').addEventListener('click', goBackFromSetScreen)
+  document.getElementById('passage-back-btn').addEventListener('click', goHome)
+  document.getElementById('passage-home-btn').addEventListener('click', goHome)
+  document.getElementById('study-back-btn').addEventListener('click', showPassageScreen)
+  document.getElementById('study-home-btn').addEventListener('click', goHome)
   document.getElementById('p-toggle').addEventListener('click', togglePassage)
-  document.getElementById('stage-btn-study').addEventListener('click', function(){ switchStage('study') })
-  document.getElementById('stage-btn-practice').addEventListener('click', function(){ switchStage('practice') })
   document.getElementById('reset-progress-btn').addEventListener('click', resetProgress)
   document.getElementById('file-input').addEventListener('change', loadFile)
-  document.getElementById('clear-set-btn').addEventListener('click', function(){
-    currentSetIndex = -1
-    currentPassage = -1
-    updateSetProgressContext()
-    renderClassSummary()
-    renderDash()
-  })
 
   const loadBox = document.getElementById('load-box')
   loadBox.addEventListener('click', openFilePicker)
@@ -77,16 +62,6 @@ function bindEvents(){
   document.getElementById('class-pw-input').addEventListener('keydown', function(event){
     if(event.key === 'Enter') confirmClassPassword()
   })
-
-  const refreshButton = document.getElementById('refresh-json-btn')
-  if(refreshButton){
-    refreshButton.addEventListener('click', function(){ loadRemoteSession({ silentToast: false }) })
-  }
-
-  const loadFileButton = document.getElementById('load-file-btn')
-  if(loadFileButton){
-    loadFileButton.addEventListener('click', openFilePicker)
-  }
 }
 
 function canFetchRemote(){
@@ -101,7 +76,7 @@ function buildRemoteUrl(){
 async function loadRemoteSession(options){
   const settings = options || {}
   if(!canFetchRemote()) return false
-  setBootState('session.json을 확인하는 중입니다.', '최신 PREP 번들을 자동으로 불러오고 있습니다.')
+  setBootState('session.json을 확인하는 중입니다.', '최신 PREP 정보를 자동으로 불러오고 있습니다.')
   activateScreen('boot-screen')
   try{
     const response = await fetch(buildRemoteUrl(), { cache: 'no-store' })
@@ -115,11 +90,14 @@ async function loadRemoteSession(options){
   }
 }
 
-function openFilePicker(){ document.getElementById('file-input').click() }
+function openFilePicker(){
+  document.getElementById('file-input').click()
+}
 
 function loadFile(event){
   const file = event.target.files && event.target.files[0]
   if(!file) return
+
   const reader = new FileReader()
   reader.onload = function(loadEvent){
     try{
@@ -136,6 +114,7 @@ function loadFile(event){
 function loadData(data, options){
   const normalized = normalizeBundleData(data)
   const settings = options || {}
+
   bundleData = data || {}
   prepClasses = normalized.classes
   studySets = normalized.studySets
@@ -145,19 +124,31 @@ function loadData(data, options){
   currentClassIndex = -1
   currentSetIndex = -1
   currentPassage = -1
-  currentStage = 'study'
   pendingClassIndex = -1
   unlockedClassIds = {}
   progressKey = ''
-  progress = { stage1: {}, stage2: {} }
-  baseProgressKey = 'rotation_prep_progress_v7_' + simpleHash(JSON.stringify({ classes: prepClasses, sets: studySets.map(function(set){ return { id: set.id, title: set.title, startDate: set.startDate, endDate: set.endDate, assignments: set.classAssignments, passages: set.passages.map(function(p){ return { title: p.title, items: p.items.length } }) } }) }))
+  progress = { done: {} }
+  baseProgressKey = 'rotation_prep_progress_v8_' + simpleHash(JSON.stringify({
+    classes: prepClasses,
+    sets: studySets.map(function(studySet){
+      return {
+        id: studySet.id,
+        title: studySet.title,
+        startDate: studySet.startDate,
+        endDate: studySet.endDate,
+        assignments: studySet.classAssignments,
+        passages: studySet.passages.map(function(passage){
+          return { title: passage.title, items: passage.items.length }
+        })
+      }
+    })
+  }))
+
   document.getElementById('dash').style.display = 'block'
   document.getElementById('load-box').classList.add('hidden')
-  const refreshButton = document.getElementById('refresh-json-btn')
-  if(refreshButton) refreshButton.style.display = canFetchRemote() ? 'inline-flex' : 'none'
   setSessionStatus(
     settings.source === 'remote' ? 'ok' : 'info',
-    settings.source === 'remote' ? '웹 연결' : '수동 테스트',
+    settings.source === 'remote' ? '서버 연결' : '수동 테스트',
     settings.source === 'remote' ? '웹의 session.json과 연결되었습니다.' : '로컬 JSON 테스트 모드입니다.',
     formatUpdatedText(data)
   )
@@ -172,17 +163,16 @@ function showNoSessionState(){
   currentClassIndex = -1
   currentSetIndex = -1
   currentPassage = -1
-  currentStage = 'study'
   pendingClassIndex = -1
   progressKey = ''
-  progress = { stage1: {}, stage2: {} }
+  progress = { done: {} }
   globalPassword = ''
   isUnlocked = true
   applyPageTitle(APP_CONFIG.defaultTitle)
   document.getElementById('dash').style.display = 'none'
   document.getElementById('load-box').classList.remove('hidden')
-  const refreshButton = document.getElementById('refresh-json-btn')
-  if(refreshButton) refreshButton.style.display = canFetchRemote() ? 'inline-flex' : 'none'
+  document.getElementById('class-bar').style.display = 'none'
+  document.getElementById('set-back-btn').style.display = 'none'
   setSessionStatus(
     canFetchRemote() ? 'warn' : 'info',
     canFetchRemote() ? 'JSON 없음' : '로컬 모드',
@@ -209,7 +199,9 @@ function setSessionStatus(type, badge, text, updatedText){
 }
 
 function formatUpdatedText(source){
-  const raw = source && source.prepConfig && source.prepConfig.generatedAt ? source.prepConfig.generatedAt : (source && (source.savedAt || source.updatedAt || ''))
+  const raw = source && source.prepConfig && source.prepConfig.generatedAt
+    ? source.prepConfig.generatedAt
+    : (source && (source.savedAt || source.updatedAt || ''))
   if(!raw) return ''
   const date = new Date(raw)
   return Number.isNaN(date.getTime()) ? '' : ('업데이트: ' + date.toLocaleString('ko-KR', { hour12: false }))
@@ -221,6 +213,7 @@ function applyPageTitle(title){
   document.getElementById('home-subtitle').textContent = pageTitle
   document.getElementById('class-subtitle').textContent = pageTitle
   document.getElementById('class-auth-subtitle').textContent = pageTitle
+  document.getElementById('passage-subtitle').textContent = pageTitle
 }
 
 function routeAfterLoad(){
@@ -240,7 +233,8 @@ function checkPw(){
   if(value === globalPassword){
     document.getElementById('pw-err').textContent = ''
     isUnlocked = true
-    return routeAfterUnlock()
+    routeAfterUnlock()
+    return
   }
   document.getElementById('pw-err').textContent = '비밀번호가 올바르지 않습니다.'
   document.getElementById('pw-input').value = ''
@@ -249,18 +243,20 @@ function checkPw(){
 
 function routeAfterUnlock(){
   if(!bundleData) return showNoSessionState()
-  if(prepClasses.length > 1 && currentClassIndex < 0) return showClassScreen()
-  if(prepClasses.length === 1 && currentClassIndex < 0){
-    requestClassAccess(0, { stayOnCurrent: true })
-    if(currentClassIndex >= 0) showHome()
+  if(currentClassIndex < 0){
+    showClassScreen()
     return
   }
   showHome()
 }
 
 function activateScreen(targetId){
-  SCREEN_IDS.forEach(function(id){ document.getElementById(id).classList.remove('active') })
-  document.getElementById(targetId).classList.add('active')
+  SCREEN_IDS.forEach(function(id){
+    const element = document.getElementById(id)
+    if(element) element.classList.remove('active')
+  })
+  const target = document.getElementById(targetId)
+  if(target) target.classList.add('active')
   resetViewportPosition()
 }
 
@@ -291,11 +287,12 @@ function focusField(id){
 
 function showClassScreen(){
   if(!bundleData) return showNoSessionState()
-  if(prepClasses.length <= 1) return showHome()
   activateScreen('class-screen')
 }
 
-function backToClassSelection(){ return prepClasses.length > 1 ? showClassScreen() : showHome() }
+function backToClassSelection(){
+  showClassScreen()
+}
 
 function requestClassAccess(index, options){
   if(index < 0 || index >= prepClasses.length) return
@@ -305,7 +302,7 @@ function requestClassAccess(index, options){
     document.getElementById('class-auth-name').textContent = classInfo.name
     document.getElementById('class-pw-input').value = ''
     document.getElementById('class-pw-err').textContent = ''
-    document.getElementById('class-auth-back-btn').style.display = prepClasses.length > 1 ? 'inline-flex' : 'none'
+    document.getElementById('class-auth-back-btn').style.display = 'inline-flex'
     activateScreen('class-auth-screen')
     focusField('class-pw-input')
     return
@@ -334,7 +331,6 @@ function selectClass(index, options){
   currentClassIndex = index
   currentSetIndex = -1
   currentPassage = -1
-  currentStage = 'study'
   ensureCurrentSetSelection()
   updateSetProgressContext()
   renderClassSummary()
@@ -359,7 +355,7 @@ function updateSetProgressContext(){
   const currentSet = getCurrentStudySet()
   if(!currentClass || !currentSet){
     progressKey = ''
-    progress = { stage1: {}, stage2: {} }
+    progress = { done: {} }
     return
   }
   progressKey = baseProgressKey + '_' + sanitizeId(currentClass.id) + '_' + sanitizeId(currentSet.id)
@@ -368,45 +364,74 @@ function updateSetProgressContext(){
 
 function loadProgress(){
   if(!progressKey){
-    progress = { stage1: {}, stage2: {} }
+    progress = { done: {} }
     return
   }
   try{
     const raw = localStorage.getItem(progressKey)
     if(raw){
       const parsed = JSON.parse(raw)
+      const legacyDone = {}
+      if(parsed && parsed.stage1 && typeof parsed.stage1 === 'object'){
+        Object.keys(parsed.stage1).forEach(function(key){
+          if(parsed.stage1[key]) legacyDone[key] = true
+        })
+      }
+      if(parsed && parsed.stage2 && typeof parsed.stage2 === 'object'){
+        Object.keys(parsed.stage2).forEach(function(key){
+          if(parsed.stage2[key]) legacyDone[key] = true
+        })
+      }
       progress = {
-        stage1: parsed && parsed.stage1 && typeof parsed.stage1 === 'object' ? parsed.stage1 : {},
-        stage2: parsed && parsed.stage2 && typeof parsed.stage2 === 'object' ? parsed.stage2 : {}
+        done: parsed && parsed.done && typeof parsed.done === 'object'
+          ? parsed.done
+          : legacyDone
       }
       return
     }
   }catch(error){}
-  progress = { stage1: {}, stage2: {} }
+  progress = { done: {} }
 }
 
 function saveProgress(){
   if(!progressKey) return
-  try{ localStorage.setItem(progressKey, JSON.stringify(progress)) }catch(error){}
+  try{
+    localStorage.setItem(progressKey, JSON.stringify(progress))
+  }catch(error){}
 }
 
-function getCurrentClass(){ return currentClassIndex >= 0 ? prepClasses[currentClassIndex] : null }
-function getCurrentStudySet(){ return currentSetIndex >= 0 ? studySets[currentSetIndex] : null }
+function getCurrentClass(){
+  return currentClassIndex >= 0 ? prepClasses[currentClassIndex] : null
+}
+
+function getCurrentStudySet(){
+  return currentSetIndex >= 0 ? studySets[currentSetIndex] : null
+}
 
 function getCurrentClassAssignments(studySet){
   const currentClass = getCurrentClass()
   if(!currentClass || !studySet) return null
-  return studySet.classAssignments.find(function(assignment){ return assignment.classId === currentClass.id }) || null
+  return studySet.classAssignments.find(function(assignment){
+    return assignment.classId === currentClass.id
+  }) || null
 }
 
 function getStudySetsForCurrentClass(){
   const currentClass = getCurrentClass()
   if(!currentClass) return []
   return studySets.map(function(studySet, index){
-    const assignment = studySet.classAssignments.find(function(item){ return item.classId === currentClass.id }) || null
+    const assignment = studySet.classAssignments.find(function(item){
+      return item.classId === currentClass.id
+    }) || null
     if(!assignment || !assignment.passageIndexes.length) return null
     const status = getStudySetStatus(studySet)
-    return { index: index, studySet: studySet, assignment: assignment, status: status, isAccessible: status === 'active' || status === 'always' }
+    return {
+      index: index,
+      studySet: studySet,
+      assignment: assignment,
+      status: status,
+      isAccessible: status === 'active' || status === 'always'
+    }
   }).filter(Boolean)
 }
 
@@ -461,7 +486,9 @@ function simpleHash(text){
   return Math.abs(hash).toString(36)
 }
 
-function sanitizeId(value){ return String(value || '').replace(/[^a-zA-Z0-9_-]/g, '-') }
+function sanitizeId(value){
+  return String(value || '').replace(/[^a-zA-Z0-9_-]/g, '-')
+}
 
 function escapeHtml(value){
   const div = document.createElement('div')

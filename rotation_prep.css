@@ -448,6 +448,16 @@ body::before{
   line-height:1.2;
   padding-top:3px;
 }
+.screen-nav{
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+  margin-bottom:14px;
+}
+.screen-nav .btn[disabled]{
+  opacity:.55;
+  cursor:default;
+}
 .back-btn{
   margin-bottom:16px;
   display:flex;
@@ -559,6 +569,19 @@ body::before{
   font-size:.92rem;
   font-weight:800;
   color:var(--ink);
+}
+.stage-panel{
+  margin-bottom:16px;
+}
+.stage-card{
+  background:rgba(26,95,200,.05);
+}
+.stage-status-row{
+  margin-top:12px;
+  display:flex;
+  align-items:center;
+  gap:8px;
+  flex-wrap:wrap;
 }
 .group-count{
   font-size:.68rem;
