@@ -1,11 +1,11 @@
 {
   "version": 2,
   "bundleVersion": 2,
-  "savedAt": "2026-04-04T17:53:43.059Z",
+  "savedAt": "2026-04-05T08:41:53.266Z",
   "prepConfig": {
     "pageTitle": "입시코드 ROTATION",
     "globalPassword": "",
-    "generatedAt": "2026-04-04T17:53:43.059Z"
+    "generatedAt": "2026-04-05T08:41:53.266Z"
   },
   "classes": [
     {
@@ -2768,6 +2768,1022 @@
             8,
             9,
             10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-1775378485941-138",
+      "title": "교과서 1과 - 본문 1",
+      "sourceName": "강서1 260408 1차 로테이션.json",
+      "startDate": "",
+      "endDate": "",
+      "savedAt": "2026-04-05T08:40:45.141Z",
+      "questionCounts": {
+        "translate": 2,
+        "grammar": 2,
+        "vocab": 2
+      },
+      "passages": [
+        {
+          "title": "교과서 1과 - 본문 1",
+          "markdownSourceTitle": "공통영어1 YBM(김) 1~2과 전체 분석",
+          "markdownSectionNumber": "1",
+          "text": "Think of an ordinary boy who likes playing sports like you and your friends.\nOne day, as he returns from school, his mom and dad are waiting outside and pointing at the garage.\nHis mom smiles and says, “We have a surprise for you.”\nWhen his dad pulls the garage door open, there is a table-tennis table inside!\nThe boy is excited.\nHe recently joined the school’s table-tennis club and wanted to practice more.\nHe rushes to the other side of the net and challenges his dad to a match.\nLet’s pause the story here.\nThe boy now faces a big choice.\nHe could choose to challenge himself to grow and face difficulties with endurance and courage.\nOr he could avoid new and challenging experiences and choose an easy, familiar path.",
+          "translationText": "여러분과 여러분의 친구들처럼 운동하는 것을 좋아하는 평범한 소년을 생각해 보세요.\n어느 날, 그가 학교에서 돌아오자, 그의 엄마와 아빠는 밖에서 기다리면서 차고를 가리키고 있습니다.\n그의 엄마는 웃으며 “놀라운 선물이 있단다.”라고 말합니다.\n그의 아빠가 차고 문을 여니, 안에 탁구대가 있습니다!\n소년은 신이 났습니다.\n그는 최근에 학교의 탁구 동아리에 가입했고 더 연습하고 싶어 했습니다.\n그는 네트 반대편으로 급히 달려가서 아빠에게 경기를 도전합니다.\n여기서 이야기를 잠시 멈추겠습니다.\n소년은 이제 큰 선택에 직면합니다.\n그는 인내심과 용기로 성장하고 어려움에 직면하기 위해 스스로에게 도전하기로 선택할 수 있습니다.\n또는 그는 새롭고 도전적인 경험을 피해 쉽고 익숙한 길을 선택할 수도 있습니다.",
+          "selectedLines": [
+            9,
+            10
+          ],
+          "grammarSelections": [
+            {
+              "text": "excited",
+              "answer": "excited는 사람의 감정 상태를 나타내는 과거분사형 형용사입니다.\n즉, “흥분시키는”이 아니라 “흥분한 / 신이 난” 뜻이라서, 감정을 느끼는 주어를 설명할 때 씁니다.",
+              "lineIndex": 4,
+              "context": "The boy is excited."
+            },
+            {
+              "text": "himself",
+              "answer": "himself는 앞에 나온 주어를 다시 가리키는 재귀대명사이거나, 주어를 강조하는 강조용법입니다.\n즉 “그 자신”이라는 뜻으로, Vincent 본인에게 의미를 다시 모아 주거나 강조하려고 씁니다.",
+              "lineIndex": 9,
+              "context": "He could choose to challenge himself to grow and face difficulties with endurance and courage."
+            }
+          ],
+          "vocabRows": [
+            {
+              "word": "challenge",
+              "meaning": "스스로를 성장 쪽으로 밀어붙이는 도전",
+              "syn": "test, push",
+              "ant": "avoid, evade",
+              "antMeaning": "피하다"
+            },
+            {
+              "word": "grow",
+              "meaning": "더 나아지고 발전하다",
+              "syn": "develop, improve",
+              "ant": "stagnate, remain unchanged",
+              "antMeaning": "정체되다, 그대로 머물다"
+            },
+            {
+              "word": "endurance",
+              "meaning": "어려움을 버티는 힘",
+              "syn": "perseverance, stamina",
+              "ant": "weakness, fragility",
+              "antMeaning": "약함, 취약함"
+            },
+            {
+              "word": "avoid",
+              "meaning": "새롭고 힘든 경험을 피하다",
+              "syn": "shun, evade",
+              "ant": "embrace, face",
+              "antMeaning": "받아들이다, 직면하다"
+            }
+          ],
+          "questionAnswers": {
+            "topic": "개인의 성장은 도전 앞에서 어떤 태도를 선택하느냐에 따라 달라질 수 있다."
+          },
+          "selectedSents": [
+            "He could choose to challenge himself to grow and face difficulties with endurance and courage.",
+            "Or he could avoid new and challenging experiences and choose an easy, familiar path."
+          ],
+          "translationAnswers": {
+            "He could choose to challenge himself to grow and face difficulties with endurance and courage.": "그는 인내심과 용기로 성장하고 어려움에 직면하기 위해 스스로에게 도전하기로 선택할 수 있습니다.",
+            "Or he could avoid new and challenging experiences and choose an easy, familiar path.": "또는 그는 새롭고 도전적인 경험을 피해 쉽고 익숙한 길을 선택할 수도 있습니다."
+          },
+          "grammarRows": [
+            {
+              "point": "excited",
+              "answer": "excited는 사람의 감정 상태를 나타내는 과거분사형 형용사입니다.\n즉, “흥분시키는”이 아니라 “흥분한 / 신이 난” 뜻이라서, 감정을 느끼는 주어를 설명할 때 씁니다.",
+              "lineIndex": 4,
+              "context": "The boy is excited."
+            },
+            {
+              "point": "himself",
+              "answer": "himself는 앞에 나온 주어를 다시 가리키는 재귀대명사이거나, 주어를 강조하는 강조용법입니다.\n즉 “그 자신”이라는 뜻으로, Vincent 본인에게 의미를 다시 모아 주거나 강조하려고 씁니다.",
+              "lineIndex": 9,
+              "context": "He could choose to challenge himself to grow and face difficulties with endurance and courage."
+            }
+          ]
+        },
+        {
+          "title": "교과서 1과 - 본문 2",
+          "markdownSourceTitle": "공통영어1 YBM(김) 1~2과 전체 분석",
+          "markdownSectionNumber": "2",
+          "text": "Let’s start with the path of avoidance.\nThe boy waits for his dad and concentrates hard.\nWhen the ball comes flying across the net rapidly, he misses it completely.\nHe puts his hands on his knees and sighs.\n“Never mind,” says his dad, “Try again. Practice makes perfect.”\nWhen the boy serves the ball, it returns with full force, hitting and bruising his elbow.\nThe boy is not having much fun.\nHe sets the paddle on the table, saying, “I have had enough,” and leaves for his room.\nHis dad asks for another game the next week, but the boy still has some pain in his elbow and just does not feel like taking up the challenge.\nWhen his mom suggests playing against his older brother, he turns down her suggestion because his brother is very tough.\n“No, thanks,” sighs the boy.\n“He’s going to be better than me anyway.”\nIn his eyes, challenges are nothing more than obstacles, and he holds onto the belief that they are best avoided.",
+          "translationText": "회피의 길부터 시작해 봅시다.\n소년은 그의 아빠를 기다리며 열심히 집중합니다.\n공이 네트를 가로질러 빠르게 날아오자, 그는 공을 완전히 놓칩니다.\n그는 무릎에 손을 올리고 한숨을 내쉽니다.\n“신경 쓰지 마렴.” 아빠가 말합니다. “다시 해 봐. 연습이 완벽을 만든단다.”\n소년이 공을 서브하자, 그것은 전력으로 돌아와 그의 팔꿈치에 부딪히고 멍이 들게 합니다.\n소년은 별로 재미를 느끼지 못하고 있습니다.\n그는 “저는 충분히 했어요,” 라고 말하며 탁구대 위에 탁구채를 놓고 방으로 떠납니다.\n그의 아빠는 다음 주에 또 다른 게임을 하자고 요청하지만 소년은 여전히 팔꿈치에 약간의 통증이 있고 도전에 응하고 싶지 않습니다.\n그의 엄마가 그의 형과 시합을 하라고 제안했을 때 그의 형은 아주 강하기 때문에 그는 엄마의 제안을 거절합니다.\n“아니요, 괜찮아요.” 소년은 한숨을 내쉽니다.\n“어쨌든 그는 나보다 나을 거예요.”\n그의 눈에 도전은 장애물에 불과하며 그는 그것들을 피하는 것이 가장 좋다는 믿음을 고수합니다.",
+          "selectedLines": [
+            5,
+            8
+          ],
+          "grammarSelections": [
+            {
+              "text": "flying",
+              "answer": "현재분사로 ball을 뒤에서 꾸며서, “날아오는 공”이라는 뜻을 만듭니다.\n즉 공이 빠르게 날아오는 진행 중인 모습을 나타내려고 쓴 표현입니다.",
+              "lineIndex": 2,
+              "context": "When the ball comes flying across the net rapidly, he misses it completely."
+            },
+            {
+              "text": "hitting and bruising",
+              "answer": "분사구문처럼 쓰여, 공이 팔꿈치에 맞으면서 멍까지 들게 하는 연속 동작을 나타냅니다.\n즉 “쳐서, 그리고 멍들게 하며”라는 뜻으로 상황을 생생하게 보여 줍니다.",
+              "lineIndex": 5,
+              "context": "When the boy serves the ball, it returns with full force, hitting and bruising his elbow."
+            },
+            {
+              "text": "feel like taking up",
+              "answer": "feel like + 동명사는 “~하고 싶다”라는 뜻의 기본 표현입니다.\n그래서 taking up이 와서 “그 도전을 받아들이고 싶은 기분”이라는 의미를 만듭니다.",
+              "lineIndex": 8,
+              "context": "His dad asks for another game the next week, but the boy still has some pain in his elbow and just does not feel like taking up the challenge."
+            },
+            {
+              "text": "playing",
+              "answer": "suggest + 동명사 형태이기 때문에 playing이 쓰였습니다.\n즉 “엄마가 경기해 보라고 제안했다”에서, 제안의 내용이 동명사로 온 것입니다.",
+              "lineIndex": 9,
+              "context": "When his mom suggests playing against his older brother, he turns down her suggestion because his brother is very tough."
+            },
+            {
+              "text": "that",
+              "answer": "belief 뒤의 that은 동격절을 이끄는 접속사입니다.\n즉, belief의 내용을 설명하며, that 뒤에는 완전한 절(S+V) 이 옵니다.",
+              "lineIndex": 12,
+              "context": "In his eyes, challenges are nothing more than obstacles, and he holds onto the belief that they are best avoided."
+            }
+          ],
+          "vocabRows": [
+            {
+              "word": "avoid",
+              "meaning": "도전을 받아들이지 않고 피하다",
+              "syn": "shun, evade",
+              "ant": "embrace, face",
+              "antMeaning": "받아들이다, 맞서다"
+            },
+            {
+              "word": "turn down",
+              "meaning": "제안이나 도전을 거절하다",
+              "syn": "refuse, reject",
+              "ant": "accept, take up",
+              "antMeaning": "받아들이다, 응하다"
+            },
+            {
+              "word": "obstacle",
+              "meaning": "피해야 할 장애물",
+              "syn": "barrier, hindrance",
+              "ant": "opportunity, opening",
+              "antMeaning": "기회, 가능성"
+            }
+          ],
+          "questionAnswers": {
+            "topic": "어려움을 능력 부족의 신호로 해석하면 도전은 성장 기회가 아니라 회피 대상이 되기 쉽다."
+          },
+          "selectedSents": [
+            "When the boy serves the ball, it returns with full force, hitting and bruising his elbow.",
+            "His dad asks for another game the next week, but the boy still has some pain in his elbow and just does not feel like taking up the challenge."
+          ],
+          "translationAnswers": {
+            "When the boy serves the ball, it returns with full force, hitting and bruising his elbow.": "소년이 공을 서브하자, 그것은 전력으로 돌아와 그의 팔꿈치에 부딪히고 멍이 들게 합니다.",
+            "His dad asks for another game the next week, but the boy still has some pain in his elbow and just does not feel like taking up the challenge.": "그의 아빠는 다음 주에 또 다른 게임을 하자고 요청하지만 소년은 여전히 팔꿈치에 약간의 통증이 있고 도전에 응하고 싶지 않습니다."
+          },
+          "grammarRows": [
+            {
+              "point": "flying",
+              "answer": "현재분사로 ball을 뒤에서 꾸며서, “날아오는 공”이라는 뜻을 만듭니다.\n즉 공이 빠르게 날아오는 진행 중인 모습을 나타내려고 쓴 표현입니다.",
+              "lineIndex": 2,
+              "context": "When the ball comes flying across the net rapidly, he misses it completely."
+            },
+            {
+              "point": "hitting and bruising",
+              "answer": "분사구문처럼 쓰여, 공이 팔꿈치에 맞으면서 멍까지 들게 하는 연속 동작을 나타냅니다.\n즉 “쳐서, 그리고 멍들게 하며”라는 뜻으로 상황을 생생하게 보여 줍니다.",
+              "lineIndex": 5,
+              "context": "When the boy serves the ball, it returns with full force, hitting and bruising his elbow."
+            },
+            {
+              "point": "feel like taking up",
+              "answer": "feel like + 동명사는 “~하고 싶다”라는 뜻의 기본 표현입니다.\n그래서 taking up이 와서 “그 도전을 받아들이고 싶은 기분”이라는 의미를 만듭니다.",
+              "lineIndex": 8,
+              "context": "His dad asks for another game the next week, but the boy still has some pain in his elbow and just does not feel like taking up the challenge."
+            },
+            {
+              "point": "playing",
+              "answer": "suggest + 동명사 형태이기 때문에 playing이 쓰였습니다.\n즉 “엄마가 경기해 보라고 제안했다”에서, 제안의 내용이 동명사로 온 것입니다.",
+              "lineIndex": 9,
+              "context": "When his mom suggests playing against his older brother, he turns down her suggestion because his brother is very tough."
+            },
+            {
+              "point": "that",
+              "answer": "belief 뒤의 that은 동격절을 이끄는 접속사입니다.\n즉, belief의 내용을 설명하며, that 뒤에는 완전한 절(S+V) 이 옵니다.",
+              "lineIndex": 12,
+              "context": "In his eyes, challenges are nothing more than obstacles, and he holds onto the belief that they are best avoided."
+            }
+          ]
+        },
+        {
+          "title": "교과서 1과 - 본문 3",
+          "markdownSourceTitle": "공통영어1 YBM(김) 1~2과 전체 분석",
+          "markdownSectionNumber": "3",
+          "text": "Let’s rewind to the point when the boy first faces his dad across the net.\nHis first attempt does not go any better, and he still gets hit on the elbow on his second try.\nHowever, he picks up the ball and tries again anyway.\nAn hour later, his dad still keeps winning easily, but the boy is learning from the experience.\nEvery now and then, he even surprises himself with a decent return, and a few times, he almost hits the ball past his dad.\nThe boy later on decides to challenge his older brother.\nHis brother is a better player, but the boy likes the idea that he can work even harder.\nThe boy learns from his mistakes and develops new skills by practicing.\nHe practices hard after school, on weekends, and on holidays until he is able to join the regional team.\nEventually, he participates in the national championship and makes it all the way to the finals.\nHe finds his opponent to be skillful and smart, but he plays hard.\nHe finds himself at match point, and the audience holds its breath.\nHe realizes how far he has come.\nFor years he has gotten up early to practice and has loved the challenge of improving his game.\nHe serves for the match and sneaks the ball past his opponent.\nHe punches the air in triumph.\nHe has become truly awesome!",
+          "translationText": "소년이 네트를 사이에 두고 아빠를 처음 마주하는 시점까지 되감아 봅시다.\n그의 첫 번째 시도는 더 이상 나아지지 않고, 그는 두 번째 시도에서 여전히 팔꿈치를 맞습니다.\n하지만 그는 공을 집어 들고 어쨌든 다시 시도합니다.\n한 시간 후에, 그의 아빠는 여전히 쉽게 이기고 있지만 소년은 그 경험으로부터 배우고 있습니다.\n가끔씩 그는 심지어 괜찮은 되받아치기로 자신도 놀라고, 몇 번은 거의 아빠를 스쳐 지나가게 공을 칠 뻔하기도 합니다.\n소년은 나중에 그의 형에게 도전하기로 결심합니다.\n그의 형은 더 나은 선수이지만 소년은 그가 훨씬 더 열심히 할 수 있다는 생각이 마음에 듭니다.\n소년은 자신의 실수로부터 배우고 연습함으로써 새로운 기술을 개발합니다.\n그는 지역 팀에 합류할 수 있을 때까지 방과 후, 주말, 휴일에도 열심히 연습합니다.\n결국, 그는 전국 선수권 대회에 참가하고 결승까지 올라갑니다.\n그는 상대가 숙련되고 영리하다는 것을 알게 되지만, 열심히 경기합니다.\n그는 자신이 매치 포인트에 있는 것을 발견하고 관중은 숨을 죽입니다.\n그는 자신이 얼마나 멀리 왔는지 깨닫습니다.\n수년 동안 그는 연습을 위해 일찍 일어났고 자신의 경기를 향상시키는 도전을 좋아했습니다.\n그는 경기를 위해 서브를 하고 상대방을 지나서 공을 슬쩍 통과시킵니다.\n그는 승리감에 공중에 주먹을 날립니다.\n그는 정말 대단해졌습니다!",
+          "selectedLines": [
+            7,
+            8
+          ],
+          "grammarSelections": [
+            {
+              "text": "when",
+              "answer": "용법: 관계부사입니다.\n왜 쓰였는지: 앞의 the point를 꾸며서 “소년이 처음 아버지와 마주한 시점”을 설명합니다.\n형태: 관계부사 when 뒤에는 완전한 절(S+V) 이 옵니다.",
+              "lineIndex": 0,
+              "context": "Let’s rewind to the point when the boy first faces his dad across the net."
+            },
+            {
+              "text": "winning",
+              "answer": "용법: 동명사입니다.\n왜 쓰였는지: keep이 “계속 ~하다”라는 뜻이라서, 반복·지속되는 행동을 나타내기 위해 winning이 왔습니다.\n형태: keep + V-ing 형태가 옵니다.",
+              "lineIndex": 3,
+              "context": "An hour later, his dad still keeps winning easily, but the boy is learning from the experience."
+            },
+            {
+              "text": "himself",
+              "answer": "용법: 재귀대명사입니다.\n왜 쓰였는지: surprises himself에서 주어 he와 목적어가 같은 사람이어서 “자기 자신을 놀라게 하다”의 뜻이 됩니다.",
+              "lineIndex": 4,
+              "context": "Every now and then, he even surprises himself with a decent return, and a few times, he almost hits the ball past his dad."
+            },
+            {
+              "text": "to challenge",
+              "answer": "용법: to부정사입니다.\n왜 쓰였는지: decide는 “~하기로 결정하다”라는 뜻이므로, 결정한 행동 내용을 나타내기 위해 to challenge가 왔습니다.",
+              "lineIndex": 5,
+              "context": "The boy later on decides to challenge his older brother."
+            },
+            {
+              "text": "that",
+              "answer": "용법: 동격절을 이끄는 that입니다.\n왜 쓰였는지: the idea의 내용을 뒤에서 구체적으로 설명해 주기 위해 쓰였습니다.\n뒤에 오는 형태: 동격 that 뒤에는 완전한 절(S+V) 이 옵니다.",
+              "lineIndex": 6,
+              "context": "His brother is a better player, but the boy likes the idea that he can work even harder."
+            },
+            {
+              "text": "even",
+              "answer": "용법: 강조 부사입니다. = even, still, a lot, far, much\n왜 쓰였는지: 뒤에 오는 \"harder\"라는 비교급을 강조하려고 썼습니다. \"훨씬\"이라고 해석합니다.",
+              "lineIndex": 6,
+              "context": "His brother is a better player, but the boy likes the idea that he can work even harder."
+            },
+            {
+              "text": "to be",
+              "answer": "find가 OT동사라서 목적격보어 자리에 to-v를 썼습니다.",
+              "lineIndex": 10,
+              "context": "He finds his opponent to be skillful and smart, but he plays hard."
+            },
+            {
+              "text": "how far",
+              "answer": "용법: 간접의문문을 이끄는 의문사 표현입니다.\n왜 쓰였는지: realizes의 목적어 역할을 하면서, “얼마나 멀리 와 있었는지”를 내용으로 나타냅니다.\n뒤에 오는 형태: 의문사 + 주어 + 동사의 어순이 옵니다.",
+              "lineIndex": 12,
+              "context": "He realizes how far he has come."
+            }
+          ],
+          "vocabRows": [
+            {
+              "word": "learn",
+              "meaning": "실수와 경험에서 배우다",
+              "syn": "absorb, gain",
+              "ant": "ignore, overlook",
+              "antMeaning": "무시하다, 간과하다"
+            },
+            {
+              "word": "practice",
+              "meaning": "꾸준히 훈련하다",
+              "syn": "train, rehearse",
+              "ant": "neglect, quit",
+              "antMeaning": "소홀히 하다, 그만두다"
+            },
+            {
+              "word": "develop",
+              "meaning": "새로운 기술을 길러 내다",
+              "syn": "build, improve",
+              "ant": "lose, weaken",
+              "antMeaning": "잃다, 약해지다"
+            }
+          ],
+          "questionAnswers": {
+            "topic": "초기의 실패를 학습의 계기로 삼는 지속적 노력은 장기적인 성장과 성취로 이어질 수 있다."
+          },
+          "selectedSents": [
+            "The boy learns from his mistakes and develops new skills by practicing.",
+            "He practices hard after school, on weekends, and on holidays until he is able to join the regional team."
+          ],
+          "translationAnswers": {
+            "The boy learns from his mistakes and develops new skills by practicing.": "소년은 자신의 실수로부터 배우고 연습함으로써 새로운 기술을 개발합니다.",
+            "He practices hard after school, on weekends, and on holidays until he is able to join the regional team.": "그는 지역 팀에 합류할 수 있을 때까지 방과 후, 주말, 휴일에도 열심히 연습합니다."
+          },
+          "grammarRows": [
+            {
+              "point": "when",
+              "answer": "용법: 관계부사입니다.\n왜 쓰였는지: 앞의 the point를 꾸며서 “소년이 처음 아버지와 마주한 시점”을 설명합니다.\n형태: 관계부사 when 뒤에는 완전한 절(S+V) 이 옵니다.",
+              "lineIndex": 0,
+              "context": "Let’s rewind to the point when the boy first faces his dad across the net."
+            },
+            {
+              "point": "winning",
+              "answer": "용법: 동명사입니다.\n왜 쓰였는지: keep이 “계속 ~하다”라는 뜻이라서, 반복·지속되는 행동을 나타내기 위해 winning이 왔습니다.\n형태: keep + V-ing 형태가 옵니다.",
+              "lineIndex": 3,
+              "context": "An hour later, his dad still keeps winning easily, but the boy is learning from the experience."
+            },
+            {
+              "point": "himself",
+              "answer": "용법: 재귀대명사입니다.\n왜 쓰였는지: surprises himself에서 주어 he와 목적어가 같은 사람이어서 “자기 자신을 놀라게 하다”의 뜻이 됩니다.",
+              "lineIndex": 4,
+              "context": "Every now and then, he even surprises himself with a decent return, and a few times, he almost hits the ball past his dad."
+            },
+            {
+              "point": "to challenge",
+              "answer": "용법: to부정사입니다.\n왜 쓰였는지: decide는 “~하기로 결정하다”라는 뜻이므로, 결정한 행동 내용을 나타내기 위해 to challenge가 왔습니다.",
+              "lineIndex": 5,
+              "context": "The boy later on decides to challenge his older brother."
+            },
+            {
+              "point": "that",
+              "answer": "용법: 동격절을 이끄는 that입니다.\n왜 쓰였는지: the idea의 내용을 뒤에서 구체적으로 설명해 주기 위해 쓰였습니다.\n뒤에 오는 형태: 동격 that 뒤에는 완전한 절(S+V) 이 옵니다.",
+              "lineIndex": 6,
+              "context": "His brother is a better player, but the boy likes the idea that he can work even harder."
+            },
+            {
+              "point": "even",
+              "answer": "용법: 강조 부사입니다. = even, still, a lot, far, much\n왜 쓰였는지: 뒤에 오는 \"harder\"라는 비교급을 강조하려고 썼습니다. \"훨씬\"이라고 해석합니다.",
+              "lineIndex": 6,
+              "context": "His brother is a better player, but the boy likes the idea that he can work even harder."
+            },
+            {
+              "point": "to be",
+              "answer": "find가 OT동사라서 목적격보어 자리에 to-v를 썼습니다.",
+              "lineIndex": 10,
+              "context": "He finds his opponent to be skillful and smart, but he plays hard."
+            },
+            {
+              "point": "how far",
+              "answer": "용법: 간접의문문을 이끄는 의문사 표현입니다.\n왜 쓰였는지: realizes의 목적어 역할을 하면서, “얼마나 멀리 와 있었는지”를 내용으로 나타냅니다.\n뒤에 오는 형태: 의문사 + 주어 + 동사의 어순이 옵니다.",
+              "lineIndex": 12,
+              "context": "He realizes how far he has come."
+            }
+          ]
+        },
+        {
+          "title": "교과서 1과 - 본문 4",
+          "markdownSourceTitle": "공통영어1 YBM(김) 1~2과 전체 분석",
+          "markdownSectionNumber": "4",
+          "text": "You may have the idea that this is simply a fictional tale.\nHowever, this is the true story of Matthew Syed, a former member of the British national table-tennis team.\nHis tale shows how an ordinary boy developed his passion for table tennis and eventually became the national champion.\nBecause he had a growth mindset, he tried something new, discovered what he truly desired, and then became tough when he faced a difficult task.\nHow about you? Do you see yourself in the story? You, too, can find your own “table tennis.”\nIt might be a hobby, a career, or a personal goal.\nWhat is important is that you embrace the challenge and never give up on what you want to achieve.\nGo out there and achieve your goal!",
+          "translationText": "여러분은 이것이 단순히 허구의 이야기라는 생각을 가지고 있을 수도 있습니다.\n그러나 이것은 전 영국 탁구 국가 대표인 매슈 사이드의 실화입니다.\n그의 이야기는 평범한 소년이 어떻게 탁구에 대한 열정을 발전시켰고 결국 전국 챔피언이 되었는지를 보여 줍니다.\n그가 성장 사고방식을 가지고 있었기 때문에 그는 새로운 것을 시도했고, 그가 진정으로 원하는 것을 발견했고, 어려운 과제에 직면했을 때 강인해졌습니다.\n여러분은 어떤가요? 이야기 속에서 여러분 자신이 보이나요? 여러분도 여러분만의 ‘탁구’를 찾을 수 있습니다.\n그것은 취미일 수도 있고, 직업일 수도 있고, 개인적인 목표일 수도 있습니다.\n중요한 것은 여러분이 도전을 받아들이고 달성하고 싶은 것을 결코 포기하지 않는 것입니다.\n나가서 여러분의 목표를 달성하세요!",
+          "selectedLines": [
+            3,
+            6
+          ],
+          "grammarSelections": [
+            {
+              "text": "that",
+              "answer": "용법: 동격절을 이끄는 that입니다.\n왜 쓰였는지: the idea의 내용을 뒤에서 구체적으로 설명하려고 썼습니다.\n형태 포인트: 동격 that 뒤에는 완전한 절(S+V) 이 옵니다.",
+              "lineIndex": 0,
+              "context": "You may have the idea that this is simply a fictional tale."
+            },
+            {
+              "text": "how",
+              "answer": "용법: 간접의문문을 이끄는 의문사입니다.\n왜 쓰였는지: shows의 목적어로 쓰여, “한 평범한 소년이 어떻게 성장했는지”를 나타냅니다.\n형태 포인트: how + 주어 + 동사의 평서문 어순이 옵니다.",
+              "lineIndex": 2,
+              "context": "His tale shows how an ordinary boy developed his passion for table tennis and eventually became the national champion."
+            },
+            {
+              "text": "new",
+              "answer": "용법: 형용사입니다.\n왜 쓰였는지: something을 뒤에서 꾸며 “새로운 무언가”라는 뜻을 만듭니다.\n형태 포인트: something, anything, nothing 같은 대명사는 형용사가 뒤에서 꾸밉니다.",
+              "lineIndex": 3,
+              "context": "Because he had a growth mindset, he tried something new, discovered what he truly desired, and then became tough when he faced a difficult task."
+            },
+            {
+              "text": "what",
+              "answer": "용법: 선행사를 포함한 관계대명사입니다.\n왜 쓰였는지: “그가 진정으로 원하던 것”이라는 뜻으로, discovered의 목적어 역할을 합니다.\n형태 포인트: what = the thing(s) that로 이해하면 됩니다. 뒤에 불완전한 절이 옵니다.",
+              "lineIndex": 3,
+              "context": "Because he had a growth mindset, he tried something new, discovered what he truly desired, and then became tough when he faced a difficult task."
+            },
+            {
+              "text": "What",
+              "answer": "용법: 선행사를 포함한 관계대명사입니다.\n왜 쓰였는지: “중요한 것”이라는 뜻으로, 문장 전체의 주어 역할을 합니다.\n형태 포인트: what = the thing(s) that로 이해하면 됩니다. 뒤에 불완전한 절이 옵니다.",
+              "lineIndex": 6,
+              "context": "What is important is that you embrace the challenge and never give up on what you want to achieve."
+            },
+            {
+              "text": "that",
+              "answer": "용법: 보어절을 이끄는 접속사입니다.\n왜 쓰였는지: “무엇이 중요한가”의 내용을 is 뒤에서 설명해 주기 위해 쓰였습니다.\n형태 포인트: that 뒤에는 완전한 절(S+V) 이 옵니다.",
+              "lineIndex": 6,
+              "context": "What is important is that you embrace the challenge and never give up on what you want to achieve."
+            },
+            {
+              "text": "what",
+              "answer": "용법: 선행사를 포함한 관계대명사입니다.\n왜 쓰였는지: “당신이 성취하길 원하는 것”이라는 뜻으로, 전치사의 목적어 역할을 합니다.\n형태 포인트: what = the thing(s) that로 이해하면 됩니다. 뒤에 불완전한 절이 옵니다.",
+              "lineIndex": 6,
+              "context": "What is important is that you embrace the challenge and never give up on what you want to achieve."
+            }
+          ],
+          "vocabRows": [
+            {
+              "word": "mindset",
+              "meaning": "일을 받아들이는 사고방식",
+              "syn": "outlook, attitude",
+              "ant": "fixed mindset, rigidity",
+              "antMeaning": "고정된 사고방식, 경직성"
+            },
+            {
+              "word": "passion",
+              "meaning": "깊은 열정",
+              "syn": "enthusiasm, zeal",
+              "ant": "indifference, apathy",
+              "antMeaning": "무관심, 냉담"
+            },
+            {
+              "word": "embrace",
+              "meaning": "기꺼이 받아들이다",
+              "syn": "accept, welcome",
+              "ant": "avoid, reject",
+              "antMeaning": "피하다, 거부하다"
+            },
+            {
+              "word": "achieve",
+              "meaning": "목표를 이루다",
+              "syn": "accomplish, attain",
+              "ant": "fail, abandon",
+              "antMeaning": "실패하다, 포기하다"
+            }
+          ],
+          "questionAnswers": {
+            "topic": "도전을 받아들이는 실제 성공 사례는 독자가 자신의 목표를 향해 나아가도록 격려할 수 있다."
+          },
+          "selectedSents": [
+            "Because he had a growth mindset, he tried something new, discovered what he truly desired, and then became tough when he faced a difficult task.",
+            "What is important is that you embrace the challenge and never give up on what you want to achieve."
+          ],
+          "translationAnswers": {
+            "Because he had a growth mindset, he tried something new, discovered what he truly desired, and then became tough when he faced a difficult task.": "그가 성장 사고방식을 가지고 있었기 때문에 그는 새로운 것을 시도했고, 그가 진정으로 원하는 것을 발견했고, 어려운 과제에 직면했을 때 강인해졌습니다.",
+            "What is important is that you embrace the challenge and never give up on what you want to achieve.": "중요한 것은 여러분이 도전을 받아들이고 달성하고 싶은 것을 결코 포기하지 않는 것입니다."
+          },
+          "grammarRows": [
+            {
+              "point": "that",
+              "answer": "용법: 동격절을 이끄는 that입니다.\n왜 쓰였는지: the idea의 내용을 뒤에서 구체적으로 설명하려고 썼습니다.\n형태 포인트: 동격 that 뒤에는 완전한 절(S+V) 이 옵니다.",
+              "lineIndex": 0,
+              "context": "You may have the idea that this is simply a fictional tale."
+            },
+            {
+              "point": "how",
+              "answer": "용법: 간접의문문을 이끄는 의문사입니다.\n왜 쓰였는지: shows의 목적어로 쓰여, “한 평범한 소년이 어떻게 성장했는지”를 나타냅니다.\n형태 포인트: how + 주어 + 동사의 평서문 어순이 옵니다.",
+              "lineIndex": 2,
+              "context": "His tale shows how an ordinary boy developed his passion for table tennis and eventually became the national champion."
+            },
+            {
+              "point": "new",
+              "answer": "용법: 형용사입니다.\n왜 쓰였는지: something을 뒤에서 꾸며 “새로운 무언가”라는 뜻을 만듭니다.\n형태 포인트: something, anything, nothing 같은 대명사는 형용사가 뒤에서 꾸밉니다.",
+              "lineIndex": 3,
+              "context": "Because he had a growth mindset, he tried something new, discovered what he truly desired, and then became tough when he faced a difficult task."
+            },
+            {
+              "point": "what",
+              "answer": "용법: 선행사를 포함한 관계대명사입니다.\n왜 쓰였는지: “그가 진정으로 원하던 것”이라는 뜻으로, discovered의 목적어 역할을 합니다.\n형태 포인트: what = the thing(s) that로 이해하면 됩니다. 뒤에 불완전한 절이 옵니다.",
+              "lineIndex": 3,
+              "context": "Because he had a growth mindset, he tried something new, discovered what he truly desired, and then became tough when he faced a difficult task."
+            },
+            {
+              "point": "What",
+              "answer": "용법: 선행사를 포함한 관계대명사입니다.\n왜 쓰였는지: “중요한 것”이라는 뜻으로, 문장 전체의 주어 역할을 합니다.\n형태 포인트: what = the thing(s) that로 이해하면 됩니다. 뒤에 불완전한 절이 옵니다.",
+              "lineIndex": 6,
+              "context": "What is important is that you embrace the challenge and never give up on what you want to achieve."
+            },
+            {
+              "point": "that",
+              "answer": "용법: 보어절을 이끄는 접속사입니다.\n왜 쓰였는지: “무엇이 중요한가”의 내용을 is 뒤에서 설명해 주기 위해 쓰였습니다.\n형태 포인트: that 뒤에는 완전한 절(S+V) 이 옵니다.",
+              "lineIndex": 6,
+              "context": "What is important is that you embrace the challenge and never give up on what you want to achieve."
+            },
+            {
+              "point": "what",
+              "answer": "용법: 선행사를 포함한 관계대명사입니다.\n왜 쓰였는지: “당신이 성취하길 원하는 것”이라는 뜻으로, 전치사의 목적어 역할을 합니다.\n형태 포인트: what = the thing(s) that로 이해하면 됩니다. 뒤에 불완전한 절이 옵니다.",
+              "lineIndex": 6,
+              "context": "What is important is that you embrace the challenge and never give up on what you want to achieve."
+            }
+          ]
+        },
+        {
+          "title": "교과서 2과 - 본문 1",
+          "markdownSourceTitle": "공통영어1 YBM(김) 1~2과 전체 분석",
+          "markdownSectionNumber": "5",
+          "text": "Certain artists are so closely linked with particular places that it is hard to separate them. \nArles and Van Gogh are like that.\nArles is located five hours southeast of Paris and is well known for its magical light and colorful landscape.\nThe most famous resident of this town was Vincent van Gogh.\nLeaving behind the gray skies of Paris, he arrived in Arles in 1888.\nThe town inspired an explosion of creativity.\nVincent claimed, “The whole future of art is to be found in the south of France.”\nHe worked enthusiastically and produced nearly 200 paintings in just fifteen months.\nNone of Vincent's works are left in Arles now, but today you can see a number of them have been recreated in street-side panels.\nLet's follow Vincent's traces that remain in Arles.",
+          "translationText": "어떤 예술가들은 특정 장소와 매우 밀접하게 관련되어 있어서 그들을 분리하기 어렵다. \n아를과 반 고흐가 그렇다.\n아를은 파리에서 남동쪽으로 다섯 시간 거리에 위치하고 있고 마법 같은 빛과 다채로운 풍경으로 잘 알려져 있다.\n이 도시에서 가장 유명한 거주자는 빈센트 반 고흐였다.\n그는 파리의 흐린 하늘을 뒤로하고 1888년에 아를에 도착했다.\n그 도시는 창의성의 폭발에 영감을 주었다.\n빈센트는 “예술의 모든 미래는 프랑스 남부에서 찾아볼 수 있을 것이다.”라고 주장했다.\n그는 열정적으로 작업했고 단 15개월 만에 거의 2백 점의 그림을 그렸다.\n지금은 아를에 빈센트의 작품이 하나도 남아 있지 않지만, 오늘날 그의 몇몇 작품들이 거리 옆 패널에 재창조되어 있는 것을 볼 수 있다.\n아를에 남아 있는 빈센트의 흔적들을 따라가 보자.",
+          "selectedLines": [
+            7,
+            8
+          ],
+          "grammarSelections": [
+            {
+              "text": "so closely linked with particular places that it is hard to separate them",
+              "answer": "용법: so ~ that ... 구문입니다.\n왜 쓰였는지: “특정 장소들과 너무 밀접하게 연결되어 있어서, 그것들을 떼어 놓기 어렵다”라는 결과를 나타내기 위해 썼습니다.\n형태 포인트: so + 부사/형용사 + that + 결과절\n여기서는 so closely(so + 부사) + that it is hard ... 구조입니다.",
+              "lineIndex": 0,
+              "context": "Certain artists are so closely linked with particular places that it is hard to separate them."
+            },
+            {
+              "text": "is well known for",
+              "answer": "용법: be known의 수동형 표현입니다.\n전치사에 따른 차이:\nbe known for + 이유/특징: ~로 유명하다\nbe known as + 이름/지위/정체: ~로 알려져 있다, ~로 불리다\nbe known to + 사람: ~에게 알려져 있다",
+              "lineIndex": 2,
+              "context": "Arles is located five hours southeast of Paris and is well known for its magical light and colorful landscape."
+            },
+            {
+              "text": "to be found",
+              "answer": "용법: to부정사의 수동형입니다.\n왜 쓰였는지: “예술의 미래가 프랑스 남부에서 발견될 수 있다 / 찾아볼 수 있다”라는 수동 의미를 나타내기 위해 썼습니다.\n형태 포인트: to be + p.p. = to부정사의 수동형",
+              "lineIndex": 6,
+              "context": "Vincent claimed, “The whole future of art is to be found in the south of France.”"
+            },
+            {
+              "text": "have been recreated",
+              "answer": "용법: 현재완료 수동태입니다.\n왜 쓰였는지: Vincent의 작품들이 누군가에 의해 재현되어 온 결과가 현재까지 남아 있음을 나타내려고 썼습니다.\n형태 포인트: have/has been + p.p. = 현재완료 수동태",
+              "lineIndex": 8,
+              "context": "None of Vincent's works are left in Arles now, but today you can see a number of them have been recreated in street-side panels."
+            }
+          ],
+          "vocabRows": [
+            {
+              "word": "link",
+              "meaning": "서로 긴밀히 연결되다",
+              "syn": "connect, associate",
+              "ant": "separate, detach",
+              "antMeaning": "분리하다, 떼어 놓다"
+            },
+            {
+              "word": "inspire",
+              "meaning": "창작 의욕을 불러일으키다",
+              "syn": "stimulate, motivate",
+              "ant": "discourage, stifle",
+              "antMeaning": "의욕을 꺾다, 억누르다"
+            },
+            {
+              "word": "creativity",
+              "meaning": "창조적 생산력",
+              "syn": "imagination, inventiveness",
+              "ant": "dullness, sterility",
+              "antMeaning": "무기력함, 창의성 결핍"
+            }
+          ],
+          "questionAnswers": {
+            "topic": "특정 장소의 환경이 예술가에게 깊은 영감을 주어 예술가와 장소가 불가분의 관계를 형성할 수 있다."
+          },
+          "selectedSents": [
+            "He worked enthusiastically and produced nearly 200 paintings in just fifteen months.",
+            "None of Vincent's works are left in Arles now, but today you can see a number of them have been recreated in street-side panels."
+          ],
+          "translationAnswers": {
+            "He worked enthusiastically and produced nearly 200 paintings in just fifteen months.": "그는 열정적으로 작업했고 단 15개월 만에 거의 2백 점의 그림을 그렸다.",
+            "None of Vincent's works are left in Arles now, but today you can see a number of them have been recreated in street-side panels.": "지금은 아를에 빈센트의 작품이 하나도 남아 있지 않지만, 오늘날 그의 몇몇 작품들이 거리 옆 패널에 재창조되어 있는 것을 볼 수 있다."
+          },
+          "grammarRows": [
+            {
+              "point": "so closely linked with particular places that it is hard to separate them",
+              "answer": "용법: so ~ that ... 구문입니다.\n왜 쓰였는지: “특정 장소들과 너무 밀접하게 연결되어 있어서, 그것들을 떼어 놓기 어렵다”라는 결과를 나타내기 위해 썼습니다.\n형태 포인트: so + 부사/형용사 + that + 결과절\n여기서는 so closely(so + 부사) + that it is hard ... 구조입니다.",
+              "lineIndex": 0,
+              "context": "Certain artists are so closely linked with particular places that it is hard to separate them."
+            },
+            {
+              "point": "is well known for",
+              "answer": "용법: be known의 수동형 표현입니다.\n전치사에 따른 차이:\nbe known for + 이유/특징: ~로 유명하다\nbe known as + 이름/지위/정체: ~로 알려져 있다, ~로 불리다\nbe known to + 사람: ~에게 알려져 있다",
+              "lineIndex": 2,
+              "context": "Arles is located five hours southeast of Paris and is well known for its magical light and colorful landscape."
+            },
+            {
+              "point": "to be found",
+              "answer": "용법: to부정사의 수동형입니다.\n왜 쓰였는지: “예술의 미래가 프랑스 남부에서 발견될 수 있다 / 찾아볼 수 있다”라는 수동 의미를 나타내기 위해 썼습니다.\n형태 포인트: to be + p.p. = to부정사의 수동형",
+              "lineIndex": 6,
+              "context": "Vincent claimed, “The whole future of art is to be found in the south of France.”"
+            },
+            {
+              "point": "have been recreated",
+              "answer": "용법: 현재완료 수동태입니다.\n왜 쓰였는지: Vincent의 작품들이 누군가에 의해 재현되어 온 결과가 현재까지 남아 있음을 나타내려고 썼습니다.\n형태 포인트: have/has been + p.p. = 현재완료 수동태",
+              "lineIndex": 8,
+              "context": "None of Vincent's works are left in Arles now, but today you can see a number of them have been recreated in street-side panels."
+            }
+          ]
+        },
+        {
+          "title": "교과서 2과 - 본문 2",
+          "markdownSourceTitle": "공통영어1 YBM(김) 1~2과 전체 분석",
+          "markdownSectionNumber": "6",
+          "text": "Arles is an ancient city dating back to Roman times.\nMany Roman buildings remain, including an arena that was built in 90 A.D.\nThe arena used to seat over 20,000 people who would go to watch various entertaining events.\nVincent sometimes went to the bullfights that were held in the arena every Sunday.\nHe particularly liked to watch the colorful crowds.\nHe told a friend that he found the crowds fascinating. \nThey inspired the painting Arena at Arles.\nThe arena is in the top right corner of the painting and is barely visible.\nBelow, there is a faint image of two bulls.\nHowever, Vincent paid lots of attention to the people and their colorful clothes.\nSome of the people are chatting with friends, others are cheering on the bulls, and the entire painting has a powerful energy.",
+          "translationText": "아를은 로마 시대 이래 계속 존재하고 있는 고대 도시다.\n서기 90년에 지어진 원형 경기장을 포함하여 많은 로마 시대 건물들이 남아 있다.\n이 경기장은 한때 다양한 오락 행사를 보러 온 2만 명 이상의 사람들을 수용하곤 했다.\n빈센트는 가끔 일요일마다 경기장에서 열리는 투우 경기를 보러 가기도 했다.\n그는 특히 다채로운 군중을 보는 것을 좋아했다.\n그는 친구에게 군중들이 대단히 흥미롭다는 것을 알게 되었다고 얘기했다. \n그들은 ‘아를의 원형 경기장’이라는 그림에 영감을 주었다.\n경기장은 그림의 우측 상단 가장자리에 위치하고 있고, 거의 보이지 않는다.\n아래에는 두 마리의 황소의 희미한 이미지가 있다.\n하지만 빈센트는 사람들과 그들의 다채로운 옷에 많은 주의를 기울였다.\n어떤 사람들은 친구와 수다를 떨고, 다른 사람들은 황소를 응원하며, 전체적인 그림은 강력한 에너지를 지닌다.",
+          "selectedLines": [
+            1,
+            9
+          ],
+          "grammarSelections": [
+            {
+              "text": "dating",
+              "answer": "용법: 현재분사입니다.\n왜 쓰였는지: an ancient city를 뒤에서 꾸며서, “로마 시대까지 거슬러 올라가는 도시”라는 뜻을 나타냅니다.\n해석 포인트: 여기서는 which dates back to Roman times가 줄어든 형태로 보면 됩니다.",
+              "lineIndex": 0,
+              "context": "Arles is an ancient city dating back to Roman times."
+            },
+            {
+              "text": "including",
+              "answer": "용법: 전치사입니다.\n왜 쓰였는지: 앞의 Many Roman buildings remain에 구체적 예시를 덧붙이려고 썼습니다.\n해석 포인트: “~을 포함하여”라는 뜻입니다.",
+              "lineIndex": 1,
+              "context": "Many Roman buildings remain, including an arena that was built in 90 A.D."
+            },
+            {
+              "text": "used to seat",
+              "answer": "용법: used to + 동사원형입니다.\n\nused to + V: 예전에 ~하곤 했다 / ~이었다\nbe used to + N / V-ing: ~에 익숙하다\nbe used to-v: ~하기 위해 사용되다",
+              "lineIndex": 2,
+              "context": "The arena used to seat over 20,000 people who would go to watch various entertaining events."
+            },
+            {
+              "text": "were held",
+              "answer": "용법: 과거 수동태입니다.\n왜 쓰였는지: 투우가 스스로 개최하는 것이 아니라, 누군가에 의해 개최되었기 때문에 수동태를 썼습니다.\n형태 포인트: be동사 + p.p. = 수동태",
+              "lineIndex": 3,
+              "context": "Vincent sometimes went to the bullfights that were held in the arena every Sunday."
+            },
+            {
+              "text": "that",
+              "answer": "용법: 명사절을 이끄는 접속사입니다.\n왜 쓰였는지: told a friend 뒤에서, Vincent가 친구에게 말한 내용을 연결해 주기 위해 썼습니다.\n형태 포인트: that 뒤에는 완전한 절(S+V) 이 옵니다.",
+              "lineIndex": 5,
+              "context": "He told a friend that he found the crowds fascinating."
+            },
+            {
+              "text": "fascinating",
+              "answer": "용법: 5형식에서 목적격보어로 쓰인 형용사입니다.\n왜 쓰였는지: the crowds가 주는 성질이 “매혹적인” 것이기 때문에 fascinating을 썼습니다.\n왜 -ing를 쓰는가:\n-ing 형용사는 보통 감정을 일으키는 대상의 성질을 나타냅니다.\n즉, the crowds가 “매혹됨을 느끼는 주체”가 아니라, 매혹감을 주는 대상이므로 fascinated가 아니라 fascinating이 맞습니다.\n비교:\nfascinating = 매혹적인\nfascinated = 매혹된\n구조 포인트: find + O + 형용사 구조입니다.",
+              "lineIndex": 5,
+              "context": "He told a friend that he found the crowds fascinating."
+            }
+          ],
+          "vocabRows": [
+            {
+              "word": "fascinating",
+              "meaning": "강하게 끌리는, 매혹적인",
+              "syn": "captivating, compelling",
+              "ant": "dull, boring",
+              "antMeaning": "지루한, 따분한"
+            },
+            {
+              "word": "barely",
+              "meaning": "거의 ~않는",
+              "syn": "hardly, scarcely",
+              "ant": "clearly, fully",
+              "antMeaning": "분명히, 충분히"
+            },
+            {
+              "word": "colorful",
+              "meaning": "색채가 풍부한",
+              "syn": "vivid, bright",
+              "ant": "dull, plain",
+              "antMeaning": "칙칙한, 단조로운"
+            },
+            {
+              "word": "attention",
+              "meaning": "시선을 집중함",
+              "syn": "focus, concentration",
+              "ant": "neglect, disregard",
+              "antMeaning": "무시함, 외면함"
+            }
+          ],
+          "questionAnswers": {
+            "topic": "한 장면을 그릴 때 예술가는 겉으로 드러난 사건보다 그것을 둘러싼 인간적 에너지에 더 주목할 수 있다."
+          },
+          "selectedSents": [
+            "Many Roman buildings remain, including an arena that was built in 90 A.D.",
+            "However, Vincent paid lots of attention to the people and their colorful clothes."
+          ],
+          "translationAnswers": {
+            "Many Roman buildings remain, including an arena that was built in 90 A.D.": "서기 90년에 지어진 원형 경기장을 포함하여 많은 로마 시대 건물들이 남아 있다.",
+            "However, Vincent paid lots of attention to the people and their colorful clothes.": "하지만 빈센트는 사람들과 그들의 다채로운 옷에 많은 주의를 기울였다."
+          },
+          "grammarRows": [
+            {
+              "point": "dating",
+              "answer": "용법: 현재분사입니다.\n왜 쓰였는지: an ancient city를 뒤에서 꾸며서, “로마 시대까지 거슬러 올라가는 도시”라는 뜻을 나타냅니다.\n해석 포인트: 여기서는 which dates back to Roman times가 줄어든 형태로 보면 됩니다.",
+              "lineIndex": 0,
+              "context": "Arles is an ancient city dating back to Roman times."
+            },
+            {
+              "point": "including",
+              "answer": "용법: 전치사입니다.\n왜 쓰였는지: 앞의 Many Roman buildings remain에 구체적 예시를 덧붙이려고 썼습니다.\n해석 포인트: “~을 포함하여”라는 뜻입니다.",
+              "lineIndex": 1,
+              "context": "Many Roman buildings remain, including an arena that was built in 90 A.D."
+            },
+            {
+              "point": "used to seat",
+              "answer": "용법: used to + 동사원형입니다.\n\nused to + V: 예전에 ~하곤 했다 / ~이었다\nbe used to + N / V-ing: ~에 익숙하다\nbe used to-v: ~하기 위해 사용되다",
+              "lineIndex": 2,
+              "context": "The arena used to seat over 20,000 people who would go to watch various entertaining events."
+            },
+            {
+              "point": "were held",
+              "answer": "용법: 과거 수동태입니다.\n왜 쓰였는지: 투우가 스스로 개최하는 것이 아니라, 누군가에 의해 개최되었기 때문에 수동태를 썼습니다.\n형태 포인트: be동사 + p.p. = 수동태",
+              "lineIndex": 3,
+              "context": "Vincent sometimes went to the bullfights that were held in the arena every Sunday."
+            },
+            {
+              "point": "that",
+              "answer": "용법: 명사절을 이끄는 접속사입니다.\n왜 쓰였는지: told a friend 뒤에서, Vincent가 친구에게 말한 내용을 연결해 주기 위해 썼습니다.\n형태 포인트: that 뒤에는 완전한 절(S+V) 이 옵니다.",
+              "lineIndex": 5,
+              "context": "He told a friend that he found the crowds fascinating."
+            },
+            {
+              "point": "fascinating",
+              "answer": "용법: 5형식에서 목적격보어로 쓰인 형용사입니다.\n왜 쓰였는지: the crowds가 주는 성질이 “매혹적인” 것이기 때문에 fascinating을 썼습니다.\n왜 -ing를 쓰는가:\n-ing 형용사는 보통 감정을 일으키는 대상의 성질을 나타냅니다.\n즉, the crowds가 “매혹됨을 느끼는 주체”가 아니라, 매혹감을 주는 대상이므로 fascinated가 아니라 fascinating이 맞습니다.\n비교:\nfascinating = 매혹적인\nfascinated = 매혹된\n구조 포인트: find + O + 형용사 구조입니다.",
+              "lineIndex": 5,
+              "context": "He told a friend that he found the crowds fascinating."
+            }
+          ]
+        },
+        {
+          "title": "교과서 2과 - 본문 3",
+          "markdownSourceTitle": "공통영어1 YBM(김) 1~2과 전체 분석",
+          "markdownSectionNumber": "7",
+          "text": "Vincent painted the world-famous Café Terrace at Night in September 1888.\nHe created this work while sitting outside the Café van Gogh at night.\nThis was unusual because most painters did their night scenes from memory and worked during the daytime.\nAs such, they used a lot of black paint.\nVincent, however, believed that night scenes contained diverse and vibrant colors.\nIndeed, the Café Terrace at Night has such a rich harmony of yellows, blues, and oranges that Vincent did not have to use a single drop of black paint.\nEven today, there is still a café at the site of Vincent’s painting.\nIt was renovated in the 1990s and painted yellow to look like the café in the painting.\nHowever, it is uncertain whether the color of the original café was yellow or not.\nThe reason is that Vincent painted the wall of the café yellow to show the lamp light.",
+          "translationText": "빈센트는 세계적으로 유명한 ‘밤의 카페 테라스’를 1888년 9월에 그렸다.\n그는 밤에 카페 반 고흐 밖에 앉아 이 작품을 만들었다.\n대부분의 화가들이 밤 풍경을 기억에서 떠올려 그리고 주로 주간에 작업했기 때문에 이것은 드문 경우였다.\n따라서, 대부분의 화가들은 검은색 물감을 많이 사용했다.\n하지만 빈센트는 밤 풍경이 다양하고 생동감 넘치는 색들을 지니고 있다고 믿었다.\n실제로, ‘밤의 카페 테라스’는 노란색, 파란색, 주황색의 풍부한 조화를 지니고 있기 때문에 빈센트는 검은색 물감을 단 한 방울도 사용할 필요가 없었다.\n오늘날에도, 여전히 빈센트의 그림이 그려진 그 자리에 카페가 있다.\n카페는 1990년대에 개조되었고, 그림 속의 카페처럼 보이기 위해 노란색으로 칠해졌다.\n하지만 원래 카페의 색이 노란색이었는지 여부는 불확실하다.\n그 이유는 빈센트가 램프의 불빛을 보여 주기 위해서 카페의 벽을 노란색으로 칠했기 때문이다.",
+          "selectedLines": [
+            2,
+            5
+          ],
+          "grammarSelections": [
+            {
+              "text": "that",
+              "answer": "용법: 명사절을 이끄는 접속사입니다.\n왜 쓰였는지: believed의 목적어로, Vincent가 무엇을 믿었는지 그 내용을 이어 주기 위해 쓰였습니다.\n형태 포인트: that 뒤에는 완전한 절(S+V) 이 옵니다.",
+              "lineIndex": 4,
+              "context": "Vincent, however, believed that night scenes contained diverse and vibrant colors."
+            },
+            {
+              "text": "such a rich harmony of yellows, blues, and oranges that Vincent did not have to use a single drop of black paint",
+              "answer": "용법: such ~ that ... 구문입니다.\n형태 포인트: such + a/an + 형용사 + 명사 + that + 절\n\nso ~ that: 형용사/부사 자체를 강조\nso + 형용사/부사 + that\n\nsuch ~ that: 명사구 전체를 강조\nsuch + (형용사) + 명사 + that\n\n여기서 such를 쓴 이유: 중심이 a rich harmony라는 명사구이기 때문입니다.",
+              "lineIndex": 5,
+              "context": "Indeed, the Café Terrace at Night has such a rich harmony of yellows, blues, and oranges that Vincent did not have to use a single drop of black paint."
+            },
+            {
+              "text": "it is uncertain whether",
+              "answer": "용법: 가주어 it + 진주어 whether절 구조로 볼 수 있습니다.\n진주어: whether the color of the original café was yellow or not\n\nwhether의 특징: ‘~인지 아닌지’의 뜻입니다.\n형태 포인트: whether ... or not 형태와 잘 어울립니다.",
+              "lineIndex": 8,
+              "context": "However, it is uncertain whether the color of the original café was yellow or not."
+            },
+            {
+              "text": "that",
+              "answer": "용법: 보어절을 이끄는 접속사입니다.\n왜 쓰였는지: The reason is ~ 뒤에서, “그 이유가 무엇인지”의 내용을 설명하기 위해 쓰였습니다.\n형태 포인트: that 뒤에는 완전한 절(S+V) 이 옵니다.",
+              "lineIndex": 9,
+              "context": "The reason is that Vincent painted the wall of the café yellow to show the lamp light."
+            }
+          ],
+          "vocabRows": [
+            {
+              "word": "unusual",
+              "meaning": "보통과 다른",
+              "syn": "uncommon, exceptional",
+              "ant": "usual, ordinary",
+              "antMeaning": "흔한, 보통의"
+            },
+            {
+              "word": "vibrant",
+              "meaning": "생생하고 강렬한",
+              "syn": "vivid, lively",
+              "ant": "dull, muted",
+              "antMeaning": "칙칙한, 죽은 듯한"
+            },
+            {
+              "word": "harmony",
+              "meaning": "색과 분위기의 조화",
+              "syn": "balance, blend",
+              "ant": "clash, discord",
+              "antMeaning": "부조화, 불협화음"
+            }
+          ],
+          "questionAnswers": {
+            "topic": "익숙한 대상을 바라보는 예술가의 다른 인식은 표현 방식과 작품 해석을 모두 바꿀 수 있다."
+          },
+          "selectedSents": [
+            "This was unusual because most painters did their night scenes from memory and worked during the daytime.",
+            "Indeed, the Café Terrace at Night has such a rich harmony of yellows, blues, and oranges that Vincent did not have to use a single drop of black paint."
+          ],
+          "translationAnswers": {
+            "This was unusual because most painters did their night scenes from memory and worked during the daytime.": "대부분의 화가들이 밤 풍경을 기억에서 떠올려 그리고 주로 주간에 작업했기 때문에 이것은 드문 경우였다.",
+            "Indeed, the Café Terrace at Night has such a rich harmony of yellows, blues, and oranges that Vincent did not have to use a single drop of black paint.": "실제로, ‘밤의 카페 테라스’는 노란색, 파란색, 주황색의 풍부한 조화를 지니고 있기 때문에 빈센트는 검은색 물감을 단 한 방울도 사용할 필요가 없었다."
+          },
+          "grammarRows": [
+            {
+              "point": "that",
+              "answer": "용법: 명사절을 이끄는 접속사입니다.\n왜 쓰였는지: believed의 목적어로, Vincent가 무엇을 믿었는지 그 내용을 이어 주기 위해 쓰였습니다.\n형태 포인트: that 뒤에는 완전한 절(S+V) 이 옵니다.",
+              "lineIndex": 4,
+              "context": "Vincent, however, believed that night scenes contained diverse and vibrant colors."
+            },
+            {
+              "point": "such a rich harmony of yellows, blues, and oranges that Vincent did not have to use a single drop of black paint",
+              "answer": "용법: such ~ that ... 구문입니다.\n형태 포인트: such + a/an + 형용사 + 명사 + that + 절\n\nso ~ that: 형용사/부사 자체를 강조\nso + 형용사/부사 + that\n\nsuch ~ that: 명사구 전체를 강조\nsuch + (형용사) + 명사 + that\n\n여기서 such를 쓴 이유: 중심이 a rich harmony라는 명사구이기 때문입니다.",
+              "lineIndex": 5,
+              "context": "Indeed, the Café Terrace at Night has such a rich harmony of yellows, blues, and oranges that Vincent did not have to use a single drop of black paint."
+            },
+            {
+              "point": "it is uncertain whether",
+              "answer": "용법: 가주어 it + 진주어 whether절 구조로 볼 수 있습니다.\n진주어: whether the color of the original café was yellow or not\n\nwhether의 특징: ‘~인지 아닌지’의 뜻입니다.\n형태 포인트: whether ... or not 형태와 잘 어울립니다.",
+              "lineIndex": 8,
+              "context": "However, it is uncertain whether the color of the original café was yellow or not."
+            },
+            {
+              "point": "that",
+              "answer": "용법: 보어절을 이끄는 접속사입니다.\n왜 쓰였는지: The reason is ~ 뒤에서, “그 이유가 무엇인지”의 내용을 설명하기 위해 쓰였습니다.\n형태 포인트: that 뒤에는 완전한 절(S+V) 이 옵니다.",
+              "lineIndex": 9,
+              "context": "The reason is that Vincent painted the wall of the café yellow to show the lamp light."
+            }
+          ]
+        },
+        {
+          "title": "교과서 2과 - 본문 4",
+          "markdownSourceTitle": "공통영어1 YBM(김) 1~2과 전체 분석",
+          "markdownSectionNumber": "8",
+          "text": "In December 1888, Vincent suffered from a mental illness and was sent to the hospital in Arles.\nHe stayed there for five months. \nDuring this time, his mental stability improved, and the doctors allowed him to paint outdoors.\nVincent took advantage of this freedom and produced several beautiful landscapes, such as The Garden of the Hospital in Arles.\nThe picture illustrates a spring garden filled with flowers and trees with different colors and tones.\nThe flowers are in full bloom, and the small trees are leafy.\nThe big trees, however, have few leaves. \nThis is rather odd given that the season is spring.\nPerhaps this contrast reflects the painter’s complex feelings during the most difficult time of his life.\nThe hospital closed in the 1980s, and the building reopened as a library and exhibition space, with a café and gift shops.\nThe garden was renovated to resemble Vincent’s painting as much as possible.",
+          "translationText": "1888년 12월, 빈센트는 정신 질환을 앓았고 아를의 병원으로 보내졌다.\n그는 그곳에서 5개월 동안 머물렀다. \n이 기간 동안, 그의 정신적 안정성이 향상되었고 의사들은 그가 야외에서 그림을 그릴 수 있도록 허락했다.\n빈센트는 이 자유를 이용해서 ‘아를 병원의 정원’과 같은 몇몇 아름다운 풍경화를 그렸다.\n이 그림은 다양한 색과 명암의 꽃과 나무로 가득 찬 봄의 정원을 보여 준다.\n꽃들은 만개하고 작은 나무들은 잎이 무성하다.\n그러나 큰 나무들은 잎이 거의 없다. \n계절이 봄이라는 점을 고려하면, 이것은 꽤 이상하다.\n이 대조는 아마도 그의 인생에서 가장 어려운 시기 동안의 그 화가의 복잡한 감정을 반영하는 것일지도 모른다.\n병원은 1980년대에 문을 닫았고, 건물은 카페와 기념품 가게가 있는 도서관 및 전시 공간으로 다시 문을 열었다.\n정원은 빈센트의 그림을 최대한 닮도록 개조되었다.",
+          "selectedLines": [
+            2,
+            8
+          ],
+          "grammarSelections": [
+            {
+              "text": "to paint",
+              "answer": "allow가 OT동사이기 때문에 목적격보어에 to-v가 쓰였습니다.",
+              "lineIndex": 2,
+              "context": "During this time, his mental stability improved, and the doctors allowed him to paint outdoors."
+            },
+            {
+              "text": "filled",
+              "answer": "용법: 과거분사입니다.\n왜 쓰였는지: a spring garden을 뒤에서 꾸며서, “꽃과 나무로 가득 찬 정원”이라는 뜻을 만듭니다.\n형태 포인트: be filled with ~에서 온 표현으로, 여기서는 명사를 꾸미는 분사구로 쓰였습니다.",
+              "lineIndex": 4,
+              "context": "The picture illustrates a spring garden filled with flowers and trees with different colors and tones."
+            },
+            {
+              "text": "given that",
+              "answer": "용법: 접속사 표현입니다.\n왜 쓰였는지: “계절이 봄이라는 점을 고려하면 / 감안하면”이라는 뜻으로, 뒤 문장이 이상하다는 판단의 이유·배경을 제시합니다.\n형태 포인트: given that + 완전한 절(S+V) 이 옵니다.",
+              "lineIndex": 7,
+              "context": "This is rather odd given that the season is spring."
+            }
+          ],
+          "vocabRows": [
+            {
+              "word": "freedom",
+              "meaning": "제약 없이 그릴 수 있는 자유",
+              "syn": "liberty, independence",
+              "ant": "restriction, confinement",
+              "antMeaning": "제한, 구속"
+            },
+            {
+              "word": "contrast",
+              "meaning": "서로 다른 요소의 대비",
+              "syn": "difference, opposition",
+              "ant": "uniformity, sameness",
+              "antMeaning": "동일함, 획일성"
+            },
+            {
+              "word": "complex",
+              "meaning": "복잡한",
+              "syn": "complicated, intricate",
+              "ant": "simple, straightforward",
+              "antMeaning": "단순한, 직접적인"
+            },
+            {
+              "word": "reflect",
+              "meaning": "내면 상태를 드러내다",
+              "syn": "reveal, express",
+              "ant": "conceal, hide",
+              "antMeaning": "숨기다, 감추다"
+            }
+          ],
+          "questionAnswers": {
+            "topic": "풍경화는 외부 장면의 묘사와 함께 예술가의 내면 상태를 드러내는 매체가 될 수 있다."
+          },
+          "selectedSents": [
+            "During this time, his mental stability improved, and the doctors allowed him to paint outdoors.",
+            "Perhaps this contrast reflects the painter’s complex feelings during the most difficult time of his life."
+          ],
+          "translationAnswers": {
+            "During this time, his mental stability improved, and the doctors allowed him to paint outdoors.": "이 기간 동안, 그의 정신적 안정성이 향상되었고 의사들은 그가 야외에서 그림을 그릴 수 있도록 허락했다.",
+            "Perhaps this contrast reflects the painter’s complex feelings during the most difficult time of his life.": "이 대조는 아마도 그의 인생에서 가장 어려운 시기 동안의 그 화가의 복잡한 감정을 반영하는 것일지도 모른다."
+          },
+          "grammarRows": [
+            {
+              "point": "to paint",
+              "answer": "allow가 OT동사이기 때문에 목적격보어에 to-v가 쓰였습니다.",
+              "lineIndex": 2,
+              "context": "During this time, his mental stability improved, and the doctors allowed him to paint outdoors."
+            },
+            {
+              "point": "filled",
+              "answer": "용법: 과거분사입니다.\n왜 쓰였는지: a spring garden을 뒤에서 꾸며서, “꽃과 나무로 가득 찬 정원”이라는 뜻을 만듭니다.\n형태 포인트: be filled with ~에서 온 표현으로, 여기서는 명사를 꾸미는 분사구로 쓰였습니다.",
+              "lineIndex": 4,
+              "context": "The picture illustrates a spring garden filled with flowers and trees with different colors and tones."
+            },
+            {
+              "point": "given that",
+              "answer": "용법: 접속사 표현입니다.\n왜 쓰였는지: “계절이 봄이라는 점을 고려하면 / 감안하면”이라는 뜻으로, 뒤 문장이 이상하다는 판단의 이유·배경을 제시합니다.\n형태 포인트: given that + 완전한 절(S+V) 이 옵니다.",
+              "lineIndex": 7,
+              "context": "This is rather odd given that the season is spring."
+            }
+          ]
+        },
+        {
+          "title": "교과서 2과 - 본문 5",
+          "markdownSourceTitle": "공통영어1 YBM(김) 1~2과 전체 분석",
+          "markdownSectionNumber": "9",
+          "text": "Arles and its provincial countryside inspired Vincent to create brighter, more exciting landscapes.\nHe had searched for brighter colors and softer light in Paris. \nIn Arles, he found them.\nToday, more than 100 years later, this beautiful city remains just as attractive.\nThe combination of Roman historic sites and Vincent’s story creates a unique mood that will inspire you just as the city had inspired Vincent.",
+          "translationText": "아를과 그 지방의 시골 풍경은 빈센트가 더 밝고 흥미로운 풍경화들을 창조하도록 영감을 주었다.\n그는 파리에서 더 밝은 색과 부드러운 빛을 찾아 헤맸었다. \n아를에서 그는 그것들을 찾았다.\n오늘날, 백 년 이상이 지난 후에도, 이 아름다운 도시는 여전히 매력적으로 남아 있다.\n로마의 역사적인 장소들과 빈센트의 이야기의 결합은 그 도시가 빈센트에게 영감을 주었던 것처럼 당신에게도 영감을 줄 독특한 분위기를 만들 것이다.",
+          "selectedLines": [
+            0,
+            4
+          ],
+          "grammarSelections": [
+            {
+              "text": "to create",
+              "answer": "inspire이 OT동사이기 때문에 목적격보어 자리에 to-v가 쓰였습니다.",
+              "lineIndex": 0,
+              "context": "Arles and its provincial countryside inspired Vincent to create brighter, more exciting landscapes."
+            },
+            {
+              "text": "exciting",
+              "answer": "용법: 현재분사형 형용사입니다.\n왜 쓰였는지: landscapes의 성질을 설명해서, “사람을 신나게 하는 / 생동감 있는 풍경”이라는 뜻을 나타냅니다.\n해석 포인트: excited가 아니라 exciting인 이유는, 풍경이 감정을 느끼는 대상이 아니라 그 감정을 불러일으키는 대상이기 때문입니다.",
+              "lineIndex": 0,
+              "context": "Arles and its provincial countryside inspired Vincent to create brighter, more exciting landscapes."
+            },
+            {
+              "text": "just as attractive",
+              "answer": "용법: as ~ as 원급 비교 구문입니다.\n원래는 just as attractive as (it was before) 정도로 볼 수 있습니다.",
+              "lineIndex": 3,
+              "context": "Today, more than 100 years later, this beautiful city remains just as attractive."
+            },
+            {
+              "text": "had inspired",
+              "answer": "용법: 과거완료입니다.\n형태: had p.p.",
+              "lineIndex": 4,
+              "context": "The combination of Roman historic sites and Vincent’s story creates a unique mood that will inspire you just as the city had inspired Vincent."
+            }
+          ],
+          "vocabRows": [
+            {
+              "word": "inspire",
+              "meaning": "영감을 주다",
+              "syn": "motivate, stimulate",
+              "ant": "discourage, deaden",
+              "antMeaning": "의욕을 꺾다, 무디게 하다"
+            },
+            {
+              "word": "brighter",
+              "meaning": "더 밝은",
+              "syn": "lighter, more vivid",
+              "ant": "darker, duller",
+              "antMeaning": "더 어두운, 더 칙칙한"
+            },
+            {
+              "word": "unique",
+              "meaning": "독특한",
+              "syn": "distinctive, special",
+              "ant": "ordinary, common",
+              "antMeaning": "평범한, 흔한"
+            }
+          ],
+          "questionAnswers": {
+            "topic": "한때 예술가에게 영감을 준 장소는 시간이 지나도 여전히 다른 이들에게 영감을 줄 수 있다."
+          },
+          "selectedSents": [
+            "Arles and its provincial countryside inspired Vincent to create brighter, more exciting landscapes.",
+            "The combination of Roman historic sites and Vincent’s story creates a unique mood that will inspire you just as the city had inspired Vincent."
+          ],
+          "translationAnswers": {
+            "Arles and its provincial countryside inspired Vincent to create brighter, more exciting landscapes.": "아를과 그 지방의 시골 풍경은 빈센트가 더 밝고 흥미로운 풍경화들을 창조하도록 영감을 주었다.",
+            "The combination of Roman historic sites and Vincent’s story creates a unique mood that will inspire you just as the city had inspired Vincent.": "로마의 역사적인 장소들과 빈센트의 이야기의 결합은 그 도시가 빈센트에게 영감을 주었던 것처럼 당신에게도 영감을 줄 독특한 분위기를 만들 것이다."
+          },
+          "grammarRows": [
+            {
+              "point": "to create",
+              "answer": "inspire이 OT동사이기 때문에 목적격보어 자리에 to-v가 쓰였습니다.",
+              "lineIndex": 0,
+              "context": "Arles and its provincial countryside inspired Vincent to create brighter, more exciting landscapes."
+            },
+            {
+              "point": "exciting",
+              "answer": "용법: 현재분사형 형용사입니다.\n왜 쓰였는지: landscapes의 성질을 설명해서, “사람을 신나게 하는 / 생동감 있는 풍경”이라는 뜻을 나타냅니다.\n해석 포인트: excited가 아니라 exciting인 이유는, 풍경이 감정을 느끼는 대상이 아니라 그 감정을 불러일으키는 대상이기 때문입니다.",
+              "lineIndex": 0,
+              "context": "Arles and its provincial countryside inspired Vincent to create brighter, more exciting landscapes."
+            },
+            {
+              "point": "just as attractive",
+              "answer": "용법: as ~ as 원급 비교 구문입니다.\n원래는 just as attractive as (it was before) 정도로 볼 수 있습니다.",
+              "lineIndex": 3,
+              "context": "Today, more than 100 years later, this beautiful city remains just as attractive."
+            },
+            {
+              "point": "had inspired",
+              "answer": "용법: 과거완료입니다.\n형태: had p.p.",
+              "lineIndex": 4,
+              "context": "The combination of Roman historic sites and Vincent’s story creates a unique mood that will inspire you just as the city had inspired Vincent."
+            }
+          ]
+        }
+      ],
+      "classAssignments": [
+        {
+          "classId": "class-2",
+          "passageIndexes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
           ]
         }
       ]
