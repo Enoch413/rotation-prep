@@ -1,11 +1,11 @@
 {
   "version": 2,
   "bundleVersion": 2,
-  "savedAt": "2026-04-05T08:41:53.266Z",
+  "savedAt": "2026-04-05T08:47:25.847Z",
   "prepConfig": {
     "pageTitle": "입시코드 ROTATION",
     "globalPassword": "",
-    "generatedAt": "2026-04-05T08:41:53.266Z"
+    "generatedAt": "2026-04-05T08:47:25.847Z"
   },
   "classes": [
     {
@@ -2774,10 +2774,10 @@
     },
     {
       "id": "set-1775378485941-138",
-      "title": "교과서 1과 - 본문 1",
+      "title": "260408 2차 로테이션",
       "sourceName": "강서1 260408 1차 로테이션.json",
-      "startDate": "",
-      "endDate": "",
+      "startDate": "2026-04-05",
+      "endDate": "2026-04-18",
       "savedAt": "2026-04-05T08:40:45.141Z",
       "questionCounts": {
         "translate": 2,
