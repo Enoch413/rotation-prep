@@ -1,11 +1,11 @@
 {
   "version": 2,
   "bundleVersion": 2,
-  "savedAt": "2026-04-07T13:31:20.696Z",
+  "savedAt": "2026-04-07T13:47:54.354Z",
   "prepConfig": {
     "pageTitle": "입시코드 ROTATION",
     "globalPassword": "",
-    "generatedAt": "2026-04-07T13:31:20.696Z"
+    "generatedAt": "2026-04-07T13:47:54.354Z"
   },
   "classes": [
     {
@@ -3960,12 +3960,12 @@
       ]
     },
     {
-      "id": "set-1775568638604-227",
+      "id": "set-1775569651395-725",
       "title": "260408 2차 로테이션",
       "sourceName": "강서2 260408 2차 로테이션.json",
       "startDate": "2026-04-06",
       "endDate": "2026-04-18",
-      "savedAt": "2026-04-07T13:29:46.612Z",
+      "savedAt": "2026-04-07T13:45:19.713Z",
       "questionCounts": {
         "translate": 2,
         "grammar": 2,
@@ -4067,7 +4067,7 @@
           ]
         },
         {
-          "title": "Q미니 - 2강 2번",
+          "title": "Q미니 - 2강 4번",
           "markdownSourceTitle": "Q미니 - 2강 전체 분석",
           "markdownSectionNumber": "2",
           "markdownDescriptiveEntries": [],
@@ -4161,7 +4161,7 @@
           ]
         },
         {
-          "title": "Q미니 - 2강 3번",
+          "title": "Q미니 - 2강 2번",
           "markdownSourceTitle": "Q미니 - 2강 전체 분석",
           "markdownSectionNumber": "3",
           "markdownDescriptiveEntries": [],
@@ -4281,7 +4281,7 @@
           ]
         },
         {
-          "title": "Q미니 - 2강 4번",
+          "title": "Q미니 - 2강 3번",
           "markdownSourceTitle": "Q미니 - 2강 전체 분석",
           "markdownSectionNumber": "4",
           "markdownDescriptiveEntries": [],
