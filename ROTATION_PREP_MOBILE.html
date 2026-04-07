@@ -26,7 +26,6 @@
     <div class="boot-title" id="boot-title">PREP 자료를 불러오는 중입니다.</div>
     <div class="boot-desc" id="boot-desc">웹에서는 같은 폴더의 <b>session.json</b>을 자동으로 확인합니다.</div>
   </div>
-  <footer class="prep-footer overlay">Copyright (c) 2026, 코드 영어 연구소 All rights reserved.</footer>
 </div>
 
 <div class="screen" id="pw-screen">
@@ -35,7 +34,6 @@
   <input type="tel" id="pw-input" placeholder="공통 비밀번호" maxlength="20" inputmode="numeric" autocomplete="off">
   <div class="err" id="pw-err"></div>
   <button class="btn btn-blue" style="margin-top:16px;padding:12px 40px" type="button" id="pw-submit-btn">입장</button>
-  <footer class="prep-footer overlay">Copyright (c) 2026, 코드 영어 연구소 All rights reserved.</footer>
 </div>
 
 <div class="screen" id="class-screen">
@@ -132,6 +130,33 @@
   </div>
   <div class="screen-nav screen-nav-bottom">
     <button class="btn btn-ghost btn-sm" type="button" onclick="goHome()">이전 페이지</button>
+    <button class="btn btn-ghost btn-sm" type="button" onclick="goHome()">홈 화면</button>
+  </div>
+</div>
+
+<div class="screen" id="study-menu-screen">
+  <div class="screen-nav">
+    <button class="btn btn-ghost btn-sm" type="button" id="study-menu-back-btn">이전 페이지</button>
+    <button class="btn btn-ghost btn-sm" type="button" id="study-menu-home-btn">홈 화면</button>
+  </div>
+
+  <div class="s-title">
+    <h2 id="study-menu-title">지문 1</h2>
+    <span class="cnt" id="study-menu-count">0유형</span>
+  </div>
+
+  <div class="study-meta" id="study-menu-meta"></div>
+
+  <section class="group">
+    <div class="group-title">
+      <h3>학습 유형 선택</h3>
+      <span class="group-count">STEP</span>
+    </div>
+    <div class="study-topic-list" id="study-menu-list"></div>
+  </section>
+
+  <div class="screen-nav screen-nav-bottom">
+    <button class="btn btn-ghost btn-sm" type="button" onclick="showPassageScreen()">이전 페이지</button>
     <button class="btn btn-ghost btn-sm" type="button" onclick="goHome()">홈 화면</button>
   </div>
 </div>
