@@ -1,11 +1,11 @@
 {
   "version": 2,
   "bundleVersion": 2,
-  "savedAt": "2026-04-06T17:33:36.560Z",
+  "savedAt": "2026-04-07T13:31:20.696Z",
   "prepConfig": {
     "pageTitle": "입시코드 ROTATION",
     "globalPassword": "",
-    "generatedAt": "2026-04-06T17:33:36.560Z"
+    "generatedAt": "2026-04-07T13:31:20.696Z"
   },
   "classes": [
     {
@@ -1445,1310 +1445,6 @@
               "answer": "의미상주어 + to-v",
               "lineIndex": 5,
               "context": "Neither of these things can be assumed, and where habitats become too fragmented, a suitable pathway for organisms to move to other areas becomes less of a realistic possibility."
-            }
-          ]
-        }
-      ],
-      "classAssignments": [
-        {
-          "classId": "class-1",
-          "passageIndexes": [
-            0,
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10
-          ]
-        }
-      ]
-    },
-    {
-      "id": "set-1775325177305-167",
-      "title": "260408 2차 로테이션",
-      "sourceName": "260408 2차 로테이션.json",
-      "startDate": "2026-04-05",
-      "endDate": "2026-04-18",
-      "savedAt": "2026-04-04T17:43:37.318Z",
-      "questionCounts": {
-        "translate": 2,
-        "grammar": 2,
-        "vocab": 2
-      },
-      "passages": [
-        {
-          "title": "Q미니 - 2강 1번",
-          "markdownSourceTitle": "Q미니 - 2강 전체 분석",
-          "markdownSectionNumber": "1",
-          "text": "Leo stopped and looked around the forest.\nHe had been hiking through the forest for five hours by that point; he was dizzy and hungry, but he didn't stop.\n\"I've got to find him no matter what,\" Leo said to himself.\nHe was solely focused on finding his lost dog, Boxer.\nTo him, nothing mattered more.\nLeo started hurrying as he was almost at the top of a nearby hill.\nWhen he crossed a wooden bridge over a creek, he finally heard the familiar barking of Boxer.\n“He might be around here, somewhere,” Leo mumbled.\nHis spirits rose.\nLeo ran towards where the sound came from, and there he found Boxer, hiding in the bushes.\n“There you are, Boxer!” said Leo.\nThe dog was safe and unharmed.\nHe barked and wagged his tail as he looked at Leo.",
-          "translationText": "레오는 걸음을 멈추고 숲을 둘러보았다.\n그는 그때까지 다섯 시간 동안 숲속을 걸어 다니고 있었고, 어지럽고 배도 고팠지만 멈추지 않았다.\n“무슨 일이 있어도 그를 찾아야 해.”라고 레오는 혼잣말했다.\n그는 잃어버린 개 복서를 찾는 데에만 온전히 집중하고 있었다.\n그에게는 그것보다 더 중요한 것이 없었다.\n레오는 근처 언덕 꼭대기에 거의 다 와 있었기 때문에 서둘러 가기 시작했다.\n시냇물 위의 나무다리를 건넜을 때, 그는 마침내 복서의 익숙한 짖는 소리를 들었다.\n“어딘가 이 근처에 있을지도 몰라.”라고 레오는 중얼거렸다.\n그의 사기는 올라갔다.\n레오는 소리가 나는 쪽으로 달려갔고, 그곳에서 덤불 속에 숨어 있는 복서를 발견했다.\n“여기 있었구나, 복서!”라고 레오가 말했다.\n그 개는 안전했고 다친 곳도 없었다.\n복서는 레오를 바라보며 짖고 꼬리를 흔들었다.",
-          "selectedLines": [
-            1,
-            9
-          ],
-          "grammarSelections": [
-            {
-              "text": "had been hiking",
-              "answer": "had been ~ing - 과거완료진행시제",
-              "lineIndex": 1,
-              "context": "He had been hiking through the forest for five hours by that point; he was dizzy and hungry, but he didn't stop."
-            },
-            {
-              "text": "where",
-              "answer": "관계부사 where - 선행사 the place 생략되었다.",
-              "lineIndex": 9,
-              "context": "Leo ran towards where the sound came from, and there he found Boxer, hiding in the bushes."
-            },
-            {
-              "text": "hiding",
-              "answer": "분사구문 - 생략된 주어는 Leo이고 Leo가 숨어있는 것이기 때문에 능동의 ~ing를 써야한다.",
-              "lineIndex": 9,
-              "context": "Leo ran towards where the sound came from, and there he found Boxer, hiding in the bushes."
-            }
-          ],
-          "vocabRows": [
-            {
-              "word": "solely",
-              "meaning": "오로지, 전적으로",
-              "syn": "exclusively, entirely",
-              "ant": "partially",
-              "antMeaning": "부분적으로"
-            },
-            {
-              "word": "focused",
-              "meaning": "집중한",
-              "syn": "concentrated, intent",
-              "ant": "distracted",
-              "antMeaning": "산만한"
-            },
-            {
-              "word": "familiar",
-              "meaning": "익숙한",
-              "syn": "well-known, recognizable",
-              "ant": "unfamiliar, strange",
-              "antMeaning": "낯선"
-            },
-            {
-              "word": "unharmed",
-              "meaning": "다치지 않은",
-              "syn": "unhurt, intact",
-              "ant": "injured, harmed",
-              "antMeaning": "부상을 입은"
-            }
-          ],
-          "questionAnswers": {
-            "topic": "간절한 목적의식과 집요한 추적은 어려운 상황에서도 행동을 지속하게 한다."
-          },
-          "selectedSents": [
-            "He had been hiking through the forest for five hours by that point; he was dizzy and hungry, but he didn't stop.",
-            "Leo ran towards where the sound came from, and there he found Boxer, hiding in the bushes."
-          ],
-          "translationAnswers": {
-            "He had been hiking through the forest for five hours by that point; he was dizzy and hungry, but he didn't stop.": "그는 그때까지 다섯 시간 동안 숲속을 걸어 다니고 있었고, 어지럽고 배도 고팠지만 멈추지 않았다.",
-            "Leo ran towards where the sound came from, and there he found Boxer, hiding in the bushes.": "레오는 소리가 나는 쪽으로 달려갔고, 그곳에서 덤불 속에 숨어 있는 복서를 발견했다."
-          },
-          "grammarRows": [
-            {
-              "point": "had been hiking",
-              "answer": "had been ~ing - 과거완료진행시제",
-              "lineIndex": 1,
-              "context": "He had been hiking through the forest for five hours by that point; he was dizzy and hungry, but he didn't stop."
-            },
-            {
-              "point": "where",
-              "answer": "관계부사 where - 선행사 the place 생략되었다.",
-              "lineIndex": 9,
-              "context": "Leo ran towards where the sound came from, and there he found Boxer, hiding in the bushes."
-            },
-            {
-              "point": "hiding",
-              "answer": "분사구문 - 생략된 주어는 Leo이고 Leo가 숨어있는 것이기 때문에 능동의 ~ing를 써야한다.",
-              "lineIndex": 9,
-              "context": "Leo ran towards where the sound came from, and there he found Boxer, hiding in the bushes."
-            }
-          ]
-        },
-        {
-          "title": "Q미니 - 2강 2번",
-          "markdownSourceTitle": "Q미니 - 2강 전체 분석",
-          "markdownSectionNumber": "2",
-          "text": "Luigi Pirandello was a Sicilian playwright, novelist, and short-story writer.\nAt least one of his stories was made into a Hollywood movie starring Greta Garbo.\nHe wrote plays as a student and published one in 1896, but he had no success at finding producers.\nIn 1916, a friend introduced him to a producer who was in need of new scripts and who persuaded Pirandello, a respected novelist, to write one for his company.\nThink, Giacomino! was successful enough to earn Pirandello a good deal of money, and he turned virtually his full attention to the theater for the rest of his life.\nAt the age of fifty, Pirandello embarked on what proved to be his primary calling.\nIn the next eight years he wrote twenty-eight plays; he wrote forty in his lifetime, some in Sicilian.\nIn 1934, he won the Nobel Prize for literature and two years later died in Rome.",
-          "translationText": "루이지 피란델로는 시칠리아 출신의 극작가이자 소설가, 단편소설 작가였다.\n그의 이야기들 중 적어도 하나는 그레타 가르보가 출연한 할리우드 영화로 만들어졌다.\n그는 학생 시절 희곡을 썼고 1896년에 한 편을 출판했지만, 제작자를 찾는 데에는 성공하지 못했다.\n1916년에 한 친구가 그를 새 대본이 필요했던 한 제작자에게 소개했고, 그 제작자는 존경받는 소설가였던 피란델로를 설득하여 자기 회사를 위한 작품을 쓰게 했다.\n『Think, Giacomino!』는 피란델로에게 상당한 돈을 벌어다줄 만큼 성공했고, 그는 이후 평생 거의 모든 관심을 연극에 쏟게 되었다.\n쉰 살의 나이에 피란델로는 결국 자신의 주된 천직이 된 길에 들어섰다.\n그 후 8년 동안 그는 28편의 희곡을 썼고, 평생 동안 총 40편을 썼는데 그중 일부는 시칠리아어로 쓰였다.\n1934년에 그는 노벨문학상을 받았고, 2년 뒤 로마에서 세상을 떠났다.",
-          "selectedLines": [
-            3,
-            5
-          ],
-          "grammarSelections": [
-            {
-              "text": "to write",
-              "answer": "persuade가 OT동사이기 때문에 목적격보어 자리에 to-v가 쓰였다.",
-              "lineIndex": 3,
-              "context": "In 1916, a friend introduced him to a producer who was in need of new scripts and who persuaded Pirandello, a respected novelist, to write one for his company."
-            },
-            {
-              "text": "successful enough to earn",
-              "answer": "형 + enough + to-v - ~할 정도로 충분히 -한",
-              "lineIndex": 4,
-              "context": "Think, Giacomino! was successful enough to earn Pirandello a good deal of money, and he turned virtually his full attention to the theater for the rest of his life."
-            },
-            {
-              "text": "what",
-              "answer": "관계대명사 what + 불완전한 절 - ~하는 것",
-              "lineIndex": 5,
-              "context": "At the age of fifty, Pirandello embarked on what proved to be his primary calling."
-            }
-          ],
-          "vocabRows": [
-            {
-              "word": "persuade",
-              "meaning": "설득하다",
-              "syn": "convince, urge",
-              "ant": "dissuade, discourage",
-              "antMeaning": "만류하다"
-            },
-            {
-              "word": "embark",
-              "meaning": "착수하다, 시작하다",
-              "syn": "begin, undertake",
-              "ant": "",
-              "antMeaning": ""
-            },
-            {
-              "word": "primary",
-              "meaning": "주된, 으뜸의",
-              "syn": "main, chief",
-              "ant": "secondary, minor",
-              "antMeaning": "부차적인"
-            },
-            {
-              "word": "virtually",
-              "meaning": "사실상",
-              "syn": "practically, almost",
-              "ant": "",
-              "antMeaning": ""
-            }
-          ],
-          "questionAnswers": {
-            "topic": "늦은 시기의 전환은 한 사람의 진정한 소명과 주요 성취를 드러낼 수 있다."
-          },
-          "selectedSents": [
-            "In 1916, a friend introduced him to a producer who was in need of new scripts and who persuaded Pirandello, a respected novelist, to write one for his company.",
-            "At the age of fifty, Pirandello embarked on what proved to be his primary calling."
-          ],
-          "translationAnswers": {
-            "In 1916, a friend introduced him to a producer who was in need of new scripts and who persuaded Pirandello, a respected novelist, to write one for his company.": "1916년에 한 친구가 그를 새 대본이 필요했던 한 제작자에게 소개했고, 그 제작자는 존경받는 소설가였던 피란델로를 설득하여 자기 회사를 위한 작품을 쓰게 했다.",
-            "At the age of fifty, Pirandello embarked on what proved to be his primary calling.": "쉰 살의 나이에 피란델로는 결국 자신의 주된 천직이 된 길에 들어섰다."
-          },
-          "grammarRows": [
-            {
-              "point": "to write",
-              "answer": "persuade가 OT동사이기 때문에 목적격보어 자리에 to-v가 쓰였다.",
-              "lineIndex": 3,
-              "context": "In 1916, a friend introduced him to a producer who was in need of new scripts and who persuaded Pirandello, a respected novelist, to write one for his company."
-            },
-            {
-              "point": "successful enough to earn",
-              "answer": "형 + enough + to-v - ~할 정도로 충분히 -한",
-              "lineIndex": 4,
-              "context": "Think, Giacomino! was successful enough to earn Pirandello a good deal of money, and he turned virtually his full attention to the theater for the rest of his life."
-            },
-            {
-              "point": "what",
-              "answer": "관계대명사 what + 불완전한 절 - ~하는 것",
-              "lineIndex": 5,
-              "context": "At the age of fifty, Pirandello embarked on what proved to be his primary calling."
-            }
-          ]
-        },
-        {
-          "title": "Q미니 - 2강 3번",
-          "markdownSourceTitle": "Q미니 - 2강 전체 분석",
-          "markdownSectionNumber": "3",
-          "text": "Remember that saying, “Hard work beats talent when talent doesn't work hard?”\nRegardless of talent level, if you work hard, you'll be a better musician.\nBut working hard is not enough.\nMy friend Charlie told me about his coworker, Tom, who worked extra hours each week, starting early and staying long after everyone else had left.\n“A dedicated and industrious employee,” you might think.\nMaybe not.\nThose extra hours Tom put in did nothing to increase his productivity because he went from one project to the next, never setting priorities or deadlines.\nWithout concentrating his efforts on the important tasks, he often never completed them.\nHe was busy doing too many things and in the wrong order.\nCharlie left the office each night, thinking, “There's Tom, working long and long instead of long and hard.”\nGoals direct your hard work.",
-          "translationText": "“재능이 노력하지 않을 때는 노력이 재능을 이긴다”라는 말을 기억하는가?\n재능의 수준과 상관없이, 열심히 노력하면 더 나은 음악가가 될 것이다.\n하지만 열심히 일하는 것만으로는 충분하지 않다.\n내 친구 찰리는 자기 동료 톰에 대해 이야기해 주었는데, 그는 매주 추가 근무를 하며 일찍 출근하고 다른 사람들이 모두 떠난 뒤에도 한참 남아 있었다.\n“헌신적이고 근면한 직원이군.”이라고 당신은 생각할지도 모른다.\n꼭 그런 것은 아니다.\n톰이 들인 그 추가 시간은 생산성을 높이는 데 전혀 도움이 되지 않았는데, 그는 한 프로젝트에서 다음 프로젝트로 옮겨 다니기만 했고 우선순위나 마감 기한을 한 번도 정하지 않았기 때문이다.\n중요한 일에 노력을 집중하지 않았기 때문에, 그는 그것들을 끝내지 못하는 경우가 많았다.\n그는 너무 많은 일을, 그것도 잘못된 순서로 하느라 바빴다.\n찰리는 매일 밤 사무실을 떠나며 “톰이 또 있군, 제대로 열심히 일하는 대신 오래오래만 일하고 있네.”라고 생각했다.\n목표는 당신의 노력을 올바른 방향으로 이끈다.",
-          "selectedLines": [
-            3,
-            6
-          ],
-          "grammarSelections": [
-            {
-              "text": "never setting",
-              "answer": "분사구문 - 생략된 주어는 he이고 he가 우선순위나 마감일을 절대 설정하지 않는 것이기 때문에 능동의 ~ing를 써야한다. 또한 현재분사의 부정문인 ~ing 앞에 never를 썼다.",
-              "lineIndex": 6,
-              "context": "Those extra hours Tom put in did nothing to increase his productivity because he went from one project to the next, never setting priorities or deadlines."
-            },
-            {
-              "text": "doing",
-              "answer": "be busy ~ing - ~하느라 바쁘다",
-              "lineIndex": 8,
-              "context": "He was busy doing too many things and in the wrong order."
-            },
-            {
-              "text": "thinking",
-              "answer": "분사구문 - 생략된 주어는 Charlie이고  Charlie가 생각하는 것이기 때문에 능동의 ~ing를 써야한다.",
-              "lineIndex": 9,
-              "context": "Charlie left the office each night, thinking, “There's Tom, working long and long instead of long and hard.”"
-            },
-            {
-              "text": "starting early and staying long after everyone else had left",
-              "answer": "분사구문 - 생략된 주어는 Tom이고 Tom이 일찍 시작하고 오래 남아있는 것이기 때문에 능동의 ~ing를 써야한다. 또한 starting과 staying은 병렬구조이다.",
-              "lineIndex": 3,
-              "context": "My friend Charlie told me about his coworker, Tom, who worked extra hours each week, starting early and staying long after everyone else had left."
-            }
-          ],
-          "vocabRows": [
-            {
-              "word": "productivity",
-              "meaning": "생산성",
-              "syn": "efficiency, output",
-              "ant": "없음",
-              "antMeaning": "—"
-            },
-            {
-              "word": "priority",
-              "meaning": "우선순위",
-              "syn": "precedence, preference",
-              "ant": "없음",
-              "antMeaning": "—"
-            },
-            {
-              "word": "concentrate",
-              "meaning": "집중하다",
-              "syn": "focus, devote",
-              "ant": "scatter, disperse",
-              "antMeaning": "분산시키다"
-            },
-            {
-              "word": "industrious",
-              "meaning": "근면한",
-              "syn": "diligent, hardworking",
-              "ant": "lazy, idle",
-              "antMeaning": "게으른"
-            },
-            {
-              "word": "direct",
-              "meaning": "방향을 잡아 주다",
-              "syn": "guide, steer",
-              "ant": "misdirect",
-              "antMeaning": "잘못된 방향으로 이끌다"
-            },
-            {
-              "word": "complete",
-              "meaning": "완수하다",
-              "syn": "finish, accomplish",
-              "ant": "abandon, leave incomplete",
-              "antMeaning": "포기하다, 미완성으로 남기다"
-            }
-          ],
-          "questionAnswers": {
-            "topic": "성과는 노력의 양보다 목표와 우선순위가 부여하는 방향성에 의해 결정된다."
-          },
-          "selectedSents": [
-            "My friend Charlie told me about his coworker, Tom, who worked extra hours each week, starting early and staying long after everyone else had left.",
-            "Those extra hours Tom put in did nothing to increase his productivity because he went from one project to the next, never setting priorities or deadlines."
-          ],
-          "translationAnswers": {
-            "My friend Charlie told me about his coworker, Tom, who worked extra hours each week, starting early and staying long after everyone else had left.": "내 친구 찰리는 자기 동료 톰에 대해 이야기해 주었는데, 그는 매주 추가 근무를 하며 일찍 출근하고 다른 사람들이 모두 떠난 뒤에도 한참 남아 있었다.",
-            "Those extra hours Tom put in did nothing to increase his productivity because he went from one project to the next, never setting priorities or deadlines.": "톰이 들인 그 추가 시간은 생산성을 높이는 데 전혀 도움이 되지 않았는데, 그는 한 프로젝트에서 다음 프로젝트로 옮겨 다니기만 했고 우선순위나 마감 기한을 한 번도 정하지 않았기 때문이다."
-          },
-          "grammarRows": [
-            {
-              "point": "never setting",
-              "answer": "분사구문 - 생략된 주어는 he이고 he가 우선순위나 마감일을 절대 설정하지 않는 것이기 때문에 능동의 ~ing를 써야한다. 또한 현재분사의 부정문인 ~ing 앞에 never를 썼다.",
-              "lineIndex": 6,
-              "context": "Those extra hours Tom put in did nothing to increase his productivity because he went from one project to the next, never setting priorities or deadlines."
-            },
-            {
-              "point": "doing",
-              "answer": "be busy ~ing - ~하느라 바쁘다",
-              "lineIndex": 8,
-              "context": "He was busy doing too many things and in the wrong order."
-            },
-            {
-              "point": "thinking",
-              "answer": "분사구문 - 생략된 주어는 Charlie이고  Charlie가 생각하는 것이기 때문에 능동의 ~ing를 써야한다.",
-              "lineIndex": 9,
-              "context": "Charlie left the office each night, thinking, “There's Tom, working long and long instead of long and hard.”"
-            },
-            {
-              "point": "starting early and staying long after everyone else had left",
-              "answer": "분사구문 - 생략된 주어는 Tom이고 Tom이 일찍 시작하고 오래 남아있는 것이기 때문에 능동의 ~ing를 써야한다. 또한 starting과 staying은 병렬구조이다.",
-              "lineIndex": 3,
-              "context": "My friend Charlie told me about his coworker, Tom, who worked extra hours each week, starting early and staying long after everyone else had left."
-            }
-          ]
-        },
-        {
-          "title": "Q미니 - 2강 4번",
-          "markdownSourceTitle": "Q미니 - 2강 전체 분석",
-          "markdownSectionNumber": "4",
-          "text": "Corporations establish rewards to drive performance.\nOften these rewards focus on meeting budgets and avoiding risk.\nRewards of this type cause managers to invest in safe products that pose little chance of a big loss but also little chance of a big profit.\nThese rewards totally block any motivation to explore riskier paths.\nThe companies reward the speed at which low-risk products are created and marketed, even if they are hoping for radical new ideas.\nThe outcome is little appetite for risk and an overdose of incremental ideas.\nInterestingly, managers get frustrated with the outcome, blind to the behavior that the organization is explicitly or implicitly rewarding.\nA badly designed measurement or reward system mutes the rest of the rules, even if optimally designed.",
-          "translationText": "기업은 성과를 끌어내기 위해 보상 체계를 마련한다.\n이러한 보상은 종종 예산을 맞추고 위험을 피하는 데 초점을 둔다.\n이런 유형의 보상은 관리자들로 하여금 큰 손실의 가능성도 작지만 큰 이익의 가능성도 작은 안전한 제품에 투자하게 만든다.\n이러한 보상은 더 위험한 길을 탐색하려는 동기를 완전히 차단한다.\n기업들은 획기적으로 새로운 아이디어를 바라면서도, 실제로는 저위험 제품이 빠르게 만들어지고 시장에 출시되는 속도에 보상을 준다.\n그 결과는 위험을 감수하려는 의욕의 부족과 점진적인 아이디어의 과잉이다.\n흥미롭게도 관리자들은 그 결과에 좌절하면서도, 조직이 명시적으로든 암묵적으로든 실제로 보상하고 있는 행동은 보지 못한다.\n잘못 설계된 측정 또는 보상 체계는, 다른 규칙들이 아무리 최적으로 설계되어 있어도 그것들의 효과를 죽여 버린다.",
-          "selectedLines": [
-            4,
-            6
-          ],
-          "grammarSelections": [
-            {
-              "text": "little",
-              "answer": "little은 \"거의 없는\"이라는 부정어이다.",
-              "lineIndex": 2,
-              "context": "Rewards of this type cause managers to invest in safe products that pose little chance of a big loss but also little chance of a big profit."
-            },
-            {
-              "text": "to explore",
-              "answer": "block이 OT 동사이기 때문에 목적격보어 자리에 to-v가 쓰였다.",
-              "lineIndex": 3,
-              "context": "These rewards totally block any motivation to explore riskier paths."
-            },
-            {
-              "text": "at which",
-              "answer": "전치사 + 관계대명사 = 관계부사. 뒤에 완전한 절이 온다. 전치사를 문장 맨 뒤로 옮기면 앞에는 관계대명사만 남고 불완전한 절이 된다.",
-              "lineIndex": 4,
-              "context": "The companies reward the speed at which low-risk products are created and marketed, even if they are hoping for radical new ideas."
-            },
-            {
-              "text": "blind",
-              "answer": "분사구문.\n→ and they are blind to the behavior that the organization is ...\n→ , being blind to the behavior that ... (분사구문)\n→ , blind to the behavior that ... (being 생략)",
-              "lineIndex": 6,
-              "context": "Interestingly, managers get frustrated with the outcome, blind to the behavior that the organization is explicitly or implicitly rewarding."
-            },
-            {
-              "text": "even if optimally designed",
-              "answer": "→ even if (it is) optimally designed 생략\n→ 아무리 잘 설계되어 있어도",
-              "lineIndex": 7,
-              "context": "A badly designed measurement or reward system mutes the rest of the rules, even if optimally designed."
-            }
-          ],
-          "vocabRows": [
-            {
-              "word": "block",
-              "meaning": "차단하다",
-              "syn": "prevent, hinder",
-              "ant": "encourage, facilitate",
-              "antMeaning": "촉진하다"
-            },
-            {
-              "word": "radical",
-              "meaning": "급진적인, 혁신적인",
-              "syn": "innovative, groundbreaking",
-              "ant": "incremental, conventional",
-              "antMeaning": "점진적인, 기존의"
-            },
-            {
-              "word": "incremental",
-              "meaning": "점진적인",
-              "syn": "gradual, marginal",
-              "ant": "radical, revolutionary",
-              "antMeaning": "급진적인"
-            },
-            {
-              "word": "mute",
-              "meaning": "무력화하다",
-              "syn": "suppress, silence",
-              "ant": "amplify, strengthen",
-              "antMeaning": "강화하다"
-            },
-            {
-              "word": "frustrated",
-              "meaning": "좌절한",
-              "syn": "disappointed, discouraged",
-              "ant": "satisfied",
-              "antMeaning": "만족한"
-            },
-            {
-              "word": "appetite",
-              "meaning": "의욕, 욕구",
-              "syn": "desire, willingness",
-              "ant": "aversion, reluctance",
-              "antMeaning": "기피, 꺼림"
-            }
-          ],
-          "questionAnswers": {
-            "topic": "조직은 원하는 목표보다 실제로 보상하는 기준에 따라 위험 감수와 혁신 수준이 결정된다."
-          },
-          "selectedSents": [
-            "The companies reward the speed at which low-risk products are created and marketed, even if they are hoping for radical new ideas.",
-            "Interestingly, managers get frustrated with the outcome, blind to the behavior that the organization is explicitly or implicitly rewarding."
-          ],
-          "translationAnswers": {
-            "The companies reward the speed at which low-risk products are created and marketed, even if they are hoping for radical new ideas.": "기업들은 획기적으로 새로운 아이디어를 바라면서도, 실제로는 저위험 제품이 빠르게 만들어지고 시장에 출시되는 속도에 보상을 준다.",
-            "Interestingly, managers get frustrated with the outcome, blind to the behavior that the organization is explicitly or implicitly rewarding.": "흥미롭게도 관리자들은 그 결과에 좌절하면서도, 조직이 명시적으로든 암묵적으로든 실제로 보상하고 있는 행동은 보지 못한다."
-          },
-          "grammarRows": [
-            {
-              "point": "little",
-              "answer": "little은 \"거의 없는\"이라는 부정어이다.",
-              "lineIndex": 2,
-              "context": "Rewards of this type cause managers to invest in safe products that pose little chance of a big loss but also little chance of a big profit."
-            },
-            {
-              "point": "to explore",
-              "answer": "block이 OT 동사이기 때문에 목적격보어 자리에 to-v가 쓰였다.",
-              "lineIndex": 3,
-              "context": "These rewards totally block any motivation to explore riskier paths."
-            },
-            {
-              "point": "at which",
-              "answer": "전치사 + 관계대명사 = 관계부사. 뒤에 완전한 절이 온다. 전치사를 문장 맨 뒤로 옮기면 앞에는 관계대명사만 남고 불완전한 절이 된다.",
-              "lineIndex": 4,
-              "context": "The companies reward the speed at which low-risk products are created and marketed, even if they are hoping for radical new ideas."
-            },
-            {
-              "point": "blind",
-              "answer": "분사구문.\n→ and they are blind to the behavior that the organization is ...\n→ , being blind to the behavior that ... (분사구문)\n→ , blind to the behavior that ... (being 생략)",
-              "lineIndex": 6,
-              "context": "Interestingly, managers get frustrated with the outcome, blind to the behavior that the organization is explicitly or implicitly rewarding."
-            },
-            {
-              "point": "even if optimally designed",
-              "answer": "→ even if (it is) optimally designed 생략\n→ 아무리 잘 설계되어 있어도",
-              "lineIndex": 7,
-              "context": "A badly designed measurement or reward system mutes the rest of the rules, even if optimally designed."
-            }
-          ]
-        },
-        {
-          "title": "Q미니 - 2강 5번",
-          "markdownSourceTitle": "Q미니 - 2강 전체 분석",
-          "markdownSectionNumber": "5",
-          "text": "Modeling after someone works, but remember that success is a mind formula.\nWhen modeling after someone else, you must realize that you still have to make sacrifices and do all the hard work yourself.\nDo not get relaxed and think something is going to be easy because you are modeling after someone else.\nWhen we are on the outside looking in, it may appear as if it does not require much to achieve a goal.\nThink about a stand-up comedian doing a skit on stage.\nSometimes we think within, “They're not that funny.”\n“I could do better than that.”\nThis is easy to assume until you look into it and find out the work does not begin when you get on stage.\nNot only will you find out that you have to tell jokes, you will realize that you must write skits, be a promoter, etc.\nOnce some people know all of this, they would stop.\nAlways remind yourself that success is more than what meets the eye.",
-          "translationText": "누군가를 본보기로 삼는 것은 효과가 있지만, 성공은 마음의 공식이라는 점을 기억하라.\n다른 사람을 본받을 때에도, 결국 희생을 감수하고 모든 힘든 일을 스스로 해야 한다는 사실을 깨달아야 한다.\n다른 사람을 따라 하고 있다는 이유만으로 일이 쉬울 것이라고 느긋하게 생각해서는 안 된다.\n우리가 바깥에서 들여다볼 때는 목표를 이루는 데 그다지 많은 것이 필요하지 않아 보일 수 있다.\n무대 위에서 공연하는 스탠드업 코미디언을 생각해 보라.\n우리는 때때로 속으로 “저 사람은 그렇게 웃기지도 않은데.”라고 생각한다.\n“나도 저것보다는 더 잘할 수 있겠어.”\n하지만 자세히 들여다보면 일이란 무대에 올라가는 순간 시작되는 것이 아니라는 사실을 알게 되기 전까지는 그렇게 추측하기 쉽다.\n농담을 해야 할 뿐 아니라, 꽁트를 써야 하고 홍보도 해야 한다는 사실까지 알게 될 것이다.\n어떤 사람들은 이 모든 것을 알게 되면 그만둘 것이다.\n성공은 눈에 보이는 것 이상이라는 점을 항상 스스로에게 상기시켜라.",
-          "selectedLines": [
-            7,
-            8
-          ],
-          "grammarSelections": [
-            {
-              "text": "When modeling",
-              "answer": "→ 원래: When you model after someone else, you must realize ~\n→ 주어가 같아서 (you) 생략하고 동사 -ing로 축약한 것",
-              "lineIndex": 1,
-              "context": "When modeling after someone else, you must realize that you still have to make sacrifices and do all the hard work yourself."
-            },
-            {
-              "text": "as if",
-              "answer": "→ as if = 마치 ~인 것처럼\n→ 실제 사실이 아닐 수도 있는 추측/겉보기 상황 표현",
-              "lineIndex": 3,
-              "context": "When we are on the outside looking in, it may appear as if it does not require much to achieve a goal."
-            },
-            {
-              "text": "Not only will you find out",
-              "answer": "부정어 도치 (부조주동)\n→ Not only가 문장 앞에 오면 조동사 도치 발생\n→ will you find out (X you will find out)",
-              "lineIndex": 8,
-              "context": "Not only will you find out that you have to tell jokes, you will realize that you must write skits, be a promoter, etc."
-            },
-            {
-              "text": "what",
-              "answer": "what 관계대명사 (명사절)\n→ what meets the eye = 눈에 보이는 것\n→ what = the thing that 의미",
-              "lineIndex": 10,
-              "context": "Always remind yourself that success is more than what meets the eye."
-            }
-          ],
-          "vocabRows": [
-            {
-              "word": "sacrifice",
-              "meaning": "희생",
-              "syn": "devotion, commitment",
-              "ant": "",
-              "antMeaning": ""
-            },
-            {
-              "word": "relaxed",
-              "meaning": "편하게 생각하는, 안이한",
-              "syn": "complacent, easygoing",
-              "ant": "alert, diligent",
-              "antMeaning": "경각심 있는, 부지런한"
-            },
-            {
-              "word": "require",
-              "meaning": "필요로 하다",
-              "syn": "demand, necessitate",
-              "ant": "",
-              "antMeaning": ""
-            },
-            {
-              "word": "remind",
-              "meaning": "상기시키다",
-              "syn": "recall, remember",
-              "ant": "forget, overlook",
-              "antMeaning": "잊다, 간과하다"
-            }
-          ],
-          "questionAnswers": {
-            "topic": "성공은 겉으로 보이는 결과보다 그 이면의 노력과 희생까지 포함하는 과정이다."
-          },
-          "selectedSents": [
-            "This is easy to assume until you look into it and find out the work does not begin when you get on stage.",
-            "Not only will you find out that you have to tell jokes, you will realize that you must write skits, be a promoter, etc."
-          ],
-          "translationAnswers": {
-            "This is easy to assume until you look into it and find out the work does not begin when you get on stage.": "하지만 자세히 들여다보면 일이란 무대에 올라가는 순간 시작되는 것이 아니라는 사실을 알게 되기 전까지는 그렇게 추측하기 쉽다.",
-            "Not only will you find out that you have to tell jokes, you will realize that you must write skits, be a promoter, etc.": "농담을 해야 할 뿐 아니라, 꽁트를 써야 하고 홍보도 해야 한다는 사실까지 알게 될 것이다."
-          },
-          "grammarRows": [
-            {
-              "point": "When modeling",
-              "answer": "→ 원래: When you model after someone else, you must realize ~\n→ 주어가 같아서 (you) 생략하고 동사 -ing로 축약한 것",
-              "lineIndex": 1,
-              "context": "When modeling after someone else, you must realize that you still have to make sacrifices and do all the hard work yourself."
-            },
-            {
-              "point": "as if",
-              "answer": "→ as if = 마치 ~인 것처럼\n→ 실제 사실이 아닐 수도 있는 추측/겉보기 상황 표현",
-              "lineIndex": 3,
-              "context": "When we are on the outside looking in, it may appear as if it does not require much to achieve a goal."
-            },
-            {
-              "point": "Not only will you find out",
-              "answer": "부정어 도치 (부조주동)\n→ Not only가 문장 앞에 오면 조동사 도치 발생\n→ will you find out (X you will find out)",
-              "lineIndex": 8,
-              "context": "Not only will you find out that you have to tell jokes, you will realize that you must write skits, be a promoter, etc."
-            },
-            {
-              "point": "what",
-              "answer": "what 관계대명사 (명사절)\n→ what meets the eye = 눈에 보이는 것\n→ what = the thing that 의미",
-              "lineIndex": 10,
-              "context": "Always remind yourself that success is more than what meets the eye."
-            }
-          ]
-        },
-        {
-          "title": "Q미니 - 2강 6번",
-          "markdownSourceTitle": "Q미니 - 2강 전체 분석",
-          "markdownSectionNumber": "6",
-          "text": "The root cause of anxiety differs from person to person.\nIn truth, no one knows precisely what causes anxiety.\nHowever, several different factors are involved that ultimately lead to a state of anxiety.\nOne of these includes past experiences or experiences from a young age.\nPainful experiences as a child, such as abuse, neglect, the loss of a parent, or bullying, can lead to anxiety in later life.\nYour current life situation can also cause anxiety.\nIf you are out of work, have money issues, or have lost someone close to you, your anxiety levels may rise.\nPhysical or mental health problems can also lead to anxiety—for example, when you are living with a serious illness or tackling a psychological issue such as depression.",
-          "translationText": "불안의 근본 원인은 사람마다 다르다.\n사실, 무엇이 불안을 유발하는지 정확히 아는 사람은 없다.\n그러나 결국 불안 상태로 이어지는 여러 가지 다른 요인들이 관련되어 있다.\n그중 하나는 과거의 경험이나 어린 시절의 경험이다.\n학대, 방임, 부모의 상실, 괴롭힘과 같은 어린 시절의 고통스러운 경험은 훗날 불안으로 이어질 수 있다.\n현재의 삶의 상황 또한 불안을 유발할 수 있다.\n실직 상태이거나 돈 문제를 겪고 있거나 가까운 사람을 잃었다면, 불안 수준이 높아질 수 있다.\n신체적 또는 정신적 건강 문제 역시 불안을 유발할 수 있는데, 예를 들어 심각한 질병을 안고 살아가거나 우울증과 같은 심리적 문제에 대처하고 있을 때 그렇다.",
-          "selectedLines": [
-            0,
-            1,
-            4,
-            7
-          ],
-          "grammarSelections": [
-            {
-              "text": "what",
-              "answer": "what 관계대명사 (명사절)\n→ what causes anxiety = 무엇이 불안을 일으키는지\n→ what = the thing that",
-              "lineIndex": 1,
-              "context": "In truth, no one knows precisely what causes anxiety."
-            },
-            {
-              "text": "One of these",
-              "answer": "one of + 복수명사 + 복수동사\n→ ~한 것들 중 하나",
-              "lineIndex": 3,
-              "context": "One of these includes past experiences or experiences from a young age."
-            }
-          ],
-          "vocabRows": [
-            {
-              "word": "anxiety",
-              "meaning": "불안",
-              "syn": "worry, unease",
-              "ant": "calmness, serenity",
-              "antMeaning": "평온, 안정"
-            },
-            {
-              "word": "precisely",
-              "meaning": "정확히",
-              "syn": "exactly, accurately",
-              "ant": "vaguely",
-              "antMeaning": "모호하게"
-            },
-            {
-              "word": "neglect",
-              "meaning": "방임, 무관심",
-              "syn": "disregard, abandonment",
-              "ant": "care, attention",
-              "antMeaning": "돌봄, 관심"
-            },
-            {
-              "word": "ultimately",
-              "meaning": "궁극적으로",
-              "syn": "eventually, in the end",
-              "ant": "",
-              "antMeaning": ""
-            },
-            {
-              "word": "tackle",
-              "meaning": "다루다, 대처하다",
-              "syn": "deal with, address",
-              "ant": "avoid, ignore",
-              "antMeaning": "회피하다, 무시하다"
-            }
-          ],
-          "questionAnswers": {
-            "topic": "불안은 단일 원인보다 여러 개인적 경험과 조건의 복합 작용으로 형성된다."
-          },
-          "selectedSents": [
-            "The root cause of anxiety differs from person to person.",
-            "In truth, no one knows precisely what causes anxiety.",
-            "Painful experiences as a child, such as abuse, neglect, the loss of a parent, or bullying, can lead to anxiety in later life.",
-            "Physical or mental health problems can also lead to anxiety—for example, when you are living with a serious illness or tackling a psychological issue such as depression."
-          ],
-          "translationAnswers": {
-            "The root cause of anxiety differs from person to person.": "불안의 근본 원인은 사람마다 다르다.",
-            "In truth, no one knows precisely what causes anxiety.": "사실, 무엇이 불안을 유발하는지 정확히 아는 사람은 없다.",
-            "Painful experiences as a child, such as abuse, neglect, the loss of a parent, or bullying, can lead to anxiety in later life.": "학대, 방임, 부모의 상실, 괴롭힘과 같은 어린 시절의 고통스러운 경험은 훗날 불안으로 이어질 수 있다.",
-            "Physical or mental health problems can also lead to anxiety—for example, when you are living with a serious illness or tackling a psychological issue such as depression.": "신체적 또는 정신적 건강 문제 역시 불안을 유발할 수 있는데, 예를 들어 심각한 질병을 안고 살아가거나 우울증과 같은 심리적 문제에 대처하고 있을 때 그렇다."
-          },
-          "grammarRows": [
-            {
-              "point": "what",
-              "answer": "what 관계대명사 (명사절)\n→ what causes anxiety = 무엇이 불안을 일으키는지\n→ what = the thing that",
-              "lineIndex": 1,
-              "context": "In truth, no one knows precisely what causes anxiety."
-            },
-            {
-              "point": "One of these",
-              "answer": "one of + 복수명사 + 복수동사\n→ ~한 것들 중 하나",
-              "lineIndex": 3,
-              "context": "One of these includes past experiences or experiences from a young age."
-            }
-          ]
-        },
-        {
-          "title": "Q미니 - 2강 7-8번",
-          "markdownSourceTitle": "Q미니 - 2강 전체 분석",
-          "markdownSectionNumber": "7",
-          "text": "Your daughter, who will graduate from college next year, asks your advice on finding a job.\nInstead of suggesting companies to contact, you tell her that additional courses in accounting and finance will improve her chances on the job market.\nShe resists your attempt to broaden your role and says that she has already decided to take courses next year in history and economics, subjects that she particularly likes.\nAnyway, accounting is boring.\nWhy can't you just tell her the names of some people to contact for a job?\nAt this point, you can tell her to find a job on her own, or you can agree to limit your role to identifying particular companies, making suggestions about her résumé, and helping her write introductory letters.\nTo persist in urging her to change her academic program will only result in conflict because you are trying to assume an advisory role that she has not agreed to.\nShe wants your advice on jobs, not academics.\nYou can be an effective advisor only if you and your client agree on your role.",
-          "translationText": "내년에 대학을 졸업할 당신의 딸이 일자리를 찾는 것에 대해 조언을 구한다.\n당신은 연락할 회사를 제안하는 대신, 회계와 재무 관련 추가 수업을 들으면 취업 시장에서 기회가 더 좋아질 것이라고 말한다.\n딸은 당신이 자신의 역할을 넓히려는 시도에 반발하며, 이미 자신이 특히 좋아하는 과목인 역사와 경제학 수업을 내년에 듣기로 결정했다고 말한다.\n어쨌든 회계는 지루하다.\n왜 그냥 취업을 위해 연락할 몇몇 사람들의 이름만 알려줄 수는 없는가?\n이 시점에서 당신은 딸에게 스스로 일자리를 찾으라고 말할 수도 있고, 혹은 특정 회사를 알려 주고 이력서에 대해 조언하며 소개 편지를 쓰는 것을 돕는 정도로 자신의 역할을 제한하는 데 동의할 수도 있다.\n딸의 학업 계획을 바꾸라고 계속 설득하려 든다면 갈등만 초래할 뿐인데, 그것은 딸이 동의하지 않은 조언자 역할을 당신이 맡으려 하고 있기 때문이다.\n딸은 학업이 아니라 일자리에 대한 조언을 원한다.\n당신과 의뢰인이 당신의 역할에 대해 동의할 때에만 당신은 효과적인 조언자가 될 수 있다.",
-          "selectedLines": [
-            5,
-            6
-          ],
-          "grammarSelections": [
-            {
-              "text": "to contact",
-              "answer": "companies를 수식하는 형용사 용법 : ~할/~하는",
-              "lineIndex": 1,
-              "context": "Instead of suggesting companies to contact, you tell her that additional courses in accounting and finance will improve her chances on the job market."
-            },
-            {
-              "text": "to broaden",
-              "answer": "attempt를 수식하는 형용사 용법 : ~할/~하는",
-              "lineIndex": 2,
-              "context": "She resists your attempt to broaden your role and says that she has already decided to take courses next year in history and economics, subjects that she particularly likes."
-            },
-            {
-              "text": "to contact",
-              "answer": "people를 수식하는 형용사 용법 : ~할/~하는",
-              "lineIndex": 4,
-              "context": "Why can't you just tell her the names of some people to contact for a job?"
-            },
-            {
-              "text": "identifying",
-              "answer": "to가 to-v의 to가 아니라 전치사의 to이기 때문에 뒤에 동명사가 와야 한다 - ~하는 것에\nidentifying, making, helping이 병렬구조이다.",
-              "lineIndex": 5,
-              "context": "At this point, you can tell her to find a job on her own, or you can agree to limit your role to identifying particular companies, making suggestions about her résumé, and helping her write introductory letters."
-            },
-            {
-              "text": "to change",
-              "answer": "urge가 OT동사이기 때문에 목적격보어 자리에 to-v가 쓰였다.",
-              "lineIndex": 6,
-              "context": "To persist in urging her to change her academic program will only result in conflict because you are trying to assume an advisory role that she has not agreed to."
-            }
-          ],
-          "vocabRows": [
-            {
-              "word": "resist",
-              "meaning": "저항하다",
-              "syn": "oppose, reject",
-              "ant": "accept, comply",
-              "antMeaning": "수용하다, 따르다"
-            },
-            {
-              "word": "broaden",
-              "meaning": "넓히다",
-              "syn": "expand, extend",
-              "ant": "narrow, limit",
-              "antMeaning": "좁히다, 한정하다"
-            },
-            {
-              "word": "effective",
-              "meaning": "효과적인",
-              "syn": "competent, productive",
-              "ant": "ineffective",
-              "antMeaning": "비효과적인"
-            },
-            {
-              "word": "persist",
-              "meaning": "고집하다, 계속하다",
-              "syn": "insist, continue",
-              "ant": "cease, give up",
-              "antMeaning": "중단하다, 포기하다"
-            },
-            {
-              "word": "conflict",
-              "meaning": "갈등",
-              "syn": "disagreement, clash",
-              "ant": "harmony, agreement",
-              "antMeaning": "조화, 합의"
-            },
-            {
-              "word": "agree",
-              "meaning": "합의하다",
-              "syn": "consent, concur",
-              "ant": "disagree, refuse",
-              "antMeaning": "반대하다, 거부하다"
-            }
-          ],
-          "questionAnswers": {
-            "topic": "효과적인 조언은 조언 내용보다 역할 범위에 대한 상호 합의에 달려 있다."
-          },
-          "selectedSents": [
-            "At this point, you can tell her to find a job on her own, or you can agree to limit your role to identifying particular companies, making suggestions about her résumé, and helping her write introductory letters.",
-            "To persist in urging her to change her academic program will only result in conflict because you are trying to assume an advisory role that she has not agreed to."
-          ],
-          "translationAnswers": {
-            "At this point, you can tell her to find a job on her own, or you can agree to limit your role to identifying particular companies, making suggestions about her résumé, and helping her write introductory letters.": "이 시점에서 당신은 딸에게 스스로 일자리를 찾으라고 말할 수도 있고, 혹은 특정 회사를 알려 주고 이력서에 대해 조언하며 소개 편지를 쓰는 것을 돕는 정도로 자신의 역할을 제한하는 데 동의할 수도 있다.",
-            "To persist in urging her to change her academic program will only result in conflict because you are trying to assume an advisory role that she has not agreed to.": "딸의 학업 계획을 바꾸라고 계속 설득하려 든다면 갈등만 초래할 뿐인데, 그것은 딸이 동의하지 않은 조언자 역할을 당신이 맡으려 하고 있기 때문이다."
-          },
-          "grammarRows": [
-            {
-              "point": "to contact",
-              "answer": "companies를 수식하는 형용사 용법 : ~할/~하는",
-              "lineIndex": 1,
-              "context": "Instead of suggesting companies to contact, you tell her that additional courses in accounting and finance will improve her chances on the job market."
-            },
-            {
-              "point": "to broaden",
-              "answer": "attempt를 수식하는 형용사 용법 : ~할/~하는",
-              "lineIndex": 2,
-              "context": "She resists your attempt to broaden your role and says that she has already decided to take courses next year in history and economics, subjects that she particularly likes."
-            },
-            {
-              "point": "to contact",
-              "answer": "people를 수식하는 형용사 용법 : ~할/~하는",
-              "lineIndex": 4,
-              "context": "Why can't you just tell her the names of some people to contact for a job?"
-            },
-            {
-              "point": "identifying",
-              "answer": "to가 to-v의 to가 아니라 전치사의 to이기 때문에 뒤에 동명사가 와야 한다 - ~하는 것에\nidentifying, making, helping이 병렬구조이다.",
-              "lineIndex": 5,
-              "context": "At this point, you can tell her to find a job on her own, or you can agree to limit your role to identifying particular companies, making suggestions about her résumé, and helping her write introductory letters."
-            },
-            {
-              "point": "to change",
-              "answer": "urge가 OT동사이기 때문에 목적격보어 자리에 to-v가 쓰였다.",
-              "lineIndex": 6,
-              "context": "To persist in urging her to change her academic program will only result in conflict because you are trying to assume an advisory role that she has not agreed to."
-            }
-          ]
-        },
-        {
-          "title": "2603 - 22번",
-          "markdownSourceTitle": "Q미니 - 2강 전체 분석",
-          "markdownSectionNumber": "8",
-          "text": "The usual intercity traveler moves slowly through the station area.\nThe passenger may not be familiar with the routine, have baggage to handle and check or retrieve, have a long wait for connections or delayed trains, and may require information, food, and a comfortable place to sit.\nCommuters, on the other hand, are familiar with the route through the station, have little or no luggage, and are usually in a hurry.\nThey want direct access to or from local streets and transport.\nThese two types of traffic should be kept separate to avoid conflict and confusion.\nIn some large stations such as Grand Central Terminal in New York City, commuter and intercity trains arrive and depart on different levels.\nIn smaller stations, separate platforms should be used and traffic routed so that the two lines of movement do not cross.\nIn some instances, separate stations are in use.\nClear and concise direction and routing signs and other means of channelization are desirable.",
-          "translationText": "일반적인 장거리 도시 간 여행객은 역 구역을 천천히 이동한다.\n그 승객은 역의 절차에 익숙하지 않을 수 있고, 처리하고 부치거나 찾아야 할 짐이 있을 수 있으며, 환승이나 열차 지연으로 오래 기다려야 할 수도 있고, 정보나 음식, 그리고 편안히 앉을 자리가 필요할 수도 있다.\n반면 통근객은 역을 통과하는 길에 익숙하고, 짐이 거의 없거나 전혀 없으며, 대개 바쁘다.\n그들은 지역 도로와 교통수단으로 곧바로 접근하기를 원한다.\n이 두 유형의 이동 동선은 충돌과 혼란을 피하기 위해 분리되어야 한다.\n뉴욕의 그랜드 센트럴 터미널 같은 일부 대형 역에서는 통근 열차와 장거리 열차가 서로 다른 층에서 도착하고 출발한다.\n더 작은 역에서는 별도의 승강장을 사용하고, 두 동선이 교차하지 않도록 이동 흐름을 설계해야 한다.\n경우에 따라서는 별도의 역이 사용되기도 한다.\n명확하고 간결한 안내 및 동선 표지와 그 밖의 유도 수단이 바람직하다.",
-          "selectedLines": [
-            1,
-            6
-          ],
-          "grammarSelections": [
-            {
-              "text": "to sit",
-              "answer": "a comfortable place를 수식하는 형용사 용법 : ~할/~하는",
-              "lineIndex": 1,
-              "context": "The passenger may not be familiar with the routine, have baggage to handle and check or retrieve, have a long wait for connections or delayed trains, and may require information, food, and a comfortable place to sit."
-            },
-            {
-              "text": "traffic routed",
-              "answer": "separate platforms should be used and traffic (should be) routed so that ~\nshould be가 생략된 병렬 구조",
-              "lineIndex": 6,
-              "context": "In smaller stations, separate platforms should be used and traffic routed so that the two lines of movement do not cross."
-            },
-            {
-              "text": "so that",
-              "answer": "so that - ~하기 위해서, ~하도록\n, so that - 그래서\nso ~ that - 너무 ~해서 -하다",
-              "lineIndex": 6,
-              "context": "In smaller stations, separate platforms should be used and traffic routed so that the two lines of movement do not cross."
-            }
-          ],
-          "vocabRows": [
-            {
-              "word": "separate",
-              "meaning": "분리하다",
-              "syn": "divide, segregate",
-              "ant": "combine, merge",
-              "antMeaning": "합치다"
-            },
-            {
-              "word": "familiar",
-              "meaning": "익숙한",
-              "syn": "accustomed, acquainted",
-              "ant": "unfamiliar",
-              "antMeaning": "낯선"
-            },
-            {
-              "word": "conflict",
-              "meaning": "충돌",
-              "syn": "clash, collision",
-              "ant": "harmony",
-              "antMeaning": "조화"
-            },
-            {
-              "word": "desirable",
-              "meaning": "바람직한",
-              "syn": "preferable, advisable",
-              "ant": "undesirable",
-              "antMeaning": "바람직하지 않은"
-            }
-          ],
-          "questionAnswers": {
-            "topic": "서로 다른 이용자 집단의 이동 특성을 반영한 동선 분리는 효율적이고 혼란 없는 공간 설계의 핵심이다."
-          },
-          "selectedSents": [
-            "The passenger may not be familiar with the routine, have baggage to handle and check or retrieve, have a long wait for connections or delayed trains, and may require information, food, and a comfortable place to sit.",
-            "In smaller stations, separate platforms should be used and traffic routed so that the two lines of movement do not cross."
-          ],
-          "translationAnswers": {
-            "The passenger may not be familiar with the routine, have baggage to handle and check or retrieve, have a long wait for connections or delayed trains, and may require information, food, and a comfortable place to sit.": "그 승객은 역의 절차에 익숙하지 않을 수 있고, 처리하고 부치거나 찾아야 할 짐이 있을 수 있으며, 환승이나 열차 지연으로 오래 기다려야 할 수도 있고, 정보나 음식, 그리고 편안히 앉을 자리가 필요할 수도 있다.",
-            "In smaller stations, separate platforms should be used and traffic routed so that the two lines of movement do not cross.": "더 작은 역에서는 별도의 승강장을 사용하고, 두 동선이 교차하지 않도록 이동 흐름을 설계해야 한다."
-          },
-          "grammarRows": [
-            {
-              "point": "to sit",
-              "answer": "a comfortable place를 수식하는 형용사 용법 : ~할/~하는",
-              "lineIndex": 1,
-              "context": "The passenger may not be familiar with the routine, have baggage to handle and check or retrieve, have a long wait for connections or delayed trains, and may require information, food, and a comfortable place to sit."
-            },
-            {
-              "point": "traffic routed",
-              "answer": "separate platforms should be used and traffic (should be) routed so that ~\nshould be가 생략된 병렬 구조",
-              "lineIndex": 6,
-              "context": "In smaller stations, separate platforms should be used and traffic routed so that the two lines of movement do not cross."
-            },
-            {
-              "point": "so that",
-              "answer": "so that - ~하기 위해서, ~하도록\n, so that - 그래서\nso ~ that - 너무 ~해서 -하다",
-              "lineIndex": 6,
-              "context": "In smaller stations, separate platforms should be used and traffic routed so that the two lines of movement do not cross."
-            }
-          ]
-        },
-        {
-          "title": "2603 - 24번",
-          "markdownSourceTitle": "Q미니 - 2강 전체 분석",
-          "markdownSectionNumber": "9",
-          "text": "Rooms have their own “sound” because they impose their own characteristics on audio signals contained within them.\nIt’s actually kind of remarkable.\nSound such as music coming from headphones will sound the same everywhere.\nNo matter what acoustical environment we are in, the headphones sound the same.\nThat’s because the room is not part of that playback signal path.\nBut sound such as music from a loudspeaker will sound different in every acoustical environment.\nEvery room where you set up the loudspeaker will cause the sound you hear to be different — sometimes dramatically different; that is because the room is now part of the signal path.\nAlso, in the same room, the loudspeaker will sound different when it is placed in different locations in the room and it will sound different as you move around the room.\nSimilarly, when you are recording a musical instrument, the sound you receive at the microphone will be different in every room and the recorded sound will sound different as the instrument or the microphone is moved.",
-          "translationText": "방은 그 안에 포함된 음향 신호에 자신만의 특성을 부여하기 때문에 저마다 고유한 “소리”를 가진다.\n사실 이것은 꽤 놀라운 일이다.\n헤드폰에서 나오는 음악 같은 소리는 어디서나 똑같이 들린다.\n우리가 어떤 음향 환경에 있든, 헤드폰 소리는 같다.\n그것은 방이 그 재생 신호 경로의 일부가 아니기 때문이다.\n하지만 스피커에서 나오는 음악 같은 소리는 모든 음향 환경에서 다르게 들린다.\n스피커를 설치하는 모든 방은 당신이 듣는 소리를 다르게 만들며, 때로는 극적으로 다르게 만들기도 하는데, 그것은 이제 방이 신호 경로의 일부가 되었기 때문이다.\n또한 같은 방 안에서도 스피커를 방 안의 다른 위치에 놓으면 소리가 달라지고, 당신이 방 안을 이동해도 소리가 달라진다.\n마찬가지로 악기를 녹음할 때도, 마이크에서 받아들이는 소리는 방마다 달라지며, 악기나 마이크의 위치가 움직이면 녹음된 소리도 달라진다.",
-          "selectedLines": [
-            0,
-            6
-          ],
-          "grammarSelections": [
-            {
-              "text": "contained",
-              "answer": "signals를 후치수식\n→ 원래: audio signals which are contained within them\n→ which are 생략 → contained (과거분사 축약)",
-              "lineIndex": 0,
-              "context": "Rooms have their own “sound” because they impose their own characteristics on audio signals contained within them."
-            },
-            {
-              "text": "coming",
-              "answer": "music을 후치수식\n→ 원래: music which comes from headphones\n→ which comes 생략 → coming",
-              "lineIndex": 2,
-              "context": "Sound such as music coming from headphones will sound the same everywhere."
-            },
-            {
-              "text": "No matter what",
-              "answer": "→ No matter what = 무엇이든 상관없이 / 어떤 ~이든",
-              "lineIndex": 3,
-              "context": "No matter what acoustical environment we are in, the headphones sound the same."
-            },
-            {
-              "text": "where",
-              "answer": "관계부사 where + 완전한 절 - Every room을 수식한다.\nwhere = in which",
-              "lineIndex": 6,
-              "context": "Every room where you set up the loudspeaker will cause the sound you hear to be different — sometimes dramatically different; that is because the room is now part of the signal path."
-            },
-            {
-              "text": "to be",
-              "answer": "cause + 목적어 + to부정사\ncause는 OT동사",
-              "lineIndex": 6,
-              "context": "Every room where you set up the loudspeaker will cause the sound you hear to be different — sometimes dramatically different; that is because the room is now part of the signal path."
-            },
-            {
-              "text": "that is because",
-              "answer": "결과 that is because 이유\n이유 that is why 결과",
-              "lineIndex": 6,
-              "context": "Every room where you set up the loudspeaker will cause the sound you hear to be different — sometimes dramatically different; that is because the room is now part of the signal path."
-            },
-            {
-              "text": "when it is placed",
-              "answer": "it is가 생략가능하다. = when placed",
-              "lineIndex": 7,
-              "context": "Also, in the same room, the loudspeaker will sound different when it is placed in different locations in the room and it will sound different as you move around the room."
-            },
-            {
-              "text": "as",
-              "answer": "as 해석 4가지\n① ~하면서 (동시)\n② ~할 때 (시간)\n③ ~이기 때문에 (이유)\n④ ~처럼 (비교)",
-              "lineIndex": 7,
-              "context": "Also, in the same room, the loudspeaker will sound different when it is placed in different locations in the room and it will sound different as you move around the room."
-            }
-          ],
-          "vocabRows": [
-            {
-              "word": "impose",
-              "meaning": "부과하다, 가하다",
-              "syn": "exert, apply",
-              "ant": "remove, eliminate",
-              "antMeaning": "제거하다"
-            },
-            {
-              "word": "dramatically",
-              "meaning": "극적으로",
-              "syn": "significantly, remarkably",
-              "ant": "slightly, marginally",
-              "antMeaning": "약간, 미미하게"
-            },
-            {
-              "word": "signal path",
-              "meaning": "신호 경로",
-              "syn": "audio chain, transmission route",
-              "ant": "",
-              "antMeaning": ""
-            }
-          ],
-          "questionAnswers": {
-            "topic": "소리의 특성은 재생 장치 자체뿐 아니라 공간과 위치 조건의 영향을 함께 받는다."
-          },
-          "selectedSents": [
-            "Rooms have their own “sound” because they impose their own characteristics on audio signals contained within them.",
-            "Every room where you set up the loudspeaker will cause the sound you hear to be different — sometimes dramatically different; that is because the room is now part of the signal path."
-          ],
-          "translationAnswers": {
-            "Rooms have their own “sound” because they impose their own characteristics on audio signals contained within them.": "방은 그 안에 포함된 음향 신호에 자신만의 특성을 부여하기 때문에 저마다 고유한 “소리”를 가진다.",
-            "Every room where you set up the loudspeaker will cause the sound you hear to be different — sometimes dramatically different; that is because the room is now part of the signal path.": "스피커를 설치하는 모든 방은 당신이 듣는 소리를 다르게 만들며, 때로는 극적으로 다르게 만들기도 하는데, 그것은 이제 방이 신호 경로의 일부가 되었기 때문이다."
-          },
-          "grammarRows": [
-            {
-              "point": "contained",
-              "answer": "signals를 후치수식\n→ 원래: audio signals which are contained within them\n→ which are 생략 → contained (과거분사 축약)",
-              "lineIndex": 0,
-              "context": "Rooms have their own “sound” because they impose their own characteristics on audio signals contained within them."
-            },
-            {
-              "point": "coming",
-              "answer": "music을 후치수식\n→ 원래: music which comes from headphones\n→ which comes 생략 → coming",
-              "lineIndex": 2,
-              "context": "Sound such as music coming from headphones will sound the same everywhere."
-            },
-            {
-              "point": "No matter what",
-              "answer": "→ No matter what = 무엇이든 상관없이 / 어떤 ~이든",
-              "lineIndex": 3,
-              "context": "No matter what acoustical environment we are in, the headphones sound the same."
-            },
-            {
-              "point": "where",
-              "answer": "관계부사 where + 완전한 절 - Every room을 수식한다.\nwhere = in which",
-              "lineIndex": 6,
-              "context": "Every room where you set up the loudspeaker will cause the sound you hear to be different — sometimes dramatically different; that is because the room is now part of the signal path."
-            },
-            {
-              "point": "to be",
-              "answer": "cause + 목적어 + to부정사\ncause는 OT동사",
-              "lineIndex": 6,
-              "context": "Every room where you set up the loudspeaker will cause the sound you hear to be different — sometimes dramatically different; that is because the room is now part of the signal path."
-            },
-            {
-              "point": "that is because",
-              "answer": "결과 that is because 이유\n이유 that is why 결과",
-              "lineIndex": 6,
-              "context": "Every room where you set up the loudspeaker will cause the sound you hear to be different — sometimes dramatically different; that is because the room is now part of the signal path."
-            },
-            {
-              "point": "when it is placed",
-              "answer": "it is가 생략가능하다. = when placed",
-              "lineIndex": 7,
-              "context": "Also, in the same room, the loudspeaker will sound different when it is placed in different locations in the room and it will sound different as you move around the room."
-            },
-            {
-              "point": "as",
-              "answer": "as 해석 4가지\n① ~하면서 (동시)\n② ~할 때 (시간)\n③ ~이기 때문에 (이유)\n④ ~처럼 (비교)",
-              "lineIndex": 7,
-              "context": "Also, in the same room, the loudspeaker will sound different when it is placed in different locations in the room and it will sound different as you move around the room."
-            }
-          ]
-        },
-        {
-          "title": "2603 - 34번",
-          "markdownSourceTitle": "Q미니 - 2강 전체 분석",
-          "markdownSectionNumber": "10",
-          "text": "Such artificial ‘pause fillers’ as machine-generated supplements for silence may help to produce a more natural-sounding cadence in machine-generated speech patterns and so help to convince the AI’s human interlocutors that they are engaging with another human.\nAI’s ‘humanity’ of silence emerges in these contexts not least because a short period of silence is likely to be interpreted as a ‘pause for thought’, therefore reinforcing the illusion that the machine is ‘thinking’ before responding, just as a human might.\nHowever, the technical issues flagged in AI’s poor handling of higher duration and frequency silences, no less than the machine inference that silence can be filled with relevant sounds in some conversational situations, are both significant.\nIn this context at least, the AI may be starting to recognise silence not as an absence but as meaningful data.\nYet the AI’s confusion when presented with substantial silences, and its understanding that short break tags are equivalent to vocal markers such as ‘uh’s’ and ‘ah’s’ indicate the AI’s continuing preferences for sound over silence, for presence over absence.",
-          "translationText": "기계가 생성한 침묵 보충음과 같은 이러한 인위적인 ‘침묵 메우기 장치’는 기계가 만들어 내는 말의 리듬을 더 자연스럽게 들리게 하는 데 도움이 될 수 있으며, 따라서 AI와 대화하는 인간 상대방이 자신이 다른 인간과 상호작용하고 있다고 믿게 만드는 데도 도움이 될 수 있다.\n침묵에서 드러나는 AI의 ‘인간다움’은, 짧은 침묵이 흔히 ‘생각하는 동안의 멈춤’으로 해석되기 쉽기 때문에 나타나는데, 이는 마치 인간이 그러하듯 기계가 응답 전에 ‘생각하고 있다’는 환상을 더욱 강화한다.\n그러나 긴 시간 혹은 잦은 침묵을 AI가 제대로 다루지 못한다는 점에서 드러난 기술적 문제와, 어떤 대화 상황에서는 침묵을 적절한 소리로 채울 수 있다고 기계가 추론한다는 점은 둘 다 중요하다.\n적어도 이러한 맥락에서 AI는 침묵을 단순한 부재가 아니라 의미 있는 데이터로 인식하기 시작하고 있는지도 모른다.\n그러나 상당한 침묵이 주어졌을 때 AI가 혼란을 보인다는 점, 그리고 짧은 휴지 태그를 ‘uh’나 ‘ah’ 같은 음성 표지와 동등하게 이해한다는 점은, AI가 여전히 침묵보다 소리를, 부재보다 존재를 선호하고 있음을 보여 준다.",
-          "selectedLines": [
-            0,
-            2,
-            4
-          ],
-          "grammarSelections": [
-            {
-              "text": "therefore reinforcing",
-              "answer": "→ 분사구문 (결과)\n→ 원래: therefore it reinforces ~\n→ 접속사 + 주어 생략 → reinforcing",
-              "lineIndex": 1,
-              "context": "AI’s ‘humanity’ of silence emerges in these contexts not least because a short period of silence is likely to be interpreted as a ‘pause for thought’, therefore reinforcing the illusion that the machine is ‘thinking’ before responding, just as a human might."
-            },
-            {
-              "text": "that",
-              "answer": "동격 that + 완전한 문장",
-              "lineIndex": 1,
-              "context": "AI’s ‘humanity’ of silence emerges in these contexts not least because a short period of silence is likely to be interpreted as a ‘pause for thought’, therefore reinforcing the illusion that the machine is ‘thinking’ before responding, just as a human might."
-            },
-            {
-              "text": "might",
-              "answer": "대조동사\nmight (think before responding)",
-              "lineIndex": 1,
-              "context": "AI’s ‘humanity’ of silence emerges in these contexts not least because a short period of silence is likely to be interpreted as a ‘pause for thought’, therefore reinforcing the illusion that the machine is ‘thinking’ before responding, just as a human might."
-            },
-            {
-              "text": "flagged",
-              "answer": "technical issue를 후치수식\n→ 원래: technical issues which are flagged in ~\n→ which are 생략 → flagged",
-              "lineIndex": 2,
-              "context": "However, the technical issues flagged in AI’s poor handling of higher duration and frequency silences, no less than the machine inference that silence can be filled with relevant sounds in some conversational situations, are both significant."
-            },
-            {
-              "text": "that",
-              "answer": "동격 that + 완전한 문장",
-              "lineIndex": 2,
-              "context": "However, the technical issues flagged in AI’s poor handling of higher duration and frequency silences, no less than the machine inference that silence can be filled with relevant sounds in some conversational situations, are both significant."
-            },
-            {
-              "text": "when presented",
-              "answer": "분사구문\n→ 원래: when it is presented with ~\n→ 주어 + be 생략 → 분사구문",
-              "lineIndex": 4,
-              "context": "Yet the AI’s confusion when presented with substantial silences, and its understanding that short break tags are equivalent to vocal markers such as ‘uh’s’ and ‘ah’s’ indicate the AI’s continuing preferences for sound over silence, for presence over absence."
-            },
-            {
-              "text": "that",
-              "answer": "동격 that + 완전한 문장",
-              "lineIndex": 4,
-              "context": "Yet the AI’s confusion when presented with substantial silences, and its understanding that short break tags are equivalent to vocal markers such as ‘uh’s’ and ‘ah’s’ indicate the AI’s continuing preferences for sound over silence, for presence over absence."
-            },
-            {
-              "text": "indicate",
-              "answer": "수일치\n→ 주어 = the AI’s confusion ~~ and its understanding ~~\n→ 복수 주어 → indicate (복수 동사)",
-              "lineIndex": 4,
-              "context": "Yet the AI’s confusion when presented with substantial silences, and its understanding that short break tags are equivalent to vocal markers such as ‘uh’s’ and ‘ah’s’ indicate the AI’s continuing preferences for sound over silence, for presence over absence."
-            }
-          ],
-          "vocabRows": [
-            {
-              "word": "illusion",
-              "meaning": "환상, 착각",
-              "syn": "deception, false impression",
-              "ant": "reality, truth",
-              "antMeaning": "현실, 진실"
-            },
-            {
-              "word": "significant",
-              "meaning": "중요하고 무시할 수 없는",
-              "syn": "important, consequential",
-              "ant": "trivial, negligible",
-              "antMeaning": "사소한, 무시할 만한"
-            },
-            {
-              "word": "recognise",
-              "meaning": "의미 있는 것으로 인식하다",
-              "syn": "perceive, identify",
-              "ant": "ignore, overlook",
-              "antMeaning": "무시하다, 간과하다"
-            },
-            {
-              "word": "substantial",
-              "meaning": "상당한",
-              "syn": "considerable, extensive",
-              "ant": "minor, trivial",
-              "antMeaning": "사소한, 미미한"
-            },
-            {
-              "word": "preference",
-              "meaning": "선호",
-              "syn": "inclination, tendency",
-              "ant": "aversion, reluctance",
-              "antMeaning": "기피, 꺼림"
-            },
-            {
-              "word": "absence",
-              "meaning": "부재, 없음",
-              "syn": "lack, void",
-              "ant": "presence, existence",
-              "antMeaning": "존재, 실재"
-            },
-            {
-              "word": "confusion",
-              "meaning": "혼란",
-              "syn": "bewilderment, perplexity",
-              "ant": "clarity, understanding",
-              "antMeaning": "명확함, 이해"
-            }
-          ],
-          "questionAnswers": {
-            "topic": "AI는 침묵을 인간적으로 연출할 수는 있지만, 그 의미를 본질적으로 이해하는 데에는 한계가 있다."
-          },
-          "selectedSents": [
-            "Such artificial ‘pause fillers’ as machine-generated supplements for silence may help to produce a more natural-sounding cadence in machine-generated speech patterns and so help to convince the AI’s human interlocutors that they are engaging with another human.",
-            "However, the technical issues flagged in AI’s poor handling of higher duration and frequency silences, no less than the machine inference that silence can be filled with relevant sounds in some conversational situations, are both significant.",
-            "Yet the AI’s confusion when presented with substantial silences, and its understanding that short break tags are equivalent to vocal markers such as ‘uh’s’ and ‘ah’s’ indicate the AI’s continuing preferences for sound over silence, for presence over absence."
-          ],
-          "translationAnswers": {
-            "Such artificial ‘pause fillers’ as machine-generated supplements for silence may help to produce a more natural-sounding cadence in machine-generated speech patterns and so help to convince the AI’s human interlocutors that they are engaging with another human.": "기계가 생성한 침묵 보충음과 같은 이러한 인위적인 ‘침묵 메우기 장치’는 기계가 만들어 내는 말의 리듬을 더 자연스럽게 들리게 하는 데 도움이 될 수 있으며, 따라서 AI와 대화하는 인간 상대방이 자신이 다른 인간과 상호작용하고 있다고 믿게 만드는 데도 도움이 될 수 있다.",
-            "However, the technical issues flagged in AI’s poor handling of higher duration and frequency silences, no less than the machine inference that silence can be filled with relevant sounds in some conversational situations, are both significant.": "그러나 긴 시간 혹은 잦은 침묵을 AI가 제대로 다루지 못한다는 점에서 드러난 기술적 문제와, 어떤 대화 상황에서는 침묵을 적절한 소리로 채울 수 있다고 기계가 추론한다는 점은 둘 다 중요하다.",
-            "Yet the AI’s confusion when presented with substantial silences, and its understanding that short break tags are equivalent to vocal markers such as ‘uh’s’ and ‘ah’s’ indicate the AI’s continuing preferences for sound over silence, for presence over absence.": "그러나 상당한 침묵이 주어졌을 때 AI가 혼란을 보인다는 점, 그리고 짧은 휴지 태그를 ‘uh’나 ‘ah’ 같은 음성 표지와 동등하게 이해한다는 점은, AI가 여전히 침묵보다 소리를, 부재보다 존재를 선호하고 있음을 보여 준다."
-          },
-          "grammarRows": [
-            {
-              "point": "therefore reinforcing",
-              "answer": "→ 분사구문 (결과)\n→ 원래: therefore it reinforces ~\n→ 접속사 + 주어 생략 → reinforcing",
-              "lineIndex": 1,
-              "context": "AI’s ‘humanity’ of silence emerges in these contexts not least because a short period of silence is likely to be interpreted as a ‘pause for thought’, therefore reinforcing the illusion that the machine is ‘thinking’ before responding, just as a human might."
-            },
-            {
-              "point": "that",
-              "answer": "동격 that + 완전한 문장",
-              "lineIndex": 1,
-              "context": "AI’s ‘humanity’ of silence emerges in these contexts not least because a short period of silence is likely to be interpreted as a ‘pause for thought’, therefore reinforcing the illusion that the machine is ‘thinking’ before responding, just as a human might."
-            },
-            {
-              "point": "might",
-              "answer": "대조동사\nmight (think before responding)",
-              "lineIndex": 1,
-              "context": "AI’s ‘humanity’ of silence emerges in these contexts not least because a short period of silence is likely to be interpreted as a ‘pause for thought’, therefore reinforcing the illusion that the machine is ‘thinking’ before responding, just as a human might."
-            },
-            {
-              "point": "flagged",
-              "answer": "technical issue를 후치수식\n→ 원래: technical issues which are flagged in ~\n→ which are 생략 → flagged",
-              "lineIndex": 2,
-              "context": "However, the technical issues flagged in AI’s poor handling of higher duration and frequency silences, no less than the machine inference that silence can be filled with relevant sounds in some conversational situations, are both significant."
-            },
-            {
-              "point": "that",
-              "answer": "동격 that + 완전한 문장",
-              "lineIndex": 2,
-              "context": "However, the technical issues flagged in AI’s poor handling of higher duration and frequency silences, no less than the machine inference that silence can be filled with relevant sounds in some conversational situations, are both significant."
-            },
-            {
-              "point": "when presented",
-              "answer": "분사구문\n→ 원래: when it is presented with ~\n→ 주어 + be 생략 → 분사구문",
-              "lineIndex": 4,
-              "context": "Yet the AI’s confusion when presented with substantial silences, and its understanding that short break tags are equivalent to vocal markers such as ‘uh’s’ and ‘ah’s’ indicate the AI’s continuing preferences for sound over silence, for presence over absence."
-            },
-            {
-              "point": "that",
-              "answer": "동격 that + 완전한 문장",
-              "lineIndex": 4,
-              "context": "Yet the AI’s confusion when presented with substantial silences, and its understanding that short break tags are equivalent to vocal markers such as ‘uh’s’ and ‘ah’s’ indicate the AI’s continuing preferences for sound over silence, for presence over absence."
-            },
-            {
-              "point": "indicate",
-              "answer": "수일치\n→ 주어 = the AI’s confusion ~~ and its understanding ~~\n→ 복수 주어 → indicate (복수 동사)",
-              "lineIndex": 4,
-              "context": "Yet the AI’s confusion when presented with substantial silences, and its understanding that short break tags are equivalent to vocal markers such as ‘uh’s’ and ‘ah’s’ indicate the AI’s continuing preferences for sound over silence, for presence over absence."
-            }
-          ]
-        },
-        {
-          "title": "2603 - 39번",
-          "markdownSourceTitle": "Q미니 - 2강 전체 분석",
-          "markdownSectionNumber": "11",
-          "text": "Our intuition about states of matter comes from our experience on Earth’s surface, where the pressure is uniformly low and variations in temperature cause changes in the state of matter from solid to liquid to gas.\nTherefore, when we think of melting or boiling or the creation of plasma, we intuitively assume it reflects an increase in temperature.\nThis bias comes from the fact that we live in a very constant pressure environment.\nEven small changes in pressure, such as those we experience when under water or on high mountaintops, can have very large effects on our metabolism.\nBut the pressure changes we experience are trivial compared to the pressure range of the overall planetary environment.\nSince pressure is controlled by the weight of overlying material, pressures increase rapidly with depth.\nImagine the pressures generated by the weight of rock a mile thick!\nFor this reason a planet’s pressure ranges are enormous — from essentially zero pressure in space to pressures of millions of atmospheres in planetary interiors.",
-          "translationText": "물질의 상태에 대한 우리의 직관은 지구 표면에서의 경험에서 비롯되는데, 그곳에서는 기압이 대체로 낮고 일정하며, 온도의 변화가 물질의 상태를 고체에서 액체로, 다시 기체로 바꾸게 만든다.\n그러므로 우리는 융해나 끓음, 혹은 플라스마의 형성을 생각할 때 그것이 온도의 상승을 반영한다고 직관적으로 가정한다.\n이러한 편향은 우리가 매우 일정한 압력 환경 속에서 살고 있다는 사실에서 비롯된다.\n물속에 있거나 높은 산꼭대기에 있을 때 우리가 경험하는 것과 같은 작은 압력 변화조차도 우리의 신진대사에 매우 큰 영향을 미칠 수 있다.\n하지만 우리가 경험하는 압력 변화는 행성 전체 환경의 압력 범위와 비교하면 사소한 것이다.\n압력은 위에 놓인 물질의 무게에 의해 결정되므로, 깊이가 깊어질수록 압력은 빠르게 증가한다.\n1마일 두께의 암석이 만들어 내는 압력을 상상해 보라!\n이러한 이유로 행성의 압력 범위는 엄청나게 큰데, 우주의 사실상 0에 가까운 압력에서부터 행성 내부의 수백만 기압에 이르기까지 다양하다.",
-          "selectedLines": [
-            0,
-            4
-          ],
-          "grammarSelections": [
-            {
-              "text": ", where",
-              "answer": "계속적용법 관계부사\n→ where = and there / 그리고 그곳에서는\n→ Earth’s surface를 추가 설명하는 계속적 용법",
-              "lineIndex": 0,
-              "context": "Our intuition about states of matter comes from our experience on Earth’s surface, where the pressure is uniformly low and variations in temperature cause changes in the state of matter from solid to liquid to gas."
-            },
-            {
-              "text": "that",
-              "answer": "동격 that + 완전한 문장",
-              "lineIndex": 2,
-              "context": "This bias comes from the fact that we live in a very constant pressure environment."
-            },
-            {
-              "text": "generated",
-              "answer": "the pressures를 후치수식\n→ 원래: the pressures which are generated by the weight of rock\n→ which are 생략 → generated",
-              "lineIndex": 6,
-              "context": "Imagine the pressures generated by the weight of rock a mile thick!"
-            }
-          ],
-          "vocabRows": [
-            {
-              "word": "intuition",
-              "meaning": "직관",
-              "syn": "instinct, gut feeling",
-              "ant": "reasoning, analysis",
-              "antMeaning": "추론, 분석"
-            },
-            {
-              "word": "bias",
-              "meaning": "편향",
-              "syn": "prejudice, tendency",
-              "ant": "objectivity",
-              "antMeaning": "객관성"
-            },
-            {
-              "word": "trivial",
-              "meaning": "하찮은, 사소한",
-              "syn": "insignificant, negligible",
-              "ant": "significant, enormous",
-              "antMeaning": "중요한, 거대한"
-            },
-            {
-              "word": "enormous",
-              "meaning": "엄청난",
-              "syn": "immense, vast",
-              "ant": "trivial, tiny",
-              "antMeaning": "사소한, 아주 작은"
-            },
-            {
-              "word": "constant",
-              "meaning": "일정한",
-              "syn": "uniform, steady",
-              "ant": "variable, fluctuating",
-              "antMeaning": "변동하는"
-            }
-          ],
-          "questionAnswers": {
-            "topic": "물질의 상태 변화는 온도뿐 아니라 압력까지 함께 고려해야 정확히 이해할 수 있다."
-          },
-          "selectedSents": [
-            "Our intuition about states of matter comes from our experience on Earth’s surface, where the pressure is uniformly low and variations in temperature cause changes in the state of matter from solid to liquid to gas.",
-            "But the pressure changes we experience are trivial compared to the pressure range of the overall planetary environment."
-          ],
-          "translationAnswers": {
-            "Our intuition about states of matter comes from our experience on Earth’s surface, where the pressure is uniformly low and variations in temperature cause changes in the state of matter from solid to liquid to gas.": "물질의 상태에 대한 우리의 직관은 지구 표면에서의 경험에서 비롯되는데, 그곳에서는 기압이 대체로 낮고 일정하며, 온도의 변화가 물질의 상태를 고체에서 액체로, 다시 기체로 바꾸게 만든다.",
-            "But the pressure changes we experience are trivial compared to the pressure range of the overall planetary environment.": "하지만 우리가 경험하는 압력 변화는 행성 전체 환경의 압력 범위와 비교하면 사소한 것이다."
-          },
-          "grammarRows": [
-            {
-              "point": ", where",
-              "answer": "계속적용법 관계부사\n→ where = and there / 그리고 그곳에서는\n→ Earth’s surface를 추가 설명하는 계속적 용법",
-              "lineIndex": 0,
-              "context": "Our intuition about states of matter comes from our experience on Earth’s surface, where the pressure is uniformly low and variations in temperature cause changes in the state of matter from solid to liquid to gas."
-            },
-            {
-              "point": "that",
-              "answer": "동격 that + 완전한 문장",
-              "lineIndex": 2,
-              "context": "This bias comes from the fact that we live in a very constant pressure environment."
-            },
-            {
-              "point": "generated",
-              "answer": "the pressures를 후치수식\n→ 원래: the pressures which are generated by the weight of rock\n→ which are 생략 → generated",
-              "lineIndex": 6,
-              "context": "Imagine the pressures generated by the weight of rock a mile thick!"
             }
           ]
         }
@@ -5259,6 +3955,1332 @@
             7,
             8,
             9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-1775568638604-227",
+      "title": "260408 2차 로테이션",
+      "sourceName": "강서2 260408 2차 로테이션.json",
+      "startDate": "2026-04-06",
+      "endDate": "2026-04-18",
+      "savedAt": "2026-04-07T13:29:46.612Z",
+      "questionCounts": {
+        "translate": 2,
+        "grammar": 2,
+        "vocab": 2
+      },
+      "passages": [
+        {
+          "title": "Q미니 - 2강 1번",
+          "markdownSourceTitle": "Q미니 - 2강 전체 분석",
+          "markdownSectionNumber": "1",
+          "markdownDescriptiveEntries": [],
+          "markdownAutoSelect": false,
+          "text": "Leo stopped and looked around the forest.\nHe had been hiking through the forest for five hours by that point; he was dizzy and hungry, but he didn't stop.\n\"I've got to find him no matter what,\" Leo said to himself.\nHe was solely focused on finding his lost dog, Boxer.\nTo him, nothing mattered more.\nLeo started hurrying as he was almost at the top of a nearby hill.\nWhen he crossed a wooden bridge over a creek, he finally heard the familiar barking of Boxer.\n“He might be around here, somewhere,” Leo mumbled.\nHis spirits rose.\nLeo ran towards where the sound came from, and there he found Boxer, hiding in the bushes.\n“There you are, Boxer!” said Leo.\nThe dog was safe and unharmed.\nHe barked and wagged his tail as he looked at Leo.",
+          "translationText": "레오는 걸음을 멈추고 숲을 둘러보았다.\n그는 그때까지 다섯 시간 동안 숲속을 걸어 다니고 있었고, 어지럽고 배도 고팠지만 멈추지 않았다.\n“무슨 일이 있어도 그를 찾아야 해.”라고 레오는 혼잣말했다.\n그는 잃어버린 개 복서를 찾는 데에만 온전히 집중하고 있었다.\n그에게는 그것보다 더 중요한 것이 없었다.\n레오는 근처 언덕 꼭대기에 거의 다 와 있었기 때문에 서둘러 가기 시작했다.\n시냇물 위의 나무다리를 건넜을 때, 그는 마침내 복서의 익숙한 짖는 소리를 들었다.\n“어딘가 이 근처에 있을지도 몰라.”라고 레오는 중얼거렸다.\n그의 사기는 올라갔다.\n레오는 소리가 나는 쪽으로 달려갔고, 그곳에서 덤불 속에 숨어 있는 복서를 발견했다.\n“여기 있었구나, 복서!”라고 레오가 말했다.\n그 개는 안전했고 다친 곳도 없었다.\n복서는 레오를 바라보며 짖고 꼬리를 흔들었다.",
+          "selectedLines": [
+            1,
+            9
+          ],
+          "grammarSelections": [
+            {
+              "text": "had been hiking",
+              "answer": "had been ~ing - 과거완료진행시제",
+              "lineIndex": 1,
+              "context": "He had been hiking through the forest for five hours by that point; he was dizzy and hungry, but he didn't stop."
+            },
+            {
+              "text": "where",
+              "answer": "관계부사 where - 선행사 the place 생략되었다.",
+              "lineIndex": 9,
+              "context": "Leo ran towards where the sound came from, and there he found Boxer, hiding in the bushes."
+            },
+            {
+              "text": "hiding",
+              "answer": "앞에 Boxer를 수식해주는 현재분사\n, who was hiding에서 who was가 생략된 상황이다.",
+              "lineIndex": 9,
+              "context": "Leo ran towards where the sound came from, and there he found Boxer, hiding in the bushes."
+            }
+          ],
+          "vocabRows": [
+            {
+              "word": "solely",
+              "meaning": "오로지, 전적으로",
+              "syn": "exclusively, entirely",
+              "ant": "partially",
+              "antMeaning": "부분적으로"
+            },
+            {
+              "word": "focused",
+              "meaning": "집중한",
+              "syn": "concentrated, intent",
+              "ant": "distracted",
+              "antMeaning": "산만한"
+            },
+            {
+              "word": "familiar",
+              "meaning": "익숙한",
+              "syn": "well-known, recognizable",
+              "ant": "unfamiliar, strange",
+              "antMeaning": "낯선"
+            },
+            {
+              "word": "unharmed",
+              "meaning": "다치지 않은",
+              "syn": "unhurt, intact",
+              "ant": "injured, harmed",
+              "antMeaning": "부상을 입은"
+            }
+          ],
+          "questionAnswers": {
+            "topic": "간절한 목적의식과 집요한 추적은 어려운 상황에서도 행동을 지속하게 한다."
+          },
+          "selectedSents": [
+            "He had been hiking through the forest for five hours by that point; he was dizzy and hungry, but he didn't stop.",
+            "Leo ran towards where the sound came from, and there he found Boxer, hiding in the bushes."
+          ],
+          "translationAnswers": {
+            "He had been hiking through the forest for five hours by that point; he was dizzy and hungry, but he didn't stop.": "그는 그때까지 다섯 시간 동안 숲속을 걸어 다니고 있었고, 어지럽고 배도 고팠지만 멈추지 않았다.",
+            "Leo ran towards where the sound came from, and there he found Boxer, hiding in the bushes.": "레오는 소리가 나는 쪽으로 달려갔고, 그곳에서 덤불 속에 숨어 있는 복서를 발견했다."
+          },
+          "grammarRows": [
+            {
+              "point": "had been hiking",
+              "answer": "had been ~ing - 과거완료진행시제",
+              "lineIndex": 1,
+              "context": "He had been hiking through the forest for five hours by that point; he was dizzy and hungry, but he didn't stop."
+            },
+            {
+              "point": "where",
+              "answer": "관계부사 where - 선행사 the place 생략되었다.",
+              "lineIndex": 9,
+              "context": "Leo ran towards where the sound came from, and there he found Boxer, hiding in the bushes."
+            },
+            {
+              "point": "hiding",
+              "answer": "앞에 Boxer를 수식해주는 현재분사\n, who was hiding에서 who was가 생략된 상황이다.",
+              "lineIndex": 9,
+              "context": "Leo ran towards where the sound came from, and there he found Boxer, hiding in the bushes."
+            }
+          ]
+        },
+        {
+          "title": "Q미니 - 2강 2번",
+          "markdownSourceTitle": "Q미니 - 2강 전체 분석",
+          "markdownSectionNumber": "2",
+          "markdownDescriptiveEntries": [],
+          "markdownAutoSelect": false,
+          "text": "Luigi Pirandello was a Sicilian playwright, novelist, and short-story writer.\nAt least one of his stories was made into a Hollywood movie starring Greta Garbo.\nHe wrote plays as a student and published one in 1896, but he had no success at finding producers.\nIn 1916, a friend introduced him to a producer who was in need of new scripts and who persuaded Pirandello, a respected novelist, to write one for his company.\nThink, Giacomino! was successful enough to earn Pirandello a good deal of money, and he turned virtually his full attention to the theater for the rest of his life.\nAt the age of fifty, Pirandello embarked on what proved to be his primary calling.\nIn the next eight years he wrote twenty-eight plays; he wrote forty in his lifetime, some in Sicilian.\nIn 1934, he won the Nobel Prize for literature and two years later died in Rome.",
+          "translationText": "루이지 피란델로는 시칠리아 출신의 극작가이자 소설가, 단편소설 작가였다.\n그의 이야기들 중 적어도 하나는 그레타 가르보가 출연한 할리우드 영화로 만들어졌다.\n그는 학생 시절 희곡을 썼고 1896년에 한 편을 출판했지만, 제작자를 찾는 데에는 성공하지 못했다.\n1916년에 한 친구가 그를 새 대본이 필요했던 한 제작자에게 소개했고, 그 제작자는 존경받는 소설가였던 피란델로를 설득하여 자기 회사를 위한 작품을 쓰게 했다.\n『Think, Giacomino!』는 피란델로에게 상당한 돈을 벌어다줄 만큼 성공했고, 그는 이후 평생 거의 모든 관심을 연극에 쏟게 되었다.\n쉰 살의 나이에 피란델로는 결국 자신의 주된 천직이 된 길에 들어섰다.\n그 후 8년 동안 그는 28편의 희곡을 썼고, 평생 동안 총 40편을 썼는데 그중 일부는 시칠리아어로 쓰였다.\n1934년에 그는 노벨문학상을 받았고, 2년 뒤 로마에서 세상을 떠났다.",
+          "selectedLines": [
+            3,
+            5
+          ],
+          "grammarSelections": [
+            {
+              "text": "to write",
+              "answer": "persuade가 OT동사이기 때문에 목적격보어 자리에 to-v가 쓰였다.",
+              "lineIndex": 3,
+              "context": "In 1916, a friend introduced him to a producer who was in need of new scripts and who persuaded Pirandello, a respected novelist, to write one for his company."
+            },
+            {
+              "text": "successful enough to earn",
+              "answer": "형 + enough + to-v - ~할 정도로 충분히 -한",
+              "lineIndex": 4,
+              "context": "Think, Giacomino! was successful enough to earn Pirandello a good deal of money, and he turned virtually his full attention to the theater for the rest of his life."
+            },
+            {
+              "text": "what",
+              "answer": "관계대명사 what + 불완전한 절 - ~하는 것",
+              "lineIndex": 5,
+              "context": "At the age of fifty, Pirandello embarked on what proved to be his primary calling."
+            }
+          ],
+          "vocabRows": [
+            {
+              "word": "persuade",
+              "meaning": "설득하다",
+              "syn": "convince, urge",
+              "ant": "dissuade, discourage",
+              "antMeaning": "만류하다"
+            },
+            {
+              "word": "embark",
+              "meaning": "착수하다, 시작하다",
+              "syn": "begin, undertake",
+              "ant": "",
+              "antMeaning": ""
+            },
+            {
+              "word": "primary",
+              "meaning": "주된, 으뜸의",
+              "syn": "main, chief",
+              "ant": "secondary, minor",
+              "antMeaning": "부차적인"
+            },
+            {
+              "word": "virtually",
+              "meaning": "사실상",
+              "syn": "practically, almost",
+              "ant": "",
+              "antMeaning": ""
+            }
+          ],
+          "questionAnswers": {
+            "topic": "늦은 시기의 전환은 한 사람의 진정한 소명과 주요 성취를 드러낼 수 있다."
+          },
+          "selectedSents": [
+            "In 1916, a friend introduced him to a producer who was in need of new scripts and who persuaded Pirandello, a respected novelist, to write one for his company.",
+            "At the age of fifty, Pirandello embarked on what proved to be his primary calling."
+          ],
+          "translationAnswers": {
+            "In 1916, a friend introduced him to a producer who was in need of new scripts and who persuaded Pirandello, a respected novelist, to write one for his company.": "1916년에 한 친구가 그를 새 대본이 필요했던 한 제작자에게 소개했고, 그 제작자는 존경받는 소설가였던 피란델로를 설득하여 자기 회사를 위한 작품을 쓰게 했다.",
+            "At the age of fifty, Pirandello embarked on what proved to be his primary calling.": "쉰 살의 나이에 피란델로는 결국 자신의 주된 천직이 된 길에 들어섰다."
+          },
+          "grammarRows": [
+            {
+              "point": "to write",
+              "answer": "persuade가 OT동사이기 때문에 목적격보어 자리에 to-v가 쓰였다.",
+              "lineIndex": 3,
+              "context": "In 1916, a friend introduced him to a producer who was in need of new scripts and who persuaded Pirandello, a respected novelist, to write one for his company."
+            },
+            {
+              "point": "successful enough to earn",
+              "answer": "형 + enough + to-v - ~할 정도로 충분히 -한",
+              "lineIndex": 4,
+              "context": "Think, Giacomino! was successful enough to earn Pirandello a good deal of money, and he turned virtually his full attention to the theater for the rest of his life."
+            },
+            {
+              "point": "what",
+              "answer": "관계대명사 what + 불완전한 절 - ~하는 것",
+              "lineIndex": 5,
+              "context": "At the age of fifty, Pirandello embarked on what proved to be his primary calling."
+            }
+          ]
+        },
+        {
+          "title": "Q미니 - 2강 3번",
+          "markdownSourceTitle": "Q미니 - 2강 전체 분석",
+          "markdownSectionNumber": "3",
+          "markdownDescriptiveEntries": [],
+          "markdownAutoSelect": false,
+          "text": "Remember that saying, “Hard work beats talent when talent doesn't work hard?”\nRegardless of talent level, if you work hard, you'll be a better musician.\nBut working hard is not enough.\nMy friend Charlie told me about his coworker, Tom, who worked extra hours each week, starting early and staying long after everyone else had left.\n“A dedicated and industrious employee,” you might think.\nMaybe not.\nThose extra hours Tom put in did nothing to increase his productivity because he went from one project to the next, never setting priorities or deadlines.\nWithout concentrating his efforts on the important tasks, he often never completed them.\nHe was busy doing too many things and in the wrong order.\nCharlie left the office each night, thinking, “There's Tom, working long and long instead of long and hard.”\nGoals direct your hard work.",
+          "translationText": "“재능이 노력하지 않을 때는 노력이 재능을 이긴다”라는 말을 기억하는가?\n재능의 수준과 상관없이, 열심히 노력하면 더 나은 음악가가 될 것이다.\n하지만 열심히 일하는 것만으로는 충분하지 않다.\n내 친구 찰리는 자기 동료 톰에 대해 이야기해 주었는데, 그는 매주 추가 근무를 하며 일찍 출근하고 다른 사람들이 모두 떠난 뒤에도 한참 남아 있었다.\n“헌신적이고 근면한 직원이군.”이라고 당신은 생각할지도 모른다.\n꼭 그런 것은 아니다.\n톰이 들인 그 추가 시간은 생산성을 높이는 데 전혀 도움이 되지 않았는데, 그는 한 프로젝트에서 다음 프로젝트로 옮겨 다니기만 했고 우선순위나 마감 기한을 한 번도 정하지 않았기 때문이다.\n중요한 일에 노력을 집중하지 않았기 때문에, 그는 그것들을 끝내지 못하는 경우가 많았다.\n그는 너무 많은 일을, 그것도 잘못된 순서로 하느라 바빴다.\n찰리는 매일 밤 사무실을 떠나며 “톰이 또 있군, 제대로 열심히 일하는 대신 오래오래만 일하고 있네.”라고 생각했다.\n목표는 당신의 노력을 올바른 방향으로 이끈다.",
+          "selectedLines": [
+            3,
+            6
+          ],
+          "grammarSelections": [
+            {
+              "text": "never setting",
+              "answer": "분사구문 - 생략된 주어는 he이고 he가 우선순위나 마감일을 절대 설정하지 않는 것이기 때문에 능동의 ~ing를 써야한다. 또한 현재분사의 부정문인 ~ing 앞에 never를 썼다.",
+              "lineIndex": 6,
+              "context": "Those extra hours Tom put in did nothing to increase his productivity because he went from one project to the next, never setting priorities or deadlines."
+            },
+            {
+              "text": "doing",
+              "answer": "be busy ~ing - ~하느라 바쁘다",
+              "lineIndex": 8,
+              "context": "He was busy doing too many things and in the wrong order."
+            },
+            {
+              "text": "thinking",
+              "answer": "분사구문 - 생략된 주어는 Charlie이고  Charlie가 생각하는 것이기 때문에 능동의 ~ing를 써야한다.",
+              "lineIndex": 9,
+              "context": "Charlie left the office each night, thinking, “There's Tom, working long and long instead of long and hard.”"
+            },
+            {
+              "text": "starting early and staying long after everyone else had left",
+              "answer": "분사구문 - 생략된 주어는 Tom이고 Tom이 일찍 시작하고 오래 남아있는 것이기 때문에 능동의 ~ing를 써야한다. 또한 starting과 staying은 병렬구조이다.",
+              "lineIndex": 3,
+              "context": "My friend Charlie told me about his coworker, Tom, who worked extra hours each week, starting early and staying long after everyone else had left."
+            }
+          ],
+          "vocabRows": [
+            {
+              "word": "productivity",
+              "meaning": "생산성",
+              "syn": "efficiency, output",
+              "ant": "없음",
+              "antMeaning": "—"
+            },
+            {
+              "word": "priority",
+              "meaning": "우선순위",
+              "syn": "precedence, preference",
+              "ant": "없음",
+              "antMeaning": "—"
+            },
+            {
+              "word": "concentrate",
+              "meaning": "집중하다",
+              "syn": "focus, devote",
+              "ant": "scatter, disperse",
+              "antMeaning": "분산시키다"
+            },
+            {
+              "word": "industrious",
+              "meaning": "근면한",
+              "syn": "diligent, hardworking",
+              "ant": "lazy, idle",
+              "antMeaning": "게으른"
+            },
+            {
+              "word": "direct",
+              "meaning": "방향을 잡아 주다",
+              "syn": "guide, steer",
+              "ant": "misdirect",
+              "antMeaning": "잘못된 방향으로 이끌다"
+            },
+            {
+              "word": "complete",
+              "meaning": "완수하다",
+              "syn": "finish, accomplish",
+              "ant": "abandon, leave incomplete",
+              "antMeaning": "포기하다, 미완성으로 남기다"
+            }
+          ],
+          "questionAnswers": {
+            "topic": "성과는 노력의 양보다 목표와 우선순위가 부여하는 방향성에 의해 결정된다."
+          },
+          "selectedSents": [
+            "My friend Charlie told me about his coworker, Tom, who worked extra hours each week, starting early and staying long after everyone else had left.",
+            "Those extra hours Tom put in did nothing to increase his productivity because he went from one project to the next, never setting priorities or deadlines."
+          ],
+          "translationAnswers": {
+            "My friend Charlie told me about his coworker, Tom, who worked extra hours each week, starting early and staying long after everyone else had left.": "내 친구 찰리는 자기 동료 톰에 대해 이야기해 주었는데, 그는 매주 추가 근무를 하며 일찍 출근하고 다른 사람들이 모두 떠난 뒤에도 한참 남아 있었다.",
+            "Those extra hours Tom put in did nothing to increase his productivity because he went from one project to the next, never setting priorities or deadlines.": "톰이 들인 그 추가 시간은 생산성을 높이는 데 전혀 도움이 되지 않았는데, 그는 한 프로젝트에서 다음 프로젝트로 옮겨 다니기만 했고 우선순위나 마감 기한을 한 번도 정하지 않았기 때문이다."
+          },
+          "grammarRows": [
+            {
+              "point": "never setting",
+              "answer": "분사구문 - 생략된 주어는 he이고 he가 우선순위나 마감일을 절대 설정하지 않는 것이기 때문에 능동의 ~ing를 써야한다. 또한 현재분사의 부정문인 ~ing 앞에 never를 썼다.",
+              "lineIndex": 6,
+              "context": "Those extra hours Tom put in did nothing to increase his productivity because he went from one project to the next, never setting priorities or deadlines."
+            },
+            {
+              "point": "doing",
+              "answer": "be busy ~ing - ~하느라 바쁘다",
+              "lineIndex": 8,
+              "context": "He was busy doing too many things and in the wrong order."
+            },
+            {
+              "point": "thinking",
+              "answer": "분사구문 - 생략된 주어는 Charlie이고  Charlie가 생각하는 것이기 때문에 능동의 ~ing를 써야한다.",
+              "lineIndex": 9,
+              "context": "Charlie left the office each night, thinking, “There's Tom, working long and long instead of long and hard.”"
+            },
+            {
+              "point": "starting early and staying long after everyone else had left",
+              "answer": "분사구문 - 생략된 주어는 Tom이고 Tom이 일찍 시작하고 오래 남아있는 것이기 때문에 능동의 ~ing를 써야한다. 또한 starting과 staying은 병렬구조이다.",
+              "lineIndex": 3,
+              "context": "My friend Charlie told me about his coworker, Tom, who worked extra hours each week, starting early and staying long after everyone else had left."
+            }
+          ]
+        },
+        {
+          "title": "Q미니 - 2강 4번",
+          "markdownSourceTitle": "Q미니 - 2강 전체 분석",
+          "markdownSectionNumber": "4",
+          "markdownDescriptiveEntries": [],
+          "markdownAutoSelect": false,
+          "text": "Corporations establish rewards to drive performance.\nOften these rewards focus on meeting budgets and avoiding risk.\nRewards of this type cause managers to invest in safe products that pose little chance of a big loss but also little chance of a big profit.\nThese rewards totally block any motivation to explore riskier paths.\nThe companies reward the speed at which low-risk products are created and marketed, even if they are hoping for radical new ideas.\nThe outcome is little appetite for risk and an overdose of incremental ideas.\nInterestingly, managers get frustrated with the outcome, blind to the behavior that the organization is explicitly or implicitly rewarding.\nA badly designed measurement or reward system mutes the rest of the rules, even if optimally designed.",
+          "translationText": "기업은 성과를 끌어내기 위해 보상 체계를 마련한다.\n이러한 보상은 종종 예산을 맞추고 위험을 피하는 데 초점을 둔다.\n이런 유형의 보상은 관리자들로 하여금 큰 손실의 가능성도 작지만 큰 이익의 가능성도 작은 안전한 제품에 투자하게 만든다.\n이러한 보상은 더 위험한 길을 탐색하려는 동기를 완전히 차단한다.\n기업들은 획기적으로 새로운 아이디어를 바라면서도, 실제로는 저위험 제품이 빠르게 만들어지고 시장에 출시되는 속도에 보상을 준다.\n그 결과는 위험을 감수하려는 의욕의 부족과 점진적인 아이디어의 과잉이다.\n흥미롭게도 관리자들은 그 결과에 좌절하면서도, 조직이 명시적으로든 암묵적으로든 실제로 보상하고 있는 행동은 보지 못한다.\n잘못 설계된 측정 또는 보상 체계는, 다른 규칙들이 아무리 최적으로 설계되어 있어도 그것들의 효과를 죽여 버린다.",
+          "selectedLines": [
+            4,
+            6
+          ],
+          "grammarSelections": [
+            {
+              "text": "little",
+              "answer": "little은 \"거의 없는\"이라는 부정어이다.",
+              "lineIndex": 2,
+              "context": "Rewards of this type cause managers to invest in safe products that pose little chance of a big loss but also little chance of a big profit."
+            },
+            {
+              "text": "to explore",
+              "answer": "block이 OT 동사이기 때문에 목적격보어 자리에 to-v가 쓰였다.",
+              "lineIndex": 3,
+              "context": "These rewards totally block any motivation to explore riskier paths."
+            },
+            {
+              "text": "at which",
+              "answer": "전치사 + 관계대명사 = 관계부사. 뒤에 완전한 절이 온다. 전치사를 문장 맨 뒤로 옮기면 앞에는 관계대명사만 남고 불완전한 절이 된다.",
+              "lineIndex": 4,
+              "context": "The companies reward the speed at which low-risk products are created and marketed, even if they are hoping for radical new ideas."
+            },
+            {
+              "text": "blind",
+              "answer": "분사구문.\n→ and they are blind to the behavior that the organization is ...\n→ , being blind to the behavior that ... (분사구문)\n→ , blind to the behavior that ... (being 생략)",
+              "lineIndex": 6,
+              "context": "Interestingly, managers get frustrated with the outcome, blind to the behavior that the organization is explicitly or implicitly rewarding."
+            },
+            {
+              "text": "even if optimally designed",
+              "answer": "→ even if (it is) optimally designed 생략\n→ 아무리 잘 설계되어 있어도",
+              "lineIndex": 7,
+              "context": "A badly designed measurement or reward system mutes the rest of the rules, even if optimally designed."
+            }
+          ],
+          "vocabRows": [
+            {
+              "word": "block",
+              "meaning": "차단하다",
+              "syn": "prevent, hinder",
+              "ant": "encourage, facilitate",
+              "antMeaning": "촉진하다"
+            },
+            {
+              "word": "radical",
+              "meaning": "급진적인, 혁신적인",
+              "syn": "innovative, groundbreaking",
+              "ant": "incremental, conventional",
+              "antMeaning": "점진적인, 기존의"
+            },
+            {
+              "word": "incremental",
+              "meaning": "점진적인",
+              "syn": "gradual, marginal",
+              "ant": "radical, revolutionary",
+              "antMeaning": "급진적인"
+            },
+            {
+              "word": "mute",
+              "meaning": "무력화하다",
+              "syn": "suppress, silence",
+              "ant": "amplify, strengthen",
+              "antMeaning": "강화하다"
+            },
+            {
+              "word": "frustrated",
+              "meaning": "좌절한",
+              "syn": "disappointed, discouraged",
+              "ant": "satisfied",
+              "antMeaning": "만족한"
+            },
+            {
+              "word": "appetite",
+              "meaning": "의욕, 욕구",
+              "syn": "desire, willingness",
+              "ant": "aversion, reluctance",
+              "antMeaning": "기피, 꺼림"
+            }
+          ],
+          "questionAnswers": {
+            "topic": "조직은 원하는 목표보다 실제로 보상하는 기준에 따라 위험 감수와 혁신 수준이 결정된다."
+          },
+          "selectedSents": [
+            "The companies reward the speed at which low-risk products are created and marketed, even if they are hoping for radical new ideas.",
+            "Interestingly, managers get frustrated with the outcome, blind to the behavior that the organization is explicitly or implicitly rewarding."
+          ],
+          "translationAnswers": {
+            "The companies reward the speed at which low-risk products are created and marketed, even if they are hoping for radical new ideas.": "기업들은 획기적으로 새로운 아이디어를 바라면서도, 실제로는 저위험 제품이 빠르게 만들어지고 시장에 출시되는 속도에 보상을 준다.",
+            "Interestingly, managers get frustrated with the outcome, blind to the behavior that the organization is explicitly or implicitly rewarding.": "흥미롭게도 관리자들은 그 결과에 좌절하면서도, 조직이 명시적으로든 암묵적으로든 실제로 보상하고 있는 행동은 보지 못한다."
+          },
+          "grammarRows": [
+            {
+              "point": "little",
+              "answer": "little은 \"거의 없는\"이라는 부정어이다.",
+              "lineIndex": 2,
+              "context": "Rewards of this type cause managers to invest in safe products that pose little chance of a big loss but also little chance of a big profit."
+            },
+            {
+              "point": "to explore",
+              "answer": "block이 OT 동사이기 때문에 목적격보어 자리에 to-v가 쓰였다.",
+              "lineIndex": 3,
+              "context": "These rewards totally block any motivation to explore riskier paths."
+            },
+            {
+              "point": "at which",
+              "answer": "전치사 + 관계대명사 = 관계부사. 뒤에 완전한 절이 온다. 전치사를 문장 맨 뒤로 옮기면 앞에는 관계대명사만 남고 불완전한 절이 된다.",
+              "lineIndex": 4,
+              "context": "The companies reward the speed at which low-risk products are created and marketed, even if they are hoping for radical new ideas."
+            },
+            {
+              "point": "blind",
+              "answer": "분사구문.\n→ and they are blind to the behavior that the organization is ...\n→ , being blind to the behavior that ... (분사구문)\n→ , blind to the behavior that ... (being 생략)",
+              "lineIndex": 6,
+              "context": "Interestingly, managers get frustrated with the outcome, blind to the behavior that the organization is explicitly or implicitly rewarding."
+            },
+            {
+              "point": "even if optimally designed",
+              "answer": "→ even if (it is) optimally designed 생략\n→ 아무리 잘 설계되어 있어도",
+              "lineIndex": 7,
+              "context": "A badly designed measurement or reward system mutes the rest of the rules, even if optimally designed."
+            }
+          ]
+        },
+        {
+          "title": "Q미니 - 2강 5번",
+          "markdownSourceTitle": "Q미니 - 2강 전체 분석",
+          "markdownSectionNumber": "5",
+          "markdownDescriptiveEntries": [],
+          "markdownAutoSelect": false,
+          "text": "Modeling after someone works, but remember that success is a mind formula.\nWhen modeling after someone else, you must realize that you still have to make sacrifices and do all the hard work yourself.\nDo not get relaxed and think something is going to be easy because you are modeling after someone else.\nWhen we are on the outside looking in, it may appear as if it does not require much to achieve a goal.\nThink about a stand-up comedian doing a skit on stage.\nSometimes we think within, “They're not that funny.”\n“I could do better than that.”\nThis is easy to assume until you look into it and find out the work does not begin when you get on stage.\nNot only will you find out that you have to tell jokes, you will realize that you must write skits, be a promoter, etc.\nOnce some people know all of this, they would stop.\nAlways remind yourself that success is more than what meets the eye.",
+          "translationText": "누군가를 본보기로 삼는 것은 효과가 있지만, 성공은 마음의 공식이라는 점을 기억하라.\n다른 사람을 본받을 때에도, 결국 희생을 감수하고 모든 힘든 일을 스스로 해야 한다는 사실을 깨달아야 한다.\n다른 사람을 따라 하고 있다는 이유만으로 일이 쉬울 것이라고 느긋하게 생각해서는 안 된다.\n우리가 바깥에서 들여다볼 때는 목표를 이루는 데 그다지 많은 것이 필요하지 않아 보일 수 있다.\n무대 위에서 공연하는 스탠드업 코미디언을 생각해 보라.\n우리는 때때로 속으로 “저 사람은 그렇게 웃기지도 않은데.”라고 생각한다.\n“나도 저것보다는 더 잘할 수 있겠어.”\n하지만 자세히 들여다보면 일이란 무대에 올라가는 순간 시작되는 것이 아니라는 사실을 알게 되기 전까지는 그렇게 추측하기 쉽다.\n농담을 해야 할 뿐 아니라, 꽁트를 써야 하고 홍보도 해야 한다는 사실까지 알게 될 것이다.\n어떤 사람들은 이 모든 것을 알게 되면 그만둘 것이다.\n성공은 눈에 보이는 것 이상이라는 점을 항상 스스로에게 상기시켜라.",
+          "selectedLines": [
+            7,
+            8
+          ],
+          "grammarSelections": [
+            {
+              "text": "When modeling",
+              "answer": "→ 원래: When you model after someone else, you must realize ~\n→ 주어가 같아서 (you) 생략하고 동사 -ing로 축약한 것",
+              "lineIndex": 1,
+              "context": "When modeling after someone else, you must realize that you still have to make sacrifices and do all the hard work yourself."
+            },
+            {
+              "text": "as if",
+              "answer": "→ as if = 마치 ~인 것처럼\n→ 실제 사실이 아닐 수도 있는 추측/겉보기 상황 표현",
+              "lineIndex": 3,
+              "context": "When we are on the outside looking in, it may appear as if it does not require much to achieve a goal."
+            },
+            {
+              "text": "Not only will you find out",
+              "answer": "부정어 도치 (부조주동)\n→ Not only가 문장 앞에 오면 조동사 도치 발생\n→ will you find out (X you will find out)",
+              "lineIndex": 8,
+              "context": "Not only will you find out that you have to tell jokes, you will realize that you must write skits, be a promoter, etc."
+            },
+            {
+              "text": "what",
+              "answer": "what 관계대명사 (명사절)\n→ what meets the eye = 눈에 보이는 것\n→ what = the thing that 의미",
+              "lineIndex": 10,
+              "context": "Always remind yourself that success is more than what meets the eye."
+            }
+          ],
+          "vocabRows": [
+            {
+              "word": "sacrifice",
+              "meaning": "희생",
+              "syn": "devotion, commitment",
+              "ant": "",
+              "antMeaning": ""
+            },
+            {
+              "word": "relaxed",
+              "meaning": "편하게 생각하는, 안이한",
+              "syn": "complacent, easygoing",
+              "ant": "alert, diligent",
+              "antMeaning": "경각심 있는, 부지런한"
+            },
+            {
+              "word": "require",
+              "meaning": "필요로 하다",
+              "syn": "demand, necessitate",
+              "ant": "",
+              "antMeaning": ""
+            },
+            {
+              "word": "remind",
+              "meaning": "상기시키다",
+              "syn": "recall, remember",
+              "ant": "forget, overlook",
+              "antMeaning": "잊다, 간과하다"
+            }
+          ],
+          "questionAnswers": {
+            "topic": "성공은 겉으로 보이는 결과보다 그 이면의 노력과 희생까지 포함하는 과정이다."
+          },
+          "selectedSents": [
+            "This is easy to assume until you look into it and find out the work does not begin when you get on stage.",
+            "Not only will you find out that you have to tell jokes, you will realize that you must write skits, be a promoter, etc."
+          ],
+          "translationAnswers": {
+            "This is easy to assume until you look into it and find out the work does not begin when you get on stage.": "하지만 자세히 들여다보면 일이란 무대에 올라가는 순간 시작되는 것이 아니라는 사실을 알게 되기 전까지는 그렇게 추측하기 쉽다.",
+            "Not only will you find out that you have to tell jokes, you will realize that you must write skits, be a promoter, etc.": "농담을 해야 할 뿐 아니라, 꽁트를 써야 하고 홍보도 해야 한다는 사실까지 알게 될 것이다."
+          },
+          "grammarRows": [
+            {
+              "point": "When modeling",
+              "answer": "→ 원래: When you model after someone else, you must realize ~\n→ 주어가 같아서 (you) 생략하고 동사 -ing로 축약한 것",
+              "lineIndex": 1,
+              "context": "When modeling after someone else, you must realize that you still have to make sacrifices and do all the hard work yourself."
+            },
+            {
+              "point": "as if",
+              "answer": "→ as if = 마치 ~인 것처럼\n→ 실제 사실이 아닐 수도 있는 추측/겉보기 상황 표현",
+              "lineIndex": 3,
+              "context": "When we are on the outside looking in, it may appear as if it does not require much to achieve a goal."
+            },
+            {
+              "point": "Not only will you find out",
+              "answer": "부정어 도치 (부조주동)\n→ Not only가 문장 앞에 오면 조동사 도치 발생\n→ will you find out (X you will find out)",
+              "lineIndex": 8,
+              "context": "Not only will you find out that you have to tell jokes, you will realize that you must write skits, be a promoter, etc."
+            },
+            {
+              "point": "what",
+              "answer": "what 관계대명사 (명사절)\n→ what meets the eye = 눈에 보이는 것\n→ what = the thing that 의미",
+              "lineIndex": 10,
+              "context": "Always remind yourself that success is more than what meets the eye."
+            }
+          ]
+        },
+        {
+          "title": "Q미니 - 2강 6번",
+          "markdownSourceTitle": "Q미니 - 2강 전체 분석",
+          "markdownSectionNumber": "6",
+          "markdownDescriptiveEntries": [],
+          "markdownAutoSelect": false,
+          "text": "The root cause of anxiety differs from person to person.\nIn truth, no one knows precisely what causes anxiety.\nHowever, several different factors are involved that ultimately lead to a state of anxiety.\nOne of these includes past experiences or experiences from a young age.\nPainful experiences as a child, such as abuse, neglect, the loss of a parent, or bullying, can lead to anxiety in later life.\nYour current life situation can also cause anxiety.\nIf you are out of work, have money issues, or have lost someone close to you, your anxiety levels may rise.\nPhysical or mental health problems can also lead to anxiety—for example, when you are living with a serious illness or tackling a psychological issue such as depression.",
+          "translationText": "불안의 근본 원인은 사람마다 다르다.\n사실, 무엇이 불안을 유발하는지 정확히 아는 사람은 없다.\n그러나 결국 불안 상태로 이어지는 여러 가지 다른 요인들이 관련되어 있다.\n그중 하나는 과거의 경험이나 어린 시절의 경험이다.\n학대, 방임, 부모의 상실, 괴롭힘과 같은 어린 시절의 고통스러운 경험은 훗날 불안으로 이어질 수 있다.\n현재의 삶의 상황 또한 불안을 유발할 수 있다.\n실직 상태이거나 돈 문제를 겪고 있거나 가까운 사람을 잃었다면, 불안 수준이 높아질 수 있다.\n신체적 또는 정신적 건강 문제 역시 불안을 유발할 수 있는데, 예를 들어 심각한 질병을 안고 살아가거나 우울증과 같은 심리적 문제에 대처하고 있을 때 그렇다.",
+          "selectedLines": [
+            0,
+            1,
+            4,
+            7
+          ],
+          "grammarSelections": [
+            {
+              "text": "what",
+              "answer": "what 관계대명사 (명사절)\n→ what causes anxiety = 무엇이 불안을 일으키는지\n→ what = the thing that",
+              "lineIndex": 1,
+              "context": "In truth, no one knows precisely what causes anxiety."
+            },
+            {
+              "text": "One of these",
+              "answer": "one of + 복수명사 + 복수동사\n→ ~한 것들 중 하나",
+              "lineIndex": 3,
+              "context": "One of these includes past experiences or experiences from a young age."
+            }
+          ],
+          "vocabRows": [
+            {
+              "word": "anxiety",
+              "meaning": "불안",
+              "syn": "worry, unease",
+              "ant": "calmness, serenity",
+              "antMeaning": "평온, 안정"
+            },
+            {
+              "word": "precisely",
+              "meaning": "정확히",
+              "syn": "exactly, accurately",
+              "ant": "vaguely",
+              "antMeaning": "모호하게"
+            },
+            {
+              "word": "neglect",
+              "meaning": "방임, 무관심",
+              "syn": "disregard, abandonment",
+              "ant": "care, attention",
+              "antMeaning": "돌봄, 관심"
+            },
+            {
+              "word": "ultimately",
+              "meaning": "궁극적으로",
+              "syn": "eventually, in the end",
+              "ant": "",
+              "antMeaning": ""
+            },
+            {
+              "word": "tackle",
+              "meaning": "다루다, 대처하다",
+              "syn": "deal with, address",
+              "ant": "avoid, ignore",
+              "antMeaning": "회피하다, 무시하다"
+            }
+          ],
+          "questionAnswers": {
+            "topic": "불안은 단일 원인보다 여러 개인적 경험과 조건의 복합 작용으로 형성된다."
+          },
+          "selectedSents": [
+            "The root cause of anxiety differs from person to person.",
+            "In truth, no one knows precisely what causes anxiety.",
+            "Painful experiences as a child, such as abuse, neglect, the loss of a parent, or bullying, can lead to anxiety in later life.",
+            "Physical or mental health problems can also lead to anxiety—for example, when you are living with a serious illness or tackling a psychological issue such as depression."
+          ],
+          "translationAnswers": {
+            "The root cause of anxiety differs from person to person.": "불안의 근본 원인은 사람마다 다르다.",
+            "In truth, no one knows precisely what causes anxiety.": "사실, 무엇이 불안을 유발하는지 정확히 아는 사람은 없다.",
+            "Painful experiences as a child, such as abuse, neglect, the loss of a parent, or bullying, can lead to anxiety in later life.": "학대, 방임, 부모의 상실, 괴롭힘과 같은 어린 시절의 고통스러운 경험은 훗날 불안으로 이어질 수 있다.",
+            "Physical or mental health problems can also lead to anxiety—for example, when you are living with a serious illness or tackling a psychological issue such as depression.": "신체적 또는 정신적 건강 문제 역시 불안을 유발할 수 있는데, 예를 들어 심각한 질병을 안고 살아가거나 우울증과 같은 심리적 문제에 대처하고 있을 때 그렇다."
+          },
+          "grammarRows": [
+            {
+              "point": "what",
+              "answer": "what 관계대명사 (명사절)\n→ what causes anxiety = 무엇이 불안을 일으키는지\n→ what = the thing that",
+              "lineIndex": 1,
+              "context": "In truth, no one knows precisely what causes anxiety."
+            },
+            {
+              "point": "One of these",
+              "answer": "one of + 복수명사 + 복수동사\n→ ~한 것들 중 하나",
+              "lineIndex": 3,
+              "context": "One of these includes past experiences or experiences from a young age."
+            }
+          ]
+        },
+        {
+          "title": "Q미니 - 2강 7-8번",
+          "markdownSourceTitle": "Q미니 - 2강 전체 분석",
+          "markdownSectionNumber": "7",
+          "markdownDescriptiveEntries": [],
+          "markdownAutoSelect": false,
+          "text": "Your daughter, who will graduate from college next year, asks your advice on finding a job.\nInstead of suggesting companies to contact, you tell her that additional courses in accounting and finance will improve her chances on the job market.\nShe resists your attempt to broaden your role and says that she has already decided to take courses next year in history and economics, subjects that she particularly likes.\nAnyway, accounting is boring.\nWhy can't you just tell her the names of some people to contact for a job?\nAt this point, you can tell her to find a job on her own, or you can agree to limit your role to identifying particular companies, making suggestions about her résumé, and helping her write introductory letters.\nTo persist in urging her to change her academic program will only result in conflict because you are trying to assume an advisory role that she has not agreed to.\nShe wants your advice on jobs, not academics.\nYou can be an effective advisor only if you and your client agree on your role.",
+          "translationText": "내년에 대학을 졸업할 당신의 딸이 일자리를 찾는 것에 대해 조언을 구한다.\n당신은 연락할 회사를 제안하는 대신, 회계와 재무 관련 추가 수업을 들으면 취업 시장에서 기회가 더 좋아질 것이라고 말한다.\n딸은 당신이 자신의 역할을 넓히려는 시도에 반발하며, 이미 자신이 특히 좋아하는 과목인 역사와 경제학 수업을 내년에 듣기로 결정했다고 말한다.\n어쨌든 회계는 지루하다.\n왜 그냥 취업을 위해 연락할 몇몇 사람들의 이름만 알려줄 수는 없는가?\n이 시점에서 당신은 딸에게 스스로 일자리를 찾으라고 말할 수도 있고, 혹은 특정 회사를 알려 주고 이력서에 대해 조언하며 소개 편지를 쓰는 것을 돕는 정도로 자신의 역할을 제한하는 데 동의할 수도 있다.\n딸의 학업 계획을 바꾸라고 계속 설득하려 든다면 갈등만 초래할 뿐인데, 그것은 딸이 동의하지 않은 조언자 역할을 당신이 맡으려 하고 있기 때문이다.\n딸은 학업이 아니라 일자리에 대한 조언을 원한다.\n당신과 의뢰인이 당신의 역할에 대해 동의할 때에만 당신은 효과적인 조언자가 될 수 있다.",
+          "selectedLines": [
+            5,
+            6
+          ],
+          "grammarSelections": [
+            {
+              "text": "to contact",
+              "answer": "companies를 수식하는 형용사 용법 : ~할/~하는",
+              "lineIndex": 1,
+              "context": "Instead of suggesting companies to contact, you tell her that additional courses in accounting and finance will improve her chances on the job market."
+            },
+            {
+              "text": "to broaden",
+              "answer": "attempt를 수식하는 형용사 용법 : ~할/~하는",
+              "lineIndex": 2,
+              "context": "She resists your attempt to broaden your role and says that she has already decided to take courses next year in history and economics, subjects that she particularly likes."
+            },
+            {
+              "text": "to contact",
+              "answer": "people를 수식하는 형용사 용법 : ~할/~하는",
+              "lineIndex": 4,
+              "context": "Why can't you just tell her the names of some people to contact for a job?"
+            },
+            {
+              "text": "identifying",
+              "answer": "to가 to-v의 to가 아니라 전치사의 to이기 때문에 뒤에 동명사가 와야 한다 - ~하는 것에\nidentifying, making, helping이 병렬구조이다.",
+              "lineIndex": 5,
+              "context": "At this point, you can tell her to find a job on her own, or you can agree to limit your role to identifying particular companies, making suggestions about her résumé, and helping her write introductory letters."
+            },
+            {
+              "text": "to change",
+              "answer": "urge가 OT동사이기 때문에 목적격보어 자리에 to-v가 쓰였다.",
+              "lineIndex": 6,
+              "context": "To persist in urging her to change her academic program will only result in conflict because you are trying to assume an advisory role that she has not agreed to."
+            }
+          ],
+          "vocabRows": [
+            {
+              "word": "resist",
+              "meaning": "저항하다",
+              "syn": "oppose, reject",
+              "ant": "accept, comply",
+              "antMeaning": "수용하다, 따르다"
+            },
+            {
+              "word": "broaden",
+              "meaning": "넓히다",
+              "syn": "expand, extend",
+              "ant": "narrow, limit",
+              "antMeaning": "좁히다, 한정하다"
+            },
+            {
+              "word": "effective",
+              "meaning": "효과적인",
+              "syn": "competent, productive",
+              "ant": "ineffective",
+              "antMeaning": "비효과적인"
+            },
+            {
+              "word": "persist",
+              "meaning": "고집하다, 계속하다",
+              "syn": "insist, continue",
+              "ant": "cease, give up",
+              "antMeaning": "중단하다, 포기하다"
+            },
+            {
+              "word": "conflict",
+              "meaning": "갈등",
+              "syn": "disagreement, clash",
+              "ant": "harmony, agreement",
+              "antMeaning": "조화, 합의"
+            },
+            {
+              "word": "agree",
+              "meaning": "합의하다",
+              "syn": "consent, concur",
+              "ant": "disagree, refuse",
+              "antMeaning": "반대하다, 거부하다"
+            }
+          ],
+          "questionAnswers": {
+            "topic": "효과적인 조언은 조언 내용보다 역할 범위에 대한 상호 합의에 달려 있다."
+          },
+          "selectedSents": [
+            "At this point, you can tell her to find a job on her own, or you can agree to limit your role to identifying particular companies, making suggestions about her résumé, and helping her write introductory letters.",
+            "To persist in urging her to change her academic program will only result in conflict because you are trying to assume an advisory role that she has not agreed to."
+          ],
+          "translationAnswers": {
+            "At this point, you can tell her to find a job on her own, or you can agree to limit your role to identifying particular companies, making suggestions about her résumé, and helping her write introductory letters.": "이 시점에서 당신은 딸에게 스스로 일자리를 찾으라고 말할 수도 있고, 혹은 특정 회사를 알려 주고 이력서에 대해 조언하며 소개 편지를 쓰는 것을 돕는 정도로 자신의 역할을 제한하는 데 동의할 수도 있다.",
+            "To persist in urging her to change her academic program will only result in conflict because you are trying to assume an advisory role that she has not agreed to.": "딸의 학업 계획을 바꾸라고 계속 설득하려 든다면 갈등만 초래할 뿐인데, 그것은 딸이 동의하지 않은 조언자 역할을 당신이 맡으려 하고 있기 때문이다."
+          },
+          "grammarRows": [
+            {
+              "point": "to contact",
+              "answer": "companies를 수식하는 형용사 용법 : ~할/~하는",
+              "lineIndex": 1,
+              "context": "Instead of suggesting companies to contact, you tell her that additional courses in accounting and finance will improve her chances on the job market."
+            },
+            {
+              "point": "to broaden",
+              "answer": "attempt를 수식하는 형용사 용법 : ~할/~하는",
+              "lineIndex": 2,
+              "context": "She resists your attempt to broaden your role and says that she has already decided to take courses next year in history and economics, subjects that she particularly likes."
+            },
+            {
+              "point": "to contact",
+              "answer": "people를 수식하는 형용사 용법 : ~할/~하는",
+              "lineIndex": 4,
+              "context": "Why can't you just tell her the names of some people to contact for a job?"
+            },
+            {
+              "point": "identifying",
+              "answer": "to가 to-v의 to가 아니라 전치사의 to이기 때문에 뒤에 동명사가 와야 한다 - ~하는 것에\nidentifying, making, helping이 병렬구조이다.",
+              "lineIndex": 5,
+              "context": "At this point, you can tell her to find a job on her own, or you can agree to limit your role to identifying particular companies, making suggestions about her résumé, and helping her write introductory letters."
+            },
+            {
+              "point": "to change",
+              "answer": "urge가 OT동사이기 때문에 목적격보어 자리에 to-v가 쓰였다.",
+              "lineIndex": 6,
+              "context": "To persist in urging her to change her academic program will only result in conflict because you are trying to assume an advisory role that she has not agreed to."
+            }
+          ]
+        },
+        {
+          "title": "2603 - 22번",
+          "markdownSourceTitle": "Q미니 - 2강 전체 분석",
+          "markdownSectionNumber": "8",
+          "markdownDescriptiveEntries": [],
+          "markdownAutoSelect": false,
+          "text": "The usual intercity traveler moves slowly through the station area.\nThe passenger may not be familiar with the routine, have baggage to handle and check or retrieve, have a long wait for connections or delayed trains, and may require information, food, and a comfortable place to sit.\nCommuters, on the other hand, are familiar with the route through the station, have little or no luggage, and are usually in a hurry.\nThey want direct access to or from local streets and transport.\nThese two types of traffic should be kept separate to avoid conflict and confusion.\nIn some large stations such as Grand Central Terminal in New York City, commuter and intercity trains arrive and depart on different levels.\nIn smaller stations, separate platforms should be used and traffic routed so that the two lines of movement do not cross.\nIn some instances, separate stations are in use.\nClear and concise direction and routing signs and other means of channelization are desirable.",
+          "translationText": "일반적인 장거리 도시 간 여행객은 역 구역을 천천히 이동한다.\n그 승객은 역의 절차에 익숙하지 않을 수 있고, 처리하고 부치거나 찾아야 할 짐이 있을 수 있으며, 환승이나 열차 지연으로 오래 기다려야 할 수도 있고, 정보나 음식, 그리고 편안히 앉을 자리가 필요할 수도 있다.\n반면 통근객은 역을 통과하는 길에 익숙하고, 짐이 거의 없거나 전혀 없으며, 대개 바쁘다.\n그들은 지역 도로와 교통수단으로 곧바로 접근하기를 원한다.\n이 두 유형의 이동 동선은 충돌과 혼란을 피하기 위해 분리되어야 한다.\n뉴욕의 그랜드 센트럴 터미널 같은 일부 대형 역에서는 통근 열차와 장거리 열차가 서로 다른 층에서 도착하고 출발한다.\n더 작은 역에서는 별도의 승강장을 사용하고, 두 동선이 교차하지 않도록 이동 흐름을 설계해야 한다.\n경우에 따라서는 별도의 역이 사용되기도 한다.\n명확하고 간결한 안내 및 동선 표지와 그 밖의 유도 수단이 바람직하다.",
+          "selectedLines": [
+            1,
+            6
+          ],
+          "grammarSelections": [
+            {
+              "text": "to sit",
+              "answer": "a comfortable place를 수식하는 형용사 용법 : ~할/~하는",
+              "lineIndex": 1,
+              "context": "The passenger may not be familiar with the routine, have baggage to handle and check or retrieve, have a long wait for connections or delayed trains, and may require information, food, and a comfortable place to sit."
+            },
+            {
+              "text": "traffic routed",
+              "answer": "separate platforms should be used and traffic (should be) routed so that ~\nshould be가 생략된 병렬 구조",
+              "lineIndex": 6,
+              "context": "In smaller stations, separate platforms should be used and traffic routed so that the two lines of movement do not cross."
+            },
+            {
+              "text": "so that",
+              "answer": "so that - ~하기 위해서, ~하도록\n, so that - 그래서\nso ~ that - 너무 ~해서 -하다",
+              "lineIndex": 6,
+              "context": "In smaller stations, separate platforms should be used and traffic routed so that the two lines of movement do not cross."
+            }
+          ],
+          "vocabRows": [
+            {
+              "word": "separate",
+              "meaning": "분리하다",
+              "syn": "divide, segregate",
+              "ant": "combine, merge",
+              "antMeaning": "합치다"
+            },
+            {
+              "word": "familiar",
+              "meaning": "익숙한",
+              "syn": "accustomed, acquainted",
+              "ant": "unfamiliar",
+              "antMeaning": "낯선"
+            },
+            {
+              "word": "conflict",
+              "meaning": "충돌",
+              "syn": "clash, collision",
+              "ant": "harmony",
+              "antMeaning": "조화"
+            },
+            {
+              "word": "desirable",
+              "meaning": "바람직한",
+              "syn": "preferable, advisable",
+              "ant": "undesirable",
+              "antMeaning": "바람직하지 않은"
+            }
+          ],
+          "questionAnswers": {
+            "topic": "서로 다른 이용자 집단의 이동 특성을 반영한 동선 분리는 효율적이고 혼란 없는 공간 설계의 핵심이다."
+          },
+          "selectedSents": [
+            "The passenger may not be familiar with the routine, have baggage to handle and check or retrieve, have a long wait for connections or delayed trains, and may require information, food, and a comfortable place to sit.",
+            "In smaller stations, separate platforms should be used and traffic routed so that the two lines of movement do not cross."
+          ],
+          "translationAnswers": {
+            "The passenger may not be familiar with the routine, have baggage to handle and check or retrieve, have a long wait for connections or delayed trains, and may require information, food, and a comfortable place to sit.": "그 승객은 역의 절차에 익숙하지 않을 수 있고, 처리하고 부치거나 찾아야 할 짐이 있을 수 있으며, 환승이나 열차 지연으로 오래 기다려야 할 수도 있고, 정보나 음식, 그리고 편안히 앉을 자리가 필요할 수도 있다.",
+            "In smaller stations, separate platforms should be used and traffic routed so that the two lines of movement do not cross.": "더 작은 역에서는 별도의 승강장을 사용하고, 두 동선이 교차하지 않도록 이동 흐름을 설계해야 한다."
+          },
+          "grammarRows": [
+            {
+              "point": "to sit",
+              "answer": "a comfortable place를 수식하는 형용사 용법 : ~할/~하는",
+              "lineIndex": 1,
+              "context": "The passenger may not be familiar with the routine, have baggage to handle and check or retrieve, have a long wait for connections or delayed trains, and may require information, food, and a comfortable place to sit."
+            },
+            {
+              "point": "traffic routed",
+              "answer": "separate platforms should be used and traffic (should be) routed so that ~\nshould be가 생략된 병렬 구조",
+              "lineIndex": 6,
+              "context": "In smaller stations, separate platforms should be used and traffic routed so that the two lines of movement do not cross."
+            },
+            {
+              "point": "so that",
+              "answer": "so that - ~하기 위해서, ~하도록\n, so that - 그래서\nso ~ that - 너무 ~해서 -하다",
+              "lineIndex": 6,
+              "context": "In smaller stations, separate platforms should be used and traffic routed so that the two lines of movement do not cross."
+            }
+          ]
+        },
+        {
+          "title": "2603 - 24번",
+          "markdownSourceTitle": "Q미니 - 2강 전체 분석",
+          "markdownSectionNumber": "9",
+          "markdownDescriptiveEntries": [],
+          "markdownAutoSelect": false,
+          "text": "Rooms have their own “sound” because they impose their own characteristics on audio signals contained within them.\nIt’s actually kind of remarkable.\nSound such as music coming from headphones will sound the same everywhere.\nNo matter what acoustical environment we are in, the headphones sound the same.\nThat’s because the room is not part of that playback signal path.\nBut sound such as music from a loudspeaker will sound different in every acoustical environment.\nEvery room where you set up the loudspeaker will cause the sound you hear to be different — sometimes dramatically different; that is because the room is now part of the signal path.\nAlso, in the same room, the loudspeaker will sound different when it is placed in different locations in the room and it will sound different as you move around the room.\nSimilarly, when you are recording a musical instrument, the sound you receive at the microphone will be different in every room and the recorded sound will sound different as the instrument or the microphone is moved.",
+          "translationText": "방은 그 안에 포함된 음향 신호에 자신만의 특성을 부여하기 때문에 저마다 고유한 “소리”를 가진다.\n사실 이것은 꽤 놀라운 일이다.\n헤드폰에서 나오는 음악 같은 소리는 어디서나 똑같이 들린다.\n우리가 어떤 음향 환경에 있든, 헤드폰 소리는 같다.\n그것은 방이 그 재생 신호 경로의 일부가 아니기 때문이다.\n하지만 스피커에서 나오는 음악 같은 소리는 모든 음향 환경에서 다르게 들린다.\n스피커를 설치하는 모든 방은 당신이 듣는 소리를 다르게 만들며, 때로는 극적으로 다르게 만들기도 하는데, 그것은 이제 방이 신호 경로의 일부가 되었기 때문이다.\n또한 같은 방 안에서도 스피커를 방 안의 다른 위치에 놓으면 소리가 달라지고, 당신이 방 안을 이동해도 소리가 달라진다.\n마찬가지로 악기를 녹음할 때도, 마이크에서 받아들이는 소리는 방마다 달라지며, 악기나 마이크의 위치가 움직이면 녹음된 소리도 달라진다.",
+          "selectedLines": [
+            0,
+            6
+          ],
+          "grammarSelections": [
+            {
+              "text": "contained",
+              "answer": "signals를 후치수식\n→ 원래: audio signals which are contained within them\n→ which are 생략 → contained (과거분사 축약)",
+              "lineIndex": 0,
+              "context": "Rooms have their own “sound” because they impose their own characteristics on audio signals contained within them."
+            },
+            {
+              "text": "coming",
+              "answer": "music을 후치수식\n→ 원래: music which comes from headphones\n→ which comes 생략 → coming",
+              "lineIndex": 2,
+              "context": "Sound such as music coming from headphones will sound the same everywhere."
+            },
+            {
+              "text": "No matter what",
+              "answer": "→ No matter what = 무엇이든 상관없이 / 어떤 ~이든",
+              "lineIndex": 3,
+              "context": "No matter what acoustical environment we are in, the headphones sound the same."
+            },
+            {
+              "text": "where",
+              "answer": "관계부사 where + 완전한 절 - Every room을 수식한다.\nwhere = in which",
+              "lineIndex": 6,
+              "context": "Every room where you set up the loudspeaker will cause the sound you hear to be different — sometimes dramatically different; that is because the room is now part of the signal path."
+            },
+            {
+              "text": "to be",
+              "answer": "cause + 목적어 + to부정사\ncause는 OT동사",
+              "lineIndex": 6,
+              "context": "Every room where you set up the loudspeaker will cause the sound you hear to be different — sometimes dramatically different; that is because the room is now part of the signal path."
+            },
+            {
+              "text": "that is because",
+              "answer": "결과 that is because 이유\n이유 that is why 결과",
+              "lineIndex": 6,
+              "context": "Every room where you set up the loudspeaker will cause the sound you hear to be different — sometimes dramatically different; that is because the room is now part of the signal path."
+            },
+            {
+              "text": "when it is placed",
+              "answer": "it is가 생략가능하다. = when placed",
+              "lineIndex": 7,
+              "context": "Also, in the same room, the loudspeaker will sound different when it is placed in different locations in the room and it will sound different as you move around the room."
+            },
+            {
+              "text": "as",
+              "answer": "as 해석 4가지\n① ~하면서 (동시)\n② ~할 때 (시간)\n③ ~이기 때문에 (이유)\n④ ~처럼 (비교)",
+              "lineIndex": 7,
+              "context": "Also, in the same room, the loudspeaker will sound different when it is placed in different locations in the room and it will sound different as you move around the room."
+            }
+          ],
+          "vocabRows": [
+            {
+              "word": "impose",
+              "meaning": "부과하다, 가하다",
+              "syn": "exert, apply",
+              "ant": "remove, eliminate",
+              "antMeaning": "제거하다"
+            },
+            {
+              "word": "dramatically",
+              "meaning": "극적으로",
+              "syn": "significantly, remarkably",
+              "ant": "slightly, marginally",
+              "antMeaning": "약간, 미미하게"
+            },
+            {
+              "word": "signal path",
+              "meaning": "신호 경로",
+              "syn": "audio chain, transmission route",
+              "ant": "",
+              "antMeaning": ""
+            }
+          ],
+          "questionAnswers": {
+            "topic": "소리의 특성은 재생 장치 자체뿐 아니라 공간과 위치 조건의 영향을 함께 받는다."
+          },
+          "selectedSents": [
+            "Rooms have their own “sound” because they impose their own characteristics on audio signals contained within them.",
+            "Every room where you set up the loudspeaker will cause the sound you hear to be different — sometimes dramatically different; that is because the room is now part of the signal path."
+          ],
+          "translationAnswers": {
+            "Rooms have their own “sound” because they impose their own characteristics on audio signals contained within them.": "방은 그 안에 포함된 음향 신호에 자신만의 특성을 부여하기 때문에 저마다 고유한 “소리”를 가진다.",
+            "Every room where you set up the loudspeaker will cause the sound you hear to be different — sometimes dramatically different; that is because the room is now part of the signal path.": "스피커를 설치하는 모든 방은 당신이 듣는 소리를 다르게 만들며, 때로는 극적으로 다르게 만들기도 하는데, 그것은 이제 방이 신호 경로의 일부가 되었기 때문이다."
+          },
+          "grammarRows": [
+            {
+              "point": "contained",
+              "answer": "signals를 후치수식\n→ 원래: audio signals which are contained within them\n→ which are 생략 → contained (과거분사 축약)",
+              "lineIndex": 0,
+              "context": "Rooms have their own “sound” because they impose their own characteristics on audio signals contained within them."
+            },
+            {
+              "point": "coming",
+              "answer": "music을 후치수식\n→ 원래: music which comes from headphones\n→ which comes 생략 → coming",
+              "lineIndex": 2,
+              "context": "Sound such as music coming from headphones will sound the same everywhere."
+            },
+            {
+              "point": "No matter what",
+              "answer": "→ No matter what = 무엇이든 상관없이 / 어떤 ~이든",
+              "lineIndex": 3,
+              "context": "No matter what acoustical environment we are in, the headphones sound the same."
+            },
+            {
+              "point": "where",
+              "answer": "관계부사 where + 완전한 절 - Every room을 수식한다.\nwhere = in which",
+              "lineIndex": 6,
+              "context": "Every room where you set up the loudspeaker will cause the sound you hear to be different — sometimes dramatically different; that is because the room is now part of the signal path."
+            },
+            {
+              "point": "to be",
+              "answer": "cause + 목적어 + to부정사\ncause는 OT동사",
+              "lineIndex": 6,
+              "context": "Every room where you set up the loudspeaker will cause the sound you hear to be different — sometimes dramatically different; that is because the room is now part of the signal path."
+            },
+            {
+              "point": "that is because",
+              "answer": "결과 that is because 이유\n이유 that is why 결과",
+              "lineIndex": 6,
+              "context": "Every room where you set up the loudspeaker will cause the sound you hear to be different — sometimes dramatically different; that is because the room is now part of the signal path."
+            },
+            {
+              "point": "when it is placed",
+              "answer": "it is가 생략가능하다. = when placed",
+              "lineIndex": 7,
+              "context": "Also, in the same room, the loudspeaker will sound different when it is placed in different locations in the room and it will sound different as you move around the room."
+            },
+            {
+              "point": "as",
+              "answer": "as 해석 4가지\n① ~하면서 (동시)\n② ~할 때 (시간)\n③ ~이기 때문에 (이유)\n④ ~처럼 (비교)",
+              "lineIndex": 7,
+              "context": "Also, in the same room, the loudspeaker will sound different when it is placed in different locations in the room and it will sound different as you move around the room."
+            }
+          ]
+        },
+        {
+          "title": "2603 - 34번",
+          "markdownSourceTitle": "Q미니 - 2강 전체 분석",
+          "markdownSectionNumber": "10",
+          "markdownDescriptiveEntries": [],
+          "markdownAutoSelect": false,
+          "text": "Such artificial ‘pause fillers’ as machine-generated supplements for silence may help to produce a more natural-sounding cadence in machine-generated speech patterns and so help to convince the AI’s human interlocutors that they are engaging with another human.\nAI’s ‘humanity’ of silence emerges in these contexts not least because a short period of silence is likely to be interpreted as a ‘pause for thought’, therefore reinforcing the illusion that the machine is ‘thinking’ before responding, just as a human might.\nHowever, the technical issues flagged in AI’s poor handling of higher duration and frequency silences, no less than the machine inference that silence can be filled with relevant sounds in some conversational situations, are both significant.\nIn this context at least, the AI may be starting to recognise silence not as an absence but as meaningful data.\nYet the AI’s confusion when presented with substantial silences, and its understanding that short break tags are equivalent to vocal markers such as ‘uh’s’ and ‘ah’s’ indicate the AI’s continuing preferences for sound over silence, for presence over absence.",
+          "translationText": "기계가 생성한 침묵 보충음과 같은 이러한 인위적인 ‘침묵 메우기 장치’는 기계가 만들어 내는 말의 리듬을 더 자연스럽게 들리게 하는 데 도움이 될 수 있으며, 따라서 AI와 대화하는 인간 상대방이 자신이 다른 인간과 상호작용하고 있다고 믿게 만드는 데도 도움이 될 수 있다.\n침묵에서 드러나는 AI의 ‘인간다움’은, 짧은 침묵이 흔히 ‘생각하는 동안의 멈춤’으로 해석되기 쉽기 때문에 나타나는데, 이는 마치 인간이 그러하듯 기계가 응답 전에 ‘생각하고 있다’는 환상을 더욱 강화한다.\n그러나 긴 시간 혹은 잦은 침묵을 AI가 제대로 다루지 못한다는 점에서 드러난 기술적 문제와, 어떤 대화 상황에서는 침묵을 적절한 소리로 채울 수 있다고 기계가 추론한다는 점은 둘 다 중요하다.\n적어도 이러한 맥락에서 AI는 침묵을 단순한 부재가 아니라 의미 있는 데이터로 인식하기 시작하고 있는지도 모른다.\n그러나 상당한 침묵이 주어졌을 때 AI가 혼란을 보인다는 점, 그리고 짧은 휴지 태그를 ‘uh’나 ‘ah’ 같은 음성 표지와 동등하게 이해한다는 점은, AI가 여전히 침묵보다 소리를, 부재보다 존재를 선호하고 있음을 보여 준다.",
+          "selectedLines": [
+            0,
+            2,
+            4
+          ],
+          "grammarSelections": [
+            {
+              "text": "therefore reinforcing",
+              "answer": "→ 분사구문 (결과)\n→ 원래: therefore it reinforces ~\n→ 접속사 + 주어 생략 → reinforcing",
+              "lineIndex": 1,
+              "context": "AI’s ‘humanity’ of silence emerges in these contexts not least because a short period of silence is likely to be interpreted as a ‘pause for thought’, therefore reinforcing the illusion that the machine is ‘thinking’ before responding, just as a human might."
+            },
+            {
+              "text": "that",
+              "answer": "동격 that + 완전한 문장",
+              "lineIndex": 1,
+              "context": "AI’s ‘humanity’ of silence emerges in these contexts not least because a short period of silence is likely to be interpreted as a ‘pause for thought’, therefore reinforcing the illusion that the machine is ‘thinking’ before responding, just as a human might."
+            },
+            {
+              "text": "might",
+              "answer": "대조동사\nmight (think before responding)",
+              "lineIndex": 1,
+              "context": "AI’s ‘humanity’ of silence emerges in these contexts not least because a short period of silence is likely to be interpreted as a ‘pause for thought’, therefore reinforcing the illusion that the machine is ‘thinking’ before responding, just as a human might."
+            },
+            {
+              "text": "flagged",
+              "answer": "technical issue를 후치수식\n→ 원래: technical issues which are flagged in ~\n→ which are 생략 → flagged",
+              "lineIndex": 2,
+              "context": "However, the technical issues flagged in AI’s poor handling of higher duration and frequency silences, no less than the machine inference that silence can be filled with relevant sounds in some conversational situations, are both significant."
+            },
+            {
+              "text": "that",
+              "answer": "동격 that + 완전한 문장",
+              "lineIndex": 2,
+              "context": "However, the technical issues flagged in AI’s poor handling of higher duration and frequency silences, no less than the machine inference that silence can be filled with relevant sounds in some conversational situations, are both significant."
+            },
+            {
+              "text": "when presented",
+              "answer": "분사구문\n→ 원래: when it is presented with ~\n→ 주어 + be 생략 → 분사구문",
+              "lineIndex": 4,
+              "context": "Yet the AI’s confusion when presented with substantial silences, and its understanding that short break tags are equivalent to vocal markers such as ‘uh’s’ and ‘ah’s’ indicate the AI’s continuing preferences for sound over silence, for presence over absence."
+            },
+            {
+              "text": "that",
+              "answer": "동격 that + 완전한 문장",
+              "lineIndex": 4,
+              "context": "Yet the AI’s confusion when presented with substantial silences, and its understanding that short break tags are equivalent to vocal markers such as ‘uh’s’ and ‘ah’s’ indicate the AI’s continuing preferences for sound over silence, for presence over absence."
+            },
+            {
+              "text": "indicate",
+              "answer": "수일치\n→ 주어 = the AI’s confusion ~~ and its understanding ~~\n→ 복수 주어 → indicate (복수 동사)",
+              "lineIndex": 4,
+              "context": "Yet the AI’s confusion when presented with substantial silences, and its understanding that short break tags are equivalent to vocal markers such as ‘uh’s’ and ‘ah’s’ indicate the AI’s continuing preferences for sound over silence, for presence over absence."
+            }
+          ],
+          "vocabRows": [
+            {
+              "word": "illusion",
+              "meaning": "환상, 착각",
+              "syn": "deception, false impression",
+              "ant": "reality, truth",
+              "antMeaning": "현실, 진실"
+            },
+            {
+              "word": "significant",
+              "meaning": "중요하고 무시할 수 없는",
+              "syn": "important, consequential",
+              "ant": "trivial, negligible",
+              "antMeaning": "사소한, 무시할 만한"
+            },
+            {
+              "word": "recognise",
+              "meaning": "의미 있는 것으로 인식하다",
+              "syn": "perceive, identify",
+              "ant": "ignore, overlook",
+              "antMeaning": "무시하다, 간과하다"
+            },
+            {
+              "word": "substantial",
+              "meaning": "상당한",
+              "syn": "considerable, extensive",
+              "ant": "minor, trivial",
+              "antMeaning": "사소한, 미미한"
+            },
+            {
+              "word": "preference",
+              "meaning": "선호",
+              "syn": "inclination, tendency",
+              "ant": "aversion, reluctance",
+              "antMeaning": "기피, 꺼림"
+            },
+            {
+              "word": "absence",
+              "meaning": "부재, 없음",
+              "syn": "lack, void",
+              "ant": "presence, existence",
+              "antMeaning": "존재, 실재"
+            },
+            {
+              "word": "confusion",
+              "meaning": "혼란",
+              "syn": "bewilderment, perplexity",
+              "ant": "clarity, understanding",
+              "antMeaning": "명확함, 이해"
+            }
+          ],
+          "questionAnswers": {
+            "topic": "AI는 침묵을 인간적으로 연출할 수는 있지만, 그 의미를 본질적으로 이해하는 데에는 한계가 있다."
+          },
+          "selectedSents": [
+            "Such artificial ‘pause fillers’ as machine-generated supplements for silence may help to produce a more natural-sounding cadence in machine-generated speech patterns and so help to convince the AI’s human interlocutors that they are engaging with another human.",
+            "However, the technical issues flagged in AI’s poor handling of higher duration and frequency silences, no less than the machine inference that silence can be filled with relevant sounds in some conversational situations, are both significant.",
+            "Yet the AI’s confusion when presented with substantial silences, and its understanding that short break tags are equivalent to vocal markers such as ‘uh’s’ and ‘ah’s’ indicate the AI’s continuing preferences for sound over silence, for presence over absence."
+          ],
+          "translationAnswers": {
+            "Such artificial ‘pause fillers’ as machine-generated supplements for silence may help to produce a more natural-sounding cadence in machine-generated speech patterns and so help to convince the AI’s human interlocutors that they are engaging with another human.": "기계가 생성한 침묵 보충음과 같은 이러한 인위적인 ‘침묵 메우기 장치’는 기계가 만들어 내는 말의 리듬을 더 자연스럽게 들리게 하는 데 도움이 될 수 있으며, 따라서 AI와 대화하는 인간 상대방이 자신이 다른 인간과 상호작용하고 있다고 믿게 만드는 데도 도움이 될 수 있다.",
+            "However, the technical issues flagged in AI’s poor handling of higher duration and frequency silences, no less than the machine inference that silence can be filled with relevant sounds in some conversational situations, are both significant.": "그러나 긴 시간 혹은 잦은 침묵을 AI가 제대로 다루지 못한다는 점에서 드러난 기술적 문제와, 어떤 대화 상황에서는 침묵을 적절한 소리로 채울 수 있다고 기계가 추론한다는 점은 둘 다 중요하다.",
+            "Yet the AI’s confusion when presented with substantial silences, and its understanding that short break tags are equivalent to vocal markers such as ‘uh’s’ and ‘ah’s’ indicate the AI’s continuing preferences for sound over silence, for presence over absence.": "그러나 상당한 침묵이 주어졌을 때 AI가 혼란을 보인다는 점, 그리고 짧은 휴지 태그를 ‘uh’나 ‘ah’ 같은 음성 표지와 동등하게 이해한다는 점은, AI가 여전히 침묵보다 소리를, 부재보다 존재를 선호하고 있음을 보여 준다."
+          },
+          "grammarRows": [
+            {
+              "point": "therefore reinforcing",
+              "answer": "→ 분사구문 (결과)\n→ 원래: therefore it reinforces ~\n→ 접속사 + 주어 생략 → reinforcing",
+              "lineIndex": 1,
+              "context": "AI’s ‘humanity’ of silence emerges in these contexts not least because a short period of silence is likely to be interpreted as a ‘pause for thought’, therefore reinforcing the illusion that the machine is ‘thinking’ before responding, just as a human might."
+            },
+            {
+              "point": "that",
+              "answer": "동격 that + 완전한 문장",
+              "lineIndex": 1,
+              "context": "AI’s ‘humanity’ of silence emerges in these contexts not least because a short period of silence is likely to be interpreted as a ‘pause for thought’, therefore reinforcing the illusion that the machine is ‘thinking’ before responding, just as a human might."
+            },
+            {
+              "point": "might",
+              "answer": "대조동사\nmight (think before responding)",
+              "lineIndex": 1,
+              "context": "AI’s ‘humanity’ of silence emerges in these contexts not least because a short period of silence is likely to be interpreted as a ‘pause for thought’, therefore reinforcing the illusion that the machine is ‘thinking’ before responding, just as a human might."
+            },
+            {
+              "point": "flagged",
+              "answer": "technical issue를 후치수식\n→ 원래: technical issues which are flagged in ~\n→ which are 생략 → flagged",
+              "lineIndex": 2,
+              "context": "However, the technical issues flagged in AI’s poor handling of higher duration and frequency silences, no less than the machine inference that silence can be filled with relevant sounds in some conversational situations, are both significant."
+            },
+            {
+              "point": "that",
+              "answer": "동격 that + 완전한 문장",
+              "lineIndex": 2,
+              "context": "However, the technical issues flagged in AI’s poor handling of higher duration and frequency silences, no less than the machine inference that silence can be filled with relevant sounds in some conversational situations, are both significant."
+            },
+            {
+              "point": "when presented",
+              "answer": "분사구문\n→ 원래: when it is presented with ~\n→ 주어 + be 생략 → 분사구문",
+              "lineIndex": 4,
+              "context": "Yet the AI’s confusion when presented with substantial silences, and its understanding that short break tags are equivalent to vocal markers such as ‘uh’s’ and ‘ah’s’ indicate the AI’s continuing preferences for sound over silence, for presence over absence."
+            },
+            {
+              "point": "that",
+              "answer": "동격 that + 완전한 문장",
+              "lineIndex": 4,
+              "context": "Yet the AI’s confusion when presented with substantial silences, and its understanding that short break tags are equivalent to vocal markers such as ‘uh’s’ and ‘ah’s’ indicate the AI’s continuing preferences for sound over silence, for presence over absence."
+            },
+            {
+              "point": "indicate",
+              "answer": "수일치\n→ 주어 = the AI’s confusion ~~ and its understanding ~~\n→ 복수 주어 → indicate (복수 동사)",
+              "lineIndex": 4,
+              "context": "Yet the AI’s confusion when presented with substantial silences, and its understanding that short break tags are equivalent to vocal markers such as ‘uh’s’ and ‘ah’s’ indicate the AI’s continuing preferences for sound over silence, for presence over absence."
+            }
+          ]
+        },
+        {
+          "title": "2603 - 39번",
+          "markdownSourceTitle": "Q미니 - 2강 전체 분석",
+          "markdownSectionNumber": "11",
+          "markdownDescriptiveEntries": [],
+          "markdownAutoSelect": false,
+          "text": "Our intuition about states of matter comes from our experience on Earth’s surface, where the pressure is uniformly low and variations in temperature cause changes in the state of matter from solid to liquid to gas.\nTherefore, when we think of melting or boiling or the creation of plasma, we intuitively assume it reflects an increase in temperature.\nThis bias comes from the fact that we live in a very constant pressure environment.\nEven small changes in pressure, such as those we experience when under water or on high mountaintops, can have very large effects on our metabolism.\nBut the pressure changes we experience are trivial compared to the pressure range of the overall planetary environment.\nSince pressure is controlled by the weight of overlying material, pressures increase rapidly with depth.\nImagine the pressures generated by the weight of rock a mile thick!\nFor this reason a planet’s pressure ranges are enormous — from essentially zero pressure in space to pressures of millions of atmospheres in planetary interiors.",
+          "translationText": "물질의 상태에 대한 우리의 직관은 지구 표면에서의 경험에서 비롯되는데, 그곳에서는 기압이 대체로 낮고 일정하며, 온도의 변화가 물질의 상태를 고체에서 액체로, 다시 기체로 바꾸게 만든다.\n그러므로 우리는 융해나 끓음, 혹은 플라스마의 형성을 생각할 때 그것이 온도의 상승을 반영한다고 직관적으로 가정한다.\n이러한 편향은 우리가 매우 일정한 압력 환경 속에서 살고 있다는 사실에서 비롯된다.\n물속에 있거나 높은 산꼭대기에 있을 때 우리가 경험하는 것과 같은 작은 압력 변화조차도 우리의 신진대사에 매우 큰 영향을 미칠 수 있다.\n하지만 우리가 경험하는 압력 변화는 행성 전체 환경의 압력 범위와 비교하면 사소한 것이다.\n압력은 위에 놓인 물질의 무게에 의해 결정되므로, 깊이가 깊어질수록 압력은 빠르게 증가한다.\n1마일 두께의 암석이 만들어 내는 압력을 상상해 보라!\n이러한 이유로 행성의 압력 범위는 엄청나게 큰데, 우주의 사실상 0에 가까운 압력에서부터 행성 내부의 수백만 기압에 이르기까지 다양하다.",
+          "selectedLines": [
+            0,
+            4
+          ],
+          "grammarSelections": [
+            {
+              "text": ", where",
+              "answer": "계속적용법 관계부사\n→ where = and there / 그리고 그곳에서는\n→ Earth’s surface를 추가 설명하는 계속적 용법",
+              "lineIndex": 0,
+              "context": "Our intuition about states of matter comes from our experience on Earth’s surface, where the pressure is uniformly low and variations in temperature cause changes in the state of matter from solid to liquid to gas."
+            },
+            {
+              "text": "that",
+              "answer": "동격 that + 완전한 문장",
+              "lineIndex": 2,
+              "context": "This bias comes from the fact that we live in a very constant pressure environment."
+            },
+            {
+              "text": "generated",
+              "answer": "the pressures를 후치수식\n→ 원래: the pressures which are generated by the weight of rock\n→ which are 생략 → generated",
+              "lineIndex": 6,
+              "context": "Imagine the pressures generated by the weight of rock a mile thick!"
+            }
+          ],
+          "vocabRows": [
+            {
+              "word": "intuition",
+              "meaning": "직관",
+              "syn": "instinct, gut feeling",
+              "ant": "reasoning, analysis",
+              "antMeaning": "추론, 분석"
+            },
+            {
+              "word": "bias",
+              "meaning": "편향",
+              "syn": "prejudice, tendency",
+              "ant": "objectivity",
+              "antMeaning": "객관성"
+            },
+            {
+              "word": "trivial",
+              "meaning": "하찮은, 사소한",
+              "syn": "insignificant, negligible",
+              "ant": "significant, enormous",
+              "antMeaning": "중요한, 거대한"
+            },
+            {
+              "word": "enormous",
+              "meaning": "엄청난",
+              "syn": "immense, vast",
+              "ant": "trivial, tiny",
+              "antMeaning": "사소한, 아주 작은"
+            },
+            {
+              "word": "constant",
+              "meaning": "일정한",
+              "syn": "uniform, steady",
+              "ant": "variable, fluctuating",
+              "antMeaning": "변동하는"
+            }
+          ],
+          "questionAnswers": {
+            "topic": "물질의 상태 변화는 온도뿐 아니라 압력까지 함께 고려해야 정확히 이해할 수 있다."
+          },
+          "selectedSents": [
+            "Our intuition about states of matter comes from our experience on Earth’s surface, where the pressure is uniformly low and variations in temperature cause changes in the state of matter from solid to liquid to gas.",
+            "But the pressure changes we experience are trivial compared to the pressure range of the overall planetary environment."
+          ],
+          "translationAnswers": {
+            "Our intuition about states of matter comes from our experience on Earth’s surface, where the pressure is uniformly low and variations in temperature cause changes in the state of matter from solid to liquid to gas.": "물질의 상태에 대한 우리의 직관은 지구 표면에서의 경험에서 비롯되는데, 그곳에서는 기압이 대체로 낮고 일정하며, 온도의 변화가 물질의 상태를 고체에서 액체로, 다시 기체로 바꾸게 만든다.",
+            "But the pressure changes we experience are trivial compared to the pressure range of the overall planetary environment.": "하지만 우리가 경험하는 압력 변화는 행성 전체 환경의 압력 범위와 비교하면 사소한 것이다."
+          },
+          "grammarRows": [
+            {
+              "point": ", where",
+              "answer": "계속적용법 관계부사\n→ where = and there / 그리고 그곳에서는\n→ Earth’s surface를 추가 설명하는 계속적 용법",
+              "lineIndex": 0,
+              "context": "Our intuition about states of matter comes from our experience on Earth’s surface, where the pressure is uniformly low and variations in temperature cause changes in the state of matter from solid to liquid to gas."
+            },
+            {
+              "point": "that",
+              "answer": "동격 that + 완전한 문장",
+              "lineIndex": 2,
+              "context": "This bias comes from the fact that we live in a very constant pressure environment."
+            },
+            {
+              "point": "generated",
+              "answer": "the pressures를 후치수식\n→ 원래: the pressures which are generated by the weight of rock\n→ which are 생략 → generated",
+              "lineIndex": 6,
+              "context": "Imagine the pressures generated by the weight of rock a mile thick!"
+            }
+          ]
+        }
+      ],
+      "classAssignments": [
+        {
+          "classId": "class-1",
+          "passageIndexes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
           ]
         }
       ]
