@@ -9,6 +9,7 @@ function showHome(){
 function goBackFromSetScreen(){
   currentSetIndex = -1
   currentPassage = -1
+  if(typeof window.handlePrepBackToPortal === 'function' && window.handlePrepBackToPortal()) return
   showClassScreen()
 }
 
@@ -19,6 +20,7 @@ function showPassageScreen(){
     goHome()
     return
   }
+  currentStudySectionId = ''
   renderClassSummary()
   renderPassageScreen()
   activateScreen('passage-screen')
@@ -61,6 +63,9 @@ function renderClassSummary(){
 
   document.getElementById('class-bar').style.display = currentClass ? 'flex' : 'none'
   document.getElementById('change-class-btn').style.display = prepClasses.length > 1 ? 'inline-flex' : 'none'
+  if(typeof window.isPortalStudentLockedClass === 'function' && window.isPortalStudentLockedClass()){
+    document.getElementById('change-class-btn').style.display = 'none'
+  }
   document.getElementById('set-back-btn').style.display = 'inline-flex'
 
   if(currentClass){
@@ -192,6 +197,7 @@ function openStudySet(index){
   if(!studySet || !isStudySetAccessible(studySet)) return
   currentSetIndex = index
   currentPassage = -1
+  currentStudySectionId = ''
   updateSetProgressContext()
   renderClassSummary()
   renderPassageScreen()
@@ -202,15 +208,67 @@ function openPassage(index){
   const studySet = getCurrentStudySet()
   if(!studySet || !studySet.passages[index]) return
   currentPassage = index
-  renderStudy()
-  activateScreen('study-screen')
+  currentStudySectionId = ''
+  renderStudyMenu()
+  activateScreen('study-menu-screen')
+}
+
+function showStudyMenuScreen(){
+  const studySet = getCurrentStudySet()
+  const passage = studySet && studySet.passages[currentPassage]
+  if(!studySet || !passage){
+    showPassageScreen()
+    return
+  }
+  renderStudyMenu()
+  activateScreen('study-menu-screen')
 }
 
 function goHome(){
   currentPassage = -1
+  currentStudySectionId = ''
   renderClassSummary()
   renderSetScreen()
   activateScreen('home-screen')
+}
+
+function renderStudyMenu(){
+  const studySet = getCurrentStudySet()
+  const passage = studySet && studySet.passages[currentPassage]
+  const container = document.getElementById('study-menu-list')
+  if(!studySet || !passage){
+    showPassageScreen()
+    return
+  }
+
+  const sections = groupItems(passage.items)
+  document.getElementById('study-menu-title').textContent = passage.title
+  document.getElementById('study-menu-count').textContent = sections.length + '유형'
+  document.getElementById('study-menu-meta').textContent = studySet.title + ' · ' + getStudySetDateText(studySet)
+  const previewNode = document.getElementById('study-menu-preview')
+  if(previewNode){
+    previewNode.textContent = passage.textLines[0] || passage.text.slice(0, 100) || '본문 미리보기가 없습니다.'
+  }
+
+  container.innerHTML = sections.length
+    ? sections.map(function(section, index){
+        return '' +
+          '<button class="study-topic-card" type="button" onclick="openStudySection(\'' + escapeHtml(section.id) + '\')">' +
+            '<div class="study-topic-num">' + (index + 1) + '</div>' +
+            '<div class="study-topic-body">' +
+              '<div class="study-topic-title">' + escapeHtml(section.title) + '</div>' +
+              '<div class="study-topic-preview">' + section.items.length + '개의 학습 카드</div>' +
+            '</div>' +
+            '<div class="study-topic-arrow">&rsaquo;</div>' +
+          '</button>'
+      }).join('')
+    : '<div class="empty-box">이 지문에는 학습할 질문이 없습니다.</div>'
+}
+
+function openStudySection(sectionId){
+  currentStudySectionId = sectionId
+  renderStudy()
+  activateScreen('study-screen')
 }
 
 function togglePassage(){
@@ -227,32 +285,47 @@ function renderStudy(){
     return
   }
 
+  const sections = groupItems(passage.items)
+  const selectedSection = sections.find(function(section){
+    return section.id === currentStudySectionId
+  }) || sections[0] || null
+  if(!selectedSection){
+    document.getElementById('s-title').textContent = passage.title
+    document.getElementById('s-cnt').textContent = '0문제'
+    document.getElementById('study-meta').textContent = studySet.title + ' · ' + getStudySetDateText(studySet)
+    document.getElementById('p-txt').textContent = passage.text || '본문이 없습니다.'
+    document.getElementById('stage-panel').innerHTML = ''
+    document.getElementById('stage-content').innerHTML = '<div class="empty-box">이 지문에는 학습할 질문이 없습니다.</div>'
+    renderStageActions()
+    return
+  }
+
+  currentStudySectionId = selectedSection.id
   document.getElementById('s-title').textContent = passage.title
-  document.getElementById('s-cnt').textContent = passage.items.length + '문제'
-  document.getElementById('study-meta').textContent = studySet.title + ' · ' + getStudySetDateText(studySet)
+  document.getElementById('s-cnt').textContent = selectedSection.items.length + '문제'
+  document.getElementById('study-meta').textContent = studySet.title + ' · ' + selectedSection.title
   document.getElementById('p-txt').textContent = passage.text || '본문이 없습니다.'
   document.getElementById('p-box').classList.remove('expanded')
   document.getElementById('p-toggle').textContent = '더 보기'
-  document.getElementById('stage-panel').innerHTML = renderStagePanel()
-
-  const sections = groupItems(passage.items)
-  document.getElementById('stage-content').innerHTML = sections.length
-    ? sections.map(function(section){
-        return renderSection(section)
-      }).join('')
-    : '<div class="empty-box">이 지문에는 학습할 질문이 없습니다.</div>'
+  document.getElementById('stage-panel').innerHTML = renderStagePanel(selectedSection)
+  document.getElementById('stage-content').innerHTML = renderSection(selectedSection)
 
   renderStageActions()
 }
 
-function renderStagePanel(){
-  return ''
+function renderStagePanel(section){
+  return '' +
+    '<div class="study-current-section">' +
+      '<div class="study-current-kicker">현재 학습 유형</div>' +
+      '<div class="study-current-title">' + escapeHtml(section.title) + '</div>' +
+      '<div class="study-current-sub">' + section.items.length + '개의 카드가 준비되어 있습니다.</div>' +
+    '</div>'
 }
 
 function groupItems(items){
   const configs = [
-    { id: 'big-picture', title: '대의 파악' },
-    { id: 'translation', title: '해석' },
+    { id: 'big-picture', title: '주제' },
+    { id: 'translation', title: '문장 해석' },
     { id: 'vocab', title: '동의어 / 반의어' },
     { id: 'grammar', title: '어법' }
   ]
@@ -275,6 +348,7 @@ function groupItems(items){
       return orderDiff || (a.originalIndex - b.originalIndex)
     })
     return {
+      id: config.id,
       title: config.title,
       items: wrappedItems.map(function(entry){ return entry.item })
     }

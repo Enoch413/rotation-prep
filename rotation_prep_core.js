@@ -3,7 +3,7 @@ const APP_CONFIG = {
   remoteSessionUrl: 'session.json'
 }
 
-const SCREEN_IDS = ['boot-screen', 'pw-screen', 'class-screen', 'class-auth-screen', 'home-screen', 'passage-screen', 'study-screen']
+const SCREEN_IDS = ['boot-screen', 'pw-screen', 'class-screen', 'class-auth-screen', 'home-screen', 'passage-screen', 'study-menu-screen', 'study-screen']
 
 let bundleData = null
 let prepClasses = []
@@ -11,6 +11,7 @@ let studySets = []
 let currentClassIndex = -1
 let currentSetIndex = -1
 let currentPassage = -1
+let currentStudySectionId = ''
 let pendingClassIndex = -1
 let baseProgressKey = 'rotation_prep_progress_v8'
 let progressKey = ''
@@ -41,8 +42,16 @@ function bindEvents(){
   document.getElementById('set-back-btn').addEventListener('click', goBackFromSetScreen)
   document.getElementById('passage-back-btn').addEventListener('click', goHome)
   document.getElementById('passage-home-btn').addEventListener('click', goHome)
-  document.getElementById('study-back-btn').addEventListener('click', showPassageScreen)
+  document.getElementById('study-menu-back-btn').addEventListener('click', showPassageScreen)
+  document.getElementById('study-menu-home-btn').addEventListener('click', goHome)
+  document.getElementById('study-back-btn').addEventListener('click', showStudyMenuScreen)
   document.getElementById('study-home-btn').addEventListener('click', goHome)
+  const studyMenuBottomButtons = document.querySelectorAll('#study-menu-screen .screen-nav-bottom .btn')
+  if(studyMenuBottomButtons[0]) studyMenuBottomButtons[0].onclick = showPassageScreen
+  if(studyMenuBottomButtons[1]) studyMenuBottomButtons[1].onclick = goHome
+  const studyBottomButtons = document.querySelectorAll('#study-screen .screen-nav-bottom .btn')
+  if(studyBottomButtons[0]) studyBottomButtons[0].onclick = showStudyMenuScreen
+  if(studyBottomButtons[1]) studyBottomButtons[1].onclick = goHome
   document.getElementById('p-toggle').addEventListener('click', togglePassage)
   document.getElementById('reset-progress-btn').addEventListener('click', resetProgress)
   document.getElementById('file-input').addEventListener('change', loadFile)
@@ -124,6 +133,7 @@ function loadData(data, options){
   currentClassIndex = -1
   currentSetIndex = -1
   currentPassage = -1
+  currentStudySectionId = ''
   pendingClassIndex = -1
   unlockedClassIds = {}
   progressKey = ''
@@ -163,6 +173,7 @@ function showNoSessionState(){
   currentClassIndex = -1
   currentSetIndex = -1
   currentPassage = -1
+  currentStudySectionId = ''
   pendingClassIndex = -1
   progressKey = ''
   progress = { done: {} }
@@ -331,6 +342,7 @@ function selectClass(index, options){
   currentClassIndex = index
   currentSetIndex = -1
   currentPassage = -1
+  currentStudySectionId = ''
   ensureCurrentSetSelection()
   updateSetProgressContext()
   renderClassSummary()
